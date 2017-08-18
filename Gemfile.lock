@@ -159,7 +159,7 @@ GEM
     jekyll-titles-from-headings (0.4.0)
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
-      listen (~> 3.0)
+      listen (~> 3.0, < 3.1)
     jemoji (0.8.0)
       activesupport (~> 4.0)
       gemoji (~> 3.0)
@@ -224,7 +224,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.3p222
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.15.3
