@@ -9,17 +9,17 @@ header:
   caption:
 excerpt: 'We are interested in making smart machines that humans can use reliably in their everyday lives.<br /> <small><a href="https://github.com/boost-starai/BoostSRL/releases/tag/v1.0">Latest release v1.0</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=boost-starai&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=boost-starai&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 feature_row:
-  - title: "Super Customizable"
+  - title: "Logic"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - title: "Responsive Layouts"
+  - title: "Probability"
     excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - title: "100% Free"
+  - title: "Relations"
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
     url: "/docs/license/"
     btn_class: "btn--primary"

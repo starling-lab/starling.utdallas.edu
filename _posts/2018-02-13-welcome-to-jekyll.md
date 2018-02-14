@@ -5,7 +5,7 @@ date:   2018-02-13 23:40:14 -0600
 categories: jekyll update
 author: Kaushik Roy
 header:
-  overlay_image: /assets/images/teamPhoto.jpg
+  overlay_image: /assets/images/teamPhoto2.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
