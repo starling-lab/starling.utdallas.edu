@@ -1,0 +1,58 @@
+STARAI Lab:
+  name: "STARAI Lab"
+  bio: "Bridging the gap between Logic and Statistics in Artificial Intelligence."
+  email: "Sriraam.Natarajan@utdallas.edu"
+  github: "HumanInTheLoop"
+
+Sriraam Natarajan:
+  name: "Professor Sriraam Natarajan"
+  uri: "http://utdallas.edu/~sriraam.natarajan/"
+  email: "Sriraam.Natarajan@utdallas.edu"
+  bio: "Professor of Computer Science at The University of Texas at Dallas."
+
+Alexander Hayes:
+  name: "Alexander L. Hayes"
+  uri: "http://batflyer.net"
+  location: "Dallas, TX"
+  email: "alexander@batflyer.net"
+  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
+  twitter: "alexanderlhayes"
+  github: "batflyer"
+  linkedin: "alexanderlhayes"
+
+Kaushik Roy:
+  name: "Kaushik Roy"
+  bio: "Computer Science Ph.D. Student. I love science <3"
+
+
+
+#   name             : "Alexander L. Hayes"
+#   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+#   bio              : "Ph.D. Student at The University of Texas at Dallas"
+#   location         : "Dallas, TX"
+#   email            :
+#   uri              :
+#   home             : # null (default), "absolute or relative url to link to author home"
+#   bitbucket        :
+#   codepen          :
+#   dribbble         :
+#   flickr           :
+#   facebook         :
+#   foursquare       :
+#   github           :
+#   gitlab           :
+#   google_plus      :
+#   keybase          :
+#   instagram        :
+#   lastfm           :
+#   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+#   pinterest        :
+#   soundcloud       :
+#   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+#   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+#   tumblr           :
+#   twitter          :
+#   vine             :
+#   weibo            :
+#   xing             :
+#   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
