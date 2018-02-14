@@ -3,3 +3,7 @@ main:
     url: /about/
   - title: "Publications"
     url: /publications/
+  - title: "Wiki"
+    url: /wiki/
+  - title: "Blog"
+    url: /categories/

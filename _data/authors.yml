@@ -13,6 +13,7 @@ Sriraam Natarajan:
 Alexander Hayes:
   name: "Alexander L. Hayes"
   uri: "http://batflyer.net"
+  avatar: "/assets/images/alexanderhayes.jpg"
   location: "Dallas, TX"
   email: "alexander@batflyer.net"
   bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
@@ -22,7 +23,10 @@ Alexander Hayes:
 
 Kaushik Roy:
   name: "Kaushik Roy"
+  location: "Dallas, TX"
   bio: "Computer Science Ph.D. Student. I love science <3"
+  email: "kauroy@indiana.edu"
+  github: "kkroy36"
 
 
 
