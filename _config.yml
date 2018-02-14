@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -16,7 +16,7 @@ name                     : "Alexander L. Hayes"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : HumanInTheLoop
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -85,10 +85,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Alexander L. Hayes"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Ph.D. Student at The University of Texas at Dallas"
+  location         : "Dallas, TX"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -121,6 +121,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - ["_pages"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
