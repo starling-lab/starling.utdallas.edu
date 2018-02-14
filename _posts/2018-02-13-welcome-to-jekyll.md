@@ -4,6 +4,8 @@ title:  "Welcome to Jekyll!"
 date:   2018-02-13 23:40:14 -0600
 categories: jekyll update
 author: Alexander Hayes
+header:
+  image: /assets/images/teamPhoto.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
