@@ -7,13 +7,18 @@ STARAI Lab:
 Sriraam Natarajan:
   name: "Professor Sriraam Natarajan"
   uri: "http://utdallas.edu/~sriraam.natarajan/"
+  avatar:
+  location: "Dallas, TX"
   email: "Sriraam.Natarajan@utdallas.edu"
   bio: "Professor of Computer Science at The University of Texas at Dallas."
+  twitter:
+  github: "boost-starai"
+  linkedin: sriraam-natarajan-392a693
 
 Alexander Hayes:
   name: "Alexander L. Hayes"
   uri: "http://batflyer.net"
-  avatar: "/assets/images/alexanderhayes.jpg"
+  avatar: "/assets/images/headshots/alexanderhayes.jpg"
   location: "Dallas, TX"
   email: "alexander@batflyer.net"
   bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
@@ -23,11 +28,80 @@ Alexander Hayes:
 
 Kaushik Roy:
   name: "Kaushik Roy"
+  uri:
+  avatar:
   location: "Dallas, TX"
-  bio: "Computer Science Ph.D. Student. I love science <3"
   email: "kauroy@indiana.edu"
+  bio: "Computer Science Ph.D. Student. I love science <3"
+  twitter:
   github: "kkroy36"
+  linkedin:
 
+Devendra Dhami:
+  name: "Devendra Singh Dhami"
+  uri:
+  avatar:
+  location: "Dallas, TX"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Mayukh Das:
+  name: "Mayukh Das"
+  uri:
+  avatar:
+  location: "Dallas, TX"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Nandini Ramanan:
+  name: "Nandini Ramanan"
+  uri:
+  avatar:
+  location: "Indiana University, Bloomington"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Srijita Das:
+  name: "Srijita Das"
+  uri:
+  avatar:
+  location: "Indiana University, Bloomington"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Navdeep Kaur:
+  name: "Navdeep Kaur"
+  uri:
+  avatar:
+  location: "Indiana University, Bloomington"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Harsha Kokel:
+  name: "Harsha Kokel"
+  uri: "http://utdallas.edu/~harsha.kokel/"
+  avatar: "/assets/images/headshots/harshakokel.jpg"
+  location: "Dallas, TX"
+  email: "harsha.kokel@utdallas.edu"
+  bio:
+  twitter:
+  github: "harshakokel"
+  linkedin: "harshakokel"
 
 
 #   name             : "Alexander L. Hayes"
