@@ -3,7 +3,7 @@ main:
     url: /people/
   - title: "Publications"
     url: /publications/
-  - title: "Wiki"
-    url: /wiki/
+  - title: "Software"
+    url: /software/
   - title: "Blog"
     url: /categories/

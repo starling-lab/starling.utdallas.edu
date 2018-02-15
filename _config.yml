@@ -11,6 +11,16 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Collection settings
+
+collections:
+  software:
+    output: true
+    permalink: /:collection/:path/
+  boostsrl_wiki:
+    output: true
+    permalink: /:collection/:path/
+
 # Site Settings
 locale                   : "en-US"
 title			 : "AI Conflux Lab"
