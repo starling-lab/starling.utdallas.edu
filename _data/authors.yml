@@ -86,7 +86,7 @@ Mayukh Das:
   avatar:
   location: "Dallas, TX"
   email:
-  bio:
+  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
   twitter:
   github:
   linkedin:
@@ -97,7 +97,7 @@ Devendra Dhami:
   avatar:
   location: "Dallas, TX"
   email:
-  bio:
+  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
   twitter:
   github:
   linkedin:
@@ -106,9 +106,9 @@ Navdeep Kaur:
   name: "Navdeep Kaur"
   uri:
   avatar:
-  location: "Indiana University, Bloomington"
+  location: "Dallas, TX"
   email:
-  bio:
+  bio: "Computer Science Ph.D. Student at Indiana University, Bloomington."
   twitter:
   github:
   linkedin:
@@ -117,9 +117,9 @@ Srijita Das:
   name: "Srijita Das"
   uri:
   avatar:
-  location: "Indiana University, Bloomington"
+  location: "Dallas, TX"
   email:
-  bio:
+  bio: "Computer Science Ph.D. Student at Indiana University, Bloomington."
   twitter:
   github:
   linkedin:
@@ -128,9 +128,9 @@ Nandini Ramanan:
   name: "Nandini Ramanan"
   uri:
   avatar:
-  location: "Indiana University, Bloomington"
+  location: "Dallas, TX"
   email:
-  bio:
+  bio: "Health Informatics Ph.D. Student at Indiana University, Bloomington."
   twitter:
   github:
   linkedin:
@@ -163,7 +163,7 @@ Harsha Kokel:
   avatar: "/assets/images/headshots/harshakokel.jpg"
   location: "Dallas, TX"
   email: "harsha.kokel@utdallas.edu"
-  bio:
+  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
   twitter:
   github: "harshakokel"
   linkedin: "harshakokel"
