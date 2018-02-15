@@ -1,5 +1,13 @@
 ---
 layout: splash
 permalink: /publications/
+title: "Publications"
+$paragraph-indent: true
 ---
+{% assign items = site.data.publications | sort: 'year' | reverse %}
+<ul style="list-style: none;">
+{% for publication in items %}
+<li style="font-size: 0.7em; font-family: sans-serif;">{{publication.authors}}, <b><i>{{publication.name}}</i></b>, {{publication.venue}}, {{publication.year}}.</li>
 
+{% endfor %}
+</ul>

@@ -3,7 +3,7 @@ layout: single
 title:  "Welcome to Jekyll!"
 date:   2018-02-13 23:40:14 -0600
 categories: jekyll update
-author: Kaushik Roy
+author: Harsha Kokel
 header:
   overlay_image: /assets/images/teamPhoto2.jpg
 ---
