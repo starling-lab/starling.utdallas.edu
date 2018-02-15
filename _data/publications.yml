@@ -1,0 +1,86 @@
+- name: "Combining Content-based and Collaborative Filtering for Recommendation Systems: A Cost-sensitive Statistical Relational Learning Approach (preprint)"
+  # authors: Shuo Yang, Mohammed Korayem, Khalifeh Aljadda, Trey Grainger and Sriraam Natarajan
+  authors: Yang, S., Korayem, M., Aljadda, K., Grainger, T. & Natarajan, S.
+  venue: Knowledge Based Systems
+  year: 2017
+  category: Journal Paper
+
+- name: "Markov Logic Networks for Adverse Drug Event Extraction from Text"
+  authors: Sriraam Natarajan, Vishal Bangera, Tushar Khot, Jose Picado, Anurag Wazalwar, Vitor Santos Costa, David Page, Michael Caldwell
+  venue: Knowledge and Information Systems (KAIS)
+  year: 2016
+  category: Journal Paper
+
+- name: "Statistical Relational Artificial Intelligence: From Distributions through Actions to Optimization"
+  authors: Kristian Kersting and Sriraam Natarajan
+  venue: Kunstliche Intelligenz, Special Issue on Advances in Autonomous Learning, Springer
+  year: 2015
+  category: Journal Paper
+
+- name: "Poisson Dependency Networks - Gradient Boosted Models for Multivariate Count Data"
+  authors: Fabian Hadiji, Alejandro Molina, Sriraam Natarajan and Kristian Kersting
+  venue: ECML-PKDD Journal Track
+  year: 2015
+  category: Journal Paper
+
+- name: "Gradient-based Boosting for Statistical Relational Learning: The Markov Logic Network and Missing Data Cases"
+  authors: Tushar Khot, Sriraam Natarajan, Kristian Kersting, Bernd Gutmann and Jude Shavlik
+  venue: Machine Learning Journal
+  year: 2015
+  category: Journal Paper
+
+- name: "A Decision-Theoretic Model of Assistance"
+  # authors: Alan Fern, Sriraam Natarajan, Kshitij Judah and Prasad Tadepalli
+  authors: Fern, A., Natarajan, S., Judah, K. & Tadepalli, P.
+  venue: Journal Of Artificial Intelligence Research (JAIR)
+  year: 2014
+  category: Journal Paper
+
+- name: "Exploiting Symmetries for Scaling Loopy Belief Propagation and Relational Training"
+  # authors: Babak Ahmadi, Kristian Kersting, Martin Mladenov and Sriraam Natarajan
+  authors: Ahmadi, B., Kersting, K., Mladenov, M. & Natarajan, S.
+  venue: Machine Learning Journal
+  year: 2013
+  category: Journal Paper
+
+- name: "Relational Learning helps in Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain (draft)"
+  # authors: Sriraam Natarajan, Baidya N. Saha, Saket Joshi, Adam Edwards, Elizabeth Moody, Tushar Khot, Kristian Kersting, Christopher T. Whitlow and Joseph A. Maldjian.
+  authors: Natarajan, S., Saha, B. N., Joshi, S., Edwards, A., Moody, E., Khot, T., Kersting, K., Whitlow C. T., & Maldjian J. A.
+  venue: International Journal of Machine Learning and Cybernetics, Springer
+  year: 2013
+  category: Journal Paper
+
+- name: "Gradient-based Boosting for Statistical Relational Learning: The Relational Dependency Network Case"
+  # authors: Sriraam Natarajan, Tushar Khot, Kristian Kersting, Bernd Gutmann and Jude Shavlik.
+  authors: Natarajan, S., Khot, T., Kersting, K., Gutmann, B., & Shavli, J.
+  venue: Special issue of Machine Learning Journal (MLJ), Volume 86, Number 1, 25-56
+  year: 2012
+  category: Journal Paper
+
+- name: "Statistical Relational Learning to Predict Primary Myocardial Infarction from Electronic Health Records"
+  # authors: Jeremy Weiss, Sriraam Natarajan, Peggy Peissig, Catherine McCarty and David Page
+  authors: Weiss, J., Natarajan, S., Peissig, P., McCarty, C., & Page, D.
+  venue: AI Magazine
+  year: 2012
+  category: Journal Paper
+
+- name: "A Relational Hierarchical Model of Decision-Theoretic Assistance"
+  # authors: Sriraam Natarajan, Prasad Tadepalli and Alan Fern
+  authors: Natarajan, S., Tadepalli, P., & Fern, A.
+  venue: Knowledge and Information Systems(KAIS)
+  year: 2011
+  category: Journal Paper
+
+- name: "Learning First-Order Probabilistic Models with Combining Rules"
+  # authors: Sriraam Natarajan,Prasad Tadepalli, Thomas G. Dietterich and Alan Fern
+  authors: Natarajan, S., Tadepalli, P., Dietterich, T., & Fern, A.
+  venue: Annals of Mathematics and AI, Special Issue on Probabilistic Relational Learning
+  year: 2009
+  category: Journal Paper
+
+- name: "Transfer in Variable Reward Hierarchical Reinforcement Learning"
+  # authors: Neville Mehta, Sriraam Natarajan, Prasad Tadepalli and Alan Fern.
+  authors: Mehta, N., Natarajan, S., Tadepalli, P., & Fern, A.
+  venue: Special issue on Inductive transfer in Machine Learning, Machine Learning Journal
+  year: 2008
+  category: Journal Paper
