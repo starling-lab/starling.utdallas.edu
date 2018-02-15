@@ -1,0 +1,82 @@
+---
+layout: archive
+permalink: /people/
+title: "People"
+---
+
+<!--
+    A work-in-progress for generating a page of current lab members.
+    Might be worth exploring a 'role' tag that differentiates between
+    current and past members.
+
+    Inspired by the author profile wrappers from @mmistakes
+    https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/author-profile.html
+  -->
+
+<div itemscope itemtype ="http://schema.org/Person">
+
+  {% for authorid in site.data.authors %}
+  {% if authorid[0] != 'STARAI Lab' %}
+
+  {% assign currentauthor = authorid[0] %}
+  {% assign author = site.data.authors[currentauthor] %}
+
+  {% if author.avatar %}
+  <div class="author__avatar">
+    {% if author.avatar contains "://" %}
+    {% assign author_src = author.avatar %}
+    {% else %}
+    {% assign author_src = author.avatar | absolute_url %}
+    {% endif %}
+
+    {% if author.home %}
+    {% if author.home contains "://" %}
+    {% assign author_link = author.home %}
+    {% else %}
+    {% assign author_link = author.home | absolute_url %}
+    {% endif %}
+    <a href="{{ author_link }}">
+      <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+    </a>
+    {% else %}
+    <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+    {% endif %}
+  </div>
+  {% endif %}
+
+  
+  <div class="author__content">
+    {% if author.home %}
+      <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
+    {% else %}
+      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    {% endif %}
+      
+    {% if author.bio %}
+      <p class="author__bio" itemprop="description">
+      {{ author.bio }}
+      </p>
+    {% endif %}
+
+  </div><!-- </"author__content"> -->
+
+  <!--
+  <div class="author__urls-wrapper">
+    
+  <div class="author__urls-wrapper">
+    <div class="social-icons">
+      -->
+  <div class="social-icons">
+  
+      {% if author.uri %}<!-- author website --><a href="{{ author.uri }}" itemprop="url"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a>{% endif %}
+      {% if author.email %}<!-- author email --><a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a>{% endif %}
+      {% if author.github %}<!-- author github --><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
+      {% if author.linkedin %}<!-- author linkedin --><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a>{% endif %}
+      {% if author.twitter %}<!-- author twitter --><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a>{% endif %}
+
+  </div><!-- /social-icons -->
+
+  <hr>
+  
+  {% endif %}
+  {% endfor %}

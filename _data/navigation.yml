@@ -1,6 +1,6 @@
 main:
-  - title: "About"
-    url: /about/
+  - title: "People"
+    url: /people/
   - title: "Publications"
     url: /publications/
   - title: "Wiki"
