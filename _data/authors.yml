@@ -1,8 +1,58 @@
+##   File: authors.yml
+##   Author: Alexander L. Hayes
+##   Last Updated: Thursday, February 15, 2018
+##
+##   These should be in the order they appear on the /people/ page.
+##   Begin with faculty (e.g. Sriraam and Gautam)
+##   --> Followed by current Ph.D. Students
+##   ----> Followed by Alumnus
+##
+##
+##
+##				----- Overview of available options: -----
+##
+##   name             : "Alexander L. Hayes"
+##   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+##   bio              : "Ph.D. Student at The University of Texas at Dallas"
+##   location         : "Dallas, TX"
+##   email            :
+##   uri              :
+##   home             : # null (default), "absolute or relative url to link to author home"
+##   bitbucket        :
+##   codepen          :
+##   dribbble         :
+##   flickr           :
+##   facebook         :
+##   foursquare       :
+##   github           :
+##   gitlab           :
+##   google_plus      :
+##   keybase          :
+##   instagram        :
+##   lastfm           :
+##   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+##   pinterest        :
+##   soundcloud       :
+##   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+##   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+##   tumblr           :
+##   twitter          :
+##   vine             :
+##   weibo            :
+##   xing             :
+##   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+
+## STARAI Lab is a general identifier for lab contact information.
+
 STARAI Lab:
   name: "STARAI Lab"
   bio: "Bridging the gap between Logic and Statistics in Artificial Intelligence."
   email: "Sriraam.Natarajan@utdallas.edu"
   github: "HumanInTheLoop"
+
+##
+## Faculty
+##
 
 Sriraam Natarajan:
   name: "Professor Sriraam Natarajan"
@@ -14,6 +64,76 @@ Sriraam Natarajan:
   twitter:
   github: "boost-starai"
   linkedin: sriraam-natarajan-392a693
+
+Gautam Kunapuli:
+  name: "Gautam Kunapuli"
+  uri: "http://www.utdallas.edu/~Gautam.Kunapuli/"
+  avatar:
+  location: "Dallas, TX"
+  email: "gautam.kunapuli@utdallas.edu"
+  bio: "Research Associate Professor at The University of Texas at Dallas."
+  twitter:
+  github:
+  linkedin:
+
+##
+## Current Lab Members
+##
+
+Mayukh Das:
+  name: "Mayukh Das"
+  uri:
+  avatar:
+  location: "Dallas, TX"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Devendra Dhami:
+  name: "Devendra Singh Dhami"
+  uri:
+  avatar:
+  location: "Dallas, TX"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Navdeep Kaur:
+  name: "Navdeep Kaur"
+  uri:
+  avatar:
+  location: "Indiana University, Bloomington"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Srijita Das:
+  name: "Srijita Das"
+  uri:
+  avatar:
+  location: "Indiana University, Bloomington"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Nandini Ramanan:
+  name: "Nandini Ramanan"
+  uri:
+  avatar:
+  location: "Indiana University, Bloomington"
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
 
 Alexander Hayes:
   name: "Alexander L. Hayes"
@@ -37,61 +157,6 @@ Kaushik Roy:
   github: "kkroy36"
   linkedin:
 
-Devendra Dhami:
-  name: "Devendra Singh Dhami"
-  uri:
-  avatar:
-  location: "Dallas, TX"
-  email:
-  bio:
-  twitter:
-  github:
-  linkedin:
-
-Mayukh Das:
-  name: "Mayukh Das"
-  uri:
-  avatar:
-  location: "Dallas, TX"
-  email:
-  bio:
-  twitter:
-  github:
-  linkedin:
-
-Nandini Ramanan:
-  name: "Nandini Ramanan"
-  uri:
-  avatar:
-  location: "Indiana University, Bloomington"
-  email:
-  bio:
-  twitter:
-  github:
-  linkedin:
-
-Srijita Das:
-  name: "Srijita Das"
-  uri:
-  avatar:
-  location: "Indiana University, Bloomington"
-  email:
-  bio:
-  twitter:
-  github:
-  linkedin:
-
-Navdeep Kaur:
-  name: "Navdeep Kaur"
-  uri:
-  avatar:
-  location: "Indiana University, Bloomington"
-  email:
-  bio:
-  twitter:
-  github:
-  linkedin:
-
 Harsha Kokel:
   name: "Harsha Kokel"
   uri: "http://utdallas.edu/~harsha.kokel/"
@@ -103,34 +168,27 @@ Harsha Kokel:
   github: "harshakokel"
   linkedin: "harshakokel"
 
+##
+## ALUMNUS
+##
 
-#   name             : "Alexander L. Hayes"
-#   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-#   bio              : "Ph.D. Student at The University of Texas at Dallas"
-#   location         : "Dallas, TX"
-#   email            :
-#   uri              :
-#   home             : # null (default), "absolute or relative url to link to author home"
-#   bitbucket        :
-#   codepen          :
-#   dribbble         :
-#   flickr           :
-#   facebook         :
-#   foursquare       :
-#   github           :
-#   gitlab           :
-#   google_plus      :
-#   keybase          :
-#   instagram        :
-#   lastfm           :
-#   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-#   pinterest        :
-#   soundcloud       :
-#   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-#   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-#   tumblr           :
-#   twitter          :
-#   vine             :
-#   weibo            :
-#   xing             :
-#   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+Phillip Odom:
+  name: "Phillip Odom"
+  uri: "http://homes.soic.indiana.edu/phodom/"
+  avatar:
+  location:
+  email:
+  bio:
+  twitter:
+  github:
+  linkedin:
+
+Shuo Yang:
+  name: "Shuo Yang"
+  uri: "http://homes.soic.indiana.edu/shuoyang/"
+  avatar:
+  location: "San Francisco Bay Area"
+  email:
+  bio: ""
+  twitter:
+  linkedin: "shuo-yang-57498970"
