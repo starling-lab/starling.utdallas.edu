@@ -1,0 +1,21 @@
+---
+layout: archive
+permalink: /people/
+title: "People"
+author_profile: false
+---
+
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
+<!--
+    A work-in-progress for generating a page of current lab members.
+    Might be worth exploring a 'role' tag that differentiates between
+    current and past members.
+-->
+
+{% for author in site.data.authors %}
+  {% if author[0] != 'STARAI Lab' %}
+    {{ author[0] }}<br>
+  {% endif %}
+{% endfor %}
