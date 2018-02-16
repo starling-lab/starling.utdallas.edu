@@ -26,24 +26,13 @@ $paragraph-indent: true
     <!-- year starts-->
     {% assign all_types = "" %}
     {% assign publication_grouped = group.items | group_by: 'publicationType'%}
-    <section class="{% for publication in publication_grouped %}{{ all_types | append: ' ' | append: publication.name }}{% endfor %}">
     <div class="year {% for publication in publication_grouped %}{{ all_types | append: ' ' | append: publication.name }}{% endfor %}">{{group.name}}</div>
     <!-- year ends-->
 
     <!-- publications start -->
     {% for publication in group.items %}
-        <div style="font-size: 0.7em; font-family: sans-serif;" class="element-item {{publication.publicationType}}">
-            {% for author in publication.authors %}
-                {% if forloop.last %}&{% endif %}
-                {% assign l_name = author | split: ' ' | last %}
-                {% assign f_name = author | split: ' ' | pop %}
-                {{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}., {% endfor%}
-            {% endfor %}
-            <i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>,
-            {{publication.venue}}, {{publication.year}}.
-        </div>
+        <div style="font-size: 0.7em;" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% if forloop.last %}& {% endif %}{% assign l_name = author | split: ' ' | last %}{% assign f_name = author | split: ' ' | pop %}{{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}.{% endfor%}, {% endfor %}<i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>,{{publication.venue}} {{publication.year}}.</div>
     {% endfor %}
-    </section>
     <!-- publications end -->
 <div><br></div>
 {% endfor %}
@@ -88,5 +77,10 @@ $paragraph-indent: true
         margin: 0em 0 0em 0;
         font-size: medium;
         width: 100%;
+        left: 0px !important;
+    }
+    .element-item {
+        font-size: 0.7em;
+        font-family: sans-serif;
     }
 </style>
