@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fas fa-download'></i> Install Now"
   cta_url: "/docs/quick-start-guide/"
   caption:
-excerpt: 'We are interested in making smart machines that humans can use reliably in their everyday lives.<br /> <small><a href="https://github.com/boost-starai/BoostSRL/releases/tag/v1.0">Latest release v1.0</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=boost-starai&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=boost-starai&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'We are interested in making smart machines that humans can use reliably in their everyday lives. Directed by Sriraam Natarajan and Gautam Kunapuli.'
 feature_row:
   - title: "Logic"
     excerpt: "AI has a history of using logic as the formal language for expressing and evaluating human knowledge."
