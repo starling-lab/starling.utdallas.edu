@@ -11,6 +11,16 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Collection settings
+
+collections:
+  software:
+    output: true
+    permalink: /:collection/:path/
+  boostsrlwiki:
+    output: true
+    permalink: /software/boostsrl/:collection/:path/
+
 # Site Settings
 locale                   : "en-US"
 title			 : "AI Conflux Lab"
@@ -21,7 +31,7 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : HumanInTheLoop
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -56,7 +66,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : true # true, false (default)
 
 # SEO Related
 google_site_verification :
@@ -227,3 +237,16 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _boostsrlwiki
+  - scope:
+      path: ""
+      type: boostsrlwiki
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      share: true
+      toc: true
+      sidebar:
+        nav: "boostsrlwiki"
+      
