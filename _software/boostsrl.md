@@ -16,7 +16,7 @@ As with the standard gradient-boosting approach, our approach turns the model-le
 
 | Latest Release | License | Wiki |
 | :---: | :---: | :---: |
-| [![release img]][release] | [![license img]][license] | [Documentation](https://www.google.com){: .btn .btn--info .btn--large} |
+| [![release img]][release] | [![license img]][license] | [Documentation](/software/boostsrl/wiki/){: .btn .btn--info .btn--large} |
 
 
 

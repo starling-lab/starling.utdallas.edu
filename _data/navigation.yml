@@ -1,3 +1,5 @@
+# Main navigation links used on the header of each page.
+
 main:
   - title: "People"
     url: /people/
@@ -7,3 +9,47 @@ main:
     url: /software/
   - title: "Blog"
     url: /categories/
+
+# links for BoostSRL Wiki: (/software/boostsrl/wiki/)
+boostsrlwiki:
+  - title: BoostSRL Basics
+    children:
+      - title: "Getting Started"
+        url: /software/boostsrl/wiki/getting-started/
+      - title: "File Structure"
+        url: /software/boostsrl/wiki/file-structure/
+      - title: "Basic Parameters"
+        url: /software/boostsrl/wiki/basic-parameters/
+      - title: "Advanced Parameters"
+        url: /software/boostsrl/wiki/advanced-parameters/
+      - title: "Basic Modes"
+        url: /software/boostsrl/wiki/basic-modes/
+      - title: "Advanced Modes"
+        url: /software/boostsrl/wiki/advanced-modes/
+  - title: Advanced BoostSRL
+    children:
+      - title: "Default (RDN-Boost)"
+        url: /software/boostsrl/wiki/rdn-boost/
+      - title: "MLN-Boost"
+        url: /software/boostsrl/wiki/mln-boost/
+      - title: "Regression"
+        url: /software/boostsrl/wiki/regression/
+      - title: "Cost-Sensitive SRL"
+        url: /software/boostsrl/wiki/cost-sensitive-srl/
+      - title: "Learning with Advice"
+        url: /software/boostsrl/wiki/advice/
+      - title: "Approximate Counting"
+        url: /software/boostsrl/wiki/approximate-counting/
+      - title: "Discretization of Continuous-Valued Attributes"
+        url: /software/boostsrl/wiki/discretization/
+      - title: "Lifted Relational Random Walks"
+        url: /software/boostsrl/wiki/lifted-relational-random-walks/
+      - title: "Grounded Relational Random Walks"
+        url: /software/boostsrl/wiki/grounded-relational-random-walks/
+  - title: Applications
+    children:
+      - title: "Natural Language Processing"
+        url: /software/boostsrl/wiki/natural-language-processing/
+
+# links for Datasets: (/datasets/)
+# Soon...
