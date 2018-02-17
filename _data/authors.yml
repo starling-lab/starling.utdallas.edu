@@ -55,12 +55,12 @@ STARAI Lab:
 ##
 
 Sriraam Natarajan:
-  name: "Professor Sriraam Natarajan"
+  name: "Sriraam Natarajan"
   uri: "http://utdallas.edu/~sriraam.natarajan/"
-  avatar:
+  avatar: "/assets/images/headshots/sriraamnatarajan.jpg"
   location: "Dallas, TX"
   email: "Sriraam.Natarajan@utdallas.edu"
-  bio: "Professor of Computer Science at The University of Texas at Dallas."
+  bio: "Associate Professor of Computer Science at The University of Texas at Dallas."
   twitter:
   github: "boost-starai"
   linkedin: sriraam-natarajan-392a693
@@ -68,13 +68,13 @@ Sriraam Natarajan:
 Gautam Kunapuli:
   name: "Gautam Kunapuli"
   uri: "http://www.utdallas.edu/~Gautam.Kunapuli/"
-  avatar:
+  avatar: "/assets/images/headshots/gautamkunapuli.jpg"
   location: "Dallas, TX"
   email: "gautam.kunapuli@utdallas.edu"
   bio: "Research Associate Professor at The University of Texas at Dallas."
   twitter:
   github:
-  linkedin:
+  linkedin: "gautam-kunapuli"
 
 ##
 ## Current Lab Members
@@ -82,19 +82,19 @@ Gautam Kunapuli:
 
 Mayukh Das:
   name: "Mayukh Das"
-  uri:
-  avatar:
+  uri: "https://sites.google.com/site/mayukhdas3986/"
+  avatar: "/assets/images/headshots/mayukhdas.jpg"
   location: "Dallas, TX"
-  email:
+  email: "mayukhds@gmail.com"
   bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
   twitter:
-  github:
-  linkedin:
+  github: "mayukhdas"
+  linkedin: "mdas86"
 
 Devendra Dhami:
   name: "Devendra Singh Dhami"
   uri:
-  avatar:
+  avatar: "/assets/images/headshots/devendrasinghdhami.jpg"
   location: "Dallas, TX"
   email:
   bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
@@ -105,7 +105,7 @@ Devendra Dhami:
 Navdeep Kaur:
   name: "Navdeep Kaur"
   uri:
-  avatar:
+  avatar: "/assets/images/headshots/navdeepkaur.jpg"
   location: "Dallas, TX"
   email:
   bio: "Computer Science Ph.D. Student at Indiana University, Bloomington."
@@ -116,7 +116,7 @@ Navdeep Kaur:
 Srijita Das:
   name: "Srijita Das"
   uri:
-  avatar:
+  avatar: "/assets/images/headshots/srijitadas.jpg"
   location: "Dallas, TX"
   email:
   bio: "Computer Science Ph.D. Student at Indiana University, Bloomington."
@@ -127,12 +127,12 @@ Srijita Das:
 Nandini Ramanan:
   name: "Nandini Ramanan"
   uri:
-  avatar:
+  avatar: "/assets/images/headshots/nandiniramanan.jpg"
   location: "Dallas, TX"
   email:
   bio: "Health Informatics Ph.D. Student at Indiana University, Bloomington."
   twitter:
-  github:
+  github: "nandhiniramanan5"
   linkedin:
 
 Alexander Hayes:
@@ -175,7 +175,7 @@ Harsha Kokel:
 Phillip Odom:
   name: "Phillip Odom"
   uri: "http://homes.soic.indiana.edu/phodom/"
-  avatar:
+  avatar: "/assets/images/headshots/phillipodom.jpg"
   location:
   email:
   bio:
@@ -186,18 +186,18 @@ Phillip Odom:
 Shuo Yang:
   name: "Shuo Yang"
   uri: "http://homes.soic.indiana.edu/shuoyang/"
-  avatar:
+  avatar: "/assets/images/headshots/shuoyang.jpg"
   location: "San Francisco Bay Area"
   email:
-  bio: ""
+  bio:
   twitter:
   linkedin: "shuo-yang-57498970"
 
 Tushar Khot:
   name: "Tushar Khot"
   uri:
-  avatar:
-  location:
+  avatar: "/assets/images/headshots/tusharkhot.jpg"
+  location: "Allen Institute for AI"
   email:
   bio:
   twitter:

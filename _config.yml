@@ -20,6 +20,9 @@ collections:
   boostsrlwiki:
     output: true
     permalink: /software/boostsrl/:collection/:path/
+  datasets:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Settings
 locale                   : "en-US"
@@ -249,4 +252,15 @@ defaults:
       toc: true
       sidebar:
         nav: "boostsrlwiki"
-      
+  # _datasets
+  - scope:
+      path: ""
+      type: datasets
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      share: true
+      toc: true
+      sidebar:
+        nav: "datasets"
