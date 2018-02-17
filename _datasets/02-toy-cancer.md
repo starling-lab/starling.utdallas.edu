@@ -1,6 +1,8 @@
 ---
 author: Nandini Ramanan
+title: "Toy Cancer"
 permalink: /datasets/toy-cancer/
+excerpt: "A toy dataset for predicting properties of social networks: whether a person has cancer based on friendships and smoking habits."
 ---
 
 ### Overview
@@ -11,7 +13,7 @@ Target: `cancer`
 
 The facts contain information on two labels: `friends`, `smokes`.
 
-* train_facts :
+> train_facts
 
 ```text
 friends(Alice, Bob).
@@ -31,7 +33,7 @@ smokes(Chuck).
 smokes(Bob).
 ```
 
-* train_pos :
+> train_pos
 
 ```text
 cancer(Alice).
@@ -40,7 +42,7 @@ cancer(Chuck).
 cancer(Fred).
 ```
 
-* train_neg :
+> train_neg
 
 ```text
 cancer(Dan).
