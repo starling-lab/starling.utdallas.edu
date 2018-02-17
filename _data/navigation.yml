@@ -61,3 +61,15 @@ datasets:
         url: /datasets/toy-father/
       - title: "Toy Cancer"
         url: /datasets/toy-cancer/
+      - title: "IMDB"
+        url: /datasets/imdb/
+      - title: "Cora"
+        url: /datasets/cora/
+      - title: "UW-CSE"
+        url: /datasets/uwcse/
+      - title: "WebKB"
+        url: /datasets/webkb/
+      - title: "CiteSeer"
+        url: /datasets/citeseer/
+      - title: "Boston Housing"
+        url: /datasets/boston-housing/
