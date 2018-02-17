@@ -7,6 +7,8 @@ main:
     url: /publications/
   - title: "Software"
     url: /software/
+  - title: "Datasets"
+    url: /datasets/
   - title: "Blog"
     url: /categories/
 
@@ -52,4 +54,10 @@ boostsrlwiki:
         url: /software/boostsrl/wiki/natural-language-processing/
 
 # links for Datasets: (/datasets/)
-# Soon...
+datasets:
+  - title: Datasets
+    children:
+      - title: "Toy Father"
+        url: /datasets/toy-father/
+      - title: "Toy Cancer"
+        url: /datasets/toy-cancer/
