@@ -1,3 +1,21 @@
+##   File: authors.yml
+##   Author: Harsha Kokel
+##   Last Updated: Sunday, February 18, 2018
+##
+##				----- Overview of available options: -----
+##
+##   publicationType             : "conference-papers" or "workshop-papers" or "journal-papers"
+##                                 Refer publication-type.yml for all available options
+##   authors                     : ["firstname lastname", "firstname lastname"]
+##   year                        : "year of publication"
+##   title                       : "Title of the paper"
+##   venue                       : "Where was it published?"
+##   keywords                    : ["Automatic Mode Construction", "Health Applications""]
+##   url                         : link to the paper (pdf)
+##   slide                       : link to slides
+##   video                       : link to video
+
+
 - publicationType: "conference-papers"
   authors: ["Kaushik Roy", "Phillip Odom", "Kristian Kersting", "Ron Parr", "Sriraam Natarajan"]
   year: "2018"
@@ -21,7 +39,7 @@
   year: "2017"
   title: "Modeling Heart Procedures from EHRs: An Application of Exponential Families"
   venue: "IEEE International Conference on Bioinformatics and Biomedicine (IEEE BIBM)"
-  url: "http://utdallas.edu/~sxn177430/Papers/BIBMPDN.pdf"
+  url: "/assets/pdfs/BIBMPDN.pdf"
   keywords: ["Health Applications"]
 
 - publicationType: "conference-papers"
@@ -29,7 +47,7 @@
   year: "2017"
   title: "Discriminative Boosted Bayes Networks for Learning Multiple Cardiovascular Procedures"
   venue: "IEEE International Conference on Bioinformatics and Biomedicine (IEEE BIBM)"
-  url: "http://utdallas.edu/~sxn177430/Papers/BIBM_DB2N.pdf"
+  url: "/assets/pdfs/BIBM_DB2N.pdf"
   keywords: ["Health Applications"]
 
 - publicationType: "conference-papers"
@@ -37,7 +55,7 @@
   year: "2017"
   title: "User Friendly Automatic Construction of Background Knowledge: Mode Construction from ER Diagrams"
   venue: "Knowledge Capture Conference"
-  url: "http://utdallas.edu/~sxn177430/Papers/KCAP17Mode.pdf"
+  url: "/assets/pdfs/KCAP17Mode.pdf"
   keywords: ["Automatic Mode Construction"]
 
 - publicationType: "conference-papers"
@@ -45,7 +63,7 @@
   year: "2017"
   title: "Boosting for Post Partum Depression Prediction"
   venue: "IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)"
-  url: "http://utdallas.edu/~sxn177430/Papers/PPDCHASE17.pdf"
+  url: "/assets/pdfs/PPDCHASE17.pdf"
   keywords: ["Health Applications"]
 
 - publicationType: "conference-papers"
@@ -61,7 +79,7 @@
   year: "2017"
   title: "Combining content-based and collaborative filtering for job recommendation system: A cost-sensitive Statistical Relational Learning approach"
   venue: "Knowledge-Based Systems"
-  url: "http://utdallas.edu/~sxn177430/Papers/HRSPreprint.pdf"
+  url: "/assets/pdfs/HRSPreprint.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -69,7 +87,7 @@
   year: "2017"
   title: "Identifying Parkinson's Patients : A Functional Gradient Boosting Approach"
   venue: "Artificial Intelligence in Medicine (AIME)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/Parkisnson_s_AIME_2017.pdf"
+  url: "/assets/pdfs/Parkisnson_s_AIME_2017.pdf"
   keywords: ["Health Applications"]
 
 - publicationType: "conference-papers"
@@ -77,7 +95,7 @@
   year: "2017"
   title: "Poisson Sum-Product Networks: A Deep Architecture for Tractable Multivariate Poisson Distributions"
   venue: "Thirty First AAAI Conference on Artificial Intelligence (AAAI)"
-  url: "http://utdallas.edu/~sxn177430/Papers/PoissonSPNAAAI17.pdf"
+  url: "/assets/pdfs/PoissonSPNAAAI17.pdf"
   keywords: ["Sum Product Networks"]
 
 - publicationType: "workshop-papers"
@@ -101,7 +119,7 @@
   year: "2016"
   title: "Inductive Logic Programming meets Relational Databases: An Application to Statistical Relational Learning"
   venue: "International Conference on Inductive Logic Programming (ILP)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/MLN_Boost_ILP.pdf"
+  url: "/assets/pdfs/MLN_Boost_ILP.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -109,7 +127,7 @@
   year: "2016"
   title: "Learning Relational Dependency Networks for Relation Extraction"
   venue: "International Conference on Inductive Logic Programming (ILP)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/KBP_ILP_2016.pdf"
+  url: "/assets/pdfs/KBP_ILP_2016.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -117,7 +135,7 @@
   year: "2016"
   title: "Learning through Advice-Seeking via Transfer"
   venue: "International Conference on Inductive Logic Programming (ILP)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/transferredAdvice_FinalPDF.pdf"
+  url: "/assets/pdfs/transferredAdvice_FinalPDF.pdf"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 - publicationType: "conference-papers"
@@ -125,7 +143,7 @@
   year: "2016"
   title: "Actively Interacting with Experts: A Probabilistic Logic Approach"
   venue: "European Conference on Machine Learning and Principles of Knowledge Discovery in Databases (ECMLPKDD)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/activeadviceseeking.pdf"
+  url: "/assets/pdfs/activeadviceseeking.pdf"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 - publicationType: "conference-papers"
@@ -133,7 +151,7 @@
   year: "2016"
   title: "Identifying Rare Diseases from Behavioural Data: A Machine Learning Approach"
   venue: "IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/chase-machinelearning.pdf"
+  url: "/assets/pdfs/chase-machinelearning.pdf"
   keywords: ["Health Applications"]
 
 - publicationType: "conference-papers"
@@ -141,7 +159,8 @@
   year: "2016"
   title: "Active Advice Seeking for Inverse Reinforcement Learning"
   venue: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/aasirl_AAMAS.pdf"
+  url: "/assets/pdfs/aasirl_AAMAS.pdf"
+  video: "https://www.youtube.com/watch?v=xiud2BgqRco"
   keywords: ["Statistical Relational Learning","Decision Theory"]
 
 - publicationType: "conference-papers"
@@ -149,7 +168,7 @@
   year: "2016"
   title: "Scaling Lifted Probabilistic Inference and Learning Via Graph Databases"
   venue: "SIAM International Conference on Data Mining (SDM)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ApproxCounting.pdf"
+  url: "/assets/pdfs/ApproxCounting.pdf"
   keywords: ["Statistical Relational Learning","Lifted Inference","Graphical Models"]
 
 - publicationType: "conference-papers"
@@ -157,7 +176,7 @@
   year: "2016"
   title: "Learning Continuous-Time Bayesian Networks in Relational Domains: A Non-Parametric Approach"
   venue: "Thirtieth AAAI Conference on Artificial Intelligence (AAAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/RCTBN.pdf"
+  url: "/assets/pdfs/RCTBN.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -165,7 +184,7 @@
   year: "2015"
   title: "Transfer Learning via Relational Type Matching"
   venue: "International Conference on Data Mining (ICDM)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/TransferLearningICDM15.pdf"
+  url: "/assets/pdfs/TransferLearningICDM15.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "workshop-papers"
@@ -188,7 +207,7 @@
   year: "2015"
   title: "Modeling Coronary Artery Calcification Levels From Behavioral Data in a Clinical Study"
   venue: "Artificial Intelligence in Medicine (AIME)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/CardiaDBN.pdf"
+  url: "/assets/pdfs/CardiaDBN.pdf"
   keywords: ["Health Applications"]
 
 - publicationType: "conference-papers"
@@ -196,7 +215,7 @@
   year: "2015"
   title: "Extracting Adverse Drug Events from Text using Human Advice"
   venue: "Artificial Intelligence in Medicine (AIME)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ADEText2015.pdf"
+  url: "/assets/pdfs/ADEText2015.pdf"
   keywords: ["Health Applications","Human-Machine collaboration"]
 
 - publicationType: "conference-papers"
@@ -204,7 +223,7 @@
   year: "2015"
   title: "Knowledge-Based Probabilistic Logic Learning"
   venue: "Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/KBPLM.pdf"
+  url: "/assets/pdfs/KBPLM.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -212,7 +231,7 @@
   year: "2015"
   title: "Learning To Reject Sequential Importance Steps for Continuous-Time Bayesian Networks"
   venue: "Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/learning_inference_ctbn.pdf"
+  url: "/assets/pdfs/learning_inference_ctbn.pdf"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 - publicationType: "workshop-papers"
@@ -254,7 +273,7 @@
   year: "2014"
   title: "Learning from Imbalanced Data in Relational Domains: A Soft Margin Approach"
   venue: "International Conference on Data Mining (ICDM)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/SoftMargin.pdf"
+  url: "/assets/pdfs/SoftMargin.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -262,7 +281,7 @@
   year: "2014"
   title: "Relational One-Class Classification: A non-parametric approach"
   venue: "Twenty-Eighth AAAI Conference on Artificial Intelligence (AAAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/RelOCC.pdf"
+  url: "/assets/pdfs/RelOCC.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -270,7 +289,7 @@
   year: "2014"
   title: "Effectively creating weakly labeled training examples via approximate domain knowledge"
   venue: "International Conference in Inductive Logic Programming (ILP)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/WSPaper.pdf"
+  url: "/assets/pdfs/WSPaper.pdf"
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "conference-papers"
@@ -286,7 +305,7 @@
   year: "2014"
   title: "A Decision-Theoretic Model of Assistance"
   venue: "Journal Of Artificial Intelligence Research (JAIR)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/DTAPaper.pdf"
+  url: "/assets/pdfs/DTAPaper.pdf"
   keywords: ["Decision Theory"]
 
 - publicationType: "conference-papers"
@@ -302,7 +321,7 @@
   year: "2014"
   title: "A graphical model approach to ATLAS-free mining of MRI images"
   venue: "SIAM International Conference on Data Mining (SDM)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/sdm14.pdf"
+  url: "/assets/pdfs/sdm14.pdf"
   keywords: ["Health Applications"]
 
 
@@ -322,7 +341,7 @@
   year: "2013"
   title: "Relational Learning helps in Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain (draft)"
   venue: "International Journal of Machine Learning and Cybernetics, Springer"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/Alz_IJMLC.pdf"
+  url: "/assets/pdfs/Alz_IJMLC.pdf"
   keywords: ["Health Applications","Statistical Relational Learning"]
 
 
@@ -331,7 +350,7 @@
   year: "2013"
   title: "Guiding Autonomous Agents to Better Behaviors through Human Advice"
   venue: "IEEE International Conference on Data Mining (ICDM)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/kbirl_ICDM13.pdf"
+  url: "/assets/pdfs/kbirl_ICDM13.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -339,7 +358,7 @@
   authors: ["Sriraam Natarajan","Kristian Kersting","Edward Ip","David Jacobs","Jeffrey Carr"]
   year: "2013"
   title: "Early Prediction of Coronary Artery Calcification Levels Using Machine Learning"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/cac.pdf"
+  url: "/assets/pdfs/cac.pdf"
   venue: "AAAI conference on Innovative Applications in AI (IAAI)"
   keywords: ["Health Applications"]
 
@@ -349,7 +368,7 @@
   year: "2013"
   title: "Knowledge Intensive Learning: Combining Qualitative Constraints with Causal Independence for Parameter Learning in Probabilistic Models"
   venue: "European Conference on Machine Learning, (ECMLPKDD)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/KIL_ECML13.pdf"
+  url: "/assets/pdfs/KIL_ECML13.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -358,7 +377,7 @@
   year: "2013"
   title: "AR-Boost: Reducing Overfitting by a Robust Data-Driven Regularization Strategy"
   venue: "European Conference on Machine Learning, (ECMLPKDD)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/AR_Boost.pdf"
+  url: "/assets/pdfs/AR_Boost.pdf"
   keywords: ["MISC"]
 
 
@@ -367,7 +386,7 @@
   year: "2013"
   title: "Accelarating Imitation Learning in Relational Domains via Transfer by Initialization"
   venue: "International Conference on Inductive Logic Programming (ILP)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/Imitation_ILP13.pdf"
+  url: "/assets/pdfs/Imitation_ILP13.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -394,6 +413,7 @@
   year: "2012"
   title: "Statistical Relational Learning to Predict Primary Myocardial Infarction from Electronic Health Records"
   venue: "AI Magazine"
+  url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4211289/"
   keywords: ["Health Applications","Statistical Relational Learning"]
 
 
@@ -402,7 +422,7 @@
   year: "2012"
   title: "Multiplicative Forests for Continuous-Time Processes"
   venue: "Neural Information Processing Systems (NIPS)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/mfctbn.pdf"
+  url: "/assets/pdfs/mfctbn.pdf"
   keywords: ["MISC"]
 
 
@@ -411,7 +431,7 @@
   year: "2012"
   title: "Lifted Online Training of Relational Models with Stochastic Gradient Methods"
   venue: "European Conference on Machine Learning, (ECMLPKDD)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ahmadi12ecmlpkdd.pdf"
+  url: "/assets/pdfs/ahmadi12ecmlpkdd.pdf"
   keywords: ["Statistical Relational Learning","Lifted Inference"]
 
 
@@ -429,7 +449,7 @@
   year: "2012"
   title: "Statistical Relational Learning to Predict Primary Myocardial Infarction from Electronic Health Records"
   venue: "AAAI conference on Innovative Applications in AI (IAAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/weiss-MI.pdf"
+  url: "/assets/pdfs/weiss-MI.pdf"
   keywords: ["Health Applications","Statistical Relational Learning"]
 
 
@@ -438,7 +458,7 @@
   year: "2012"
   title: "Identifying Adverse Drug Events from Multi-Relational Healthcare Data"
   venue: "Twenty-Sixth Conference on Artificial Intelligence (AAAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ADE.pdf"
+  url: "/assets/pdfs/ADE.pdf"
   keywords: ["Health Applications","Statistical Relational Learning"]
 
 
@@ -447,7 +467,7 @@
   year: "2012"
   title: "A Novel Hierarchical Level Set with AR-Boost for White Matter Lesion Segmentation in Diabetes"
   venue: "International Conference on Machine Learning and Applications (ICMLA)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ICMLA_336_WML.pdf"
+  url: "/assets/pdfs/ICMLA_336_WML.pdf"
   keywords: ["Health Applications"]
 
 
@@ -456,7 +476,7 @@
   year: "2012"
   title: "A Machine Learning Pipeline for Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain"
   venue: "International Conference on Machine Learning and Applications (ICMLA)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ICMLA_335_Alzheimer.pdf"
+  url: "/assets/pdfs/ICMLA_335_Alzheimer.pdf"
   keywords: ["Health Applications"]
 
 
@@ -481,7 +501,7 @@
   year: "2012"
   title: "Lifted Parameter Learning in Relational Models"
   venue: "ICML Workshop on Statistical Relational Learning (SRL)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/lifted_parameter_SRL12.pdf"
+  url: "/assets/pdfs/lifted_parameter_SRL12.pdf"
   keywords: ["Statistical Relational Learning", "Lifted Inference"]
 
 
@@ -490,7 +510,7 @@
   year: "2012"
   title: "Structure Learning with Hidden Data in Relational Domains"
   venue: "ICML Workshop on Statistical Relational Learning (SRL)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/EM_SRL12.pdf"
+  url: "/assets/pdfs/EM_SRL12.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -507,7 +527,7 @@
   year: "2012"
   title: "Initial Empirical Evaluation of Anytime Lifted Belief Propagation"
   venue: "International Workshop on Statistical Relational AI"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ALBP_StaRAI12.pdf"
+  url: "/assets/pdfs/ALBP_StaRAI12.pdf"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 
@@ -516,7 +536,7 @@
   year: "2012"
   title: "Learning Relational Structure for Temporal Relation Extraction"
   venue: "International Workshop on Statistical Relational AI"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/TemporalIE_StaRAI12.pdf"
+  url: "/assets/pdfs/TemporalIE_StaRAI12.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -525,7 +545,7 @@
   year: "2012"
   title: "Integrating Human Instructions and Reinforcement Learners: An SRL Approach"
   venue: "International Workshop on Statistical Relational AI"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/HIRL_StarAI12.pdf"
+  url: "/assets/pdfs/HIRL_StarAI12.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -534,6 +554,7 @@
   year: "2012"
   title: "Aggregation and Population Growth: The Relational Logistic Regression and Markov Logic Cases"
   venue: "International Workshop on Statistical Relational AI"
+  url: "/assets/pdfs/population_growth.pdf"
   keywords: ["Graphical Models"]
 
 
@@ -551,7 +572,7 @@
   year: "2011"
   title: "A Relational Hierarchical Model of Decision-Theoretic Assistance"
   venue: "Knowledge and Information Systems (KAIS)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/HierarchicalRelationalModelKAIS.pdf"
+  url: "/assets/pdfs/HierarchicalRelationalModelKAIS.pdf"
   keywords: ["Statistical Relational Learning","Decision Theory"]
 
 
@@ -560,7 +581,7 @@
   year: "2011"
   title: "Imitation Learning in Relational Domains: A Functional-Gradient Boosting Approach"
   venue: "International Joint Conference in AI (IJCAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ijcai11_imitation_learning.pdf"
+  url: "/assets/pdfs/ijcai11_imitation_learning.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -578,6 +599,7 @@
   year: "2011"
   title: "A Machine Learning based Approach to Improve Protein Sidechain Optimization"
   venue: "ACM Conference on Bioinformatics, Computational Biology and Biomedicine (ACM BCB)"
+  url: "/assets/pdfs/sidechain-optimization.pdf"
   keywords: ["Health Applications"]
 
 
@@ -586,7 +608,7 @@
   year: "2011"
   title: "Imitation Learning in Relational Domains Using Functional Gradient Boosting"
   venue: "The Learning Workshop"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/imitation_snowbird11.pdf"
+  url: "/assets/pdfs/imitation_snowbird11.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -603,7 +625,7 @@
   year: "2010"
   title: "Exploiting Causal Independence in Markov Logic Networks: Combining Undirected and Directed Models"
   venue: "European Conference on Machine Learning (ECML)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/Natarajan.ECML10.pdf"
+  url: "/assets/pdfs/Natarajan.ECML10.pdf"
   keywords: ["Graphical Models"]
 
 
@@ -612,7 +634,7 @@
   year: "2010"
   title: "Boosting Relational Dependency Networks"
   venue: "International Conference on Inductive Logic Programming (ILP)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/boosting10ilp.pdf"
+  url: "/assets/pdfs/boosting10ilp.pdf"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 
@@ -621,7 +643,7 @@
   year: "2010"
   title: "Multi Agent Inverse Reinforcement Learning"
   venue: "IEEE Conference on Machine Learning and Applications (ICMLA)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/mairl.pdf"
+  url: "/assets/pdfs/mairl.pdf"
   keywords: ["Decision Theory"]
 
 
@@ -639,7 +661,7 @@
   year: "2010"
   title: "Multi-Agent Inverse Reinforcement Learning"
   venue: "The Learning Worshop"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/mairl_snowbird10.pdf"
+  url: "/assets/pdfs/mairl_snowbird10.pdf"
   keywords: ["Decision Theory"]
 
 
@@ -648,7 +670,7 @@
   year: "2009"
   title: "Learning First-Order Probabilistic Models with Combining Rules"
   venue: "Annals of Mathematics and AI, Special Issue on Probabilistic Relational Learning"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/CR-paper.pdf"
+  url: "/assets/pdfs/CR-paper.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -657,8 +679,10 @@
   year: "2009"
   title: "Speeding up Inference in Markov Logic Networks By Preprocessing to Reduce the Size of the Resulting Grounded Network"
   venue: "International Joint Conference in Artificial Intelligence (IJCAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/FROG.pdf"
+  url: "/assets/pdfs/FROG.pdf"
   keywords: ["Graphical Models","Lifted Inference"]
+  slide: "/assets/pdfs/FROG-slides.pdf"
+  abstract: "Statistical-relational reasoning has received much attention due to its ability to robustly model complex relationships. A key challenge is tractable inference, especially in domains involving many objects, due to the combinatorics involved. One can accelerate inference by using approximation techniques, “lazy” algorithms, etc. We consider Markov Logic Networks (MLNs), which involve counting how often logical formulae are satisfied. We propose a preprocessing algorithm that can substantially reduce the effective size of MLNs by rapidly counting how often the evidence satisfies each formula, regardless of the truth values of the query literals. This is a general preprocessing method that loses no information and can be used for any MLN inference algorithm. We evaluate our algorithm empirically in three real-world domains, greatly reducing the work needed during subsequent inference. Such reduction might even allow exact inference to be performed when sampling methods would be otherwise necessary"
 
 
 - publicationType: "conference-papers"
@@ -666,7 +690,7 @@
   year: "2009"
   title: "Learning Parameters for Relational Probabilistic Models with Noisy-Or Combining Rule"
   venue: "IEEE Conference on Machine Learning and Applications (ICML-A)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/noisyor.icmla09.pdf"
+  url: "/assets/pdfs/noisyor.icmla09.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -675,7 +699,7 @@
   year: "2009"
   title: "Counting Lifted Belief Propagation"
   venue: "International Conference on Uncertainty in AI (UAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/cbp.pdf"
+  url: "/assets/pdfs/cbp.pdf"
   keywords: ["Lifted Inference"]
 
 
@@ -684,7 +708,7 @@
   year: "2009"
   title: "ILP for Bootstrapped Learning: A Layered Approach to Automating the ILP Setup Problem"
   venue: "International Conference on Inductive Logic Programming"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/ilp09.pdf"
+  url: "/assets/pdfs/ilp09.pdf"
   keywords: ["MISC"]
 
 
@@ -693,7 +717,7 @@
   year: "2009"
   title: "Knowledge Intensive Learning: Directed vs. Undirected SRL Models"
   venue: "International Workshop in SRL"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/KnowledgeCRMLN.pdf"
+  url: "/assets/pdfs/KnowledgeCRMLN.pdf"
   keywords: ["Graphical Models"]
 
 
@@ -711,7 +735,7 @@
   year: "2008"
   title: "Transfer in Variable Reward Hierarchical Reinforcement Learning"
   venue: "Invited contribution to Inductive transfer in Machine Learning"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/var-reward.pdf"
+  url: "/assets/pdfs/var-reward.pdf"
   keywords: ["Decision Theory"]
 
 
@@ -720,7 +744,7 @@
   year: "2008"
   title: "Logical Hierarchical Hidden Markov Models for User Activity Recognition"
   venue: "International Conference on Inductive Logic Programming"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/LoHiHMM.pdf"
+  url: "/assets/pdfs/LoHiHMM.pdf"
   keywords: ["Graphical Models"]
 
 
@@ -729,7 +753,7 @@
   year: "2007"
   title: "A Relational Hierarchical Model of Decision-Theoretic Assistance"
   venue: "Proceedings of the International Conference on Inductive Logic Programming"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/RelationalHierarchicalModel.pdf"
+  url: "/assets/pdfs/RelationalHierarchicalModel.pdf"
   keywords: ["Decision Theory"]
 
 
@@ -738,7 +762,7 @@
   year: "2007"
   title: "A Decision theoretic model of Assistance"
   venue: "International Joint Conference in Artificial Intelligence (IJCAI)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/IJCAI-FernA677.pdf"
+  url: "/assets/pdfs/IJCAI-FernA677.pdf"
   keywords: ["Decision Theory"]
 
 
@@ -747,7 +771,7 @@
   year: "2007"
   title: "A Decision-Theoretic Model of Assistance - Evaluation, Extensions and Open Problems"
   venue: "AAAI Spring Symposium on Interaction Challenges for Intelligent Assistants"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/SymposiumPaper.pdf"
+  url: "/assets/pdfs/SymposiumPaper.pdf"
   keywords: ["Decision Theory"]
 
 
@@ -764,7 +788,7 @@
   year: "2006"
   title: "A Decision theoretic model of Assistance"
   venue: "Modeling Others from Observations workshop in AAAI"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/WS0614FernA.pdf"
+  url: "/assets/pdfs/WS0614FernA.pdf"
   keywords: ["Decision Theory"]
 
 
@@ -773,7 +797,7 @@
   year: "2006"
   title: "Structure Refinement in First Order Conditional Influence Language"
   venue: "Open Problems in Statistical Relational Learning, ICML"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/StructureRefinement.pdf"
+  url: "/assets/pdfs/StructureRefinement.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -782,7 +806,7 @@
   year: "2005"
   title: "Learning First-Order Probabilistic Models with Combining Rules"
   venue: "22nd International Conference on Machine Learning (ICML)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/CR.pdf"
+  url: "/assets/pdfs/CR.pdf"
   keywords: ["Statistical Relational Learning"]
 
 
@@ -791,5 +815,5 @@
   year: "2005"
   title: "Dynamic Preferences in Multi-Criteria Reinforcement Learning"
   venue: "22nd International Conference on Machine Learning (ICML)"
-  url: "http://homes.soic.indiana.edu/natarasr/Papers/DMCRL.pdf"
+  url: "/assets/pdfs/DMCRL.pdf"
   keywords: ["Decision Theory"]

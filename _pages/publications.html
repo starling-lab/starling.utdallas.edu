@@ -6,6 +6,7 @@ $paragraph-indent: true
 ---
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
 <h3>{{page.title}}</h3>
 
@@ -31,7 +32,7 @@ $paragraph-indent: true
 
     <!-- publications start -->
     {% for publication in group.items %}
-        <div style="font-size: 0.7em;" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% if forloop.last %}& {% endif %}{% assign l_name = author | split: ' ' | last %}{% assign f_name = author | split: ' ' | pop %}{{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}.{% endfor%}, {% endfor %}<i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>,{{publication.venue}} {{publication.year}}.</div>
+        <div style="" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% if forloop.last %}& {% endif %}{% assign l_name = author | split: ' ' | last %}{% assign f_name = author | split: ' ' | pop %}{{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}.{% endfor%}, {% endfor %}<i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>, {{publication.venue}} {{publication.year}}.{% if publication.slide%}<a class="slides" href="{{publication.slide}}"><i class="far fa-fw fa-file-powerpoint"></i></a>{% endif %}{% if publication.video%}<a class="video" href="{{publication.video}}"><i class="fab fa-fw fa-youtube"></i></a>{% endif %}</div>
     {% endfor %}
     <!-- publications end -->
 <div><br></div>
@@ -54,33 +55,3 @@ $paragraph-indent: true
 		$(this).addClass('active');
 	});
 </script>
-<style type="text/css">
-    .button-group{
-        margin: 0 0 11px 0;
-    }
-    a.button{
-        background-color: #e1e1e1;
-        border: 1px solid #000000;
-        font-size: 0.8em;
-        padding: 3px;
-        color: #000000
-    }
-	a.button.active {
-		background: #626262;
-		border: 1px solid #000000;
-		color: #fff;
-	}
-    .year {
-        color: #000000;
-        background-color: #e1e1e1;
-        padding: 0.2em 1em;
-        margin: 0em 0 0em 0;
-        font-size: medium;
-        width: 100%;
-        left: 0px !important;
-    }
-    .element-item {
-        font-size: 0.7em;
-        font-family: sans-serif;
-    }
-</style>
