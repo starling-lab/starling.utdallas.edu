@@ -1,8 +1,12 @@
 ---
 layout: splash
 permalink: /people/
-title: "People"
+title: "Lab Members"
+header:
+  overlay_image: /assets/images/teamPhoto2.jpg
 ---
+
+<link rel="stylesheet" type="text/css" href="/assets/css/sociallinks.css">
 
 <!--
     A work-in-progress for generating a page of current lab members.
@@ -60,19 +64,14 @@ title: "People"
 
   </div><!-- </"author__content"> -->
 
-  <!--
-  <div class="author__urls-wrapper">
-    
-  <div class="author__urls-wrapper">
-    <div class="social-icons">
-      -->
   <div class="social-icons">
-  
-      {% if author.uri %}<!-- author website --><a href="{{ author.uri }}" itemprop="url"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a>{% endif %}
-      {% if author.email %}<!-- author email --><a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a>{% endif %}
-      {% if author.github %}<!-- author github --><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
-      {% if author.linkedin %}<!-- author linkedin --><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a>{% endif %}
-      {% if author.twitter %}<!-- author twitter --><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a>{% endif %}
+
+      {% if author.location %}<!-- author location --><i class="fas fa-fw fa-map-marker-alt"></i>{{ author.location }}<br>{% endif %}
+      {% if author.uri %}<!-- author website --><a href="{{ author.uri }}"><i class="fas fa-fw fa-link"></i></a>{% endif %}
+      {% if author.email %}<!-- author email --><a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i></a>{% endif %}
+      {% if author.linkedin %}<!-- author linkedin --><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin"></i></a>{% endif %}
+      {% if author.github %}<!-- author github --><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github"></i></a>{% endif %}
+      {% if author.twitter %}<!-- author twitter --><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square"></i></a>{% endif %}
 
   </div><!-- /social-icons -->
 

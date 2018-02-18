@@ -58,9 +58,9 @@ Sriraam Natarajan:
   name: "Sriraam Natarajan"
   uri: "http://utdallas.edu/~sriraam.natarajan/"
   avatar: "/assets/images/headshots/sriraamnatarajan.jpg"
-  location: "Dallas, TX"
+  location: "The University of Texas at Dallas"
   email: "Sriraam.Natarajan@utdallas.edu"
-  bio: "Associate Professor of Computer Science at The University of Texas at Dallas."
+  bio: "Associate Professor of Computer Science."
   twitter:
   github: "boost-starai"
   linkedin: sriraam-natarajan-392a693
@@ -69,9 +69,9 @@ Gautam Kunapuli:
   name: "Gautam Kunapuli"
   uri: "http://www.utdallas.edu/~Gautam.Kunapuli/"
   avatar: "/assets/images/headshots/gautamkunapuli.jpg"
-  location: "Dallas, TX"
+  location: "The University of Texas at Dallas"  
   email: "gautam.kunapuli@utdallas.edu"
-  bio: "Research Associate Professor at The University of Texas at Dallas."
+  bio: "Research Associate Professor of Computer Science."
   twitter:
   github:
   linkedin: "gautam-kunapuli"
@@ -84,9 +84,9 @@ Mayukh Das:
   name: "Mayukh Das"
   uri: "https://sites.google.com/site/mayukhdas3986/"
   avatar: "/assets/images/headshots/mayukhdas.jpg"
-  location: "Dallas, TX"
+  location: "The University of Texas at Dallas"
   email: "mayukhds@gmail.com"
-  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
+  bio: "Computer Science Ph.D. Student."
   twitter:
   github: "mayukhdas"
   linkedin: "mdas86"
@@ -95,42 +95,42 @@ Devendra Dhami:
   name: "Devendra Singh Dhami"
   uri:
   avatar: "/assets/images/headshots/devendrasinghdhami.jpg"
-  location: "Dallas, TX"
-  email:
-  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
+  location: "The University of Texas at Dallas"
+  email: "dsd170230@utdallas.edu"
+  bio: "Computer Science Ph.D. Student."
   twitter:
-  github:
+  github: "ddhami"
   linkedin:
 
 Navdeep Kaur:
   name: "Navdeep Kaur"
   uri:
   avatar: "/assets/images/headshots/navdeepkaur.jpg"
-  location: "Dallas, TX"
-  email:
-  bio: "Computer Science Ph.D. Student at Indiana University, Bloomington."
+  location: "Indiana University, Bloomington"
+  email: "navdkaur@umail.iu.edu"
+  bio: "Computer Science Ph.D. Student."
   twitter:
-  github:
+  github: "navdeepkjohal"
   linkedin:
 
 Srijita Das:
   name: "Srijita Das"
   uri:
   avatar: "/assets/images/headshots/srijitadas.jpg"
-  location: "Dallas, TX"
-  email:
-  bio: "Computer Science Ph.D. Student at Indiana University, Bloomington."
+  location: "Indiana University, Bloomington"
+  email: "sridas@indiana.edu"
+  bio: "Computer Science Ph.D. Student."
   twitter:
-  github:
+  github: "sridas123"
   linkedin:
 
 Nandini Ramanan:
   name: "Nandini Ramanan"
   uri:
   avatar: "/assets/images/headshots/nandiniramanan.jpg"
-  location: "Dallas, TX"
-  email:
-  bio: "Health Informatics Ph.D. Student at Indiana University, Bloomington."
+  location: "Indiana University, Bloomington"
+  email: "nramanan@iu.edu"
+  bio: "Health Informatics Ph.D. Student."
   twitter:
   github: "nandhiniramanan5"
   linkedin:
@@ -139,9 +139,9 @@ Alexander Hayes:
   name: "Alexander L. Hayes"
   uri: "http://batflyer.net"
   avatar: "/assets/images/headshots/alexanderhayes.jpg"
-  location: "Dallas, TX"
+  location: "The University of Texas at Dallas"
   email: "alexander@batflyer.net"
-  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
+  bio: "Computer Science Ph.D. Student."
   twitter: "alexanderlhayes"
   github: "batflyer"
   linkedin: "alexanderlhayes"
@@ -149,10 +149,10 @@ Alexander Hayes:
 Kaushik Roy:
   name: "Kaushik Roy"
   uri:
-  avatar:
-  location: "Dallas, TX"
-  email: "kauroy@indiana.edu"
-  bio: "Computer Science Ph.D. Student. I love science <3"
+  avatar: "/assets/images/headshots/kaushikroy.jpg"
+  location: "The University of Texas at Dallas"
+  email: "kxr150330@utdallas.edu"
+  bio: "Computer Science Ph.D. Student."
   twitter:
   github: "kkroy36"
   linkedin:
@@ -161,9 +161,9 @@ Harsha Kokel:
   name: "Harsha Kokel"
   uri: "http://utdallas.edu/~harsha.kokel/"
   avatar: "/assets/images/headshots/harshakokel.jpg"
-  location: "Dallas, TX"
+  location: "The University of Texas at Dallas"
   email: "harsha.kokel@utdallas.edu"
-  bio: "Computer Science Ph.D. Student at The University of Texas at Dallas."
+  bio: "Computer Science Ph.D. Student."
   twitter:
   github: "harshakokel"
   linkedin: "harshakokel"
@@ -176,9 +176,9 @@ Phillip Odom:
   name: "Phillip Odom"
   uri: "http://homes.soic.indiana.edu/phodom/"
   avatar: "/assets/images/headshots/phillipodom.jpg"
-  location:
-  email:
-  bio:
+  location: "Research Scientist at Georgia Tech"
+  email: "phodom@indiana.edu"
+  bio: 'Ph.D. Computer Science 2017 (IU). Thesis: "Active Advice-Seeking for Reinforcement Learning"'
   twitter:
   github:
   linkedin:
@@ -187,18 +187,18 @@ Shuo Yang:
   name: "Shuo Yang"
   uri: "http://homes.soic.indiana.edu/shuoyang/"
   avatar: "/assets/images/headshots/shuoyang.jpg"
-  location: "San Francisco Bay Area"
-  email:
-  bio:
+  location: "Amobee"
+  email: "shuoyang@indiana.edu"
+  bio: 'Ph.D. Health Informatics 2017 (IU). Thesis: "Effective Learning of Probabilistic Models for Clinical Predictions from Longitudinal Data"'
   twitter:
   linkedin: "shuo-yang-57498970"
 
 Tushar Khot:
   name: "Tushar Khot"
-  uri:
+  uri: "http://allenai.org/team/tushark/index.html"
   avatar: "/assets/images/headshots/tusharkhot.jpg"
-  location: "Allen Institute for AI"
-  email:
-  bio:
+  location: "Research Scientist at Allen Institute for AI"
+  email: "tusharK@allenai.org"
+  bio: 'Ph.D. Computer Science 2014 (WISC). Thesis: "Efficient Learning of Statistical Relational Models'
   twitter:
   linkedin:
