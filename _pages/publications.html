@@ -12,10 +12,10 @@ $paragraph-indent: true
 
 <!-- Buttons for publication type filter starts -->
 <div class="button-group filter-button-group">
+    <a class="button all active" data-filter="*">All</a>
 	{% for category in site.data.publication-type %}
 		<a class="button" data-filter=".{{ category.id}}">{{ category.name}}</a>
 	{% endfor %}
-		<a class="button active" data-filter="*">All</a>
 </div>
 <!-- Buttons for publication type filter ends -->
 
@@ -32,7 +32,7 @@ $paragraph-indent: true
 
     <!-- publications start -->
     {% for publication in group.items %}
-        <div style="" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% if forloop.last %}& {% endif %}{% assign l_name = author | split: ' ' | last %}{% assign f_name = author | split: ' ' | pop %}{{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}.{% endfor%}, {% endfor %}<i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>, {{publication.venue}} {{publication.year}}.{% if publication.slide%}<a class="slides" href="{{publication.slide}}"><i class="far fa-fw fa-file-powerpoint"></i></a>{% endif %}{% if publication.video%}<a class="video" href="{{publication.video}}"><i class="fab fa-fw fa-youtube"></i></a>{% endif %}</div>
+        <div style="" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% if forloop.last %}& {% endif %}{% assign l_name = author | split: ' ' | last %}{% assign f_name = author | split: ' ' | pop %}{{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}.{% endfor%}, {% endfor %}<i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>, {{publication.venue}} {{publication.year}}.{% if publication.code %}<a class="icon code" href="{{publication.code}}"><i class="fas fa-fw fa-code"></i></a>{% endif %} {% if publication.slide%}<a class="icon slides" href="{{publication.slide}}"><i class="far fa-fw fa-file-powerpoint"></i></a>{% endif %} {% if publication.video%}<a class="icon video" href="{{publication.video}}"><i class="fas fa-fw fa-video"></i></a>{% endif %} {% if publication.poster %}<a class="icon poster" href="{{publication.poster}}"><i class="far fa-fw fa-file-image"></i></a>{% endif %}</div>
     {% endfor %}
     <!-- publications end -->
 <div><br></div>

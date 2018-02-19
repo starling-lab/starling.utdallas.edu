@@ -93,14 +93,14 @@ Mayukh Das:
 
 Devendra Dhami:
   name: "Devendra Singh Dhami"
-  uri:
+  uri: "http://www.utdallas.edu/~devendra.dhami/"
   avatar: "/assets/images/headshots/devendrasinghdhami.jpg"
   location: "The University of Texas at Dallas"
   email: "dsd170230@utdallas.edu"
   bio: "Computer Science Ph.D. Student."
   twitter:
   github: "ddhami"
-  linkedin:
+  linkedin: "devendra-singh-dhami-38988728"
 
 Navdeep Kaur:
   name: "Navdeep Kaur"
@@ -163,7 +163,7 @@ Harsha Kokel:
   avatar: "/assets/images/headshots/harshakokel.jpg"
   location: "The University of Texas at Dallas"
   email: "harsha.kokel@utdallas.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science. Graduate Student."
   twitter:
   github: "harshakokel"
   linkedin: "harshakokel"
