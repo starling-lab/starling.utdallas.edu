@@ -63,6 +63,19 @@ a.button.active {
 
 
 // Styles for Homepage starts
+.page__hero--overlay .page__lead{
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: inherit;
+    font-weight: 200;
+    padding: 10px;
+    background: rgba(0,0,0,0.8);
+}
+.page__title {
+    background: rgba(0,0,0,0.3);
+    width: fit-content;
+    padding: 5px;
+}
 .news-title{
     a{
         color: #4095ff;
