@@ -72,6 +72,29 @@ a.button.active {
     padding: 15px;
     border: 3px Solid black;
 }
+.blink {
+    animation: blink 3s steps(7, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+  }
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+ .flash {
+     float: right;
+     @media (max-width: 48em){
+         img {
+             height: 35px;
+         }
+     }
+ }
+
 //
 // .container {
 //     width: 100%;
