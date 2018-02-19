@@ -19,17 +19,35 @@
 .button-group{
     margin: 0 0 11px 0;
 }
+a.all{
+    @media (max-width: 37.5em) {
+        padding: 20px 5px 3px 5px !important;
+    }
+}
 a.button{
     background-color: #e1e1e1;
     border: 1px solid #000000;
     font-size: $type-size-6;
-    padding: 3px;
-    color: #000000
+    padding: 3px 5px;
+    color: #000000;
+    @media (min-width: 37.5em){
+        padding: 5px 10px;
+    }
+    @media (max-width: 37.5em) {
+        display: inline-block;
+        max-width: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
 }
 a.button.active {
     background: #626262;
     border: 1px solid #000000;
     color: #fff;
+    text-decoration: none !important;
+    @media (max-width: 37.5em) {
+        font-weight: 100;
+    }
 }
 .year {
     color: #000000;

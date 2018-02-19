@@ -12,10 +12,10 @@ $paragraph-indent: true
 
 <!-- Buttons for publication type filter starts -->
 <div class="button-group filter-button-group">
+    <a class="button all active" data-filter="*">All</a>
 	{% for category in site.data.publication-type %}
 		<a class="button" data-filter=".{{ category.id}}">{{ category.name}}</a>
 	{% endfor %}
-		<a class="button active" data-filter="*">All</a>
 </div>
 <!-- Buttons for publication type filter ends -->
 
