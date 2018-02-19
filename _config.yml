@@ -26,10 +26,10 @@ collections:
 
 # Site Settings
 locale                   : "en-US"
-title			 : "AI Conflux Lab"
+title			 : "STARLinG"
 title_separator          : "-"
-name                     : "Alexander L. Hayes"
-description              : "An amazing website."
+name                     : "Alexander L. Hayes & Harsha Kokel"
+description              : "Webpage for the STARLinG Lab. An Artificial Intelligence research group at the University of Texas at Dallas."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : HumanInTheLoop
