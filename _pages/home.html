@@ -22,10 +22,10 @@ intro:
 {% include feature_row %}
 
 <div class="news">
-    <h3>Latest Updates</h3>
+    <h3 class="">What's new?</h3>
     <hr>
     <section>
-    {% for post in site.categories.news %}
+    {% for post in site.categories.news limit:5  %}
     <span class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></span>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <br>
     <span class="news-excerpt">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</span>
     {% endfor %}
