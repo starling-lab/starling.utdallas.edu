@@ -7,6 +7,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+
 // Styles for publications page starts
 .element-item {
     font-size: $type-size-6;
@@ -74,7 +76,12 @@ a.button.active {
 .page__title {
     background: rgba(0,0,0,0.3);
     width: fit-content;
-    padding: 5px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: $type-size-4 !important;
+    u {
+        text-decoration: underline;
+    }
 }
 .news-title{
     a{
