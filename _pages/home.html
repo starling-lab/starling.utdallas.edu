@@ -20,6 +20,15 @@ github:
 {% include feature_row %}
 
 <div class="news">
+  <h3 class="">Student Research Highlights</h3>
+  <section>
+    {% for post in site.categories.research-highlights limit:1 %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+  </section>
+</div>
+
+<div class="news">
     <h3 class="">What's new? <span class="flash"> <img src="/assets/images/news-flash.gif"/></span></h3>
 
     <hr>
