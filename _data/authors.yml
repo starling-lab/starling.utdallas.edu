@@ -49,6 +49,7 @@ STARAI Lab:
   bio: "Bridging the gap between Logic and Statistics in Artificial Intelligence."
   email: "Sriraam.Natarajan@utdallas.edu"
   github: "HumanInTheLoop"
+  group: "lab"
 
 ##
 ## Faculty
@@ -60,21 +61,23 @@ Sriraam Natarajan:
   avatar: "/assets/images/headshots/sriraamnatarajan.jpg"
   location: "The University of Texas at Dallas"
   email: "Sriraam.Natarajan@utdallas.edu"
-  bio: "Associate Professor of Computer Science."
+  bio: "Associate Professor of Computer Science. <br> Principal Investigator"
   twitter:
   github: "boost-starai"
   linkedin: sriraam-natarajan-392a693
+  group: "head"
 
 Gautam Kunapuli:
   name: "Gautam Kunapuli"
   uri: "http://www.utdallas.edu/~Gautam.Kunapuli/"
   avatar: "/assets/images/headshots/gautamkunapuli.jpg"
-  location: "The University of Texas at Dallas"  
+  location: "The University of Texas at Dallas"
   email: "gautam.kunapuli@utdallas.edu"
   bio: "Research Associate Professor of Computer Science."
   twitter:
   github:
   linkedin: "gautam-kunapuli"
+  group: "head"
 
 ##
 ## Current Lab Members
@@ -82,91 +85,107 @@ Gautam Kunapuli:
 
 Mayukh Das:
   name: "Mayukh Das"
+  lastname: "Das"
   uri: "https://sites.google.com/site/mayukhdas3986/"
   avatar: "/assets/images/headshots/mayukhdas.jpg"
   location: "The University of Texas at Dallas"
   email: "mayukhds@gmail.com"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "mayukhdas"
   linkedin: "mdas86"
+  group: "current-student"
 
 Devendra Dhami:
   name: "Devendra Singh Dhami"
+  lastname: "Dhami"
   uri: "http://www.utdallas.edu/~devendra.dhami/"
   avatar: "/assets/images/headshots/devendrasinghdhami.jpg"
   location: "The University of Texas at Dallas"
   email: "dsd170230@utdallas.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "ddhami"
   linkedin: "devendra-singh-dhami-38988728"
+  group: "current-student"
 
 Navdeep Kaur:
   name: "Navdeep Kaur"
+  lastname: "Kaur"
   uri:
   avatar: "/assets/images/headshots/navdeepkaur.jpg"
   location: "Indiana University, Bloomington"
   email: "navdkaur@umail.iu.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "navdeepkjohal"
   linkedin:
+  group: "current-student"
 
 Srijita Das:
   name: "Srijita Das"
+  lastname: "Das"
   uri:
   avatar: "/assets/images/headshots/srijitadas.jpg"
   location: "Indiana University, Bloomington"
   email: "sridas@indiana.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "sridas123"
   linkedin:
+  group: "current-student"
 
 Nandini Ramanan:
   name: "Nandini Ramanan"
+  lastname: "Ramanan"
   uri:
   avatar: "/assets/images/headshots/nandiniramanan.jpg"
   location: "Indiana University, Bloomington"
   email: "nramanan@iu.edu"
-  bio: "Health Informatics Ph.D. Student."
+  bio: "Health Informatics (Ph.D.)"
   twitter:
   github: "nandhiniramanan5"
   linkedin:
+  group: "current-student"
 
 Alexander Hayes:
   name: "Alexander L. Hayes"
+  lastname: "Hayes"
   uri: "http://batflyer.net"
   avatar: "/assets/images/headshots/alexanderhayes.jpg"
   location: "The University of Texas at Dallas"
   email: "alexander@batflyer.net"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter: "alexanderlhayes"
   github: "batflyer"
   linkedin: "alexanderlhayes"
+  group: "current-student"
 
 Kaushik Roy:
   name: "Kaushik Roy"
+  lastname: "Roy"
   uri:
   avatar: "/assets/images/headshots/kaushikroy.jpg"
   location: "The University of Texas at Dallas"
   email: "kxr150330@utdallas.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "kkroy36"
   linkedin:
+  group: "current-student"
 
 Harsha Kokel:
   name: "Harsha Kokel"
+  lastname: "Kokel"
   uri: "http://utdallas.edu/~harsha.kokel/"
   avatar: "/assets/images/headshots/harshakokel.jpg"
   location: "The University of Texas at Dallas"
   email: "harsha.kokel@utdallas.edu"
-  bio: "Computer Science. Graduate Student."
+  bio: "Computer Science. (M.S.)"
   twitter:
   github: "harshakokel"
   linkedin: "harshakokel"
+  group: "current-student"
 
 ##
 ## ALUMNUS
@@ -182,6 +201,8 @@ Phillip Odom:
   twitter:
   github:
   linkedin:
+  year: 2017
+  group: "alumni"
 
 Shuo Yang:
   name: "Shuo Yang"
@@ -192,6 +213,8 @@ Shuo Yang:
   bio: 'Ph.D. Health Informatics 2017 (IU). Thesis: "Effective Learning of Probabilistic Models for Clinical Predictions from Longitudinal Data"'
   twitter:
   linkedin: "shuo-yang-57498970"
+  group: "alumni"
+  year: 2017
 
 Tushar Khot:
   name: "Tushar Khot"
@@ -202,3 +225,5 @@ Tushar Khot:
   bio: 'Ph.D. Computer Science 2014 (WISC). Thesis: "Efficient Learning of Statistical Relational Models'
   twitter:
   linkedin:
+  group: "alumni"
+  year: 2014

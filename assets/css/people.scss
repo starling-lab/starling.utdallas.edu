@@ -1,0 +1,83 @@
+---
+# Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes";
+
+
+#main {
+    margin-top: 1em;
+}
+
+
+// Styles for people pages starts
+h1.lab-members{
+    text-align: center;
+}
+.collection {
+    margin-bottom: 20px;
+    div{
+        text-align: center;
+        margin-bottom: 5px;
+        @media (max-width: 48em){
+            display: none
+        }
+    }
+    .head{
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+        img {
+            border: 4px solid #4095ff;
+            max-width: 200px;
+        }
+    }
+    .alumni {
+        margin-top: 10px;
+        img {
+            border: 2px solid #4095ff;
+        }
+    }
+    .current-students{
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+    }
+    .author_intro{
+        display: inline-block;
+        margin: 0px 50px;
+        .name{
+            display: block
+        }
+    }
+}
+// Styles for people pages ends
+
+
+// Styles for members.html starts
+.container {
+    @media (min-width: 48em){
+        display: flex;
+        margin-bottom: 40px
+    }
+    .avatar {
+        @media (min-width: 48em){
+            display: inline-block;
+            float: left;
+            margin-right: 100px;
+            img {
+                max-width: 150px;
+            }
+        }
+    }
+    .author-details {
+        .author__content p{
+            font-size: $type-size-6 !important;
+            margin-bottom: 3px !important;
+            line-height: initial;
+        }
+        .social-icons {
+            margin-top: 5px
+        }
+    }
+}
+// Styles for members.html ends

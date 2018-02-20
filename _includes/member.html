@@ -1,0 +1,55 @@
+{% assign author = include.author %}
+<div class = "container" id="{{author.name}}">
+    <!-- Avatar starts-->
+    <div class="avatar">
+    {% if author.avatar %}
+        <div class="author__avatar">
+            {% if author.avatar contains "://" %}
+                {% assign author_src = author.avatar %}
+            {% else %}
+                {% assign author_src = author.avatar | absolute_url %}
+            {% endif %}
+            {% if author.uri %}
+                {% if author.uri contains "://" %}
+                    {% assign author_link = author.uri %}
+                {% else %}
+                    {% assign author_link = author.uri | absolute_url %}
+                {% endif %}
+                <a href="{{ author_link }}">
+                    <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+                </a>
+            {% else %}
+                <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+            {% endif %}
+        </div>
+    {% endif %}
+    </div>
+    <!-- Avatar ends-->
+    <div class="author-details">
+    <div class="author__content">
+        {% if author.uri %}
+        <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
+        {% else %}
+        <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+        {% endif %}
+
+        {% if author.bio %}
+        <p class="author__bio" itemprop="description">
+            {{ author.bio }}
+        </p>
+        {% endif %}
+        <p class="location">
+        {% if author.location %}<!-- author location --><i class="fas fa-fw fa-map-marker-alt"></i> {{ author.location }}<br>{% endif %}
+        </p>
+    </div>
+    <!-- </"author__content"> -->
+    <div class="social-icons">
+        {% if author.uri %}<!-- author website --><a href="{{ author.uri }}"><i class="fas fa-fw fa-link"></i></a>{% endif %}
+        {% if author.email %}<!-- author email --><a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i></a>{% endif %}
+        {% if author.linkedin %}<!-- author linkedin --><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin"></i></a>{% endif %}
+        {% if author.github %}<!-- author github --><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github"></i></a>{% endif %}
+        {% if author.twitter %}<!-- author twitter --><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square"></i></a>{% endif %}
+    </div><!-- /social-icons -->
+    </div>
+
+</div>
