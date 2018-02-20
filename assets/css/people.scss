@@ -24,7 +24,7 @@ h1.lab-members{
             display: none
         }
     }
-    .head{
+    .faculties{
         border-bottom: 1px solid gray;
         padding-bottom: 10px;
         img {
@@ -42,7 +42,7 @@ h1.lab-members{
         border-bottom: 1px solid gray;
         padding-bottom: 10px;
     }
-    .author_intro{
+    .member_intro{
         display: inline-block;
         margin: 0px 50px;
         .name{
@@ -69,7 +69,7 @@ h1.lab-members{
             }
         }
     }
-    .author-details {
+    .member-details {
         .author__content p{
             font-size: $type-size-6 !important;
             margin-bottom: 3px !important;

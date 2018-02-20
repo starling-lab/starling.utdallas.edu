@@ -13,6 +13,8 @@
 ##
 ##   name             : "Alexander L. Hayes"
 ##   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+##   lastname         : Last name used for sorting only
+##   group            : "faculty", "current-student" or "alumni"
 ##   bio              : "Ph.D. Student at The University of Texas at Dallas"
 ##   location         : "Dallas, TX"
 ##   email            :
@@ -65,7 +67,7 @@ Sriraam Natarajan:
   twitter:
   github: "boost-starai"
   linkedin: sriraam-natarajan-392a693
-  group: "head"
+  group: "faculty"
 
 Gautam Kunapuli:
   name: "Gautam Kunapuli"
@@ -77,7 +79,7 @@ Gautam Kunapuli:
   twitter:
   github:
   linkedin: "gautam-kunapuli"
-  group: "head"
+  group: "faculty"
 
 ##
 ## Current Lab Members
@@ -197,7 +199,7 @@ Phillip Odom:
   avatar: "/assets/images/headshots/phillipodom.jpg"
   location: "Research Scientist at Georgia Tech"
   email: "phodom@indiana.edu"
-  bio: 'Ph.D. Computer Science 2017 (IU). Thesis: "Active Advice-Seeking for Reinforcement Learning"'
+  bio: 'Ph.D. Computer Science 2017 (IU). <br> Thesis: "Active Advice-Seeking for Reinforcement Learning"'
   twitter:
   github:
   linkedin:
@@ -210,7 +212,7 @@ Shuo Yang:
   avatar: "/assets/images/headshots/shuoyang.jpg"
   location: "Amobee"
   email: "shuoyang@indiana.edu"
-  bio: 'Ph.D. Health Informatics 2017 (IU). Thesis: "Effective Learning of Probabilistic Models for Clinical Predictions from Longitudinal Data"'
+  bio: 'Ph.D. Health Informatics 2017 (IU). <br> Thesis: "Effective Learning of Probabilistic Models for Clinical Predictions from Longitudinal Data"'
   twitter:
   linkedin: "shuo-yang-57498970"
   group: "alumni"
@@ -222,7 +224,7 @@ Tushar Khot:
   avatar: "/assets/images/headshots/tusharkhot.jpg"
   location: "Research Scientist at Allen Institute for AI"
   email: "tusharK@allenai.org"
-  bio: 'Ph.D. Computer Science 2014 (WISC). Thesis: "Efficient Learning of Statistical Relational Models'
+  bio: 'Ph.D. Computer Science 2014 (WISC). <br> Thesis: "Efficient Learning of Statistical Relational Models'
   twitter:
   linkedin:
   group: "alumni"
