@@ -14,6 +14,7 @@
 ##   name             : "Alexander L. Hayes"
 ##   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
 ##   lastname         : Last name used for sorting only
+##   year             : Year of graduation, Used for sorting in chronological order.
 ##   group            : "faculty", "current-student" or "alumni"
 ##   bio              : "Ph.D. Student at The University of Texas at Dallas"
 ##   location         : "Dallas, TX"
