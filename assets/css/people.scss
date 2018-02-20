@@ -54,15 +54,31 @@ h1.lab-members{
 
 
 // Styles for members.html starts
-.container {
+h2 {
     @media (min-width: 48em){
-        display: flex;
-        margin-bottom: 40px
+        width: 70% !important;
+        margin-left: 150px;
+    }
+    @media (max-width: 48em){
+        width: 100%;
+
+    }
+}
+.container {
+    display: flex;
+    @media (max-width: 48em){
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    @media(min-width: 48em){
+        width: 80%;
+        margin-left: 150px;
+        margin-bottom: 40px;
     }
     .avatar {
-        @media (min-width: 48em){
-            display: inline-block;
-            float: left;
+        display: inline-block;
+        float: left;
+        @media (min-width: 60em){
             margin-right: 100px;
             img {
                 max-width: 150px;
