@@ -3,7 +3,7 @@
 ---
 .scroll{
     direction: rtl;
-    overflow: scroll;
+    overflow: auto;
 }
 .timeline{
     display: flex;
@@ -33,13 +33,11 @@
           }
           .event_title {
             font-size: 14px;
-            flex: 1;
             align-items: center;
             margin-left: 12px;
             margin-top: 3px;
             padding: 5px;
-            overflow: scroll;
-            text-overflow: ellipsis;
+            overflow: auto;
             height: 70px;
             a {
                 text-decoration: none;
