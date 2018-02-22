@@ -1,0 +1,55 @@
+{% assign member = include.member %}
+<div class = "container" id="{{member.name}}">
+    <!-- Avatar starts-->
+    <div class="avatar">
+    {% if member.avatar %}
+        <div class="author__avatar">
+            {% if member.avatar contains "://" %}
+                {% assign member_src = member.avatar %}
+            {% else %}
+                {% assign member_src = member.avatar | absolute_url %}
+            {% endif %}
+            {% if member.uri %}
+                {% if member.uri contains "://" %}
+                    {% assign member_link = member.uri %}
+                {% else %}
+                    {% assign member_link = member.uri | absolute_url %}
+                {% endif %}
+                <a href="{{ member_link }}">
+                    <img src="{{ member_src }}" alt="{{ member.name }}" itemprop="image">
+                </a>
+            {% else %}
+                <img src="{{ member_src }}" alt="{{ member.name }}" itemprop="image">
+            {% endif %}
+        </div>
+    {% endif %}
+    </div>
+    <!-- Avatar ends-->
+    <div class="member-details">
+    <div class="author__content">
+        {% if member.uri %}
+        <a href="{{ member_link }}"><h3 class="author__name" itemprop="name">{{ member.name }}</h3></a>
+        {% else %}
+        <h3 class="author__name" itemprop="name">{{ member.name }}</h3>
+        {% endif %}
+
+        {% if member.bio %}
+        <p class="author__bio" itemprop="description">
+            {{ member.bio }}
+        </p>
+        {% endif %}
+        <p class="location">
+        {% if member.location %}<!-- member location --><i class="fas fa-fw fa-map-marker-alt"></i> {{ member.location }}<br>{% endif %}
+        </p>
+    </div>
+    <!-- </"author__content"> -->
+    <div class="social-icons">
+        {% if member.uri %}<!-- member website --><a href="{{ member.uri }}"><i class="fas fa-fw fa-link"></i></a>{% endif %}
+        {% if member.email %}<!-- member email --><a href="mailto:{{ member.email }}"><meta itemprop="email" content="{{ member.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i></a>{% endif %}
+        {% if member.linkedin %}<!-- member linkedin --><a href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fab fa-fw fa-linkedin"></i></a>{% endif %}
+        {% if member.github %}<!-- member github --><a href="https://github.com/{{ member.github }}"><i class="fab fa-fw fa-github"></i></a>{% endif %}
+        {% if member.twitter %}<!-- member twitter --><a href="https://twitter.com/{{ member.twitter }}"><i class="fab fa-fw fa-twitter-square"></i></a>{% endif %}
+    </div><!-- /social-icons -->
+    </div>
+
+</div>

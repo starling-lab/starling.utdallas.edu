@@ -1,0 +1,76 @@
+---
+# Sass file needs front matter (the dashes are enough)
+---
+$primary-color: #0a9be9;
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes";
+
+// Styles for Homepage starts
+.page__hero--overlay .page__lead{
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: inherit;
+    font-weight: 200;
+    padding: 10px;
+    background: rgba(0,0,0,0.8);
+}
+.page__title {
+    background: rgba(0,0,0,0.3);
+    width: fit-content;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: $type-size-4 !important;
+    u {
+        text-decoration: underline;
+    }
+}
+.news-title{
+    a{
+        color: #4095ff;
+        text-decoration: none;
+    }
+}
+.news-date{
+    font-size: $type-size-8;
+}
+.news-excerpt{
+    font-size: $type-size-6;
+}
+
+@media (min-width: 37.5em){
+ .archive__item-body {
+    width: 100% !important;
+  }
+}
+.news{
+    h3{
+        color: #d42525;
+        margin-top: inherit;
+    }
+    background: #e1e1e1;
+    padding: 15px;
+    border: 3px Solid black;
+}
+.blink {
+    animation: blink 3s steps(7, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+  }
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+ .flash {
+     float: right;
+     @media (max-width: 48em){
+         img {
+             height: 35px;
+         }
+     }
+ }
+// Styles for Homepage ends

@@ -193,6 +193,7 @@
   year: "2015"
   title: "Graph-based Approximate Counting for Relational Probabilistic Models"
   venue: "International Workshop on Statistical Relational AI (StarAI)"
+  url: "/assets/pdfs/MainGraphApproxStarai.pdf"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 - publicationType: "workshop-papers"
