@@ -5,22 +5,21 @@ title: "<u>ST</u>atistical <u>A</u>rtificial intelligence and <u>R</u>elational 
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/linkprediction.jpg
-excerpt: 'We are interested in making smart machines that humans can use reliably in their everyday lives. Artificial Intelligence (AI) has made tremendous progress since its early days, and its advancement has helped shape the progress of research in many other fields. Traditionally, AI is used with either the logical approach (to address structured problems) or with the statistical approach (to handle uncertainty). Our research interests lie at the intersection: advancement and application of algorithms that can do both.<br><br>&nbsp;[<i class="fab fa-twitter"></i> @starling_lab](https://twitter.com/starling_lab){: .btn .btn--twitter} [<i class="fab fa-github"></i> @starling-lab](https://github.com/starling-lab){: .btn .btn--primary}'
+excerpt: 'We are interested in making smart machines that humans can use reliably in their everyday lives. Artificial Intelligence (AI) has made tremendous progress since its early days, and its advancement has helped shape the progress of research in many other fields. Traditionally, AI is used with either the logical approach (to address structured problems) or with the statistical approach (to handle uncertainty). Our research interests lie at the intersection: advancement and application of algorithms that can do both.<br><br>&nbsp;[<i class="fab fa-twitter"></i> @starling_lab](https://twitter.com/starling_lab){: .btn .btn--twitter} [<i class="fab fa-github"></i> @starling-lab](https://github.com/starling-lab){: .btn .btn--info}'
 
 ---
 <link rel="stylesheet" type="text/css" href="/assets/css/home.css">
-
 <link rel="stylesheet" href="/assets/css/bootstrap.css">
 
 <style>
-  .img-center {
-  margin: 0 auto;
-  }
-
   .custom-author-avatar {
   border: 1px solid #bfbfbf;
   max-width: 200px;
   border-radius: 50%;
+  }
+
+  .entry-headers {
+  padding-top: 1.3em;
   }
 </style>
 
@@ -57,13 +56,13 @@ excerpt: 'We are interested in making smart machines that humans can use reliabl
 		   {
 		   divRandomPosts.append('<img src="' + postPhoto + '" class="img-fluid custom-author-avatar">');
                    divRandomPosts.append('<h3 style="text-align: center;"><a href="' + postHREF + '">' + postTitle + '</a></h3>');
-		   divRandomPosts.append(postExcerpt);
+		   divRandomPosts.append('<p style="text-align: left;">' + postExcerpt + '</p>');
 		   }
 		   else
 		   {
 		   divRandomPosts.append('<img src="' + postPhoto + '" class="img-fluid custom-author-avatar">')
 		   divRandomPosts.append('<h3 style="text-align: center;"><a href="' + postHREF + '">' + postTitle + '</a></h3>');
-		   divRandomPosts.append(postExcerpt);
+		   divRandomPosts.append('<p style="text-align: left;">' + postExcerpt + '</p>');
 		   }
 
 		   randomIndexUsed.push(randomIndex);
@@ -82,29 +81,22 @@ excerpt: 'We are interested in making smart machines that humans can use reliabl
 
 
 
-<h1>Research Highlights</h1>
+<h1 class="entry-headers">Research Highlights</h1>
+<hr>
 
 <div class="container">
   <div class="row">
-    
     <div class="col-sm"><img src="/assets/images/starling-logo.png"></div>
     <div class="col-sm"><div style="text-align: center;"><div id="random_posts"></div></div></div>
-    
   </div>
 </div>
 
+<h1 class="entry-headers">Latest News</h1>
 <hr>
 
-<div class="news">
-  
-  <h3 class="">What's new? <span class="flash"> <img src="/assets/images/news-flash.gif"/></span></h3>
-  
-  <hr>
-  <section>
-    {% for post in site.categories.news limit:5  %}
-    <span class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></span>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <br>
-    <span class="news-excerpt">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 130 }}{% endif %}</span>
-    <br>
-    {% endfor %}
-  </section>
-</div>
+<section>
+  {% for post in site.categories.news limit:5  %}
+  <br>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+  <br>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}<br>
+  {% endfor %}
+</section>
