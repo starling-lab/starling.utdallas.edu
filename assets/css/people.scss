@@ -1,0 +1,99 @@
+---
+# Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes";
+
+
+#main {
+    margin-top: 1em;
+}
+
+
+// Styles for people pages starts
+h1.lab-members{
+    text-align: center;
+}
+.collection {
+    margin-bottom: 20px;
+    div{
+        text-align: center;
+        margin-bottom: 5px;
+        @media (max-width: 48em){
+            display: none
+        }
+    }
+    .faculty{
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+        img {
+            border: 4px solid #4095ff;
+            max-width: 200px;
+        }
+    }
+    .alumni {
+        margin-top: 10px;
+        img {
+            border: 2px solid #4095ff;
+        }
+    }
+    .current-students{
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+    }
+    .member_intro{
+        display: inline-block;
+        margin: 0px 50px;
+        .name{
+            display: block
+        }
+    }
+}
+// Styles for people pages ends
+
+
+// Styles for members.html starts
+h2 {
+    @media (min-width: 48em){
+        width: 70% !important;
+        margin-left: 150px;
+    }
+    @media (max-width: 48em){
+        width: 100%;
+
+    }
+}
+.container {
+    display: flex;
+    @media (max-width: 48em){
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    @media(min-width: 48em){
+        width: 80%;
+        margin-left: 150px;
+        margin-bottom: 40px;
+    }
+    .avatar {
+        display: inline-block;
+        float: left;
+        @media (min-width: 60em){
+            margin-right: 100px;
+            img {
+                max-width: 150px;
+            }
+        }
+    }
+    .member-details {
+        .author__content p{
+            font-size: $type-size-6 !important;
+            margin-bottom: 3px !important;
+            line-height: initial;
+        }
+        .social-icons {
+            margin-top: 5px
+        }
+    }
+}
+// Styles for members.html ends

@@ -3,75 +3,80 @@ layout: splash
 permalink: /people/
 title: "Lab Members"
 ---
+<link rel="stylesheet" type="text/css" href="/assets/css/people.css">
 
 <!--
-    A work-in-progress for generating a page of current lab members.
-    Might be worth exploring a 'role' tag that differentiates between
-    current and past members.
+A work-in-progress for generating a page of current lab members.
+Might be worth exploring a 'role' tag that differentiates between
+current and past members.
 
-    Inspired by the author profile wrappers from @mmistakes
-    https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/author-profile.html
-  -->
+Inspired by the member profile wrappers from @mmistakes
+https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/member-profile.html
+-->
 
+<h1 class="lab-members">{{page.title}}</h1>
+<!-- Collection starts -->
+<div class="collection">
+
+    <!-- Faculties of lab start -->
+    <div class="faculty author__avatar">
+        {% assign faculties = site.data.authors | where: "group", "faculty" %}
+        {% for member in faculties %}
+        <div class="member_intro">
+            <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
+            <span class="name">{{member.name}}</span>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- Faculties of lab end -->
+
+    <!-- Current students start -->
+    <div class="current-students author__avatar">
+        {% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
+        {% for member in current %}
+        <div class="member_intro">
+            <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
+            <span class="name">{{member.name}}</span>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- Current students end -->
+
+    <!-- Alumni starts -->
+    <div class="alumni author__avatar">
+        {% assign alumni = site.data.authors | where: "group", "alumni" | sort: "year" %}
+        {% for member in alumni %}
+        <div class="member_intro">
+            <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
+            <span class="name">{{member.name}}</span>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- Alumni Ends-->
+
+</div>
+<!-- Collection ends -->
+
+<h2>Faculty</h2>
 <div itemscope itemtype ="http://schema.org/Person">
+    {% assign current = site.data.authors | where: "group", "faculty" %}
+    {% for memberid in current %}
+        {% include member.html member=memberid %}
+    {% endfor %}
+</div>
 
-  {% for authorid in site.data.authors %}
-  {% if authorid[0] != 'STARAI Lab' %}
+<h2>Current Students</h2>
+<div itemscope itemtype ="http://schema.org/Person">
+    {% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
+    {% for memberid in current %}
+        {% include member.html member=memberid %}
+    {% endfor %}
+</div>
 
-  {% assign currentauthor = authorid[0] %}
-  {% assign author = site.data.authors[currentauthor] %}
-
-  {% if author.avatar %}
-  <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-    {% assign author_src = author.avatar %}
-    {% else %}
-    {% assign author_src = author.avatar | absolute_url %}
-    {% endif %}
-
-    {% if author.home %}
-    {% if author.home contains "://" %}
-    {% assign author_link = author.home %}
-    {% else %}
-    {% assign author_link = author.home | absolute_url %}
-    {% endif %}
-    <a href="{{ author_link }}">
-      <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
-    </a>
-    {% else %}
-    <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
-    {% endif %}
-  </div>
-  {% endif %}
-
-  
-  <div class="author__content">
-    {% if author.home %}
-      <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
-    {% else %}
-      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
-    {% endif %}
-      
-    {% if author.bio %}
-      <p class="author__bio" itemprop="description">
-      {{ author.bio }}
-      </p>
-    {% endif %}
-
-  </div><!-- </"author__content"> -->
-
-  <div class="social-icons">
-
-      {% if author.location %}<!-- author location --><i class="fas fa-fw fa-map-marker-alt"></i>{{ author.location }}<br>{% endif %}
-      {% if author.uri %}<!-- author website --><a href="{{ author.uri }}"><i class="fas fa-fw fa-link"></i></a>{% endif %}
-      {% if author.email %}<!-- author email --><a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i></a>{% endif %}
-      {% if author.linkedin %}<!-- author linkedin --><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin"></i></a>{% endif %}
-      {% if author.github %}<!-- author github --><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github"></i></a>{% endif %}
-      {% if author.twitter %}<!-- author twitter --><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square"></i></a>{% endif %}
-
-  </div><!-- /social-icons -->
-
-  <hr>
-  
-  {% endif %}
-  {% endfor %}
+<h2>Alumni</h2>
+<div itemscope itemtype ="http://schema.org/Person">
+    {% assign current = site.data.authors | where: "group", "alumni" | sort: "year" %}
+    {% for memberid in current %}
+        {% include member.html member=memberid %}
+    {% endfor %}
+</div>
