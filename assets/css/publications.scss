@@ -2,8 +2,9 @@
 # Sass file needs front matter (the dashes are enough)
 ---
 
+$primary-color: #0a9be9;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes";
+@import "minimal-mistakes"; // main partials
 
 // Styles for publications page starts
 .element-item {
