@@ -1,0 +1,30 @@
+---
+layout: splash
+permalink: /sponsors/
+title: "Sponsors"
+---
+
+<h1 class="">{{page.title}}</h1>
+
+{% assign sponsors = site.data.sponsors | sort: "date" | reverse %}
+{% for sponsor in sponsors %}
+    <div class="sponsor">
+        <div class="details">
+            <h3>{{sponsor.title}}</h3>
+            <div class="time">Period:  {{sponsor.period}}</div>
+            <div class="PI">Principal Investigator:  {{sponsor.PI}}</div>
+            <div class="description"> {{sponsor.description}}</div>
+        </div>
+    </div>
+{% endfor %}
+
+<hr>
+
+
+
+<div class="sponsor-logos">
+    {% assign sponsor_logos =  site.data.sponsors | sort: "date" |  group_by: 'logo' %}
+    {% for logo in sponsor_logos%}
+        <img src="{{logo.name}}"/>
+    {% endfor %}
+</div>

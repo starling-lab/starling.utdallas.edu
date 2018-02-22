@@ -1,0 +1,120 @@
+---
+# Sass file needs front matter (the dashes are enough)
+---
+.scroll{
+    direction: rtl;
+    overflow: scroll;
+}
+.timeline{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    > div{
+        display: flex;
+        align-items: center;
+    }
+    img {
+        width: 120px;
+        padding: 5px;
+    }
+    .event{
+      position: relative;
+      direction: ltr;
+      .event_bubble{
+          display: flex;
+          position: absolute;
+          background-color: #e1e1e1;
+          border-radius: 5px;
+          width: 240px;
+          height: 80px;
+          box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64);
+          .logo {
+              width: 400px;
+          }
+          .event_title {
+            font-size: 14px;
+            flex: 1;
+            align-items: center;
+            margin-left: 12px;
+            margin-top: 3px;
+            padding: 5px;
+            overflow: scroll;
+            text-overflow: ellipsis;
+            height: 70px;
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+          }
+          .event_description {
+              font-size: 11px;
+          }
+
+      }
+      .time{
+          font-size: 12px;
+          margin-top: -16px;
+          padding-top: 5px;
+          margin-left: -5px;
+      }
+    }
+    .event_bubble:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent;
+      border-bottom: 0;
+    }
+}
+
+.timeline > div:nth-of-type(even) .event .event_bubble {
+  top: -85px;
+  left: -15px;
+}
+
+.timeline > div:nth-of-type(odd) .event .event_bubble {
+  left: -105px;
+  top: 33px;
+}
+
+.timeline > div:nth-of-type(odd) .event .time{
+    font-size: 12px;
+    margin-top: -46px;
+    margin-left: -9px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+}
+
+.timeline > div:nth-of-type(even) .event .event_bubble:before {
+  bottom: -10px;
+  left: 13px;
+  border-top-color: #e1e1e1;
+  border-width: 12px;
+}
+
+.timeline > div:nth-of-type(odd) .event_bubble:before {
+  bottom: 77px;
+  left: 103px;
+  border-top-color: #e1e1e1;
+  border-width: 12px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.now{
+     background-color: #004165;
+    color: white;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 4px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0 0 0 2px #004165
+}
