@@ -1,6 +1,6 @@
 ﻿---
 layout: single
-title:  'Mayukh Das: "Communicating with Computers"'
+title:  'Mayukh Das: "Human-in-the-Loop AI"'
 date:   2018-02-20 15:46:00 -0600
 categories: research-highlights
 author: Mayukh Das
