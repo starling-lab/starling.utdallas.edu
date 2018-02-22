@@ -4,5 +4,32 @@
 
 @charset "utf-8";
 
+$primary-color: #0a9be9;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.sponsor-logos{
+    @media (max-width: 48em){
+        text-align: justify;
+        margin: 20px;
+    }
+    margin-top: 20px;
+    img{
+        max-height: 120px;
+        padding: 10px;
+        max-width: 120px;
+    }
+}
+
+.sponsor {
+    display: flex;
+    width: 80%;
+
+    .details {
+        float: left;
+        width: 90%;
+        .time, .PI, .description{
+                font-size: 0.8em;
+        }
+    }
+}
