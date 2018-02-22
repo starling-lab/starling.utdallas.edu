@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Navdeep Kaur"
+title:  'Navdeep Kaur: "Relational Connectionist Models"'
 date:   2018-02-20 15:46:00 -0600
 categories: research-highlights
 author: Navdeep Kaur

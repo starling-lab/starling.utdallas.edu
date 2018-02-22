@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Alexander L. Hayes"
+title:  'Alexander L. Hayes: "Natural Language Processing"'
 date:   2018-02-20 15:46:00 -0600
 categories: research-highlights
 author: Alexander Hayes

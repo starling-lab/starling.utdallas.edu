@@ -5,37 +5,86 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/linkprediction.jpg
 excerpt: "We are interested in making smart machines that humans can use reliably in their everyday lives. Artificial Intelligence (AI) has made tremendous progress since its early days, and its advancement has helped shape the progress of research in many other fields. Traditionally, AI is used with either the logical approach (to address structured problems) or with the statistical approach (to handle uncertainty). Our research interests lie at the intersection: advancement and application of algorithms that can do both."
-feature_row:
-  - title: "Logic"
-    excerpt: "AI has a history of using logic as the formal language for expressing and evaluating human knowledge."
-  - title: "Probability"
-    excerpt: "The hard constraints of logic can be imposing in a world filled with noise, we soften the hard constraints with probabilities."
-  - title: "Relations"
-    excerpt: "Most of the world's knowledge is stored in relational databases, our algorithms focus on methods which exploit these inherent relationships."
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 ---
 
-<!-- {% include feature_row id="intro" type="center" %} -->
-{% include feature_row %}
+<!--
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+-->
 
-<div class="news">
-  <h3 class="">Student Research Highlights</h3>
-  <section>
-    {% for post in site.categories.research-highlights limit:1 %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
-  </section>
+<link rel="stylesheet" href="/assets/css/bootstrap.css">
+
+<style>
+  .img-center {
+  margin: 0 auto;
+  }
+
+  .custom-author-avatar {
+  border: 1px solid #bfbfbf;
+  max-width: 200;
+  border-radius: 50%;
+  }
+</style>
+
+<h1>Research Highlights</h1>
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-sm">
+      <img src="/assets/images/starling-logo.png">
+    </div>
+
+    <div class="col-sm">
+  
+      {% for post in site.categories.research-highlights limit:1 %}
+      
+      {% assign currentAuthor = post.author %}
+      {% assign author = site.data.authors[currentAuthor] %}
+
+      {% if author.avatar %}
+      <div style="text-align: center;">
+	{% if author.avatar contains "://" %}
+        {% assign author_src = author.avatar %}
+	{% else %}
+        {% assign author_src = author.avatar | absolute_url %}
+	{% endif %}
+
+	{% if author.home %}
+        {% if author.home contains "://" %}
+        {% assign author_link = author.home %}
+        {% else %}
+        {% assign author_link = author.home | absolute_url %}
+        {% endif %}
+
+	<a href="{{ author_link }}">
+	  <img src="{{ author_src }}" alt="{{ author.name }}" class="img-fluid custom-author-avatar">
+	</a>
+	{% else %}
+	<img src="{{ author_src }}" alt="{{ author.name }}" class="img-fluid custom-author-avatar">
+	{% endif %}
+      </div>
+      {% endif %}
+      
+      <a href="{{ post.url }}"><h3 style="text-align: center;">{{ post.title }}</h3></a>
+      {% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate:160 }}{% endif %}
+      {% endfor %}
+      
+    </div>
+  </div>
 </div>
 
-<div class="news">
-    <h3 class="">What's new? <span class="flash"> <img src="/assets/images/news-flash.gif"/></span></h3>
+<hr>
 
-    <hr>
-    <section>
+<div class="news">
+  <h3 class="">What's new? <span class="flash"> <img src="/assets/images/news-flash.gif"/></span></h3>
+  
+  <hr>
+  <section>
     {% for post in site.categories.news limit:5  %}
     <span class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></span>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <br>
     <span class="news-excerpt">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</span>
     {% endfor %}
-    </section>
+  </section>
 </div>
