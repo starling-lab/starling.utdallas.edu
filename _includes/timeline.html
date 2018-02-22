@@ -1,7 +1,5 @@
 <link href="/assets/css/timeline.css" type="text/css"  rel="stylesheet">
 
-<h3>Grants over years</h3>
-
 <div class="scroll">
     <div class="timeline">
 
@@ -33,7 +31,9 @@
     </div>
 </div>
 
-<h3>Acknowledgements</h3>
+<h1 style="padding-top: 1.3em;">Acknowledgements</h1>
+<hr>
+
 <div class="sponsor-logos">
     {% assign sponsor_logos =  site.data.sponsors | sort: "date" |  group_by: 'logo' %}
     {% for logo in sponsor_logos%}
