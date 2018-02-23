@@ -32,7 +32,7 @@ name                     : "Alexander L. Hayes & Harsha Kokel"
 description              : "Webpage for the STARLinG Lab. An Artificial Intelligence research group at the University of Texas at Dallas."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : HumanInTheLoop
+repository               : boost-starai/boost-starai.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
