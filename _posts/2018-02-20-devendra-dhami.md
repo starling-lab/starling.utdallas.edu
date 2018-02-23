@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  'Devendra Singh Dhami: "Precision Health"'
+title:  'Devendra Singh Dhami: "Bioinformatics"'
 date:   2018-02-20 15:46:00 -0600
 categories: research-highlights
 author: Devendra Dhami
