@@ -53,6 +53,7 @@ STARAI Lab:
   email: "Sriraam.Natarajan@utdallas.edu"
   github: "HumanInTheLoop"
   group: "lab"
+  twitter: "STARLing_lab"
 
 ##
 ## Faculty
@@ -65,7 +66,7 @@ Sriraam Natarajan:
   location: "The University of Texas at Dallas"
   email: "Sriraam.Natarajan@utdallas.edu"
   bio: "Associate Professor of Computer Science. <br> Principal Investigator"
-  twitter:
+  twitter: "NSriraam_StaRAI"
   github: "boost-starai"
   linkedin: sriraam-natarajan-392a693
   group: "faculty"
@@ -77,7 +78,7 @@ Gautam Kunapuli:
   location: "The University of Texas at Dallas"
   email: "gautam.kunapuli@utdallas.edu"
   bio: "Research Associate Professor of Computer Science."
-  twitter:
+  twitter: "gkunapuli"
   github:
   linkedin: "gautam-kunapuli"
   group: "faculty"
