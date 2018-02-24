@@ -30,7 +30,7 @@ title			 : "STARLinG"
 title_separator          : "-"
 name                     : "STARLinG Lab"
 description              : "Webpage for the STARLinG Lab. An Artificial Intelligence research group at the University of Texas at Dallas."
-url                      : https://starling.utdallas.edu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://boost-starai.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : boost-starai/boost-starai.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
