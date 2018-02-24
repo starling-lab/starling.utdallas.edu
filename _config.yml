@@ -28,10 +28,10 @@ collections:
 locale                   : "en-US"
 title			 : "STARLinG"
 title_separator          : "-"
-name                     : "Alexander L. Hayes & Harsha Kokel"
+name                     : "STARLinG Lab"
 description              : "Webpage for the STARLinG Lab. An Artificial Intelligence research group at the University of Texas at Dallas."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : https://starling.utdallas.edu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : boost-starai/boost-starai.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -79,7 +79,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : STARLing_lab
 facebook:
   username               :
   app_id                 :
@@ -87,16 +87,17 @@ facebook:
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
+
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   :  # Person or Organization (defaults to Person)
+  name                   :  # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-99296192-3
 
 
 # Site Author
