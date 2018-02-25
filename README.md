@@ -21,6 +21,8 @@ Contact: `{alexander.hayes/harsha.kokel}@utdallas.edu`
 
 Refer to [CONTRIBUTING.md](.github/CONTRIBUTING.md) for documentation on submitting issues and pull requests.
 
+A [Guide to Updating the Website](.github/docs/README.md) has more information on how to author new pages, and the same directory has templates that may be useful.
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [LICENSE.txt](LICENSE.txt) for a full copy of the license.

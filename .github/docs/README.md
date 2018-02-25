@@ -2,7 +2,7 @@
 
 by: [Alexander L. Hayes (@batflyer)](https://github.com/batflyer/)
 
-Websites should naturally change over time, this guide is meant to help make the process simpler. See `.github/docs` for templates discussed in this.
+Websites should naturally change over time, this guide is meant to help make the process simpler.
 
 ## Blog Posts
 
