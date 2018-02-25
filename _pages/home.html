@@ -94,11 +94,15 @@ excerpt: 'We are interested in making smart machines that humans can use reliabl
 <h1 class="entry-headers">Latest News</h1>
 <hr>
 
+{% assign sortednews = site.news | reverse %}
+
 <section>
-  {% for post in site.categories.news limit:5  %}
+  {% for post in sortednews limit:5  %}
   <br>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
   <br>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}<br>
   {% endfor %}
 </section>
+
+<br><p>For previous news, see the <a style="font-weight: bold" href="/news-archive/">News Archive</a></p>
 
 {% include timeline.html %}
