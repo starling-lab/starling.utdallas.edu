@@ -4,7 +4,7 @@ title: "Network of Code Lyoko FanFiction"
 description: Network of Code Lyoko Fanfiction from FanFiction.net and a search engine to explore it.
 date: 2016-12-30
 excerpt: 6520 stories written in 15 languages over the course of twelve years; a fanfiction community visualized.
-categories: network visualization
+categories: tutorial
 author: Alexander Hayes
 ---
 

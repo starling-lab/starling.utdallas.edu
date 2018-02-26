@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "AAMAS'2018 papers accepted"
-date: 2018-2-18
+date: 2018-02-18
 excerpt: Great start to 2018, our two papers got accepted in International Conference on Autonomous Agents and Multiagent Systems (AAMAS).
 categories: news
 author: STARAI Lab
