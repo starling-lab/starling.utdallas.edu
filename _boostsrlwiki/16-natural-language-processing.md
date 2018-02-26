@@ -31,6 +31,6 @@ Natural language processing is generally a hard task for methods which ignore th
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>

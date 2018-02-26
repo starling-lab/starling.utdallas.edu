@@ -91,9 +91,11 @@ Here is a basic dataset to help with understanding advice and its associated fil
 
 Download: [Toy-Advice.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Advice/Toy-Advice.zip?raw=true) (27.5 KB)
 
-* `md5sum`: 7ad05a6cfa3b9cde55a96669cb94ed15
+* `md5sum`: 
+  <p style="word-break: break-all;">7ad05a6cfa3b9cde55a96669cb94ed15</p>
 
-* `sha256sum`: df60f5399a41ff8ef38f136366a55e4886d0af8705bfce55b761710a1f3848c7
+* `sha256sum`: 
+  <p style="word-break: break-all;">df60f5399a41ff8ef38f136366a55e4886d0af8705bfce55b761710a1f3848c7</p>
 
 advice.txt:
 ```
@@ -130,6 +132,6 @@ Test with:
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>

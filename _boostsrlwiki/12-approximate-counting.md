@@ -58,6 +58,6 @@ There are certain limitations to using the approximate counting module (as discu
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>
