@@ -24,9 +24,11 @@ Provide some motivation for what is being solved, and how this helps to solve it
 
 Download: [NameOfDataset.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/.../....zip?raw=true) (*Size* KB)
 
-* `md5sum`: ...
+* `md5sum`: 
+  <p style="word-break: break-all;">stringoflettersandnumbers</p>
 
-* `sha256sum`: ...
+* `sha256sum`: 
+  <p style="word-break: break-all;">stringoflettersandnumbers</p>
 
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 

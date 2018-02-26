@@ -55,9 +55,11 @@ cancer(Earl).
 
 Download: [Toy-Cancer.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Cancer/Toy-Cancer.zip?raw=true) (2.83 KB)
 
-* `md5sum`: fa15b64583f9b1abc7fd78b93025792d
+* `md5sum`: 
+  <p style="word-break: break-all;">fa15b64583f9b1abc7fd78b93025792d</p>
 
-* `sha256sum`: 618d9283caa5459711b01d7b535aa1e91c8c98945ed4085248368a373ce880c2
+* `sha256sum`: 
+  <p style="word-break: break-all;">618d9283caa5459711b01d7b535aa1e91c8c98945ed4085248368a373ce880c2</p>
 
 ---
 

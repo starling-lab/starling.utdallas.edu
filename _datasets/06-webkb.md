@@ -21,9 +21,11 @@ The facts contain information on five labels: `courseprof`, `courseta`, `project
 
 Download: [WebKB.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/WebKB/WebKB.zip?raw=true) (41.1 KB)
 
-* `md5sum`: 977e62fca51bfa7fe9c27bdf8af5d478
+* `md5sum`: 
+  <p style="word-break: break-all;">977e62fca51bfa7fe9c27bdf8af5d478</p>
 
-* `sha256sum`: 7b36e85cc99483a98c68fc868ba9890398339eaca20b48b80e4b56d16ddc1522
+* `sha256sum`: 
+  <p style="word-break: break-all;">7b36e85cc99483a98c68fc868ba9890398339eaca20b48b80e4b56d16ddc1522</p>
 
 ---
 

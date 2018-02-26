@@ -19,9 +19,11 @@ Target:
 
 Download: [IMDB.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/IMDB/IMDB.zip?raw=true) (29.6 KB)
 
-* `md5sum`: 70f85ae348531b3103008d4e6acfa379
+* `md5sum`: 
+  <p style="word-break: break-all;">70f85ae348531b3103008d4e6acfa379</p>
 
-* `sha256sum`: fe636348146f9f0ef0c2a081515abf543e3db9bdab1b441575955095c41e4c4f
+* `sha256sum`: 
+  <p style="word-break: break-all;">fe636348146f9f0ef0c2a081515abf543e3db9bdab1b441575955095c41e4c4f</p>
 
 [Table of Contents](#table-of-contents) - [BoostSRL Wiki](Home)
 

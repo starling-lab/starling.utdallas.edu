@@ -24,9 +24,11 @@ The facts contain information on six labels: `author`, `haswordauthor`, `hasword
 
 Download: [Cora.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Cora/Cora.zip?raw=true) (489 KB)
 
-* `md5sum`: 905ad622d003da817c00f9835f36dc2f
+* `md5sum`: 
+  <p style="word-break: break-all;">905ad622d003da817c00f9835f36dc2f</p>
 
-* `sha256sum`: 0a8b1f138d6827344c840bc3e3cccbe1eb40f2c102f929a05f4bc8f96ebbdae7
+* `sha256sum`: 
+  <p style="word-break: break-all;">0a8b1f138d6827344c840bc3e3cccbe1eb40f2c102f929a05f4bc8f96ebbdae7</p>
 
 ---
 
