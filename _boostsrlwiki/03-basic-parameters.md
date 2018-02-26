@@ -64,6 +64,6 @@ From the [CiteSeer Dataset](CiteSeer-Dataset):
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>

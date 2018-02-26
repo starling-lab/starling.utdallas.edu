@@ -23,6 +23,12 @@ collections:
   datasets:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Settings
 locale                   : "en-US"

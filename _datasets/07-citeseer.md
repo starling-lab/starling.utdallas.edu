@@ -21,9 +21,11 @@ Three targets are possible:
 
 Download: [CiteSeer.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/CiteSeer/CiteSeer.zip?raw=true) (1.62 MB)
 
-* `md5sum`: e606e6f3fbe12f62cb5261285b39209c
+* `md5sum`: 
+  <p style="word-break: break-all;">e606e6f3fbe12f62cb5261285b39209c</p>
 
-* `sha256sum`: f5f6dd960a09d98e80cb2dcb735463dbc7dc5aaf2676f98d938be7df6edd2200
+* `sha256sum`: 
+  <p style="word-break: break-all;">f5f6dd960a09d98e80cb2dcb735463dbc7dc5aaf2676f98d938be7df6edd2200</p>
 
 ---
 

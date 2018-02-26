@@ -1,0 +1,19 @@
+---
+layout: archive
+permalink: /news-archive/
+title: "STARLinG News Archive"
+author_profile: true
+---
+
+<style>
+  .news-date {
+  font-size:.625em;
+  }
+</style>
+
+{% assign sorted = site.news | reverse %}
+
+{% for post in sorted %}
+
+<br>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}

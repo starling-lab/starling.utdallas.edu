@@ -41,7 +41,7 @@ Think from a classic machine learning perspective. We divide data into training 
 
 If you want to use the model to perform inference on data you do not know the labels for, add your data to either `test_pos.txt` or `test_neg.txt`. The regression values in the `results_(target).txt` can be roughly interpreted as "What is the probability of this example being true/false?", respectfully.
 
-<button class=".btn .btn--primary .btn--large" onclick=topOfPage()">Table of Contents</button>
+<button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
 ---
 

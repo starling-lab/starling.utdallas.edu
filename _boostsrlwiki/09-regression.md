@@ -13,7 +13,7 @@ The type of regression implemented here is "**Least Square Error Tree Boosting**
 
 Loss function: `L(y,F(x)) = (y - F(x))^2`
 
-![least square error function, showing the result of the functional derivation of phi minus phi hat with respect to phi](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Images/LSBoostRegression.png "least square error function, showing the result of the functional derivation of phi minus phi hat with respect to phi")
+<img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/LSBoostRegression.png" style="display: block; margin: auto; padding-top: 0.4em; padding-bottom: 0.4em;"/>
 
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
@@ -85,6 +85,6 @@ regressionExample(medv(id153),15.3).
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>
