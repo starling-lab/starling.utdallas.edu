@@ -21,3 +21,11 @@ a1c(+Patient,+a1cValue).
 
 We want to discretize the 1rst argument and into 4 bins.
 disc: a1c([2],[4]).
+
+<button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
+
+<script>
+function topOfPage() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+}
+</script>

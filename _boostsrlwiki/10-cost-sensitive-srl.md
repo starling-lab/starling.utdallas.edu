@@ -32,3 +32,11 @@ CSSRL allows you to incorporate the domain knowledge on different weights of pos
 2. `-alpha` should be set to assign the weight on false negative examples.
 
 3. `-beta` should be set to assign the weight on false positive examples.
+
+<button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
+
+<script>
+function topOfPage() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+}
+</script>

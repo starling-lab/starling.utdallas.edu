@@ -23,9 +23,11 @@ The facts contain information on fourteen labels: `courselevel`, `hasposition`, 
 
 Download: [UW-CSE.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/UW-CSE/UW-CSE.zip?raw=true) (257 KB)
 
-* `md5sum`: 5e8217ebdb835ff8b6ff94eb3880d96b
+* `md5sum`: 
+  <p style="word-break: break-all;">5e8217ebdb835ff8b6ff94eb3880d96b</p>
 
-* `sha256sum`: f16be492805bdac95cded02a3a3e590c29a68145f5ea59eb4180c300fb23b7e2
+* `sha256sum`: 
+  <p style="word-break: break-all;">f16be492805bdac95cded02a3a3e590c29a68145f5ea59eb4180c300fb23b7e2</p>
 
 ---
 

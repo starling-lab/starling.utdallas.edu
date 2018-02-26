@@ -19,7 +19,7 @@ This idea is now extended to grounded random walks from the given lifted random 
 
 Suppose we are provided with a lifted random walk as follows:
 
-![PersonID1 -> SamePerson -> PersonID -> IsA -> Designation -> not(isA) -> PersonID -> tempAdvisedBy -> PersonID2](https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/liftedrandomwalkExample.png)
+<img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/liftedrandomwalkExample.png" style="display: block; margin: auto; padding-bottom: 0.4em; padding-top: 0.4em;"/>
 
 We are inferring the target relation `advisedBy(personid1,personid2)` by converting it into a clausal form that is acceptable to MLN-Boost inference.
 
@@ -88,6 +88,6 @@ The output grounded random walks are stored inside `./test/OutputRW.txt` Kindly 
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>

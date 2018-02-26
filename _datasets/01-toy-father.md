@@ -65,9 +65,11 @@ The facts contain labels for `male`, `siblingof`, and `childof`.
 
 Download: [Toy-Father.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Father/Toy-Father.zip?raw=true) (4.3 KB)
 
-* `md5sum`: a637cae7ba78997a0d0bb372d1edaf5e
+* `md5sum`: 
+  <p style="word-break: break-all;">a637cae7ba78997a0d0bb372d1edaf5e</p>
 
-* `sha256sum`: 75a45707975977daa7358e4678dd3eaf97293c6d98910e474c133593adb1cfd7
+* `sha256sum`: 
+  <p style="word-break: break-all;">75a45707975977daa7358e4678dd3eaf97293c6d98910e474c133593adb1cfd7</p>
 
 ---
 
