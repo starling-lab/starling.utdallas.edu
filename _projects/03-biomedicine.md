@@ -2,7 +2,7 @@
 layout: single
 title: "Bioinformatics and Biomedicine"
 permalink: /projects/biomedicine/
-excerpt:
+excerpt: "Bioinformatics is the field of applying statistics and computer science to the field of molecular biology. Our lab focuses mainly on the subarea of pattern recognition in biomedical data."
 ---
 
 ## People Involved
