@@ -15,7 +15,7 @@ The grand vision of smart machines is when intelligent machines and humans will 
 
 Our research includes, but is not limited to, knowledge-augmented Statistical Relational Learning, human guided and collaborative decision-making and planning (esp. stochastic, partially observable, semi-structured environments) "active" human-AI interaction, various modalities of human guidance and, finally, successful application of such systems to real-world tasks such as Health, Biomedicine and Finance.
 
-Concept learning, domain transfer/extension and higher level knowledge induction are some additional interesting research ventures (motivated by DARPA 'Communicating with Computers'). We aim for an over-arching framework for human-AI collaboration involving multiple human non-experts and machines with varied modalities of interaction.
+Concept learning, domain transfer/extension and higher level knowledge induction are some additional interesting research ventures (motivated by DARPA 'Communicating with Computers'). We aim for an over-arching framework for human-AI collaboration involving multiple human (non)experts and machines with varied modalities of interaction.
 
 ## References:
 
