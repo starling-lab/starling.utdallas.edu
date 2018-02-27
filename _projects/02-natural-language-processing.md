@@ -9,7 +9,6 @@ excerpt: "Methods which can extract relations from text and exploit these relati
 
 * Alexander L. Hayes
 * Kaushik Roy
-* Sriraam Natarajan
 
 Natural language processing is a hard task for traditional machine learning models, since they tend to ignore the relationships between the sentences, words, and text in documents. Because of this, they require careful feature construction and often make assumptions about conditional independences between all of the elements.
 

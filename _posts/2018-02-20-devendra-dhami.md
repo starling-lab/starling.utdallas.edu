@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  'Devendra Singh Dhami: "Bioinformatics"'
+title:  'Devendra Singh Dhami: "Structure-based Discovery of Drug-Drug Interactions"'
 date:   2018-02-20 15:46:00 -0600
 categories: research-highlights
 author: Devendra Dhami

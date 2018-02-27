@@ -3,10 +3,10 @@
 ##   Last Updated: Thursday, February 15, 2018
 ##
 ##   These should be in the order they appear on the /people/ page.
-##   Begin with faculty (e.g. Sriraam and Gautam)
-##   --> Followed by current Ph.D. Students
-##   ----> Followed by Alumnus
-##
+##   Begin with faculty ("faculty")
+##   --> Followed by current Ph.D. Students ("current-student")
+##   ----> Followed by Alumni ("alumni")
+##   ------> Followed by MS Alumni ("ms-alumni")
 ##
 ##
 ##				----- Overview of available options: -----
@@ -231,3 +231,102 @@ Tushar Khot:
   linkedin:
   group: "alumni"
   year: 2014
+
+##
+## MS Alumni
+##
+
+Vignesh Suresh Babu Kishore:
+  name: "Vignesh Suresh Babu Kishore"
+  bio: 'Data Science (M.S.)'
+  year: 2017
+  group: "msalumni"
+
+Dileep Viswanathan:
+  name: "Dileep Viswanathan"
+  location: "Amazon"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Rahul Pasanuri:
+  name: "Rahul Pasanuri"
+  location: "Amazon"
+  bio: 'Computer Science (M.S.) <br> Thesis: "Learning with Privileged Information: Decision-Trees and Boosting"'
+  year: 2016
+  group: "msalumni"
+
+Aniket Gaikwad:
+  name: "Aniket Gaikwad"
+  location: "AppZen"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Vignesh Vijayaraghavan:
+  name: "Vignesh Vijayaraghavan"
+  location: "BehaviorMatrix"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Shreya Maruthi:
+  name: "Shreya Maruthi"
+  location: "Amazon"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Niranjan Pachaiappan:
+  name: "Niranjan Pachaiappan"
+  location: "Denim Group Inc"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Anurag Wazalwar:
+  name: "Anurag Wazalwar"
+  location: "AOL"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Vishal Bangera:
+  name: "Vishal Bangera"
+  location: 'Ernst & Young'
+  bio: 'Computer Science (M.S.)'
+  year: 2015
+  group: "msalumni"
+
+Shrutika Poyrekar:
+  name: "Shrutika Poyrekar"
+  location: "DataCulture"
+  bio: 'Computer Science (M.S.)'
+  year: 2015
+  group: "msalumni"
+
+Baidya Saha:
+  name: "Baidya Nath Saha"
+  location: 'Assistant Professor at CIMAT, Monterrey, Nuevo león, México'
+  bio: 'Post-doc'
+  year: 2014
+  group: "msalumni"
+
+Jose Picado:
+  name: "Jose Picado"
+  location: 'Oregon State University'
+  bio: 'Computer Science (M.S.) <br> Thesis: "Efficient Information Extraction Using Statistical Relational Learning"'
+  year: 2014
+  group: "msalumni"
+
+Adam Edwards:
+  name: "Adam Edwards"
+  location: 'Ph.D. Student at the University of Illinois at Urbana-Champaign'
+  year: 2013
+  group: "msalumni"
+
+Rick Freedman:
+  name: "Rick Freedman"
+  location: 'Ph.D. Student at the University of Massachusetts Amherst'
+  year: 2012
+  group: "msalumni"

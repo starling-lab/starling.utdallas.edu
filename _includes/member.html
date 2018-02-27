@@ -1,7 +1,7 @@
 {% assign member = include.member %}
 <div class = "container" id="{{member.name}}">
-    <!-- Avatar starts-->
-    <div class="avatar">
+  <!-- Avatar starts-->
+  <div class="avatar">
     {% if member.avatar %}
         <div class="author__avatar">
             {% if member.avatar contains "://" %}
@@ -16,10 +16,10 @@
                     {% assign member_link = member.uri | absolute_url %}
                 {% endif %}
                 <a href="{{ member_link }}">
-                    <img src="{{ member_src }}" alt="{{ member.name }}" itemprop="image">
+                    <img src="{{ member_src }}" alt="{{ member.name }}">
                 </a>
             {% else %}
-                <img src="{{ member_src }}" alt="{{ member.name }}" itemprop="image">
+                <img src="{{ member_src }}" alt="{{ member.name }}">
             {% endif %}
         </div>
     {% endif %}

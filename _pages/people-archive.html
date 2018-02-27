@@ -58,25 +58,26 @@ https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/member-profi
 <!-- Collection ends -->
 
 <h2>Faculty</h2>
-<div itemscope itemtype ="http://schema.org/Person">
-    {% assign current = site.data.authors | where: "group", "faculty" %}
-    {% for memberid in current %}
-        {% include member.html member=memberid %}
-    {% endfor %}
-</div>
+{% assign current = site.data.authors | where: "group", "faculty" %}
+{% for memberid in current %}
+    {% include member.html member=memberid %}
+{% endfor %}
 
 <h2>Current Students</h2>
-<div itemscope itemtype ="http://schema.org/Person">
-    {% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
-    {% for memberid in current %}
-        {% include member.html member=memberid %}
-    {% endfor %}
-</div>
+{% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
+{% for memberid in current %}
+    {% include member.html member=memberid %}
+{% endfor %}
 
 <h2>Alumni</h2>
-<div itemscope itemtype ="http://schema.org/Person">
-    {% assign current = site.data.authors | where: "group", "alumni" | sort: "year" %}
-    {% for memberid in current %}
-        {% include member.html member=memberid %}
-    {% endfor %}
-</div>
+{% assign current = site.data.authors | where: "group", "alumni" | sort: "year" | reverse %}
+{% for memberid in current %}
+    {% include member.html member=memberid %}
+{% endfor %}
+
+
+<!-- Other Alumni -->
+{% assign current = site.data.authors | where: "group", "msalumni" | sort: "year" | reverse %}
+{% for memberid in current %}
+    {% include member.html member=memberid %}
+{% endfor %}
