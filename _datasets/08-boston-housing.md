@@ -34,9 +34,11 @@ Features:
 
 Download: [Boston-Housing.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Boston-Housing/Boston-Housing.zip?raw=true) (19 KB)
 
-* `md5sum`: 735bf2c6f0eb220950846a89cb973545
+* `md5sum`: 
+  <p style="word-break: break-all;">735bf2c6f0eb220950846a89cb973545</p>
 
-* `sha256sum`: 5ed2fa475cfa45d5e0327cdc6ff60f98a9621ff68f1fa4118ecfc20fc507754e
+* `sha256sum`: 
+  <p style="word-break: break-all;">5ed2fa475cfa45d5e0327cdc6ff60f98a9621ff68f1fa4118ecfc20fc507754e</p>
 
 ---
 

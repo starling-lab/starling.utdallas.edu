@@ -1,0 +1,61 @@
+---
+# Sass file needs front matter (the dashes are enough)
+---
+
+$primary-color: #0a9be9;
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Styles for publications page starts
+.element-item {
+    font-size: $type-size-6;
+    font-family: sans-serif;
+    margin-top: 3px;
+    .icon{
+        color: #d42525 !important;
+    }
+}
+.button-group{
+    margin: 0 0 11px 0;
+}
+a.all{
+    @media (max-width: 37.5em) {
+        padding: 20px 5px 3px 5px !important;
+    }
+}
+a.button{
+    background-color: #e1e1e1;
+    border: 1px solid #000000;
+    font-size: $type-size-6;
+    padding: 3px 5px;
+    color: #000000;
+    @media (min-width: 37.5em){
+        padding: 5px 10px;
+    }
+    @media (max-width: 37.5em) {
+        display: inline-block;
+        max-width: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+a.button.active {
+    background: #626262;
+    border: 1px solid #000000;
+    color: #fff;
+    text-decoration: none !important;
+    @media (max-width: 37.5em) {
+        font-weight: 100;
+    }
+}
+.year {
+    color: #000000;
+    background-color: #e1e1e1;
+    padding: 0.2em 1em;
+    margin: 0em 0 0em 0;
+    font-size: medium;
+    width: 100%;
+    left: 0px !important;
+}
+
+// Styles for publications page ends

@@ -3,16 +3,19 @@
 ##   Last Updated: Thursday, February 15, 2018
 ##
 ##   These should be in the order they appear on the /people/ page.
-##   Begin with faculty (e.g. Sriraam and Gautam)
-##   --> Followed by current Ph.D. Students
-##   ----> Followed by Alumnus
-##
+##   Begin with faculty ("faculty")
+##   --> Followed by current Ph.D. Students ("current-student")
+##   ----> Followed by Alumni ("alumni")
+##   ------> Followed by MS Alumni ("ms-alumni")
 ##
 ##
 ##				----- Overview of available options: -----
 ##
 ##   name             : "Alexander L. Hayes"
 ##   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+##   lastname         : Last name used for sorting only
+##   year             : Year of graduation, Used for sorting in chronological order.
+##   group            : "faculty", "current-student" or "alumni"
 ##   bio              : "Ph.D. Student at The University of Texas at Dallas"
 ##   location         : "Dallas, TX"
 ##   email            :
@@ -49,6 +52,8 @@ STARAI Lab:
   bio: "Bridging the gap between Logic and Statistics in Artificial Intelligence."
   email: "Sriraam.Natarajan@utdallas.edu"
   github: "HumanInTheLoop"
+  group: "lab"
+  twitter: "STARLing_lab"
 
 ##
 ## Faculty
@@ -60,21 +65,23 @@ Sriraam Natarajan:
   avatar: "/assets/images/headshots/sriraamnatarajan.jpg"
   location: "The University of Texas at Dallas"
   email: "Sriraam.Natarajan@utdallas.edu"
-  bio: "Associate Professor of Computer Science."
-  twitter:
+  bio: "Associate Professor of Computer Science. <br> Principal Investigator"
+  twitter: "NSriraam_StaRAI"
   github: "boost-starai"
   linkedin: sriraam-natarajan-392a693
+  group: "faculty"
 
 Gautam Kunapuli:
   name: "Gautam Kunapuli"
   uri: "http://www.utdallas.edu/~Gautam.Kunapuli/"
   avatar: "/assets/images/headshots/gautamkunapuli.jpg"
-  location: "The University of Texas at Dallas"  
+  location: "The University of Texas at Dallas"
   email: "gautam.kunapuli@utdallas.edu"
   bio: "Research Associate Professor of Computer Science."
-  twitter:
+  twitter: "gkunapuli"
   github:
   linkedin: "gautam-kunapuli"
+  group: "faculty"
 
 ##
 ## Current Lab Members
@@ -82,91 +89,107 @@ Gautam Kunapuli:
 
 Mayukh Das:
   name: "Mayukh Das"
+  lastname: "Das"
   uri: "https://sites.google.com/site/mayukhdas3986/"
   avatar: "/assets/images/headshots/mayukhdas.jpg"
   location: "The University of Texas at Dallas"
   email: "mayukhds@gmail.com"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "mayukhdas"
   linkedin: "mdas86"
+  group: "current-student"
 
 Devendra Dhami:
   name: "Devendra Singh Dhami"
+  lastname: "Dhami"
   uri: "http://www.utdallas.edu/~devendra.dhami/"
   avatar: "/assets/images/headshots/devendrasinghdhami.jpg"
   location: "The University of Texas at Dallas"
   email: "dsd170230@utdallas.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "ddhami"
   linkedin: "devendra-singh-dhami-38988728"
+  group: "current-student"
 
 Navdeep Kaur:
   name: "Navdeep Kaur"
+  lastname: "Kaur"
   uri:
   avatar: "/assets/images/headshots/navdeepkaur.jpg"
   location: "Indiana University, Bloomington"
   email: "navdkaur@umail.iu.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "navdeepkjohal"
   linkedin:
+  group: "current-student"
 
 Srijita Das:
   name: "Srijita Das"
+  lastname: "Das"
   uri:
   avatar: "/assets/images/headshots/srijitadas.jpg"
   location: "Indiana University, Bloomington"
   email: "sridas@indiana.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "sridas123"
   linkedin:
+  group: "current-student"
 
 Nandini Ramanan:
   name: "Nandini Ramanan"
+  lastname: "Ramanan"
   uri:
   avatar: "/assets/images/headshots/nandiniramanan.jpg"
   location: "Indiana University, Bloomington"
   email: "nramanan@iu.edu"
-  bio: "Health Informatics Ph.D. Student."
+  bio: "Health Informatics (Ph.D.)"
   twitter:
   github: "nandhiniramanan5"
   linkedin:
+  group: "current-student"
 
 Alexander Hayes:
   name: "Alexander L. Hayes"
+  lastname: "Hayes"
   uri: "http://batflyer.net"
   avatar: "/assets/images/headshots/alexanderhayes.jpg"
   location: "The University of Texas at Dallas"
   email: "alexander@batflyer.net"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter: "alexanderlhayes"
   github: "batflyer"
   linkedin: "alexanderlhayes"
+  group: "current-student"
 
 Kaushik Roy:
   name: "Kaushik Roy"
+  lastname: "Roy"
   uri:
   avatar: "/assets/images/headshots/kaushikroy.jpg"
   location: "The University of Texas at Dallas"
   email: "kxr150330@utdallas.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "kkroy36"
   linkedin:
+  group: "current-student"
 
 Harsha Kokel:
   name: "Harsha Kokel"
+  lastname: "Kokel"
   uri: "http://utdallas.edu/~harsha.kokel/"
   avatar: "/assets/images/headshots/harshakokel.jpg"
   location: "The University of Texas at Dallas"
   email: "harsha.kokel@utdallas.edu"
-  bio: "Computer Science Ph.D. Student."
+  bio: "Computer Science. (M.S.)"
   twitter:
   github: "harshakokel"
   linkedin: "harshakokel"
+  group: "current-student"
 
 ##
 ## ALUMNUS
@@ -178,10 +201,12 @@ Phillip Odom:
   avatar: "/assets/images/headshots/phillipodom.jpg"
   location: "Research Scientist at Georgia Tech"
   email: "phodom@indiana.edu"
-  bio: 'Ph.D. Computer Science 2017 (IU). Thesis: "Active Advice-Seeking for Reinforcement Learning"'
+  bio: 'Ph.D. Computer Science 2017 (IU). <br> Thesis: "Active Advice-Seeking for Reinforcement Learning"'
   twitter:
   github:
   linkedin:
+  year: 2017
+  group: "alumni"
 
 Shuo Yang:
   name: "Shuo Yang"
@@ -189,9 +214,11 @@ Shuo Yang:
   avatar: "/assets/images/headshots/shuoyang.jpg"
   location: "Amobee"
   email: "shuoyang@indiana.edu"
-  bio: 'Ph.D. Health Informatics 2017 (IU). Thesis: "Effective Learning of Probabilistic Models for Clinical Predictions from Longitudinal Data"'
+  bio: 'Ph.D. Health Informatics 2017 (IU). <br> Thesis: "Effective Learning of Probabilistic Models for Clinical Predictions from Longitudinal Data"'
   twitter:
   linkedin: "shuo-yang-57498970"
+  group: "alumni"
+  year: 2017
 
 Tushar Khot:
   name: "Tushar Khot"
@@ -199,6 +226,107 @@ Tushar Khot:
   avatar: "/assets/images/headshots/tusharkhot.jpg"
   location: "Research Scientist at Allen Institute for AI"
   email: "tusharK@allenai.org"
-  bio: 'Ph.D. Computer Science 2014 (WISC). Thesis: "Efficient Learning of Statistical Relational Models'
+  bio: 'Ph.D. Computer Science 2014 (WISC). <br> Thesis: "Efficient Learning of Statistical Relational Models'
   twitter:
   linkedin:
+  group: "alumni"
+  year: 2014
+
+##
+## MS Alumni
+##
+
+Vignesh Suresh Babu Kishore:
+  name: "Vignesh Suresh Babu Kishore"
+  bio: 'Data Science (M.S.)'
+  year: 2017
+  group: "msalumni"
+
+Dileep Viswanathan:
+  name: "Dileep Viswanathan"
+  location: "Amazon"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Rahul Pasanuri:
+  name: "Rahul Pasanuri"
+  location: "Amazon"
+  bio: 'Computer Science (M.S.) <br> Thesis: "Learning with Privileged Information: Decision-Trees and Boosting"'
+  year: 2016
+  group: "msalumni"
+
+Aniket Gaikwad:
+  name: "Aniket Gaikwad"
+  location: "AppZen"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Vignesh Vijayaraghavan:
+  name: "Vignesh Vijayaraghavan"
+  location: "BehaviorMatrix"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Shreya Maruthi:
+  name: "Shreya Maruthi"
+  location: "Amazon"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Niranjan Pachaiappan:
+  name: "Niranjan Pachaiappan"
+  location: "Denim Group Inc"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Anurag Wazalwar:
+  name: "Anurag Wazalwar"
+  location: "AOL"
+  bio: 'Computer Science (M.S.)'
+  year: 2016
+  group: "msalumni"
+
+Vishal Bangera:
+  name: "Vishal Bangera"
+  location: 'Ernst & Young'
+  bio: 'Computer Science (M.S.)'
+  year: 2015
+  group: "msalumni"
+
+Shrutika Poyrekar:
+  name: "Shrutika Poyrekar"
+  location: "DataCulture"
+  bio: 'Computer Science (M.S.)'
+  year: 2015
+  group: "msalumni"
+
+Baidya Saha:
+  name: "Baidya Nath Saha"
+  location: 'Assistant Professor at CIMAT, Monterrey, Nuevo león, México'
+  bio: 'Post-doc'
+  year: 2014
+  group: "msalumni"
+
+Jose Picado:
+  name: "Jose Picado"
+  location: 'Oregon State University'
+  bio: 'Computer Science (M.S.) <br> Thesis: "Efficient Information Extraction Using Statistical Relational Learning"'
+  year: 2014
+  group: "msalumni"
+
+Adam Edwards:
+  name: "Adam Edwards"
+  location: 'Ph.D. Student at the University of Illinois at Urbana-Champaign'
+  year: 2013
+  group: "msalumni"
+
+Rick Freedman:
+  name: "Rick Freedman"
+  location: 'Ph.D. Student at the University of Massachusetts Amherst'
+  year: 2012
+  group: "msalumni"

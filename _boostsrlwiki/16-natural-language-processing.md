@@ -21,7 +21,7 @@ Natural language processing is generally a hard task for methods which ignore th
 
 ---
 
-### Further Reading
+### References and Further Reading
 
 1. Sriraam Natarajan, Ameet Soni, Anurag Wazalwar, Dileep Viswanathan, and Kristian Kersting, *Deep Distant Supervision: Learning Statistical Relational Models for Weak Supervision in Natural Language Extraction*, Morik Festschrift, LNAI 9580 2016.
 2. Sriraam Natarajan, Vishal Bangera, Tushar Khot, Jose Picado, Anurag Wazalwar, Vitor Santos Costa, David Page, and Michael Caldwell, *Markov Logic Networks for Adverse Drug Event Extraction from Text*, Knowledge and Information Systems (KAIS), 2016.
@@ -31,6 +31,6 @@ Natural language processing is generally a hard task for methods which ignore th
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>

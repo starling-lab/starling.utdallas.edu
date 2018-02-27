@@ -4,87 +4,32 @@
 
 @charset "utf-8";
 
+$primary-color: #0a9be9;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Styles for publications page starts
-.element-item {
-    font-size: $type-size-6;
-    font-family: sans-serif;
-    margin-top: 3px;
-}
-.button-group{
-    margin: 0 0 11px 0;
-}
-a.button{
-    background-color: #e1e1e1;
-    border: 1px solid #000000;
-    font-size: $type-size-6;
-    padding: 3px;
-    color: #000000
-}
-a.button.active {
-    background: #626262;
-    border: 1px solid #000000;
-    color: #fff;
-}
-.year {
-    color: #000000;
-    background-color: #e1e1e1;
-    padding: 0.2em 1em;
-    margin: 0em 0 0em 0;
-    font-size: medium;
-    width: 100%;
-    left: 0px !important;
-}
-.slides{
-    color: #d42525 !important;
-}
-.video{
-    color: #d42525 !important;
-}
-// Styles for publications page ends
-
-
-// Styles for Homepage starts
-.news-title{
-    a{
-        color: #4095ff;
-        text-decoration: none;
+.sponsor-logos{
+    @media (max-width: 48em){
+        text-align: justify;
+        margin: 20px;
+    }
+    margin-top: 20px;
+    img{
+        max-height: 120px;
+        padding: 10px;
+        max-width: 120px;
     }
 }
-.news-date{
-    font-size: $type-size-8;
-}
-.news-excerpt{
-    font-size: $type-size-6;
-}
 
-@media (min-width: 37.5em){
- .archive__item-body {
-    width: 100% !important;
-  }
-}
-.news{
-    h3{
-        color: #d42525;
-        margin-top: inherit;
+.sponsor {
+    display: flex;
+    width: 80%;
+
+    .details {
+        float: left;
+        width: 90%;
+        .time, .PI, .description{
+                font-size: 0.8em;
+        }
     }
-    background: #d9e2ec;
-    padding: 15px;
-    border: 3px Solid black;
 }
-//
-// .container {
-//     width: 100%;
-//     margin: auto;
-// }
-// .one {
-//     width: 20%;
-//     float: left;
-// }
-// .two {
-//     margin-left: 20%;
-// }
-
-// Styles for Homepage ends

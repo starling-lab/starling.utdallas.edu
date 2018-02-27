@@ -80,6 +80,6 @@ The output will be stored in 'RWRPredicates.txt' file in the same folder as inpu
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>

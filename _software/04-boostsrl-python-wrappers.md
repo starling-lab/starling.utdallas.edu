@@ -3,21 +3,21 @@ layout: splash
 permalink: /software/boostsrl-python-wrappers/
 title: 'BoostSRL: Python Wrappers'
 author: Alexander Hayes
-excerpt: 'A Python wrapper for BoostSRL to help automate learning/inference tasks.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=HumanInTheLoop&repo=boostsrl-python-package&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=HumanInTheLoop&repo=boostsrl-python-package&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'A Python wrapper for BoostSRL to help automate learning/inference tasks.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Download'
-  cta_url: "https://github.com/HumanInTheLoop/boostsrl-python-package/releases"
+  cta_url: "https://github.com/starling-lab/boostsrl-python-package/releases"
   caption: 'Copyright © 2017-2018 AI Conflux Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 <p align="center">
-	<img src="https://github.com/HumanInTheLoop/boostsrl-python-package/raw/master/media/box2.png" />
+	<img src="https://github.com/starling-lab/boostsrl-python-package/raw/master/media/box2.png" />
 </p>
 
 | License | Build Status | Codecov |
 | :---: | :---: | :---: |
-| [![][license img]][license] | [![Build Status](https://travis-ci.org/HumanInTheLoop/boostsrl-python-package.svg?branch=master)](https://travis-ci.org/HumanInTheLoop/boostsrl-python-package) | [![][codecov img]][codecov link] |
+| [![][license img]][license] | [![Build Status](https://travis-ci.org/starling-lab/boostsrl-python-package.svg?branch=master)](https://travis-ci.org/starling-lab/boostsrl-python-package) | [![][codecov img]][codecov link] |
 
 ---
 
@@ -93,7 +93,7 @@ header:
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](.github/CONTRIBUTING.md) for documentation on submitting issues and pull requests.
+Please refer to [CONTRIBUTING.md](https://github.com/starling-lab/boostsrl-python-package/blob/master/.github/CONTRIBUTING.md) for documentation on submitting issues and pull requests.
 
 ## Versioning
 
@@ -105,7 +105,7 @@ We use [SemVer](http://semver.org/) for versioning. See [Releases](https://githu
 * Members of STARAI Lab
 
 [license]:license.txt
-[license img]:https://img.shields.io/github/license/HumanInTheLoop/boostsrl-python-package.svg
+[license img]:https://img.shields.io/github/license/starling-lab/boostsrl-python-package.svg
 
-[codecov img]:https://codecov.io/gh/HumanInTheLoop/boostsrl-python-package/branch/master/graphs/badge.svg?branch=master
-[codecov link]:https://codecov.io/github/HumanInTheLoop/boostsrl-python-package?branch=master
+[codecov img]:https://codecov.io/gh/starling-lab/boostsrl-python-package/branch/master/graphs/badge.svg?branch=master
+[codecov link]:https://codecov.io/github/starling-lab/boostsrl-python-package?branch=master

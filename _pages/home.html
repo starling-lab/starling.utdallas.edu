@@ -1,33 +1,122 @@
 ---
 layout: splash
 permalink: /
+title: "STARLinG Lab"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/linkprediction.jpg
-excerpt: 'Directed by Sriraam Natarajan and Gautam Kunapuli.'
-feature_row:
-  - title: "Logic"
-    excerpt: "AI has a history of using logic as the formal language for expressing and evaluating human knowledge."
-  - title: "Probability"
-    excerpt: "The hard constraints of logic can be imposing in a world filled with noise, we soften the hard constraints with probabilities."
-  - title: "Relations"
-    excerpt: "Most of the world's knowledge is stored in relational databases, our algorithms focus on methods which exploit these inherent relationships."
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
-intro:
-  - excerpt: "We are interested in making smart machines that humans can use reliably in their everyday lives. Artificial Intelligence (AI) has made tremendous progress since its early days, and its advancement has helped shape the progress of research in many other fields. Traditionally, AI is used with either the logical approach (to address structured problems) or with the statistical approach (to handle uncertainty). Our research interests lie at the intersection: advancement and application of algorithms that can do both."
+excerpt: 'Statistical Relational Learning Lab at UT Dallas.<br><br>&nbsp;[<i class="fab fa-twitter"></i> @starling_lab](https://twitter.com/starling_lab){: .btn .btn--twitter} [<i class="fab fa-github"></i> @starling-lab](https://github.com/starling-lab){: .btn .btn--info}'
+
 ---
+<!--
+<link rel="stylesheet" type="text/css" href="/assets/css/home.css">
+-->
+<link rel="stylesheet" href="/assets/css/bootstrap.css">
 
-{% include feature_row id="intro" type="center" %}
-{% include feature_row %}
+<p><u>St</u>atistical <u>A</u>rtificial Intelligence and <u>R</u>elational <u>L</u>earn<u>in</u>g <u>G</u>roup is interested in making smart machines that humans can use reliably in their everyday lives. Artificial Intelligence (AI) has made tremendous progress since its early days, and its advancement has helped shape the progress of research in many other fields. Traditionally, AI is used with either the logical approach to address structured problems or with the statistical approach to handle uncertainty. Our research interests lie at the intersection: advancement and application of algorithms that can do both.</p>
 
-<div class="news">
-    <h3>Latest Updates</h3>
-    <hr>
-    <section>
-    {% for post in site.categories.news %}
-    <span class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></span>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <br>
-    <span class="news-excerpt">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 160 }}{% endif %}</span>
-    {% endfor %}
-    </section>
+<!--
+"<u>ST</u>atistical <u>A</u>rtificial intelligence and <u>R</u>elational <u>L</u>earn<u>in</u>g <u>G</u>roup."
+
+'We are interested in making smart machines that humans can use reliably in their everyday lives. Artificial Intelligence (AI) has made tremendous progress since its early days, and its advancement has helped shape the progress of research in many other fields. Traditionally, AI is used with either the logical approach (to address structured problems) or with the statistical approach (to handle uncertainty). Our research interests lie at the intersection: advancement and application of algorithms that can do both.<br><br>&nbsp;[<i class="fab fa-twitter"></i> @starling_lab](https://twitter.com/starling_lab){: .btn .btn--twitter} [<i class="fab fa-github"></i> @starling-lab](https://github.com/starling-lab){: .btn .btn--info}'
+-->
+
+<style>
+  .custom-author-avatar {
+  border: 1px solid #bfbfbf;
+  max-width: 200px;
+  border-radius: 50%;
+  }
+
+  .entry-headers {
+  padding-top: 1.3em;
+  }
+
+  .news-date {
+  font-size:.625em;
+  }
+</style>
+
+<!-- https://thornelabs.net/2014/06/08/a-better-way-to-display-random-jekyll-posts-on-page-load-or-refresh-using-jquery-and-json.html -->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+
+  function generateRandomPosts()
+  {
+  $.getJSON("/assets/json/research-highlights-search.json", function(data) {
+  console.log("[research-highlights-search.json loaded for random posts]");
+
+  var postsCount = data.length;
+  var posts = data;
+
+  var randomIndexUsed = [];
+  var counter = 0;
+  var numberOfPosts = 1;
+
+  var divRandomPosts = $("#random_posts");
+
+  while (counter < numberOfPosts) {
+
+		   var randomIndex = Math.floor(Math.random() * postsCount);
+
+		   if (randomIndexUsed.indexOf(randomIndex) == "-1")
+		   {
+		   var postHREF = posts[randomIndex].href;
+		   var postTitle = posts[randomIndex].title;
+		   var postPhoto = posts[randomIndex].author_src;
+		   var postExcerpt = posts[randomIndex].post_excerpt;
+
+		   if (counter == (numberOfPosts - 1))
+		   {
+		   divRandomPosts.append('<img src="' + postPhoto + '" class="img-fluid custom-author-avatar">');
+                   divRandomPosts.append('<h3 style="text-align: center;"><a href="' + postHREF + '">' + postTitle + '</a></h3>');
+		   divRandomPosts.append('<p style="text-align: left;">' + postExcerpt + '</p>');
+		   }
+		   else
+		   {
+		   divRandomPosts.append('<img src="' + postPhoto + '" class="img-fluid custom-author-avatar">')
+		   divRandomPosts.append('<h3 style="text-align: center;"><a href="' + postHREF + '">' + postTitle + '</a></h3>');
+		   divRandomPosts.append('<p style="text-align: left;">' + postExcerpt + '</p>');
+		   }
+
+		   randomIndexUsed.push(randomIndex);
+
+		   counter++;
+		   }
+		   }
+		   });
+		   }
+
+		   $(document).ready(function() {
+		   generateRandomPosts();
+		   });
+
+		   </script>
+
+
+
+<h1 class="entry-headers">Research Highlights</h1>
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><img src="/assets/images/starling-logo.png"></div>
+    <div class="col-sm"><div style="text-align: center;"><div id="random_posts"></div></div></div>
+  </div>
 </div>
+
+<h1 class="entry-headers">Latest News</h1>
+<hr>
+
+{% assign sortednews = site.news | reverse %}
+
+<section>
+  {% for post in sortednews limit:5  %}
+  <br>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+  <br>{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}<br>
+  {% endfor %}
+</section>
+
+<br><p>For previous news, see the <a style="font-weight: bold" href="/news-archive/">News Archive</a></p>
+
+{% include timeline.html %}

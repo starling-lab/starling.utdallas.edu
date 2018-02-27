@@ -153,17 +153,17 @@ First it finds childof(B,A):
 
 _"fathers are parents"_
 
-![first learned tree, showing that fathers have children](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Images/WILLTreeFor_fatherOf1.png "first learned tree, showing that fathers have children")
+<img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/WILLTreeFor_fatherOf1.png" style="display: block; margin: auto; padding-top: 0.4em; padding-bottom: 0.4em;">
 
 Next, if the person is male, they are also more likely to be a father:
 
 _"fathers are male"_
 
-![tenth learned tree, we've built on the error of the previous models, so now we show that fathers are probably male](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Images/WILLTreeFor_fatherOf9.png "tenth learned tree, we've built on the error of the previous models, so now we show that fathers are probably male")
+<img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/WILLTreeFor_fatherOf9.png" style="display: block; margin: auto; padding-top: 0.4em; padding-bottom: 0.4em;">
 
 Each tree builds on the error of the previous tree. By combining the trees the model learned, we can see the decision the model finds most accurate.
 
-![trees one through ten, combined](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Images/CombinedTreesfatherOf.png "trees one through ten, combined")
+<img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/CombinedTreesfatherOf.png" style="display: block; margin: auto; padding-top: 0.4em; padding-bottom: 0.4em;">
 
 This tree shows that a male father _E_ is the parent of child _D_. Alternatively, the person is also the father to his child's siblings.
 

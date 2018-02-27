@@ -1,0 +1,45 @@
+<link href="/assets/css/timeline.css" type="text/css"  rel="stylesheet">
+
+<h1 class="entry-headers">Funding History</h1>
+<hr>
+
+<div class="scroll">
+    <div class="timeline">
+
+        {% assign sorted_sponsors =  site.data.sponsors | sort: "date" | reverse %}
+        {% for sponsor in sorted_sponsors%}
+        <div>
+            {% assign x = forloop.index0 | mod:2 %}
+            <svg height="5" width="200">
+                <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            <div class="event">
+                <div class="event_bubble">
+                        <div class="event_title"><a href="/sponsors">{{sponsor.title}}</a></div>
+                </div>
+                <svg height="20" width="20">
+                    <circle cx="10" cy="11" r="5" fill="#004165" />
+                </svg>
+                <div class="time">{{sponsor.date | date: "%Y" }}</div>
+            </div>
+        </div>
+        {% endfor %}
+        <div>
+            <svg height="5" width="50">
+                <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+        </div>
+    </div>
+</div>
+
+<h1 style="padding-top: 1.3em;">Acknowledgements</h1>
+<hr>
+
+<div class="sponsor-logos">
+    {% assign sponsor_logos =  site.data.sponsors | sort: "date" |  group_by: 'logo' %}
+    {% for logo in sponsor_logos%}
+        <img src="{{logo.name}}"/>
+    {% endfor %}
+</div>

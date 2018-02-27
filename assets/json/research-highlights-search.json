@@ -1,0 +1,13 @@
+---
+---
+
+[
+    {% for post in site.categories.research-highlights %}{% assign currentAuthor = post.author %}{% assign author = site.data.authors[currentAuthor] %}{% if author.avatar %}{% if author.avatar contains "://" %}{% assign author_src = author.avatar %}{% else %}{% assign author_src = author.avatar | absolute_url %}{% endif %}{% endif %}
+    {
+	"title" : {{ post.title | jsonify }},
+	"href"  : "{{ post.url }}",
+	"author" : "{{ author.name }}",
+	"author_src" : "{{ author_src }}",
+	"post_excerpt" : {{ post.excerpt | markdownify | strip_html | truncate:250 | jsonify }}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+]

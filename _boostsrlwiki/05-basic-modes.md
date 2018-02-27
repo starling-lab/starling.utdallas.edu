@@ -31,16 +31,11 @@ mode: shape(+car, #shape).
 mode: has_car(+train, -car).
 ```
 
-1. `+v`
-
-  indicates that variable `v` must have already been mentioned in the current rule. For instance, let us assume that the goal is to learn if the train is eastbound (i.e., `eastbound(train)` is the target)). The search algorithm first considers only the predicates that has a modeType `+train` in them. If no predicates has the modeType `+train`, the algorithm terminates. In this case, it will add `has_car` as it has the modeType `+train`.
-
-2. `-v`
-
+1. `+v`  
+  indicates that variable `v` must have already been mentioned in the current rule. For instance, let us assume that the goal is to learn if the train is eastbound (i.e., `eastbound(train)` is the target)). The search algorithm first considers only the predicates that has a modeType `+train` in them. If no predicates has the modeType `+train`, the algorithm terminates. In this case, it will add `has_car` as it has the modeType `+train`.  
+2. `-v`  
   indicates that a new variable `v` can be introduced into the clause (essentially an *existential*). Continuing the above example, `has_car` can be added because it has both `+train` and `-car`. `-car` allows for a new variable to be added and `+train` will allow for the algorithm to consider this predicate. It should be mentioned that if the mode definition had been `has_car(+train,+car)`, it would be ignored by the search. Though `train` has been declared earlier (in the target), `car` was not defined earlier and this predicate will be ignored. Therefore, to add a clause `has_car(X,Y) -> eastbound(X)` it is essential that the car is of type `-`.
-
-3. `#v`
-
+3. `#v`  
   indicates that `v` is of type constant. This is the simplest of all the modes since the variables are grounded and their specific values are searched over.
 
 Finally, if one observes closely, `has_car(X,Y) -> eastbound(X)` is not informative in that all the trains will have at least one car. Hence, the algorithm can never learn this clause. To enable learning of this clause, one has to increase the lookahead of the search algorithm. This can be achieved in two ways:
@@ -93,6 +88,6 @@ mode: father(+name,+name).
 
 <script>
 function topOfPage() {
-    $('html, body').animate({ scroll: 0 }, 'fast');
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>

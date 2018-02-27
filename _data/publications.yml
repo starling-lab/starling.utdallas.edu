@@ -14,7 +14,8 @@
 ##   url                         : link to the paper (pdf)
 ##   slide                       : link to slides
 ##   video                       : link to video
-
+##   code                        : link to the code
+##   poster                      : link to poster
 
 - publicationType: "conference-papers"
   authors: ["Kaushik Roy", "Phillip Odom", "Kristian Kersting", "Ron Parr", "Sriraam Natarajan"]
@@ -192,6 +193,7 @@
   year: "2015"
   title: "Graph-based Approximate Counting for Relational Probabilistic Models"
   venue: "International Workshop on Statistical Relational AI (StarAI)"
+  url: "/assets/pdfs/MainGraphApproxStarai.pdf"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 - publicationType: "workshop-papers"
@@ -315,6 +317,7 @@
   venue: "International Conference on Principles of Knowledge Representation and Reasoning (KR)"
   url: "http://www.cs.ubc.ca/~poole/papers/relational_logistic_regression.pdf"
   keywords: ["Statistical Relational Learning"]
+  poster: "http://www.cs.ubc.ca/~smkazemi/files/RLR_vs_MLN_Poster.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Chris Magnano","Ameet Soni","Sriraam Natarajan","Gautam Kunapuli"]
@@ -323,9 +326,6 @@
   venue: "SIAM International Conference on Data Mining (SDM)"
   url: "/assets/pdfs/sdm14.pdf"
   keywords: ["Health Applications"]
-
-
-
 
 - publicationType: "journal-papers"
   authors: ["Babak Ahmadi","Kristian Kersting","Martin Mladenov","Sriraam Natarajan"]
@@ -565,6 +565,7 @@
   venue: "Invited contribution to special issue of Machine Learning Journal (MLJ)"
   url: "http://ftp.cs.wisc.edu/machine-learning/shavlik-group/natarajan.mlj12.pdf"
   keywords: ["Statistical Relational Learning"]
+  code: "https://github.com/boost-starai/BoostSRL"
 
 
 - publicationType: "journal-papers"

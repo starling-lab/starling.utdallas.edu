@@ -1,0 +1,98 @@
+##
+# - title: Title of sponsor
+#   date: yyyy-mm-dd
+#   period: "mm/dd/yy to mm/dd/yy"
+#   description: "Desctiption"
+#   logo: ""
+#   PI: ""
+#   CO-PI: ["",""]
+
+- title: "DARPA DEFT"
+  date: 2012-01-11
+  period: "11/1/12 to 11/21/17"
+  description: "The objective of DARPA’s DEFT program is to develop methods for deeper understanding of natural language text."
+  logo: "/assets/images/sponsor-logo/DARPA-logo.png"
+  PI: "Jude Shavlik"
+  # sponsor-url: "https://www.darpa.mil/"
+
+- title: "NIH Adverse Drug Events"
+  date: 2011-10-01
+  period: "10/1/11 to 5/1/13"
+  description: "The objective of this grant is to identify unknown adverse drug events from Electronic Health Records. <br> Sub-contract from University of Wisconsin"
+  logo: "/assets/images/sponsor-logo/nih-logo.png"
+  PI: "David Page"
+  # sponsor-url: "https://grants.nih.gov/"
+
+- title: "NIH Subsystem Modeling Using Dependency Networks"
+  date: 2012-09-01
+  period: "9/1/2012 to 8/31/2014"
+  description: "System-subsystem modeling and methods with an application to disability in older adults."
+  logo: "/assets/images/sponsor-logo/nih-logo.png"
+  PI: "Edward Ip"
+
+- title: "NIH R01 Machine Learning for Identifying Adverse Drug Events"
+  date: 2015-07-01
+  period: "07/01/15 to 06/20/20"
+  logo: "/assets/images/sponsor-logo/nih-logo.png"
+  PI: "David Page"
+
+- title: "Indiana University Grand Challenge - Precision Health"
+  date: 2016-09-01
+  period: "09/01/16 to 08/31/2020"
+  logo: "/assets/images/sponsor-logo/IU-logo.png"
+  PI: "Predrag Radivojac"
+
+- title: "DARPA Communicating with Computers"
+  date: 2015-08-01
+  period: "08/1/15 to 07/31/20"
+  PI: "Dan Roth"
+  logo: "/assets/images/sponsor-logo/DARPA-logo.png"
+
+- title: "NSF Intelligent Clinical Decision Support with Probabilistic and Temporal EHR Modeling"
+  date: 2014-01-01
+  period: "1/1/14 to 12/31/18"
+  logo: "/assets/images/sponsor-logo/NSF-logo.svg"
+  PI: "Sriraam Natarajan"
+  Co-PI: ["Kris Hauser", "Shaun Grannis"]
+
+- title: "ARO Young Investigator Human-in-the-loop Statistical Relational Learners"
+  date: 2013-09-01
+  period: "9/1/13 to 08/31/16"
+  PI: "Sriraam Natarajan"
+  logo: "/assets/images/sponsor-logo/ARO-logo.png"
+
+- title: "ARO STIR Human-Machine Collaboration in Relational Sequential Decision-Making Problems"
+  date: 2017-01-01
+  period: "01/01/17 to 09/30/2107"
+  logo: "/assets/images/sponsor-logo/ARO-logo.png"
+  PI: "Sriraam Natarajan"
+
+- title: "Turvo Inc, research gift: Learning for logistics problems"
+  date: 2015-04-01
+  period: "4/1/15 to 03/31/18"
+  logo: "/assets/images/sponsor-logo/Turvo-logo.png"
+  PI: "Sriraam Natarajan"
+
+- title: "DARPA Machine Reading"
+  date: 2011-04-01
+  period: "4/1/11-12/31/12"
+  logo: "/assets/images/sponsor-logo/DARPA-logo.png"
+  description: "The objective of DARPA’s Machine Reading program is the creation of trainable computing systems that learn by reading information written in English and intended to be read by humans."
+  PI: "David Israel"
+
+- title: "XEROX PARC Faculty Award: Learning from an Expert in Noisy, Structured domains: Adapting to Healthcare Problems"
+  date: 2015-01-15
+  period: "1/15/15 to 12/31/17"
+  logo: "/assets/images/sponsor-logo/PARC-logo.png"
+  PI: "Sriraam Natarajan"
+
+- title: "AFOSR SBIR: Enhanced Text Analytics Using Lifted Probabilistic Inference Algorithms"
+  date: 2013-01-10
+  period: "10/1/13 to 10/30/16"
+  logo: "/assets/images/sponsor-logo/sbir-logo.png"
+
+- title: "Amazon Research Award"
+  date: 2018-02-22
+  period: "2/22/18 to 2/22/19"
+  logo: "/assets/images/sponsor-logo/Amazon-logo.svg"
+  PI: "Sriraam Natarajan"
