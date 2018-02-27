@@ -30,13 +30,6 @@
   logo: "/assets/images/sponsor-logo/nih-logo.png"
   PI: "Edward Ip"
 
-- title: "WFU Science Research Fund"
-  date: 2011-10-01
-  period: "10/1/11 to 4/30/12"
-  logo: "/assets/images/sponsor-logo/WFC-logo.png"
-  description: "The objective is to develop intelligent interfaces for assistive and alternative communication devices."
-  PI: "Sriraam Natarajan"
-
 - title: "NIH R01 Machine Learning for Identifying Adverse Drug Events"
   date: 2015-07-01
   period: "07/01/15 to 06/20/20"
