@@ -93,7 +93,7 @@ header:
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](.github/CONTRIBUTING.md) for documentation on submitting issues and pull requests.
+Please refer to [CONTRIBUTING.md](https://github.com/starling-lab/boostsrl-python-package/blob/master/.github/CONTRIBUTING.md) for documentation on submitting issues and pull requests.
 
 ## Versioning
 
