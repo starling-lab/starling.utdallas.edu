@@ -102,7 +102,7 @@ We use [SemVer](http://semver.org/) for versioning. See [Releases](https://githu
 ## Acknowledgements
 
 * Professor Sriraam Natarajan
-* Members of STARAI Lab
+* Members of StARLinG Lab
 
 [license]:license.txt
 [license img]:https://img.shields.io/github/license/starling-lab/boostsrl-python-package.svg
