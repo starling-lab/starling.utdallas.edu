@@ -8,7 +8,7 @@ header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Download'
   cta_url: "https://github.com/HumanInTheLoop/Walk-ER/releases"
-  caption: 'Copyright © 2017-2018 AI Conflux Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 <p align="center">
@@ -61,10 +61,10 @@ WalkER can either be invoked from a terminal or imported as a Python package. Ex
 
    ```
    usage: WalkER_rewrite.py [-h] [-v] [--number NUMBER] [-w | -s | -e | -r | -rw] diagram_file
-   
+
    positional arguments:
      diagram_file
-   
+
    optional arguments:
      -h, --help         show this help message and exit
      -v, --verbose      Increase verbosity to help with debugging.
@@ -84,12 +84,12 @@ WalkER can either be invoked from a terminal or imported as a Python package. Ex
    ```
 
    * Examples:
-   
+
       * `$ python walker.py -w diagrams/imdb.mayukh`
-      
+
       * `$ python walker.py -rw --number 10 diagrams/imdb.mayukh`
 
-2. Via GUI 
+2. Via GUI
 	Instructions for using the GUI module for creation/re-use of ER-Diagrams
 	GUI module can be initiated by running a jar file.
 	Jar file name : ERD-GUI.jar
@@ -99,15 +99,15 @@ WalkER can either be invoked from a terminal or imported as a Python package. Ex
 	All options have implicit default values ensuring that the GUI runs smoothly even when none of the options are specified
 
 	Optional arguments:
-	  -m				 Calls the python mode construction module automatically 
+	  -m				 Calls the python mode construction module automatically
 						 after ER-Diagram is parsed.
-						 
+
 		The rest of the arguments are only required if "-m" is used.
-		
-	  --erout 		 	 Indicator for specifying file name for parsed output 
+
+	  --erout 		 	 Indicator for specifying file name for parsed output
 						 (that the mode constructor will use) of ER-Diagram.
-	  outputDiagramfile	 File name for the parsed output of ERD. This will be 
-						 used as "diagram_file" argument when calling python 
+	  outputDiagramfile	 File name for the parsed output of ERD. This will be
+						 used as "diagram_file" argument when calling python
 						 mode construction module.
 	  --verbose      	 Increase verbosity to help with debugging (for mode construction).
 	  --number NUMBER    Select number of features to walk to (assumes that
@@ -129,7 +129,7 @@ WalkER can either be invoked from a terminal or imported as a Python package. Ex
 		* For running with arguments: `java -jar ERD-GUI.jar -s --number 2 -m --erout ProfStudentCourse.out`
 		(file extention of the output file is not important, can be anything or none)
 
-	Once the jar file is executed, it will initiate a GUI window which allows one to create/save/upload and finally parse an ER-Diagram. 
+	Once the jar file is executed, it will initiate a GUI window which allows one to create/save/upload and finally parse an ER-Diagram.
 	For a video tutorial on how to use the GUI please click <a href = "https://www.dropbox.com/s/zmeol2dtyogh5u7/Entity%20Relationship%20Models%20-%20yFiles%20for%20Java%2012_20_2017%2010_09_35%20AM.mp4?dl=0"> here </a>.
 
 ## Acknowledgements
