@@ -45,10 +45,10 @@
 ##   xing             :
 ##   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
-## STARAI Lab is a general identifier for lab contact information.
+## StARLinG Lab is a general identifier for lab contact information.
 
-STARAI Lab:
-  name: "STARAI Lab"
+StARLinG Lab:
+  name: "StARLinG Lab"
   bio: "Bridging the gap between Logic and Statistics in Artificial Intelligence."
   email: "Sriraam.Natarajan@utdallas.edu"
   github: "HumanInTheLoop"

@@ -15,7 +15,7 @@ Issues with a Wiki Page or specific content must include:
 
 ## Pull Requests
 
-With some exceptions, pull requests should only be submitted by members of the STARLinG Lab. Pull requests submitted by non-lab members are welcome, but should be reasonable (e.g. do not add yourself to the 'People' page if you do not actually work with us 😧 ). Corrections or clarifications for Wiki pages are an example of a "reasonable" pull request change.
+With some exceptions, pull requests should only be submitted by members of the StARLinG Lab. Pull requests submitted by non-lab members are welcome, but should be reasonable (e.g. do not add yourself to the 'People' page if you do not actually work with us 😧 ). Corrections or clarifications for Wiki pages are an example of a "reasonable" pull request change.
 
 Pull requests should contain:
 
