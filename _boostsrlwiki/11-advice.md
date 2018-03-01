@@ -87,7 +87,7 @@ Two key parameters: `-adviceFile` and `-adviceWt`
 
 Here is a basic dataset to help with understanding advice and its associated file setup:
 
-![Basic file structure for the Toy-Advice dataset](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Images/ToyAdviceFileStructure.png "Basic file structure for the Toy-Advice dataset")
+<img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/ToyAdviceFileStructure.png" style="display: block; margin: auto; padding-top: 0.4em; padding-bottom: 0.4em;">
 
 Download: [Toy-Advice.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Advice/Toy-Advice.zip?raw=true) (27.5 KB)
 

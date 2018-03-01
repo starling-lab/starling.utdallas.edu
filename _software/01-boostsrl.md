@@ -8,10 +8,10 @@ header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Install Now'
   cta_url: "https://github.com/boost-starai/BoostSRL/releases"
-  caption: 'Copyright © 2016-2018 AI Conflux Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2016-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
-Developed by [Jude Shavlik](http://pages.cs.wisc.edu/~shavlik/), [Tushar Khot](http://pages.cs.wisc.edu/~tushar/), [Sriraam Natarajan](http://utdallas.edu/~sxn177430/), and [members of the STARAI Lab](/people/).
+Developed by [Jude Shavlik](http://pages.cs.wisc.edu/~shavlik/), [Tushar Khot](http://pages.cs.wisc.edu/~tushar/), [Sriraam Natarajan](http://utdallas.edu/~sxn177430/), and [members of the StARLinG Lab](/people/).
 
 As with the standard gradient-boosting approach, our approach turns the model-learning problem to learning a sequence of regression models. The key difference to the standard approaches is that we learn relational regression models (i.e. regression models that operate on relational data). We assume the data to be in predicate-logic format and the output are essentially first-order regression trees where the inner nodes contain conjunctions of logical predicates.
 
@@ -34,7 +34,7 @@ As with the standard gradient-boosting approach, our approach turns the model-le
   `git clone -b master https://github.com/boost-starai/BoostSRL.git`
 * Nightly builds with git.  
   `git clone -b development https://github.com/boost-starai/BoostSRL.git`
-  
+
 ## Basic Usage
 
 <img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/basicFileStructure.png" alt="Basic file structure for the Cora dataset which BoostSRL assumes for most operations." width="558" display="block" margin="auto">

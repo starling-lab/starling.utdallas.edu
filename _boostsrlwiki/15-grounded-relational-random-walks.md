@@ -74,7 +74,7 @@ Store this file in `./train/models/bRDNs/advisedBy.model`
 
 ### Usage Commands
 
-`java -cp edu.wisc.cs.will.GroundRelationalRandomWalks.RunGroundRelationalRandomWalks -grw -mln -i -test ".\test" -target advisedBy -trees 1 -model ".\train\models"`
+<code style="display: inline-block; word-break: break-all;">java -cp edu.wisc.cs.will.GroundRelationalRandomWalks.RunGroundRelationalRandomWalks -grw -mln -i -test ".\test" -target advisedBy -trees 1 -model ".\train\models"</code>
 
 The output grounded random walks are stored inside `./test/OutputRW.txt` Kindly ignore all the AUC-ROC values and AUC-PR values, they are generated as part of MLN-Boost execution.
 

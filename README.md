@@ -2,7 +2,7 @@
 
 ## Overview
 
-Development repository for the STARLinG Lab's webpage. Built with Jekyll, jQuery, and the minimal-mistakes Jekyll theme.
+Development repository for the StARLinG Lab's webpage. Built with Jekyll, jQuery, and the minimal-mistakes Jekyll theme.
 
 Maintained by **[Alexander L. Hayes](https://github.com/batflyer)** and **[Harsha Kokel](https://github.com/harshakokel)**.
 

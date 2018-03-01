@@ -8,7 +8,7 @@ header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Download'
   cta_url: "https://github.com/starling-lab/boostsrl-python-package/releases"
-  caption: 'Copyright © 2017-2018 AI Conflux Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 <p align="center">
@@ -102,7 +102,7 @@ We use [SemVer](http://semver.org/) for versioning. See [Releases](https://githu
 ## Acknowledgements
 
 * Professor Sriraam Natarajan
-* Members of STARAI Lab
+* Members of StARLinG Lab
 
 [license]:license.txt
 [license img]:https://img.shields.io/github/license/starling-lab/boostsrl-python-package.svg

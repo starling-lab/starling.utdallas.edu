@@ -8,7 +8,7 @@ header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Download'
   cta_url: "https://github.com/kkroy36/RFGB/releases"
-  caption: 'Copyright © 2017-2018 AI Conflux Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 # RFGB
@@ -38,9 +38,9 @@ A reimplementation of BoostSRL in pure Python.
 2. Include advice.txt file in train folder
 
 3. The file contains pieces of advice of the form: *advice clause <list of preferred target(s)> <list of non preferred target(s)>*
-  
+
 4. Run command: *python main.py -target <list of target(s)> -expAdvice*
-  
+
 5. For the HeartAttack example: python main.py -target [ha] -expAdvice
 
 ### In development
