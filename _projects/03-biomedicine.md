@@ -19,4 +19,5 @@ Learning from such disparate sources of information is a challenging task. We de
 ## Publications
 
 *1. Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page, and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* (Under review in IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
+
 *2. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, Identifying Parkinson's Patients : A Functional Gradient Boosting Approach, Artificial Intelligence in Medicine (AIME) (2017).
