@@ -19,7 +19,7 @@ This random walk can be converted into clausal form as: `taught(personid,coursei
 
 Random Walks can be obtained by running the following command in BoostSRL:
 
-`java -cp edu.iu.cs.RelationalRandomWalks.RunRelationalRandomWalks -rw -train "./facts.txt" -startentity "personid" -endentity "personid" -maxRWlen 6`
+<code style="display: inline-block; word-break: break-all;">java -cp edu.iu.cs.RelationalRandomWalks.RunRelationalRandomWalks -rw -train "./facts.txt" -startentity "personid" -endentity "personid" -maxRWlen 6</code>
 
 As shown above the following flags need to be set:
 

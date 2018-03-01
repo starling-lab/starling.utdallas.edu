@@ -73,13 +73,13 @@ regressionExample(medv(id153),15.3).
 
 ### Usage Commands
 
-1. Learning:
+* Learning:
 
-  `java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -reg -l -train train/ -target medv -trees 20`
+  <code style="display: inline-block; word-break: break-all;">java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -reg -l -train train/ -target medv -trees 20</code>
 
-2. Inference:
+* Inference:
 
-  `java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -i -test test/ -target medv -model train/models/ -trees 20`
+  <code style="display: inline-block; word-break: break-all;">java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -i -test test/ -target medv -model train/models/ -trees 20</code>
 
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 

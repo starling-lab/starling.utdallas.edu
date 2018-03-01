@@ -23,7 +23,7 @@ Files that **BoostSRL** operates on are stored in a folder with three things:
 
 Example:
 
-![basic file structure for the Cora dataset](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Images/basicFileStructure.png "basic file structure for the Cora dataset")
+<img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/basicFileStructure.png" style="display: block; margin: auto; padding-top: 0.4em; padding-bottom: 0.4em;">
 
 *File structure for the [Cora dataset](Cora-Dataset), notice that the background is called "cora_bk.txt" in this example.*
 
