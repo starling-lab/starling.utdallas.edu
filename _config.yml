@@ -35,7 +35,7 @@ locale                   : "en-US"
 title			 : "StARLinG"
 title_separator          : "-"
 name                     : "StARLinG Lab"
-description              : "Webpage for the StARLinG Lab. An Artificial Intelligence research group at the University of Texas at Dallas."
+description              : "StARLinG Lab, an Artificial Intelligence Research Group at the University of Texas at Dallas."
 url                      : "https://boost-starai.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : boost-starai/boost-starai.github.io

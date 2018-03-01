@@ -3,16 +3,16 @@ layout: splash
 permalink: /software/walker/
 title: 'Walk-ER'
 author: ['Alexander Hayes', 'Mayukh Das', 'Phillip Odom', 'Sriraam Natarajan']
-excerpt: 'A system for defining background knowledge in the form of an Entity-Relational Diagrams and converting it into a BoostSRL modes file.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=HumanInTheLoop&repo=Walk-ER&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=HumanInTheLoop&repo=Walk-ER&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'A system for defining background knowledge in the form of an Entity-Relational Diagrams and converting it into a BoostSRL modes file.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=Walk-ER&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=Walk-ER&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Download'
-  cta_url: "https://github.com/HumanInTheLoop/Walk-ER/releases"
+  cta_url: "https://github.com/starling-lab/Walk-ER/releases"
   caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 <p align="center">
-	<img src="https://github.com/HumanInTheLoop/Walk-ER/raw/master/media/WalkERLogo.png">
+	<img src="https://github.com/starling-lab/Walk-ER/raw/master/media/WalkERLogo.png">
 </p>
 
 Source code and TeX for "User Friendly Automatic Construction of Background Knowledge: Mode Construction from ER Diagrams."
@@ -138,8 +138,8 @@ WalkER can either be invoked from a terminal or imported as a Python package. Ex
 * Phillip Odom and Sriraam Natarajan acknowledge the support of the Army Research Office (ARO) grant number W911NF-13-1-0432 under the Young Investigator Program.
 * Icon in the logo is "Trail" by [Martina Krasnayová](https://thenounproject.com/bubblee.tinka/) from the Noun Project, used under a [Creative Commons (CC) Attribution 3.0 United States License](https://creativecommons.org/licenses/by/3.0/us/).
 
-[license]:https://github.com/HumanInTheLoop/Walk-ER/blob/master/LICENSE
-[license img]:https://img.shields.io/github/license/HumanInTheLoop/Walk-ER.svg
+[license]:https://github.com/starling-lab/Walk-ER/blob/master/LICENSE
+[license img]:https://img.shields.io/github/license/starling-lab/Walk-ER.svg
 
-[release]:https://github.com/HumanInTheLoop/Walk-ER/releases
-[release img]:https://img.shields.io/github/tag/HumanInTheLoop/Walk-ER.svg
+[release]:https://github.com/starling-lab/Walk-ER/releases
+[release img]:https://img.shields.io/github/tag/starling-lab/Walk-ER.svg
