@@ -9,11 +9,18 @@ author_profile: true
   .news-date {
   font-size:.625em;
   }
+  .archive{
+      @media (min-width: 80em){
+          padding-right: 100px !important;
+      }
+  }
 </style>
 
 {% assign sorted = site.news | reverse %}
 
 {% for post in sorted %}
 
-<br>&nbsp;<span class="news-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+<br><span class="news-date">{{ post.date | date_to_string }}</span>
+<br><span class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+<br><span class="news-description">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}</span><br>
 {% endfor %}
