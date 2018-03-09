@@ -21,6 +21,12 @@ $primary-color: #0a9be9;
     }
 }
 
+.archive{
+    @media (min-width: 80em){
+        padding-right: 100px;
+    }
+}
+
 .sponsor {
     display: flex;
     width: 80%;
