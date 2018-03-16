@@ -75,3 +75,5 @@ datasets:
         url: /datasets/citeseer/
       - title: "Boston Housing"
         url: /datasets/boston-housing/
+      - title: "Drug-Drug Interactions"
+        url: /datasets/ddi/
