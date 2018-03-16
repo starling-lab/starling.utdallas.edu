@@ -19,8 +19,9 @@ All the similarity matrices are symmetric in nature and the data consists of 196
 
 ### Download
 
-Download: [DDI_data_196_drugs.zip] (https://github.com/boost-starai/BoostSRL-Misc/blob/master/DDI_data_196_drugs.zip) (232 KB)
+Download: [DDI_data_196_drugs.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/DDI_data_196_drugs.zip) (232 KB)
 The dataset consists of the 5 similarity measures, the true labels of the drug pairs and the name of the drugs involved.
+
 References:
 
 [1] Lao, Ni, and William W. Cohen. "Relational retrieval using a combination of path-constrained random walks." Machine learning 2010
