@@ -15,6 +15,12 @@ The other 4 similarity matrices are derived from SMILES strings which are textua
 4.	Molecular Fingerprint similarity: Fingerprints are bit-string representations of the molecular structure of the drugs. A similarity score between the fingerprints of each pair of drugs is generated using the python rdkit[2] package.
 5.	MACCS fingerprint similarity: are 166 bit structural key descriptors in which each bit is associated with a SMARTS[3] pattern.
 
+All the similarity matrices are symmetric in nature and the data consists of 196 drugs (thus 196x196 sized matrices). Since every drug can react with all the other drugs except itself, 196 drugs correspond to (196*195)/2 = 19110 possible interactions. Since the data is symmetric, only the upper(lower) half of the similarity matrices should be used.
+
+### Download
+
+Download: [DDI_data_196_drugs.zip] (https://github.com/boost-starai/BoostSRL-Misc/blob/master/DDI_data_196_drugs.zip) (232 KB)
+The dataset consists of the 5 similarity measures, the true labels of the drug pairs and the name of the drugs involved.
 References:
 
 [1] Lao, Ni, and William W. Cohen. "Relational retrieval using a combination of path-constrained random walks." Machine learning 2010
