@@ -17,10 +17,21 @@ The other 4 similarity matrices are derived from SMILES strings which are textua
 
 All the similarity matrices are symmetric in nature and the data consists of 196 drugs (thus 196x196 sized matrices). Since every drug can react with all the other drugs except itself, 196 drugs correspond to (196*195)/2 = 19110 possible interactions. Since the data is symmetric, only the upper(lower) half of the similarity matrices should be used.
 
+---
+
 ### Download
 
-Download: [DDI_data_196_drugs.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/DDI_data_196_drugs.zip) (232 KB)
+Download: [DDI_data_196_drugs.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Propositional-Datasets/DDI_data_196_drugs.zip?raw=true) (232 KB)
 The dataset consists of the 5 similarity measures, the true labels of the drug pairs and the name of the drugs involved.
+
+* `md5sum`: 
+  <p style="word-break: break-all;">884b32402f8a8519209b8bdc0e305c9e</p>
+
+* `sha256sum`: 
+  <p style="word-break: break-all;">c6c7f9e51674af870e63be157eacc7b54d1c954acfc7d30a179f7a54c85fa51e</p>
+  
+---
+
 
 References:
 
