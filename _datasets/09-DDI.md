@@ -2,7 +2,7 @@
 author: Devendra Dhami
 title: "Drug-Drug Interactions"
 permalink: /datasets/ddi/
-excerpt: "Using 5 heterogeneous similarity measure to predict drug-drug interactions."
+excerpt: "Using 5 heterogeneous similarity measures to predict drug-drug interactions."
 ---
 
 ### Overview
