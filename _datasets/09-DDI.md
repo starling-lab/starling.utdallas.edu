@@ -13,4 +13,9 @@ The other 4 similarity matrices are derived from SMILES strings which are textua
 2.	Molecular Feature Similarity: compares the chemical properties of two drugs using 19 features extracted from their SMILES strings. While extracting these features, it was made sure that they affect the chemical reactiveness of a molecule. Some of these features include, number of valence electrons, number of aromatic rings and number of hydrogen donors and receptors. The similarity measure is constructed by using the Jaccardian distance between the calculated features.
 3.	SMILES String Similarity: is the textual similarity between the SMILES strings calculated using edit distance.
 4.	Molecular Fingerprint similarity: Fingerprints are bit-string representations of the molecular structure of the drugs. A similarity score between the fingerprints of each pair of drugs is generated using the python rdkit[2] package.
-5.	MACCS fingerprint similarity: are a particulatr 
+5.	MACCS fingerprint similarity: are 166 bit structural key descriptors in which each bit is associated with a SMARTS[3] pattern.
+
+References:
+[1] Lao, Ni, and William W. Cohen. "Relational retrieval using a combination of path-constrained random walks." Machine learning 2010
+[2] http://www.rdkit.org/
+[3] http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html
