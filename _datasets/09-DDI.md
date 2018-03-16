@@ -16,6 +16,9 @@ The other 4 similarity matrices are derived from SMILES strings which are textua
 5.	MACCS fingerprint similarity: are 166 bit structural key descriptors in which each bit is associated with a SMARTS[3] pattern.
 
 References:
+
 [1] Lao, Ni, and William W. Cohen. "Relational retrieval using a combination of path-constrained random walks." Machine learning 2010
+
 [2] http://www.rdkit.org/
+
 [3] http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html
