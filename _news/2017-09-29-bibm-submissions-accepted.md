@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Two papers accepted at BIBM"
+title: "Two Papers Accepted at BIBM"
 date: 2017-09-29
 categories: news
 author: StARLinG Lab
