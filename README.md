@@ -1,5 +1,7 @@
 # [starling.utdallas.edu](https://starling.utdallas.edu)
 
+[![][license img]][license] [![][release img]][release]
+
 ## Overview
 
 Development repository for the StARLinG Lab's webpage. Built with Jekyll, jQuery, and the minimal-mistakes Jekyll theme.
@@ -8,7 +10,7 @@ Maintained by **[Alexander L. Hayes](https://github.com/batflyer)** and **[Harsh
 
 Contact: `{alexander.hayes/harsha.kokel}@utdallas.edu`
 
-## Quick-start Guide (Linux and OSX):
+## Quick-start Guide (Linux and OSX)
 
 * Install Ruby and RubyGems (refer to Jekyll [installation](https://jekyllrb.com/docs/installation/) and [quick-start guide](https://jekyllrb.com/docs/quickstart/)).
 * `git clone https://github.com/boost-starai/boost-starai.github.io.git`
@@ -16,6 +18,20 @@ Contact: `{alexander.hayes/harsha.kokel}@utdallas.edu`
 * `bundle install`
 * `bundle exec jekyll serve`
 * Navigate to `127.0.0.1:4000` in your browser.
+
+## Creating a Production Build
+
+1. Make sure your branch is even with the master branch.
+2. Tag the current state as a new version (based on [SemVer](http://semver.org/)).
+3. Trigger a production build with Jekyll.
+4. Move the `_site` folder produced by Jekyll to the appropriate location on the Apache server.
+
+        $ git branch --list
+		$ git pull
+		$ git tag --list
+		$ git tag -a v1.0.7 -m "This fixes x, y, and z."
+		$ git push origin v1.0.7
+		$ JEKYLL_ENV=production bundle exec jekyll build
 
 ## Contributing
 
@@ -35,4 +51,10 @@ This work incorporates work from the following sources:
 * ["jekyll"](https://jekyllrb.com) a blog-aware, static site generator in Ruby, distributed under the terms of the [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE).
 * ["network-machine-learning-ss-1920.jpg"](https://marketingland.com/wp-content/ml-loads/2017/02/network-machine-learning-ss-1920.jpg) from marketingland.com.
 * The random student loading on the homepage is based on a blog post by [James W Thorne](https://thornelabs.net/2014/06/08/a-better-way-to-display-random-jekyll-posts-on-page-load-or-refresh-using-jquery-and-json.html).
-* The StARLinG Logo and is designed by [Gautam Kunapuli](https://www.utdallas.edu/~Gautam.Kunapuli/), and used with permission.
+* The StARLinG Logo is designed by [Gautam Kunapuli](https://www.utdallas.edu/~Gautam.Kunapuli/), and used with permission.
+
+[license]:LICENSE
+[license img]:https://img.shields.io/github/license/starling-lab/starling.utdallas.edu.svg
+
+[release]:https://github.com/starling/starling.utdallas.edu/releases
+[release img]:https://img.shields.io/github/tag/starling-lab/starling.utdallas.edu.svg
