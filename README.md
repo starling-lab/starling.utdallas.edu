@@ -34,3 +34,5 @@ This work incorporates work from the following sources:
 * ["Minimal Mistakes"](https://github.com/mmistakes/minimal-mistakes/) a Jekyll theme by Michael Rose and contributors, distributed under the terms of the [MIT License](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt).
 * ["jekyll"](https://jekyllrb.com) a blog-aware, static site generator in Ruby, distributed under the terms of the [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE).
 * ["network-machine-learning-ss-1920.jpg"](https://marketingland.com/wp-content/ml-loads/2017/02/network-machine-learning-ss-1920.jpg) from marketingland.com.
+* The random student loading on the homepage is based on a blog post by [James W Thorne](https://thornelabs.net/2014/06/08/a-better-way-to-display-random-jekyll-posts-on-page-load-or-refresh-using-jquery-and-json.html).
+* The StARLinG Logo and is designed by [Gautam Kunapuli](https://www.utdallas.edu/~Gautam.Kunapuli/), and used with permission.
