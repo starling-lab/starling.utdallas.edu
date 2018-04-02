@@ -3,7 +3,7 @@ layout: splash
 permalink: /software/boostsrl/
 title: 'BoostSRL: "Boosting for Statistical Relational Learning"'
 author: Sriraam Natarajan
-excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=boost-starai&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=boost-starai&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Install Now'
