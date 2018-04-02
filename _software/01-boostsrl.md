@@ -6,8 +6,8 @@ author: Sriraam Natarajan
 excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
-  cta_label: '<i class="fas fa-download"></i> Install Now'
-  cta_url: "https://github.com/boost-starai/BoostSRL/releases"
+  cta_label: '<i class="fas fa-download"></i> Download v1-0.jar'
+  cta_url: "https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/v1-0.jar?raw=true"
   caption: 'Copyright © 2016-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
