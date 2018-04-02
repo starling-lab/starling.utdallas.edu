@@ -1,4 +1,9 @@
-### Relational One Class Classification
+---
+title: "Relational One Class Classification"
+author: Navdeep Kaur
+permalink: /software/boostsrl/wiki/one-class-classification/
+excerpt: "Relational one class classification tutorial."
+---
 
 ### Parameters
 
@@ -6,7 +11,6 @@
 * `-l`: to enable learning.
 * `-train`: path to train folder.
 * `-target`: name of the target predicate.
-
 
 `java -jar boostsrl.jar -occ -l -train /path/to/train/folder -target targetpredicate`
 
