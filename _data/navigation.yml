@@ -38,6 +38,8 @@ boostsrlwiki:
         url: /software/boostsrl/wiki/mln-boost/
       - title: "Regression"
         url: /software/boostsrl/wiki/regression/
+      - title: "One-Class Classification"
+        url: /software/boostsrl/wiki/one-class-classification/
       - title: "Cost-Sensitive SRL"
         url: /software/boostsrl/wiki/cost-sensitive-srl/
       - title: "Learning with Advice"
