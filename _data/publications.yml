@@ -18,12 +18,6 @@
 ##   poster                      : link to poster
 
 - publicationType: "conference-papers"
-  authors: ["Kaushik Roy", "Phillip Odom", "Kristian Kersting", "Ron Parr", "Sriraam Natarajan"]
-  year: "2018"
-  title: "Non-parametric Fitted Relational Value Iteration: Unifying Relational and Propositional Discrete Domains"
-  venue: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
-
-- publicationType: "conference-papers"
   authors: ["Mayukh Das", "Phillip Odom", "Md. Rakibul Islam", "Jana Doppa", "Dan Roth", "Sriraam Natarajan"]
   year: "2018"
   title: "Preference- Guided Planning: An Active Elicitation Approach"
