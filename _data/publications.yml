@@ -17,6 +17,12 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 
+- publicationType: "journal-papers"
+  authors: ["Phillip Odom", "Sriraam Natarajan"]
+  year: "2018"
+  title: "Human-Guided Learning for Probabilistic Logic Models"
+  venue: "Frontiers in Robotics and AI (Front. Robot. AI)"
+
 - publicationType: "conference-papers"
   authors: ["Mayukh Das", "Phillip Odom", "Md. Rakibul Islam", "Jana Doppa", "Dan Roth", "Sriraam Natarajan"]
   year: "2018"
