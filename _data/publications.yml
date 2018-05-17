@@ -24,7 +24,7 @@
   venue: "IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)"
   url: "https://www.utdallas.edu/~devendra.dhami/SKID3_Dhami_CHASE18.pdf"
   
-  - publicationType: "conference-papers"
+- publicationType: "conference-papers"
   authors: ["Sriraam Natarajan","Srijita Das","Nandini Ramaman","Gautam Kunapuli", "Predrag Radivojac"]
   year: "2018"
   title: "Whom Should I Perform the Lab Test on Next? An Active Feature Elicitation Approach"
