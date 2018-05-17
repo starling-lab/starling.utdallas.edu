@@ -23,6 +23,13 @@
   title: "Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities"
   venue: "IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)"
   url: "https://www.utdallas.edu/~devendra.dhami/SKID3_Dhami_CHASE18.pdf"
+  
+  - publicationType: "conference-papers"
+  authors: ["Sriraam Natarajan","Srijita Das","Nandini Ramaman","Gautam Kunapuli", "Predrag Radivojac"]
+  year: "2018"
+  title: "Whom Should I Perform the Lab Test on Next? An Active Feature Elicitation Approach"
+  venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+  url: "http://utdallas.edu/~sriraam.natarajan/Papers/AFE_IJCAI18.pdf"
 
 - publicationType: "journal-papers"
   authors: ["Phillip Odom", "Sriraam Natarajan"]
