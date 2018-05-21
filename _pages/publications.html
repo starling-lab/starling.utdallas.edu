@@ -27,12 +27,14 @@ $paragraph-indent: true
 
     <!-- year starts-->
     {% assign all_types = "" %}
-    {% assign publication_grouped = group.items | group_by: 'publicationType'%}
+    {% assign publication_grouped = group.items | group_by: 'publicationType' %}
     <div class="year {% for publication in publication_grouped %}{{ all_types | append: ' ' | append: publication.name }}{% endfor %}">{{group.name}}</div>
     <!-- year ends-->
 
+    {% assign this_year = group.items | reverse %}
+
     <!-- publications start -->
-    {% for publication in group.items %}
+    {% for publication in this_year %}
         <div style="" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% if forloop.last %}& {% endif %}{% assign l_name = author | split: ' ' | last %}{% assign f_name = author | split: ' ' | pop %}{{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}.{% endfor%}, {% endfor %}<i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>, {{publication.venue}} {{publication.year}}.{% if publication.code %}<a class="icon code" href="{{publication.code}}"><i class="fas fa-fw fa-code"></i></a>{% endif %} {% if publication.slide%}<a class="icon slides" href="{{publication.slide}}"><i class="far fa-fw fa-file-powerpoint"></i></a>{% endif %} {% if publication.video%}<a class="icon video" href="{{publication.video}}"><i class="fas fa-fw fa-video"></i></a>{% endif %} {% if publication.poster %}<a class="icon poster" href="{{publication.poster}}"><i class="far fa-fw fa-file-image"></i></a>{% endif %}</div>
     {% endfor %}
     <!-- publications end -->
