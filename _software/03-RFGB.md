@@ -1,48 +1,60 @@
 ---
 layout: splash
-permalink: /software/rfgb/
-title: 'RFGB'
+permalink: /software/rfgb.py/
+title: 'rfgb.py'
 author: Kaushik Roy
-excerpt: 'BoostSRL in pure Python.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=kkroy36&repo=RFGB&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=kkroy36&repo=RFGB&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'Relational Functional Gradient Boosting in Python.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
-  cta_label: '<i class="fas fa-download"></i> Download'
-  cta_url: "https://github.com/kkroy36/RFGB/releases"
+  overlay_image: /assets/images/splash1.png
+  cta_label: '<i class="fab fa-github"></i> View on GitHub'
+  cta_url: "https://github.com/starling-lab/rfgb.py/releases"
   caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
-# RFGB
+Relational Functional Gradient Boosting in Python.
 
-A reimplementation of BoostSRL in pure Python.
+[![][pyversions img]][pyversions] [![][version img]][version] [![][license img]][license] [![][build status img]][build status] [![][docs img]][docs]
 
-### Regression
+[pyversions]:https://pypi.org/project/rfgb/
+[pyversions img]:https://img.shields.io/pypi/pyversions/rfgb.svg?style=flat-square
 
-1. Copy a regression example from test domains both train and test (ex: Boston Housing) to same directory as the python files or you can write your own.
+[version]:https://github.com/starling-lab/rfgb.py/releases/
+[version img]:https://img.shields.io/pypi/v/rfgb.svg?style=flat-square
 
-2. Run command: *python main.py -target <list of target(s)> -reg*
+[license]:https://github.com/starling-lab/rfgb.py/blob/master/LICENSE
+[license img]:https://img.shields.io/pypi/l/rnlp.svg?style=flat-square
 
-3. For the BostonHousing example: python main.py -target [medv] -reg
+[build status]:https://travis-ci.org/starling-lab/rfgb.py
+[build status img]:https://img.shields.io/travis/starling-lab/rfgb.py.svg?style=flat-square
 
-### Classification
+[docs]:https://rfgbpy.readthedocs.io/en/stable/
+[docs img]:https://readthedocs.org/projects/rfgbpy/badge/?version=stable&style=flat-square
 
-1. Copy a classification example from test domains both train and test (ex: Toy Cancer) to same directory as .py files or you can write your own.
+## Installation
 
-2. Run command: *python main.py -target <list of target(s)>*
+Stable builds on PyPi
 
-3. For the ToyCancer: python main.py -target [cancer]
+```bash
+pip install rfgb
+```
 
-**To run classification with expert advice:**
+Development builds on GitHub
 
-1. Copy an expert advice based classification example from test domains both train and test (for now heart attack) to same directory as .py files or you can write your own.
+```bash
+pip install git+git://github.com/starling-lab/rfgb.py.git
+```
 
-2. Include advice.txt file in train folder
+## Quick-Start
 
-3. The file contains pieces of advice of the form: *advice clause <list of preferred target(s)> <list of non preferred target(s)>*
+1. `git clone https://github.com/starling-lab/rfgb.py.git`
+2. `cd rfgb.py`
+3. Perform classification on a logistics domain:
 
-4. Run command: *python main.py -target <list of target(s)> -expAdvice*
+  ```bash
+  python -m rfgb -target unload -train testDomains/Logistics/train/ -test testDomains/Logistics/test/ -trees 10
+  ```
 
-5. For the HeartAttack example: python main.py -target [ha] -expAdvice
+`rfgb.py` is designed to be a re-implementation of BoostSRL in Python.
 
-### In development
-
-**further testing, commenting, cleaning up code, and adding more functionality such as MLN learning, soft margin etc.**
+<img src="/assets/gifs/rfgb_getting_started.gif" alt="Quick start gif." width="576" height="432" display="block" margin="auto">
