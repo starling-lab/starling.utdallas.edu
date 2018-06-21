@@ -1,6 +1,6 @@
 ##   File: authors.yml
 ##   Author: Alexander L. Hayes
-##   Last Updated: Thursday, February 15, 2018
+##   Last Updated: Thursday, June 21, 2018
 ##
 ##   These should be in the order they appear on the /people/ page.
 ##   Begin with faculty ("faculty")
@@ -51,7 +51,7 @@ StARLinG Lab:
   name: "StARLinG Lab"
   bio: "Bridging the gap between Logic and Statistics in Artificial Intelligence."
   email: "Sriraam.Natarajan@utdallas.edu"
-  github: "HumanInTheLoop"
+  github: "starling-lab"
   group: "lab"
   twitter: "StARLing_lab"
 
