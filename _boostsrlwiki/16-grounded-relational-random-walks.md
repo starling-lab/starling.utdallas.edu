@@ -29,7 +29,7 @@ Convert the lifted random walks in clausal form above and save them in `./train/
 
 The name of the output file (*advisedByTree0.tree*) should always be *targetPredicate* name followed by *Tree0.tree*. The third argument of the `advisedBy` predicate is the regression value of MLN-Boost. It can be set to any real number for executing grounded random walks.
 
-Refer to our tutorial on [Lifted Relational Random Walks](Lifted-Relational-Random-Walks) to generate the lifted random walks.
+Refer to our tutorial on [Lifted Relational Random Walks](../lifted-relational-random-walks/) to generate the lifted random walks.
 
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
@@ -46,7 +46,7 @@ The facts file should contain all of the facts that would be used to ground the 
 `/test/test_bk.txt`
 
 1. Background (bk file) should contain modes set for all predicates and all modes should be set to `+`. No modes should be set for inverted predicates.
-2. Random walk constraints should be set for each predicate by utilizing the keyword `randomwalkconstraint`. This constraint will be used to generate the inverse predicates (e.g. `_is(designation,personid).`) for facts at runtime. These constraints should be set the same way as they were set during generation of lifted random walks. Refer to our tutorial on [Lifted Random Walks](Lifted-Relational-Random-Walks) for more details on setting these constraints.
+2. Random walk constraints should be set for each predicate by utilizing the keyword `randomwalkconstraint`. This constraint will be used to generate the inverse predicates (e.g. `_is(designation,personid).`) for facts at runtime. These constraints should be set the same way as they were set during generation of lifted random walks. Refer to our tutorial on [Lifted Random Walks](../lifted-relational-random-walks/) for more details on setting these constraints.
 
 ### Negative Examples File
 

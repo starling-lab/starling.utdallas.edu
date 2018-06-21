@@ -36,7 +36,7 @@ As shown above the following flags need to be set:
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
 ### Input File
- 
+
 The input file ('facts.txt') will consist of the schema of the relational dataset. An example of schema to be input to the system is shown as follows:
 
 ```
@@ -54,7 +54,7 @@ B_taughtBy(courseid,personid)|NoTwin|NoBB
 ### Setting Flags in Input File
 
 As can be seen from the above examples, some flags can be set in schema file after vertical bars (|) for each relation. For more information on importance of these flags, please refer to [1]. This code supports the following flags:
-NoTwin: This code allows an inverse relation for every relation present in schema file, which is represented by putting an underscore (_) character in front relation. For e.g. inverse of `courseLevel(coursid,levelid)` will be represented as `_courseLevel(levelid, courseid)` such that `courseLevel` and `_courseLevel` are two distinct relations. Setting *NoTwin* disallows the inverse of a relation to be present in random walks.
+NoTwin: This code allows an inverse relation for every relation present in schema file, which is represented by putting an underscore (\_) character in front relation. For e.g. inverse of `courseLevel(coursid,levelid)` will be represented as `_courseLevel(levelid, courseid)` such that `courseLevel` and `_courseLevel` are two distinct relations. Setting *NoTwin* disallows the inverse of a relation to be present in random walks.
 
  * `NoTwin`: Disallow the inverse of a relation from being present in random walks.
 
