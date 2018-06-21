@@ -21,11 +21,11 @@ Loss function: `L(y,F(x)) = (y - F(x))^2`
 
 ### Preparing Data for Regression
 
-Refer to the [Boston Housing Dataset](Boston-Housing-Dataset) page for more information.
+Refer to the [Boston Housing Dataset](/datasets/boston-housing/) page for more information.
 
 1. Facts
 
-  BoostSRL regression cannot explicitly handle continuous features. In order to input facts into BoostSRL, we need to discretize the continuous features using either [precomputes](Advanced-Modes-Guide) or tools like [Weka](http://www.cs.waikato.ac.nz/ml/weka/). For example: we discretize the Boston dataset using equal frequency 10-bins on these features: *Crim, Indus, Nox, Rm, Age, Dis, Ptratio, B, and Lstat.*
+  BoostSRL regression cannot explicitly handle continuous features. In order to input facts into BoostSRL, we need to discretize the continuous features using either [precomputes](../advanced-modes/) or tools like [Weka](http://www.cs.waikato.ac.nz/ml/weka/). For example: we discretize the Boston dataset using equal frequency 10-bins on these features: *Crim, Indus, Nox, Rm, Age, Dis, Ptratio, B, and Lstat.*
 
   ```text
 crim(id143,8).

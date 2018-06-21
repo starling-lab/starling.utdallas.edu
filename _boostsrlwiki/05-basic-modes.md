@@ -5,7 +5,7 @@ permalink: /software/boostsrl/wiki/basic-modes/
 excerpt: "Overview of how set modes in BoostSRL."
 ---
 
-[**Contact us**](http://www.indiana.edu/~iustarai/people.html) if your particular mode file does not work.
+[**Contact us**](/people/) if your particular mode file does not work.
 
 **Modes** are used to restrict/guide the search space and are a powerful tool in getting relational algorithms such as BoostSRL to work. If your algorithm does not learn anything useful, then the *first debug point* would be the modes (in the background.txt file).
 
@@ -56,7 +56,7 @@ Finally, if one observes closely, `has_car(X,Y) -> eastbound(X)` is not informat
 
 Here are basic modes for some of the small datasets, the *full* modes can be found on their associated page.
 
-1. [Toy Cancer Dataset](Toy-Cancer-Dataset#modes)
+1. [Toy Cancer Dataset](/datasets/toy-cancer/)
 
   ```text
 useStdLogicVariables: true.
@@ -70,7 +70,7 @@ mode: cancer(+Person).
 bridger: friends/2.
   ```
 
-2. Father Dataset (from the ["Getting Started"](Getting-Started) guide)
+2. Father Dataset (from the ["Getting Started"](../getting-started/) guide)
 
   ```text
 //Parameters

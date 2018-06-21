@@ -53,17 +53,17 @@ Note that the Child and Sibling are multi-arity relations and hence can have set
 
 Once we have the high-level idea of what these relationships look like, the next step is to convert this into predicate logic format. This is the standard format for most Prolog-based systems but based on feedback from the users of the previous version, we provide a more detailed tutorial on its construction. However, we recommend that a script be used for this automatic construction.
 
-A key difference to standard Prolog systems is that our system makes a restrictive assumption - no function symbols. We only handle predicate (boolean) symbols for ease of learning. However, note that a n-valued function can be represented using n different binary predicates with a mutual exclusive constraint. 
+A key difference to standard Prolog systems is that our system makes a restrictive assumption - no function symbols. We only handle predicate (boolean) symbols for ease of learning. However, note that a n-valued function can be represented using n different binary predicates with a mutual exclusive constraint.
 
 A few things to consider during the transition:
   1. 'Name' is an identifier.
   2. 'Sex' is assumed to be either male or female, so we can simplify by making it a True/False value.
   3. childof, siblingof, and fatherof are binary relations, i.e., they encode the relation between two people (e.g. childof(mrbennet,jane), denotes that Jane is the parent of Mr. Bennet)
 
-The target we want to learn is _father(x,y)_. To learn this rule, the algorithm learns a decision tree that most effectively splits the positive and negative examples. This example is fairly small, and hence a few trees should suffice. However, for more complex problems we need more trees to learn a robust model. In most of our experiments, we use at least 20 trees. 
+The target we want to learn is _father(x,y)_. To learn this rule, the algorithm learns a decision tree that most effectively splits the positive and negative examples. This example is fairly small, and hence a few trees should suffice. However, for more complex problems we need more trees to learn a robust model. In most of our experiments, we use at least 20 trees.
 
 > _Positive Examples_
-  
+
   ```text
   father(harrypotter,jamespotter).
   father(ginnyweasley,arthurweasley).
@@ -73,7 +73,7 @@ The target we want to learn is _father(x,y)_. To learn this rule, the algorithm 
   ```
 
 > _Negative Examples_
-  
+
   ```text
   father(harrypotter,mollyweasley).
   father(georgeweasley,jamespotter).
@@ -90,7 +90,7 @@ The target we want to learn is _father(x,y)_. To learn this rule, the algorithm 
   ```
 
 > _Facts_
-  
+
   ```text
   male(jamespotter).
   male(harrypotter).
@@ -220,9 +220,9 @@ _Technically_ we're querying a model for an answer here, but we'll call it the t
   ```
 
 3. Run the testing command from the `Father` directory:
-  
+
   `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -trees 10`
-  
+
 4. Enter the `test` directory and look at the results:
 
   * `cd test`
@@ -257,7 +257,7 @@ _Technically_ we're querying a model for an answer here, but we'll call it the t
 ---
 
 <script>
-function topOfPage() { 
+function topOfPage() {
 	$('html, body').animate({ scrollTop: 0 }, 'fast');
 }
 </script>
