@@ -50,7 +50,9 @@ From the [Getting Started](../getting-started/) tutorial:
 
 * `java -jar BoostSRL.jar -l -combine -train train/ -target father -trees 10`
 
-* `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -trees 10`
+* `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -trees 10 -aucJarPath <Path to auc.jar>`
+
+*(If auc.jar does not exist in the source code folder, download from [http://mark.goadrich.com/programs/AUC/](http://mark.goadrich.com/programs/AUC/))*
 
 From the [Boston Housing Dataset](/datasets/boston-housing/) (notice the different classpath):
 
