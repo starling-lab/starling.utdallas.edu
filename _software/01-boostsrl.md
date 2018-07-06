@@ -69,7 +69,7 @@ BoostSRL assumes that data are contained in files with data structured in predic
 
 *Inference with the Relational Dependency Network:*
 
-    [~/BoostSRL/]$ java -jar v1-0.jar -i -model train/models/ -test test/ -target father -trees 10
+    [~/BoostSRL/]$ java -jar v1-0.jar -i -model train/models/ -test test/ -target father -aucJarPath . -trees 10
 
 ## Acknowledgements
 
