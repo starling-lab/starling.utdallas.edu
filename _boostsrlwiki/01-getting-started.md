@@ -16,11 +16,12 @@ At its core, this is a brief "Inductive Logic Programming" (ILP) tutorial. Howev
 
 Like many things in computer science, usually the best way to learn something is by doing it.
 
-[Download the data](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Father/Toy-Father.zip?raw=true) and a copy of the [jar file](https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/v1-0.jar?raw=true) and follow along!
+[Download the data](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Father/Toy-Father.zip?raw=true), a copy of the [jar file](https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/v1-0.jar?raw=true), and the [AUC jar](https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/auc.jar?raw=true) and follow along!
 
 1. `unzip Father.zip`
 2. `mv v1.0.jar Father/BoostSRL.jar`
-3. `cd Father`
+3. `mv auc.jar Father/auc.jar`
+4. `cd Father`
 
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
@@ -221,7 +222,7 @@ _Technically_ we're querying a model for an answer here, but we'll call it the t
 
 3. Run the testing command from the `Father` directory:
 
-  `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -trees 10`
+  `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -aucJarPath . -trees 10`
 
 4. Enter the `test` directory and look at the results:
 
