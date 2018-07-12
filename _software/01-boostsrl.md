@@ -3,11 +3,9 @@ layout: splash
 permalink: /software/boostsrl/
 title: 'BoostSRL: "Boosting for Statistical Relational Learning"'
 author: Sriraam Natarajan
-excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe> <br><br><a href="https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/v1-0.jar?raw=true" class="btn btn--light-outline btn--large"><i class="fas fa-download"></i> Download v1-0.jar</a> <a href="https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/auc.jar?raw=true" class="btn btn--light-outline btn--large"><i class="fas fa-download"></i> Download auc.jar</a>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
-  cta_label: '<i class="fas fa-download"></i> Download v1-0.jar'
-  cta_url: "https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/v1-0.jar?raw=true"
   caption: 'Copyright © 2016-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
@@ -71,7 +69,7 @@ BoostSRL assumes that data are contained in files with data structured in predic
 
 *Inference with the Relational Dependency Network:*
 
-    [~/BoostSRL/]$ java -jar v1-0.jar -i -model train/models/ -test test/ -target father -trees 10
+    [~/BoostSRL/]$ java -jar v1-0.jar -i -model train/models/ -test test/ -target father -aucJarPath . -trees 10
 
 ## Acknowledgements
 

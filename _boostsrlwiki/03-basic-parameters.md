@@ -5,7 +5,7 @@ permalink: /software/boostsrl/wiki/basic-parameters/
 excerpt: "Basic overview for commandline arguments used by BoostSRL."
 ---
 
-*Note that this is for learning an RDN. The basic version boosts a single conditional relational probability distribution.* 
+*Note that this is for learning an RDN. The basic version boosts a single conditional relational probability distribution.*
 
 ### Simple Usage:
 
@@ -14,13 +14,13 @@ excerpt: "Basic overview for commandline arguments used by BoostSRL."
 
 ### Arguments [Args]:
 
-* `-l` : enable training (**l**earning).
-* `-i` : enable testing (**i**nference).
+* `-l` : enable training (learning).
+* `-i` : enable testing (inference).
 * `-noBoost` : disable Boosting (i.e., learns a single relational regression tree).
 * `-train <Training directory>` : Path to the training directory in predicate logic format.
 * `-test <Testing directory>` : Path to the testing directory in predicate logic format format.
 * `-model <Model directory>` : Path to the directory with the stored models [or where they will be stored].
-  
+
   Default location: "Training directory"/models
 
 * `-target <target predicates>` : Comma separated list of predicates to be learned/inferred.
@@ -37,7 +37,7 @@ excerpt: "Basic overview for commandline arguments used by BoostSRL."
 * `-testNegPosRatio <Negative/Positive ratio>` : Ratio of negatives to positive for testing.
 
   Default: 2. Set to -1 to disable sampling.  
-    
+
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
 ---
@@ -46,17 +46,19 @@ excerpt: "Basic overview for commandline arguments used by BoostSRL."
 
 *Try to follow along with what each of these are doing:*
 
-From the [Getting Started](Getting-Started) tutorial:
+From the [Getting Started](../getting-started/) tutorial:
 
 * `java -jar BoostSRL.jar -l -combine -train train/ -target father -trees 10`
 
-* `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -trees 10`
+* `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -trees 10 -aucJarPath <Path to auc.jar>`
 
-From the [Boston Housing Dataset](Boston-Housing-Dataset) (notice the different classpath):
+*(If auc.jar does not exist in the source code folder, download from [http://mark.goadrich.com/programs/AUC/](http://mark.goadrich.com/programs/AUC/))*
+
+From the [Boston Housing Dataset](/datasets/boston-housing/) (notice the different classpath):
 
 * `java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -reg -l -train train/ -target medv -trees 20`
 
-From the [CiteSeer Dataset](CiteSeer-Dataset):
+From the [CiteSeer Dataset](/datasets/citeseer/):
 
 * `java -jar BoostSRL.jar -l -train train/ -target infield_fauthor,infield_ftitle,infield_fvenue -trees 5`
 

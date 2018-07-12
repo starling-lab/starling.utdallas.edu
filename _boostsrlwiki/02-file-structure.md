@@ -25,7 +25,7 @@ Example:
 
 <img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/basicFileStructure.png" style="display: block; margin: auto; padding-top: 0.4em; padding-bottom: 0.4em;">
 
-*File structure for the [Cora dataset](Cora-Dataset), notice that the background is called "cora_bk.txt" in this example.*
+*File structure for the [Cora dataset](/datasets/cora/), notice that the background is called "cora_bk.txt" in this example.*
 
 This is okay if `train_bk.txt` and `test_bk.txt` both point correctly with: `import: "../cora_bk.txt".`
 
@@ -96,10 +96,10 @@ Not all of these will necessarily appear, for example: the `CombinedTrees(target
 <!-- Alexander here, the numbers in this list are assigned automatically, so as long as they're in the same order as above things can be added or removed easily -->
 
 1. `Data/`: Directory that contains the data we train/test on.
-2. `background.txt`: [modes file](Basic-Modes-Guide) used to guide the search space.
+2. `background.txt`: [modes file](../basic-modes/) used to guide the search space.
 3. `BoostSRL.jar`: If you're using a jar file, you'll usually keep it at the root of the data directory.
 4. `test/`: Directory containing testing data.
-5. `query_(target).db`: 
+5. `query_(target).db`:
 24601. `results_(target).db`: Results of running inference (testing) on the data.
 7. `test_bk.txt`: Pointer to the `background.txt`
 8. `test_facts.txt`: Predicates described in the `background.txt`
