@@ -4,10 +4,10 @@ permalink: /software/rfgb.py/
 title: 'rfgb.py'
 author: Kaushik Roy
 excerpt: 'A Python package and tool for learning statistical relational models via gradient boosting.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
-<br><br><a href="https://github.com/starling-lab/rfgb.py/" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a><br><a href="https://rfgbpy.readthedocs.io/en/stable/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Stable Docs (v0.2.2)</a> <a href="https://rfgbpy.readthedocs.io/en/latest/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Latest Docs (v0.3.0)</a><br><a href="https://github.com/starling-lab/rfgb.py/issues" class="btn btn--light-outline btn--large"><i class="fas fa-bug"></i> Bug Tracker and Discussion</a>{:/nomarkdown}'
+<br><br><a href="https://github.com/starling-lab/rfgb.py/" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a><br><a href="https://rfgbpy.readthedocs.io/en/stable/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Stable Docs (v0.2.2)</a> <a href="https://rfgbpy.readthedocs.io/en/latest/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Latest Docs</a><br><a href="https://github.com/starling-lab/rfgb.py/issues" class="btn btn--light-outline btn--large"><i class="fas fa-bug"></i> Bug Tracker and Discussion</a>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/splash1.png
+  overlay_image: /assets/images/splash_img/splash1.png
   caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
