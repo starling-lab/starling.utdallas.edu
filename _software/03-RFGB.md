@@ -3,16 +3,13 @@ layout: splash
 permalink: /software/rfgb.py/
 title: 'rfgb.py'
 author: Kaushik Roy
-excerpt: 'Relational Functional Gradient Boosting in Python.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: 'A Python package and tool for learning statistical relational models via gradient boosting.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+<br><br><a href="https://github.com/starling-lab/rfgb.py/" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a><br><a href="https://rfgbpy.readthedocs.io/en/stable/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Stable Docs (v0.2.2)</a> <a href="https://rfgbpy.readthedocs.io/en/latest/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Latest Docs (v0.3.0)</a><br><a href="https://github.com/starling-lab/rfgb.py/issues" class="btn btn--light-outline btn--large"><i class="fas fa-bug"></i> Bug Tracker and Discussion</a>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash1.png
-  cta_label: '<i class="fab fa-github"></i> View on GitHub'
-  cta_url: "https://github.com/starling-lab/rfgb.py/releases"
   caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
-
-Relational Functional Gradient Boosting in Python.
 
 [![][pyversions img]][pyversions] [![][version img]][version] [![][license img]][license] [![][build status img]][build status] [![][docs img]][docs]
 
@@ -33,28 +30,35 @@ Relational Functional Gradient Boosting in Python.
 
 ## Installation
 
-Stable builds on PyPi
+We recommend using environments for managing Python packages, refer to [venv](https://docs.python.org/3/tutorial/venv.html) or [Conda](https://www.anaconda.com/download/) for more information.
+
+Stable versions of the `rfgb` library are hosted on the [Python Package Index](https://pypi.org/project/rfgb/) (PyPi)
 
 ```bash
 pip install rfgb
 ```
 
-Development builds on GitHub
+Development versions are on GitHub. These may contain partially-implemented features.
 
 ```bash
-pip install git+git://github.com/starling-lab/rfgb.py.git
+git clone https://github.com/starling-lab/rfgb.py.git
+python setup.py develop
 ```
 
-## Quick-Start
+## Quick-Start without Installation
 
-1. `git clone https://github.com/starling-lab/rfgb.py.git`
+1. `git clone https://github.com/starling-lab/rfgb.py`
 2. `cd rfgb.py`
-3. Perform classification on a logistics domain:
+3. Relational Dependency Network classification on a logistics domain:
 
-  ```bash
-  python -m rfgb -target unload -train testDomains/Logistics/train/ -test testDomains/Logistics/test/ -trees 10
-  ```
-
-`rfgb.py` is designed to be a re-implementation of BoostSRL in Python.
+```bash
+$ python -m rfgb learn rdn -target unload -train testDomains/Logistics/train/ -test testDomains/Logistics/test/
+```
 
 <img src="/assets/gifs/rfgb_getting_started.gif" alt="Quick start gif." width="576" height="432" display="block" margin="auto">
+
+## Versioning and Development
+
+We use [SemVer](https://semver.org/) (Major.Minor.Patch) for versioning. This project is currently in an exploratory phase and some features may change between releases.
+
+Refer to the [Contributing](https://rfgbpy.readthedocs.io/en/latest/development/01_contributing.html) section of the documentation.
