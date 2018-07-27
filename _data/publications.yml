@@ -50,6 +50,7 @@
   year: "2018"
   title: "Mixed Sum-Product Networks: A Deep Architecture for Hybrid Domains"
   venue: "In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)"
+  url: "http://www.ml.informatik.tu-darmstadt.de/papers/molina2018aaai_mspns.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Shuo Yang", "Fabian Hadiji", "Kristian Kersting", "Shaun Grannis", "Sriraam Natarajan"]
