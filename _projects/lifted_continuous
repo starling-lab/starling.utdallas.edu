@@ -1,0 +1,27 @@
+Lifted Continuous Inference (In progress)
+
+Continuous values are common in the real world, but in traditional graphical model, inference with continuous variable may requires to compute integal of potential functions without tractable close form. Because of this, lots of works about inference in continuous domain limits the potential to some special exponential family, which cannot fully represent the complexity of real world. Some other works focus on using sampling based method for inference. These method are powerful in the domain with both continuous and discrete values (Hybrid Model), but they are too computation-expensive to be applied to real word application when large number of variables are involved.
+
+In our work, we are trying to combine continuous inference with lifted inference to improve the efficiency so that it can be applied into real word task such as early detection of Alzehmer's Disease through doing inference on brain fMRI features.
+
+
+Kersting, K., Ahmadi, B., & Natarajan, S., Counting Lifted Belief Propagation, International Conference on Uncertainty in AI (UAI) 2009.
+https://alchemy.cs.washington.edu/papers/pdfs/kersting-al09.pdf
+
+Kristian Kersting. 2012. Lifted probabilistic inference. In Proceedings of the 20th European Conference on Artificial Intelligence (ECAI'12).
+http://first-mm.informatik.uni-freiburg.de/files/kersting2012ecai_faia.pdf
+
+Jaesik Choi, Eyal Amir, and David J. Hill. 2010. Lifted inference for relational continuous models. In Proceedings of the 6th AAAI Conference on Statistical Relational Artificial Intelligence (AAAIWS'10-06). AAAI Press 13-18.
+https://event.cwi.nl/uai2010/papers/UAI2010_0079.pdf
+
+Erik B. Sudderth, Alexander T. Ihler, Michael Isard, William T. Freeman, and Alan S. Willsky. 2010. Nonparametric belief propagation. Commun. ACM 53, 10 (October 2010), 95-103.
+http://ssg.mit.edu/nbp/papers/cvpr03.pdf
+
+Alexander T. Ihler and David A. McAllester. Particle belief propagation. In Proc. 12th AISTATS, pages 256–263, 2009.
+https://pdfs.semanticscholar.org/be52/2b149aab5b672fd949326dcb3da817b3982b.pdf
+
+D. Poole. First-Order Probabilistic Inference. In Proc. of the 18th International Joint Conference on Artificial Intelligence (IJCAI-05), pages 985–991, 2003.
+https://www.ijcai.org/Proceedings/03/Papers/142.pdf
+
+P. Singla and P. Domingos. Lifted First-Order Belief Propagation. In Proc. of the 23rd AAAI Conf. on Artificial Intelligence (AAAI-08), pages 1094–1099, Chicago, IL, USA, July 13-17 2008.
+https://homes.cs.washington.edu/~pedrod/papers/aaai08a.pdf
