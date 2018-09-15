@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Human Allied Artificial Intelligence"
+title: "Human-Allied Artificial Intelligence"
 permalink: /projects/communicating-with-computers/
 excerpt: "The grand vision of Human-Allied AI is when intelligent machines and humans will interact, make decisions and solve problems together and learn from as well as complement each others capabilities."
 ---
