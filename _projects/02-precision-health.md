@@ -32,12 +32,12 @@ Learning from such disparate sources of information is a challenging task. We de
 2. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
 
 <a name ="alz"></a>
-## 1. Alzheimer's Prediction
+## 2. Alzheimer's Prediction
 
 ### People Involved:
 
 * Devendra Dhami
-* Mayukh Das
+* Yuqaio Chen
 
 
 ### About:
