@@ -40,7 +40,7 @@ excerpt: "Efficient Starai excerpt"
 
 ### People Involved:
 * Yuqiao Chen
-* [Collaborators: **Prof. Nicholas Ruozzi** - University of Texas at Dallas]*
+* Collaborator: **Prof. Nicholas Ruozzi** - University of Texas at Dallas
 
 ### About:
 Continuous values are common in the real world, but in traditional graphical model, inference with continuous variable may require computing integals of potential functions without a tractable closed form. Because of this, lots of works about inference in continuous domains limit the potential to some special exponential family, which cannot fully represent the complexity of the real world. Some other works focus on using sampling-based methods for inference. These methods are powerful in the domain with both continuous and discrete values (Hybrid Model), but they are too computation-expensive to be applied to real-word applications when a large number of variables are involved.
