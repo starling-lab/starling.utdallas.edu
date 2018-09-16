@@ -40,13 +40,12 @@ excerpt: "Efficient Starai excerpt"
 
 ### People Involved:
 * Yuqiao Chen
+* [Collaborators: **Prof. Nicholas Ruozzi** - University of Texas at Dallas]*
 
 ### About:
-Continuous values are common in the real world, but in traditional graphical model, inference with continuous variable may requires to compute integal of potential functions without tractable close form. Because of this, lots of works about inference in continuous domain limits the potential to some special exponential family, which cannot fully represent the complexity of real world. Some other works focus on using sampling based method for inference. These method are powerful in the domain with both continuous and discrete values (Hybrid Model), but they are too computation-expensive to be applied to real word application when large number of variables are involved.
+Continuous values are common in the real world, but in traditional graphical model, inference with continuous variable may require computing integals of potential functions without a tractable closed form. Because of this, lots of works about inference in continuous domains limit the potential to some special exponential family, which cannot fully represent the complexity of the real world. Some other works focus on using sampling-based methods for inference. These methods are powerful in the domain with both continuous and discrete values (Hybrid Model), but they are too computation-expensive to be applied to real-word applications when a large number of variables are involved.
 
-In our work, we are trying to combine continuous inference with lifted inference to improve the efficiency so that it can be applied into real word task such as early detection of Alzehmer's Disease through doing inference on brain fMRI features.
-
-*[Collaborators: **Prof. Nicholas Ruozzi** - University of Texas at Dallas]*
+In our work, we are working to combine continuous inference with lifted inference to improve the efficiency so that it can be applied into real-word tasks such as early detection of Alzheimer's Disease through doing inference on brain fMRI features.
 
 ### Sample Publications
 * Kristian Kersting, Babak Ahmadi, Sriraam Natarajan. [Counting Lifted Belief Propagation](http://utdallas.edu/~sriraam.natarajan/Papers/cbp.pdf) , International Conference on Uncertainty in AI (UAI) 2009.
