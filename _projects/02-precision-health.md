@@ -9,6 +9,7 @@ excerpt: "Bioinformatics is the field of applying statistics and computer scienc
 # Precision Health
 * [Adverse Drug-Events](#ade)
 * [Alzheimer's Prediction](#alz)
+* [Automatic Operation Notes](#aon)
 
 
 <a name ="ade"></a>
@@ -48,6 +49,23 @@ Learning from such disparate sources of information is a challenging task. We de
 
 1. Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page, and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* (Under review in IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
 2. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
+
+<a name="aon"></a>
+## 3. Automatic Operation Notes
+
+### People Involved:
+
+* Michael Skinner
+* Alexander L. Hayes
+
+### About:
+
+With the explosion in the volume of medical information, there is the promise that patient care can be managed more precisely based on automatic extraction and evaluation of patients' medical information available in the electronic health record (EHR).
+
+One challenge is the limited ability to evaluate the rich information present in free text format, such as in notes written by health care providers.  We are starting to remedy this problem by examining a large set of operative notes describing a common surgical procedure, aiming to elicit a context free grammar that might be used to automatically generate such notes.
+
+Research in this direction may help reduce the time doctors spend on such tasks, giving them more time to focus on their patients.
+
 <!--
 ---
 layout: single
