@@ -8,6 +8,7 @@ excerpt: "Bioinformatics is the field of applying statistics and computer scienc
 
 # Precision Health
 * [Adverse Drug-Events](#ade)
+* [Alzheimer's Prediction](#alz)
 
 
 <a name ="ade"></a>
