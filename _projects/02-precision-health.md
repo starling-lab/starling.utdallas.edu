@@ -37,8 +37,8 @@ Learning from such disparate sources of information is a challenging task. We de
 
 ### People Involved:
 
-* Devendra Dhami
 * Yuqaio Chen
+* Devendra Dhami
 
 
 ### About:
