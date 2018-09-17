@@ -53,11 +53,16 @@ Thus, we develop performance-preserving **approximation strategies** for such co
 <a name ="ldm"></a>
 ## 4. Lifted Deep Models
 
-### People Involved:
-
+### People Involved: 
+* Navdeep Kaur
+* Changbin Li
 ### About:
+Relational Connectionist Models bring together the complementary strengths of scalability and explainability. Moreover, considering relational aspect of data allows us to handle data in its natural form. In past, we have considered learning Boltzmann machines for relational data; specifically generating features from lifted random walks that form the observed features of Boltzmann machines and produce efficient models which was tested on six relational datasets.
+
+Presently we are proposing a new lifted connectionist model that learns with the help of parameter tying and combining rules. This work is ongoing. Further, as another project, we are proposing a graph neural network for relational data that can learn in the presence of minimal labels provided to it.
 
 ### Sample Publications
+Navdeep Kaur, Gautam Kunapuli, Tushar Khot, William Cohen, Kristian Kersting and Sriraam Natarajan, [“Relational Restricted Boltzmann Machines: A Probabilistic Logic Learning Approach”](https://ilp2017.sciencesconf.org/data/pages/ILP_2017_paper_9.pdf), ILP 2017.
 
 
 <a name ="lRL"></a>
