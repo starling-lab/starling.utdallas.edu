@@ -16,7 +16,7 @@ excerpt: "Bioinformatics is the field of applying statistics and computer scienc
 
 ### People Involved:
 
-* Devendra Dhami
+* Devendra Singh Dhami
 * Mayukh Das
 
 
@@ -35,7 +35,7 @@ Our previous work in this area was specifically in natural language processing (
 
 ### People Involved:
 
-* Devendra Dhami
+* Devendra Singh Dhami
 * Yuqaio Chen
 
 
