@@ -21,7 +21,9 @@ excerpt: "Bioinformatics is the field of applying statistics and computer scienc
 
 
 ### About:
-With the increase in the number of drug discoveries, detecting when the new drugs (and the old drugs) with react to something (can be other drugs, food etc.) adversely has become a very important problem inside bioinformatics. This problem of adverse drug events (ADE) is now being studied in the field of machine learning as due to the large amount of data vailable, it will be simpler for the machines to detect hidden patterns that might result in such ADEs
+With the increase in the number of drug discoveries and thus the data associated with each drug, detecting when these new drugs (and the old drugs) with react to something (can be other drugs, food etc.) adversely has become a very important problem inside bioinformatics. This problem of adverse drug events (ADE) is now being studied in the field of machine learning as due to the large amount of data available, it will be simpler for the machines to detect hidden patterns that might result in these ADEs.
+
+Our previous work in this area was specifically in natural language processing (NLP) where we looked at PubMed articles and extracted relational features and constucted a model on these features. The model was supplemented by expert advice that was employed to identify text patterns in articles that might suggest the presence of an ADE(s). Recently we have focused on the problem of drug-drug interactions by looking at the molecular structure of the drugs and the interaction pathways associated with each drug.
 
 ### Sample Publications:
 
