@@ -27,16 +27,16 @@ Our previous work in this area was specifically in natural language processing (
 
 ### Sample Publications:
 
-1. Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page, and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* (Under review in IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
-2. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
+1. Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page, and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
+2. 
 
 <a name ="alz"></a>
-## 2. Alzheimer's Prediction
+## 2. Alzheimer's and Parkinson's Prediction
 
 ### People Involved:
 
-* Yuqaio Chen
 * Devendra Dhami
+* Yuqaio Chen
 
 
 ### About:
@@ -44,8 +44,7 @@ Our previous work in this area was specifically in natural language processing (
 
 ### Sample Publications:
 
-1. Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page, and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* (Under review in IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
-2. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
+1. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
 <!--
 ---
 layout: single
