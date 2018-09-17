@@ -2,7 +2,7 @@
 layout: single
 title: "Efficient StaRAI"
 permalink: /projects/efficientstarai/
-excerpt: "Efficient Starai excerpt"
+excerpt: "We explore multiple research questions/ideas in the context of efficient StaRAI, including, but not limited to, boosted models, scalability , lifted inference/learning for deep/shallow architectures as well as sequential decision making."
 ---
 
 
