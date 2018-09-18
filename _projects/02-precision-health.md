@@ -40,7 +40,7 @@ Our previous work in this area was specifically in natural language processing (
 
 
 ### About:
-
+Progressive neurological diseases are untreatable and thus the only way of preventing these disease is to detect them early. This early detection is difficult too since the signs of these disease can show up very late in any lab reports, MRIs and/or behaviour of the patient.
 
 ### Sample Publications:
 
