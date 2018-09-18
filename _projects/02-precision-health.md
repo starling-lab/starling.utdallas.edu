@@ -40,7 +40,7 @@ Our previous work in this area was specifically in natural language processing (
 
 
 ### About:
-Progressive neurological diseases are untreatable and thus the only way of preventing these disease is to detect them early. This early detection is difficult too since the signs of these disease can show up very late in any lab reports, MRIs and/or behaviour of the patient.
+Progressive neurological diseases are untreatable and thus the only way of preventing these disease is to detect them early. This early detection is difficult too since the signs of these disease can show up very late in any lab reports, MRIs and/or behaviour of the patient. The presence of large scale studies and databases such as the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the Parkinson's Progression Markers Initiative (PPMI) has given hope to the efforts of machine learning researchers hoping to contribute towards an early detection system. Our lab works with the different modalities of data in these studies with the aim of developing machine learning algorithms that can aid in both the classification and detection of patients with/or developing these diseases.
 
 ### Sample Publications:
 
