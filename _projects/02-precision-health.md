@@ -30,8 +30,8 @@ Our previous work in this area was specifically in natural language processing (
 
 ### Sample Publications:
 
-1. Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
-2. Phillip Odom, Vishal Bangera, Tushar Khot, David Page and Sriraam Natarajan. *Extracting Adverse Drug Events from Text using Human Advice.* Artificial Intelligence in Medicine (AIME) 2015.
+* Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
+* Phillip Odom, Vishal Bangera, Tushar Khot, David Page and Sriraam Natarajan. *Extracting Adverse Drug Events from Text using Human Advice.* Artificial Intelligence in Medicine (AIME) 2015.
 
 <a name ="alz"></a>
 ## 2. Alzheimer's and Parkinson's Prediction
@@ -47,8 +47,8 @@ Progressive neurological diseases are untreatable and thus the only way of preve
 
 ### Sample Publications:
 
-1. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
-2. Sriraam Natarajan, Baidya Saha, Saket Joshi, Adam Edwards, Tushar Khot, Elizabeth M. Davenport, Kristian Kersting, Christopher T. Whitlow and Joseph A. Maldjian. *Relational Learning helps in Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain.* International Journal of Machine Learning and Cybernetics, Springer 2013.
+* Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
+* Sriraam Natarajan, Baidya Saha, Saket Joshi, Adam Edwards, Tushar Khot, Elizabeth M. Davenport, Kristian Kersting, Christopher T. Whitlow and Joseph A. Maldjian. *Relational Learning helps in Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain.* International Journal of Machine Learning and Cybernetics, Springer 2013.
 
 <a name ="cardia"></a>
 ## 3. CARDIA
@@ -91,7 +91,7 @@ Research in this direction may help reduce the time doctors spend on such tasks,
 The high level idea of this project is to actively elicit features for the most useful instances in order to build a sample efficient predictive model. We consider the problem of active feature elicitation in which, given some examples with all the features (say, the full Electronic Health Record), and many examples with some of the features (say, demographics), the goal is to identify the set of examples for whom more information (say, lab tests) needs to be collected. The assumption for this problem setting is that certain features like demographic data is cheap and easily available for most patients. However, expensive or cumbersome features like information about various lab tests are available for less number of patients and we want to elicit expensive features only for the patients who would give us maximum information about the target. We develop a novel unifying framework to solve this problem and demonstrate the efficacy of our approach on 4 real world prediction problems like Alzheimer's disease, Parkinson's disease, Postpartum depression and Rare disease identification. We are also exploring human-in-the-loop approaches within this setting and questions related to different feature acquisition for different subpopulation. 
 
 ### Sample Publications:
-Natarajan, S., Das, S., Ramaman, N., Kunapuli, G., & Radivojac, P., ["Whom Should I Perform the Lab Test on Next? An Active Feature Elicitation Approach"](https://www.ijcai.org/proceedings/2018/486), International Joint Conference on Artificial Intelligence (IJCAI) 2018.
+* Natarajan, S., Das, S., Ramaman, N., Kunapuli, G., & Radivojac, P., ["Whom Should I Perform the Lab Test on Next? An Active Feature Elicitation Approach"](https://www.ijcai.org/proceedings/2018/486), International Joint Conference on Artificial Intelligence (IJCAI) 2018.
 
 <a name ="survey"></a>
 ## 6. Survey data
