@@ -10,6 +10,9 @@ excerpt: "Bioinformatics is the field of applying statistics and computer scienc
 * [Adverse Drug-Events](#ade)
 * [Alzheimer's Prediction](#alz)
 * [CARDIA](#cardia)
+* [Active elicitation of lab tests](#active)
+* [Automatic operative notes construction](#notes)
+* [Survey data](#survey)
 
 
 <a name ="ade"></a>
@@ -50,6 +53,39 @@ Progressive neurological diseases are untreatable and thus the only way of preve
 
 <a name ="cardia"></a>
 ## 3. CARDIA
+
+### People Involved:
+
+
+### About:
+
+
+### Sample Publications:
+
+<a name ="active"></a>
+## 4. Active elicitation of lab tests
+
+### People Involved:
+
+
+### About:
+
+
+### Sample Publications:
+
+<a name ="notes"></a>
+## 5. Automatic operative notes construction
+
+### People Involved:
+
+
+### About:
+
+
+### Sample Publications:
+
+<a name ="survey"></a>
+## 6. Survey data
 
 ### People Involved:
 
