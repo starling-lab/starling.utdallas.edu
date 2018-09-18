@@ -9,6 +9,7 @@ excerpt: "Bioinformatics is the field of applying statistics and computer scienc
 # Precision Health
 * [Adverse Drug-Events](#ade)
 * [Alzheimer's Prediction](#alz)
+* [CARDIA](#cardia)
 
 
 <a name ="ade"></a>
@@ -46,6 +47,18 @@ Progressive neurological diseases are untreatable and thus the only way of preve
 
 1. Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
 2. Sriraam Natarajan, Baidya Saha, Saket Joshi, Adam Edwards, Tushar Khot, Elizabeth M. Davenport, Kristian Kersting, Christopher T. Whitlow and Joseph A. Maldjian. *Relational Learning helps in Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain.* International Journal of Machine Learning and Cybernetics, Springer 2013.
+
+<a name ="cardia"></a>
+## 3. CARDIA
+
+### People Involved:
+
+
+### About:
+
+
+### Sample Publications:
+
 <!--
 ---
 layout: single
