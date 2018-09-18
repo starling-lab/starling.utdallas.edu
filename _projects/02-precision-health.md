@@ -11,7 +11,7 @@ excerpt: "Bioinformatics is the field of applying statistics and computer scienc
 * [Alzheimer's Prediction](#alz)
 * [CARDIA](#cardia)
 * [Active elicitation of lab tests](#active)
-* [Automatic operative notes construction](#notes)
+* [Automatic Operation Notes](#aon)
 * [Survey data](#survey)
 
 
@@ -61,6 +61,23 @@ Progressive neurological diseases are untreatable and thus the only way of preve
 
 
 ### Sample Publications:
+
+
+<a name="aon"></a>
+## 3. Automatic Operation Notes
+
+### People Involved:
+
+* Michael Skinner
+* Alexander L. Hayes
+
+### About:
+
+With the explosion in the volume of medical information, there is the promise that patient care can be managed more precisely based on automatic extraction and evaluation of patients' medical information available in the electronic health record (EHR).
+
+One challenge is the limited ability to evaluate the rich information present in free text format, such as in notes written by health care providers.  We are starting to remedy this problem by examining a large set of operative notes describing a common surgical procedure, aiming to elicit a context free grammar that might be used to automatically generate such notes.
+
+Research in this direction may help reduce the time doctors spend on such tasks, giving them more time to focus on their patients.
 
 <a name ="active"></a>
 ## 4. Active elicitation of lab tests
