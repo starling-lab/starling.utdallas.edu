@@ -62,7 +62,7 @@ Progressive neurological diseases are untreatable and thus the only way of preve
 The Coronary Artery Risk Development in Young Adults (CARDIA) study is to identify the risk factors in early life that have influence on the development of clinical CVD in later life. Longitudinal study of 5115 subjects started in 1985-86 in 4 study centers in the US includes various clinical and physical measurements and in-depth questionnaires about sociodemographic background like psychosocial issues, smoking, drinking habits etc. We in our work used only basic socio-demographic information and health behaviour information for early prediction of incidence of CAC-levels using interpretative Dynamic Bayesian Networks. Our results demonstrate the superiority of behavioral features over other clinical measurements in the prediction task.
 
 ### Publications:
-* Yang, S., Kersting, K., Terry, G., Carr, J., & Natarajan, S., Modeling Coronary Artery Calcification Levels From Behavioral Data in a Clinical Study, Artificial Intelligence in Medicine (AIME) 2015.
+* Yang, S., Kersting, K., Terry, G., Carr, J., & Natarajan, S., [Modeling Coronary Artery Calcification Levels From Behavioral Data in a Clinical Study](http://utdallas.edu/~sxn177430/Papers/CardiaDBN.pdf), Artificial Intelligence in Medicine (AIME) 2015.
 
 <a name="aon"></a>
 ## 4. Automatic Operation Notes
@@ -109,7 +109,7 @@ Survey data can be a rich source of information about non-clinical risk factors 
 
 ### Publications:
 
-* Haley MacLeod, Shuo Yang, Kim Oakes, Kay Connelly and Sriraam Natarajan, Identifying Rare Diseases from Behavioural Data:A Machine Learning Approach, First IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2016.
-* Sriraam Natarajan, Annu Prabhakar, Nandini Ramanan, Anna Bagilone, Katie Siek, and Kay Connelly, Boosting for Post Partum Depression Prediction, IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2017.
-* Sriraam Natarajan, Srijita Das, Nandini Ramaman, Gautam Kunapuli and Predrag Radivojac, Whom Should I Perform the Lab Test on Next? An Active Feature Elicitation Approach International Joint Conference on AI (IJCAI) 2018.
+* Haley MacLeod, Shuo Yang, Kim Oakes, Kay Connelly and Sriraam Natarajan, [Identifying Rare Diseases from Behavioural Data:A Machine Learning Approach](http://utdallas.edu/~sxn177430/Papers/chase-machinelearning.pdf), First IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2016.
+* Sriraam Natarajan, Annu Prabhakar, Nandini Ramanan, Anna Bagilone, Katie Siek, and Kay Connelly, [Boosting for Post Partum Depression Prediction](http://utdallas.edu/~sxn177430/Papers/PPDCHASE17.pdf), IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2017.
+* Sriraam Natarajan, Srijita Das, Nandini Ramaman, Gautam Kunapuli and Predrag Radivojac, [Whom Should I Perform the Lab Test on Next? An Active Feature Elicitation Approach](http://utdallas.edu/~sxn177430/Papers/AFE_IJCAI18.pdf), International Joint Conference on AI (IJCAI) 2018.
 
