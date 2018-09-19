@@ -7,10 +7,8 @@ excerpt: "Methods which can extract relations from text and exploit these relati
 
 # Applications
 1. [Natural Language Processing](#rnlp)
-<!--
-2. [Logistics](#logistics)
-3. [Network Analysis](#na)
--->
+
+
 
 
 <a name ="rnlp"></a>
