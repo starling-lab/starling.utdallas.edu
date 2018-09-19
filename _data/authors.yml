@@ -118,8 +118,8 @@ Navdeep Kaur:
   lastname: "Kaur"
   uri:
   avatar: "/assets/images/headshots/navdeepkaur.jpg"
-  location: "Indiana University, Bloomington"
-  email: "navdkaur@umail.iu.edu"
+  location: "The University of Texas at Dallas"
+  email: "Navdeep.Kaur@UTDallas.edu"
   bio: "Computer Science (Ph.D.)"
   twitter:
   github: "navdeepkjohal"
@@ -131,12 +131,12 @@ Srijita Das:
   lastname: "Das"
   uri:
   avatar: "/assets/images/headshots/srijitadas.jpg"
-  location: "Indiana University, Bloomington"
-  email: "sridas@indiana.edu"
+  location: "The University of Texas at Dallas"
+  email: "sxd170431@utdallas.edu"
   bio: "Computer Science (Ph.D.)"
   twitter:
   github: "sridas123"
-  linkedin:
+  linkedin: "srijita-das"
   group: "current-student"
 
 Nandini Ramanan:
@@ -144,12 +144,12 @@ Nandini Ramanan:
   lastname: "Ramanan"
   uri:
   avatar: "/assets/images/headshots/nandiniramanan.jpg"
-  location: "Indiana University, Bloomington"
-  email: "nramanan@iu.edu"
-  bio: "Health Informatics (Ph.D.)"
+  location: "The University of Texas at Dallas"
+  email: "nxr173030@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
   twitter:
   github: "nandhiniramanan5"
-  linkedin:
+  linkedin: "nandini-ramanan"
   group: "current-student"
 
 Alexander Hayes:
