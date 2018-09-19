@@ -21,7 +21,7 @@ The vision of this project (under the DARPA CwC grant) is to build smart machine
 
 *[Collaborators: **Prof. Dan Roth** - University of Pennsylvania; **Prof. Julia Hockenmaier** - University of Illinois, Urbana-Champaign; **Prof. Martha Palmer** - University of Colorado, Boulder; **Prof. Janardhan Rao Doppa** - Washington State University]*
 
-### Sample Publications:
+### Publications:
 * Das, M., Odom, P., Islam, M.R., Doppa, J., Roth, D., & Natarajan, S., ["Preference- Guided Planning: An Active Elicitation Approach"](https://dl.acm.org/citation.cfm?id=3238024), International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018.
 * Das, M., Islam, M.R., Doppa, J.R., Roth, D., & Natarajan, S., ["Active Preference Elicitation for Planning"](http://blogs.parc.com/aaai-17/files/2017/01/15198-65466-3-SM.pdf), Human-Machine Collaborative Learning workshop(@ AAAI) 2017.
 * Narayan-Chen A., Graber C., Das M., Islam M.R., Dan S., Natarajan S., Doppa J.R., Hockenmaier J., Palmer M., Roth D., ["Towards Problem Solving Agents that Communicate and Learn."](http://www.aclweb.org/anthology/W17-2812) Workshop on Language Grounding for Robotics at ACL 2017.
@@ -41,7 +41,7 @@ Knowledge-rich approaches to  learning  and sequential decision-making try to al
 
 Our research includes, but is not limited to, knowledge-augmented Statistical Relational Learning, human guided decision-making (esp. in stochastic, partially observable, semi-structured environments), various modalities of human guidance and knowledge elicitation and, finally, successful application of such systems to real-world tasks such as health, biomedicine and finance. Recently we have also been focusing on knowledge-guided deep models to alleviate one of the major bottlenecks of deep learning (sub-optimal learning in presence of sparse/noisy data). 
 
-### Sample Publications
+### Publications
 * Odom, P., Khot, T., Porter, R., & Natarajan, S., ["Knowledge-Based Probabilistic Logic Learning"](/assets/pdfs/KBPLM.pdf), Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI) 2015.
 * Odom, P., Bangera, V., Khot, T., Page, D., & Natarajan, S., ["Extracting Adverse Drug Events from Text using Human Advice"](/assets/pdfs/ADEText2015.pdf), Artificial Intelligence in Medicine (AIME) 2015.
 * Yang, S., Khot, T., Kersting, K., Kunapuli, G., Hauser, K., & Natarajan, S., ["Learning from Imbalanced Data in Relational Domains: A Soft Margin Approach"](/assets/pdfs/SoftMargin.pdf), International Conference on Data Mining (ICDM) 2014.
@@ -61,7 +61,7 @@ The crux of human-allied smart machines lie in their capability to communicate b
 
 We develop AI agents that are able to infer dearth of knowledge in specific parts of a task *(knowing-what-it-knows)*, communicate and explain to human (non-)expert(s) through various modalities, such as text, visuals, gestures etc., and actively seek advice/preference/guidance accordingly *(knowing-when-to-ask)*. Queries and explanations from to the agent to the human are hierarchical and are at varying levels of generality, making it extremely intuitive and easy for the human ally to effectively help the agent make better choices and learn better models. We build such frameworks both for predictive modeling and sequential decision making.
 
-### Sample Publications:
+### Publications:
 * Das, M., Odom, P., Islam, M.R., Doppa, J., Roth, D., & Natarajan, S., ["Preference- Guided Planning: An Active Elicitation Approach"](https://dl.acm.org/citation.cfm?id=3238024), International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018.
 * Alexander L. Hayes, Mayukh Das, Phillip Odom, Sriraam Natarajan. ["User Friendly Automatic Construction of Background Knowledge: Mode Construction from ER Diagrams."](/assets/pdfs/KCAP17Mode.pdf), Knowledge Capture Conference 2017.
 * Odom, P., & Natarajan, S., ["Active Advice Seeking for Inverse Reinforcement Learning."](/assets/pdfs/aasirl_AAMAS.pdf), International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2016.
