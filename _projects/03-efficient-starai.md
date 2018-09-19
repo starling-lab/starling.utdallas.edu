@@ -6,7 +6,6 @@ excerpt: "We explore multiple research questions/ideas in the context of efficie
 ---
 
 
-# Efficient StaRAI
 1. [Boosting](#boost)
 2. [Scaling](#scaling)
 3. [Lifted continuous inference](#lci)
