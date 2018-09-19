@@ -25,7 +25,7 @@ Even then, typically these features do not scale with large amounts of natural l
 
 Models learned using relational machine learning methods can be used to create robust and interpretable predictions. In these projects, BoostSRL has been applied to extracting relations from clinical data, adverse drug event relations, and financial documents.
 
-### Sample Publications:
+### Publications:
 
 * Sriraam Natarjan, Ameet Soni, Anurag Wazalwar, Dileep Viswanathan, and Kristian Kersting. "Deep Distant Supervision: Learning Statistical Relational Models for Weak Supervision in Natural Language Processing." Morik Festschrift, LNAI 9580 2016.
 * Sriraam Natarajan, Vishal Bangera, Tushar Khot, Jose Picado, Anurag Wazalwar, Vitor Santos Costa, David Page, and Michael Caldwell. "Markov Logic Networks for Adverse Drug Event Extraction from Text." Knowledge and Information Systems (KAIS), 2016.
@@ -44,7 +44,7 @@ Models learned using relational machine learning methods can be used to create r
 
 ### About:
 
-### Sample Publications:
+### Publications:
 
 
 
@@ -56,7 +56,7 @@ Models learned using relational machine learning methods can be used to create r
 
 ### About:
 
-### Sample Publications:
+### Publications:
 
 
 
@@ -82,7 +82,7 @@ Even then, typically these features do not scale with large amounts of natural l
 
 Models learned using relational machine learning methods can be used to create robust and interpretable predictions. In these projects, BoostSRL has been applied to extracting relations from clinical data, adverse drug event relations, and financial documents.
 
-## References
+## Publications
 
 * Sriraam Natarjan, Ameet Soni, Anurag Wazalwar, Dileep Viswanathan, and Kristian Kersting. "Deep Distant Supervision: Learning Statistical Relational Models for Weak Supervision in Natural Language Processing." Morik Festschrift, LNAI 9580 2016.
 * Sriraam Natarajan, Vishal Bangera, Tushar Khot, Jose Picado, Anurag Wazalwar, Vitor Santos Costa, David Page, and Michael Caldwell. "Markov Logic Networks for Adverse Drug Event Extraction from Text." Knowledge and Information Systems (KAIS), 2016.
