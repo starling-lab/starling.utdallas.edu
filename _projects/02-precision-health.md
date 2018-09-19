@@ -30,7 +30,7 @@ Our previous work in this area was specifically in natural language processing (
 
 ### Publications:
 
-* Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page and Sriraam Natarajan. *Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities.* IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
+* Devendra Singh Dhami, Gautam Kunapuli, Mayukh Das, David Page and Sriraam Natarajan. ["Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities"] (https://www.sciencedirect.com/science/article/pii/S2352648318300424) IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE), 2018.  
 * Phillip Odom, Vishal Bangera, Tushar Khot, David Page and Sriraam Natarajan. *Extracting Adverse Drug Events from Text using Human Advice.* Artificial Intelligence in Medicine (AIME) 2015.
 
 <a name ="alz"></a>
