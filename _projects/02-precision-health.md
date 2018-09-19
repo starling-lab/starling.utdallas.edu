@@ -5,7 +5,6 @@ permalink: /projects/biomedicine/
 excerpt: "Adapations of novel machine learning approaches to solve high impact tasks in healthcare/biomedicine"
 ---
 
-# Precision Health
 * [Adverse Drug-Events](#ade)
 * [Alzheimer's Prediction](#alz)
 * [CARDIA](#cardia)
