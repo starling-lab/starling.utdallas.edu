@@ -5,7 +5,6 @@ permalink: /projects/communicating-with-computers/
 excerpt: "The grand vision of Human-Allied AI is when intelligent machines and humans will interact, make decisions and solve problems together and learn from as well as complement each others capabilities."
 ---
 
-# Human-Allied Artificial Intelligence
 1. [Communicating with Computers](#cwc)
 2. [Knowledge-based Learning](#kbl)
 3. [Closing the Loop](#cl)
