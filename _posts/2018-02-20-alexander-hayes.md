@@ -10,4 +10,4 @@ My work is mostly centered on relational approaches to natural language processi
 
 This work has been applied to SEC Form S-1 Documents and known drug side effect information from the openFDA database. Work for the latter can be found on [GitHub](https://github.com/batflyer/DrugInteractionDiscovery).
 
-I am involved in the [Natural Language Processing](/projects/natural-language-processing/) project.
+I am involved in the [Natural Language Processing](/projects/applications/) project.
