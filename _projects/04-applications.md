@@ -7,9 +7,10 @@ excerpt: "Methods which can extract relations from text and exploit these relati
 
 # Applications
 1. [Natural Language Processing](#rnlp)
+<!--
 2. [Logistics](#logistics)
 3. [Network Analysis](#na)
-
+-->
 
 
 <a name ="rnlp"></a>
@@ -35,7 +36,7 @@ Models learned using relational machine learning methods can be used to create r
 * Tushar Khot, Siddharth Srivastava, Sriraam Natarajan, and Jude Shavlik. "Learning Relational Structure for Temporal Relation Extraction." International Workshop on Statistical Relational AI, 2012.
 
 
-
+<!--
 
 <a name ="logistics"></a>
 ## 2. Logistics
@@ -58,7 +59,7 @@ Models learned using relational machine learning methods can be used to create r
 
 ### Publications:
 
-
+-->
 
 
 
