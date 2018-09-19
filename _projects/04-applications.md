@@ -5,7 +5,6 @@ permalink: /projects/applications/
 excerpt: "Methods which can extract relations from text and exploit these relations during learning and inference will reduce the need for careful feature construction, and also scale better into larger data sets."
 ---
 
-# Applications
 1. [Natural Language Processing](#rnlp)
 
 
