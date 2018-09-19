@@ -2,7 +2,7 @@
 layout: single
 title: "Precision Health"
 permalink: /projects/biomedicine/
-excerpt: "Bioinformatics is the field of applying statistics and computer science to the field of molecular biology. Our lab focuses mainly on the subarea of pattern recognition in biomedical data."
+excerpt: "Adapations of novel machine learning approaches to solve high impact tasks in healthcare/biomedicine"
 ---
 
 # Precision Health
