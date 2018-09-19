@@ -43,12 +43,14 @@
   year: "2018"
   title: "Preference- Guided Planning: An Active Elicitation Approach"
   venue: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+  url: "https://dl.acm.org/citation.cfm?id=3238024"
 
 - publicationType: "conference-papers"
   authors: ["Alejandro Molina", "Antonio Vergari", "Nicola Di Mauro", "Floriana Esposito", "Sriraam Natarajan", "Kristian Kersting"]
   year: "2018"
   title: "Mixed Sum-Product Networks: A Deep Architecture for Hybrid Domains"
   venue: "In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)"
+  url: "http://www.ml.informatik.tu-darmstadt.de/papers/molina2018aaai_mspns.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Shuo Yang", "Fabian Hadiji", "Kristian Kersting", "Shaun Grannis", "Sriraam Natarajan"]
@@ -588,7 +590,7 @@
   year: "2011"
   title: "A Relational Hierarchical Model of Decision-Theoretic Assistance"
   venue: "Knowledge and Information Systems (KAIS)"
-  url: "/assets/pdfs/HierarchicalRelationalModelKAIS.pdf"
+  url: "https://link.springer.com/content/pdf/10.1007%2Fs10115-011-0435-z.pdf"
   keywords: ["Statistical Relational Learning","Decision Theory"]
 
 

@@ -3,21 +3,18 @@ layout: splash
 permalink: /software/boostsrl/
 title: 'BoostSRL: "Boosting for Statistical Relational Learning"'
 author: Sriraam Natarajan
-excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe> <br><br><a href="https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/v1-0.jar?raw=true" class="btn btn--light-outline btn--large"><i class="fas fa-download"></i> Download v1-0.jar</a> <a href="https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/auc.jar?raw=true" class="btn btn--light-outline btn--large"><i class="fas fa-download"></i> Download auc.jar</a>{:/nomarkdown}'
+excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-boosting based approach to learning different types of SRL models.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=star&count=true&size=large" frameborder="0" scrolling="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=BoostSRL&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe> <br><br><a href="https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/v1-0.jar?raw=true" class="btn btn--light-outline btn--large"><i class="fas fa-download"></i> Download v1-0.jar</a> <a href="https://github.com/boost-starai/BoostSRL-Misc/blob/master/VersionHistory/Version1.0/auc.jar?raw=true" class="btn btn--light-outline btn--large"><i class="fas fa-download"></i> Download auc.jar</a><a href="/software/boostsrl/wiki/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Documentation</a> <a href="https://github.com/starling-lab/BoostSRL/issues" class="btn btn--light-outline btn--large"><i class="fas fa-bug"></i> Bug Tracker and Discussion</a>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
+  overlay_image: /assets/images/splash_img/splash3.png
   caption: 'Copyright © 2016-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 Developed by [Jude Shavlik](http://pages.cs.wisc.edu/~shavlik/), [Tushar Khot](http://pages.cs.wisc.edu/~tushar/), [Sriraam Natarajan](http://utdallas.edu/~sxn177430/), and [members of the StARLinG Lab](/people/).
 
+[![release img]][release] [![license img]][license]
+
 As with the standard gradient-boosting approach, our approach turns the model-learning problem to learning a sequence of regression models. The key difference to the standard approaches is that we learn relational regression models (i.e. regression models that operate on relational data). We assume the data to be in predicate-logic format and the output are essentially first-order regression trees where the inner nodes contain conjunctions of logical predicates.
-
-| Latest Release | License | Wiki |
-| :---: | :---: | :---: |
-| [![release img]][release] | [![license img]][license] | [Documentation](/software/boostsrl/wiki/){: .btn .btn--info .btn--large} |
-
-
 
 ## Getting Started
 
@@ -27,7 +24,7 @@ As with the standard gradient-boosting approach, our approach turns the model-le
 
 **Installation**:
 
-* Download stable jar file.  
+* Download stable jar file and auc.jar for measuring performance.
 * Download stable source with git.  
   `git clone -b master https://github.com/boost-starai/BoostSRL.git`
 * Nightly builds with git.  
@@ -41,35 +38,45 @@ BoostSRL assumes that data are contained in files with data structured in predic
 
 *Positive Examples:*
 
-    father(harrypotter,jamespotter).
-	father(ginnyweasley,arthurweasley).
-	father(ronweasley,arthurweasley).
-	...
+```prolog
+father(harrypotter,jamespotter).
+father(ginnyweasley,arthurweasley).
+father(ronweasley,arthurweasley).
+...
+```
 
 *Negative Examples:*
 
-	father(harrypotter,mollyweasley).
-	father(harrypotter,lilypotter).
-	father(harrypotter,ronweasley).
-	...
+```prolog
+father(harrypotter,mollyweasley).
+father(harrypotter,lilypotter).
+father(harrypotter,ronweasley).
+...
+```
 
 *Facts:*
 
-	male(harrypotter).
-	male(jamespotter).
-	siblingof(ronweasley,fredweasley).
-	siblingof(ronweasley,georgeweasley).
-	childof(jamespotter,harrypotter).
-	childof(lilypotter,harrypotter).
-	...
+```prolog
+male(harrypotter).
+male(jamespotter).
+siblingof(ronweasley,fredweasley).
+siblingof(ronweasley,georgeweasley).
+childof(jamespotter,harrypotter).
+childof(lilypotter,harrypotter).
+...
+```
 
 *Learning a Relational Dependency Network:*
 
-    [~/BoostSRL/]$ java -jar v1-0.jar -l -train train/ -target father -trees 10
+```bash
+[~/BoostSRL/]$ java -jar v1-0.jar -l -train train/ -target father -trees 10
+```
 
 *Inference with the Relational Dependency Network:*
 
-    [~/BoostSRL/]$ java -jar v1-0.jar -i -model train/models/ -test test/ -target father -aucJarPath . -trees 10
+```bash
+[~/BoostSRL/]$ java -jar v1-0.jar -i -model train/models/ -test test/ -target father -aucJarPath . -trees 10
+```
 
 ## Acknowledgements
 
