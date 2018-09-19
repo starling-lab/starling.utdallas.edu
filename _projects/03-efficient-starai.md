@@ -52,7 +52,7 @@ Continuous values are common in the real world, but in traditional graphical mod
 In our work, we are working to combine continuous inference with lifted inference to improve the efficiency so that it can be applied into real-word tasks such as early detection of Alzheimer's Disease through doing inference on brain fMRI features.
 
 ### Publications
-* Kristian Kersting, Babak Ahmadi, Sriraam Natarajan. [Counting Lifted Belief Propagation](http://utdallas.edu/~sriraam.natarajan/Papers/cbp.pdf) , International Conference on Uncertainty in AI (UAI) 2009.
+* Kristian Kersting, Babak Ahmadi, Sriraam Natarajan. ["Counting Lifted Belief Propagation"](http://utdallas.edu/~sriraam.natarajan/Papers/cbp.pdf) , International Conference on Uncertainty in AI (UAI) 2009.
 
 
 <a name ="ldm"></a>
