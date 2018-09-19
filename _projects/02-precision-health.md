@@ -47,8 +47,9 @@ Progressive neurological diseases are untreatable and thus the only way of preve
 
 ### Publications:
 
-* Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, *Identifying Parkinson's Patients : A Functional Gradient Boosting Approach*, Artificial Intelligence in Medicine (AIME) (2017).
-* Sriraam Natarajan, Baidya Saha, Saket Joshi, Adam Edwards, Tushar Khot, Elizabeth M. Davenport, Kristian Kersting, Christopher T. Whitlow and Joseph A. Maldjian. *Relational Learning helps in Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain.* International Journal of Machine Learning and Cybernetics, Springer 2013.
+* Devendra Singh Dhami, Ameet Soni, David Page, Sriraam Natarajan, ["Identifying Parkinson's Patients : A Functional Gradient Boosting Approach"](http://www.utdallas.edu/~devendra.dhami/Parkisnson_s_AIME_2017.pdf), Artificial Intelligence in Medicine (AIME) (2017).
+* Sriraam Natarajan, Baidya Saha, Saket Joshi, Adam Edwards, Tushar Khot, Elizabeth M. Davenport, Kristian Kersting, Christopher T. Whitlow and Joseph A. Maldjian. ["Relational Learning helps in Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain"](http://utdallas.edu/~sriraam.natarajan/Papers/Alz_IJMLC.pdf) International Journal of Machine Learning and Cybernetics, Springer 2013.
+* Sriraam Natarajan, Saket Joshi, Baidya N. Saha, Adam Edwards, Elizabeth Moody, Tushar Khot, Kristian Kersting, Christopher T. Whitlow and Joseph A. Maldjian. ["A Machine Learning Pipeline for Three-way Classification of Alzheimer Patients from Structural Magnetic Resonance Images of the Brain"](http://utdallas.edu/~sriraam.natarajan/Papers/ICMLA_335_Alzheimer.pdf) IEEE Conference on Machine Learning and Applications (ICMLA), 2012.
 
 <a name ="cardia"></a>
 ## 3. CARDIA
