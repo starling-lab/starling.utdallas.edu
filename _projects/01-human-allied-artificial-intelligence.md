@@ -18,7 +18,10 @@ excerpt: "The grand vision of Human-Allied AI is when intelligent machines and h
 ### About:
 The vision of this project (under the DARPA CwC grant) is to build smart machines that enable *"Artificial Intelligence"* agents and humans to interact seamlessly, make decisions and solve problems together and learn from each other as well as complement each others capabilities. An over-arching framework for human-machine collaboration involving multiple human (non)experts and machines through varied modalities and protocols of interaction. Concept learning/teaching, collaborative planning, domain transfer/extension and higher level knowledge induction are some of the avenues that we are presently investigating.
 
-*[Collaborators: **Prof. Dan Roth** - University of Pennsylvania; **Prof. Julia Hockenmaier** - University of Illinois, Urbana-Champaign; **Prof. Martha Palmer** - University of Colorado, Boulder; **Prof. Janardhan Rao Doppa** - Washington State University]*
+*[Collaborators: **Prof. Dan Roth** - University of Pennsylvania; 
+**Prof. Julia Hockenmaier** - University of Illinois, Urbana-Champaign; 
+**Prof. Martha Palmer** - University of Colorado, Boulder; 
+**Prof. Janardhan Rao Doppa** - Washington State University]*
 
 ### Publications:
 * Das, M., Odom, P., Islam, M.R., Doppa, J., Roth, D., & Natarajan, S., ["Preference- Guided Planning: An Active Elicitation Approach"](https://dl.acm.org/citation.cfm?id=3238024), International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018.
