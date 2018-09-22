@@ -1,0 +1,16 @@
+- name: "Human-Allied Artificial Intelligence"
+  description: "The grand vision of Human-Allied AI is when intelligent machines and humans will interact, make decisions and solve problems together and learn from as well as complement each others capabilities."
+  id: HAAI
+- name: "Precision Health"
+  description: "Adapations of novel machine learning approaches to solve high impact tasks in healthcare/biomedicine."
+  id: precision-health
+- name: "Efficient StarAI"
+  description: "We explore multiple research questions/ideas in the context of efficient StaRAI, including, but not limited to, boosted models, scalability , lifted inference/learning for deep/shallow architectures as well as sequential decision making."
+  id: efficient-starai
+- name: "Applications"
+  description: "Methods which can extract relations from text and exploit these relations during learning and inference will reduce the need for careful feature construction, and also scale better into larger data sets."
+  id: applications
+# - name: "Books"
+#   id: books
+# - name: "Book Chapters"
+#   id: book-chapters
