@@ -1,22 +1,20 @@
 ---
 layout: single
-title: "Applications"
-permalink: /projects/applications/
-excerpt: "Methods which can extract relations from text and exploit these relations during learning and inference will reduce the need for careful feature construction, and also scale better into larger data sets."
+classes: wide
+title: "Natural Language Processing"
+category: "applications"
+permalink: /projects/nlp/
+excerpt: ""
+header:
+  teaser: http://placehold.it/350x250
+sidebar:
+  - title: "People Involved"
+    image: http://placehold.it/350x250
+    text: "Alexander L. Hayes <br>
+Kaushik Roy"
 ---
 
-1. [Natural Language Processing](#rnlp)
 
-
-
-
-<a name ="rnlp"></a>
-## 1.Natural Language Processing
-### People Involved:
-* Alexander L. Hayes
-* Kaushik Roy
-
-### About:
 Natural language processing is a hard task for traditional machine learning models, since they tend to ignore the relationships between the sentences, words, and text in documents. Because of this, they require careful feature construction and often make assumptions about conditional independences between all of the elements.
 
 Even then, typically these features do not scale with large amounts of natural language data. Therefore, methods which can extract relations from text and exploit these relations during learning and inference will reduce the need for careful feature construction, and also scale better into larger data sets.
