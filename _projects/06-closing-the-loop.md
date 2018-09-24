@@ -10,7 +10,7 @@ header:
 sidebar:
 - title: "People Involved"
   image: http://placehold.it/350x250
-  text: "[Phillip Odom](people/#Phillip%20Odom) <br>
+  text: "[Phillip Odom](/people/#Phillip%20Odom) <br>
   [Mayukh Das](/people/#Mayukh%20Das) <br>
   [Alexander Hayes](/people/#Alexander%20L.%20Hayes)"
 ---
