@@ -10,7 +10,7 @@ header:
 sidebar:
   - title: "People Involved"
     image: http://placehold.it/350x250
-    text: "Devendra Singh Dhami <br>
+    text: "[Devendra Singh Dhami](/people/#Devendra%20Singh%20Dhami) <br>
     Yuqaio Chen"
 
 ---

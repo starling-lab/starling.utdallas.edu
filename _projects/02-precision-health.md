@@ -11,7 +11,7 @@ sidebar:
   - title: "People Involved"
     image: http://placehold.it/350x250
     text: "[Mayukh Das](/people/#Mayukh%20Das) <br>
-    Devendra Singh Dhami"
+    [Devendra Singh Dhami](people/#Devendra%20Singh%20Dhami)"
 
 ---
 

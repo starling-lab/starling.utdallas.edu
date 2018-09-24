@@ -10,9 +10,9 @@ header:
 sidebar:
   - title: "People Involved"
     image: http://placehold.it/350x250
-    text: "Shuo Yang <br>
-    Srijita Das <br>
-    Nandini Ramanan"
+    text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
+    [Srijita Das](/people/#Srijita%20Das) <br>
+    [Nandini Ramanan](/people/#Nandini%20Ramanan)"
 
 ---
 

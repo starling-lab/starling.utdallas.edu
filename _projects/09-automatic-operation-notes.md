@@ -11,7 +11,7 @@ sidebar:
   - title: "People Involved"
     image: http://placehold.it/350x250
     text: "Michael Skinner <br>
-    Alexander L. Hayes"
+    [Alexander L. Hayes](/people/#Alexander%20L.%20Hayes)"
 
 ---
 

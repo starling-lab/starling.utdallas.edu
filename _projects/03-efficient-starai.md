@@ -10,9 +10,9 @@ header:
 sidebar:
   - title: "People Involved"
     image: http://placehold.it/350x250
-    text: "Shuo Yang <br>
-   Phillip Odam <br>
-   Nandini Ramanan"
+    text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
+   [Phillip Odam](/people/#Phillip%20Odom) <br>
+   [Nandini Ramanan](/people/#Nandini%20Ramanan)"
 ---
 
 Statistical Relational Learning models combine the representational power of  first-order logic with the ability of probability theory to handle uncertainity. While these models are  attractive from modelling perspective, learning them is computationally intensive. Existing approaches so far focused on the task of learning the so-called parameters where the rules are provided by the human expert and the data is merely used to learn the parameters. Our gradient boosted approach, instead relies on the intuition that learning a set of weak partial rules can be much easier than finding a single, highly accurate model. We learns both the rules and the parameters of the rules simultaneously. Our approach is capable of learning different types of models (Markov Logic Networks, Relational Dependency networks as well recently succesful Relational Logistic Regression), handling modeling of hidden data, learning with preferences from humans, scaling with large amounts of data by approximate counting and modeling temporal data.

@@ -13,9 +13,9 @@ sidebar:
     text: "[Mayukh Das](/people/#Mayukh%20Das)"
   - title: "Collaborators"
     text: "**Prof. Dan Roth** <br> *University of Pennsylvania;* <br>
-           **Prof. Julia Hockenmaier** <br> *University of Illinois, Urbana-Champaign;* <br>
-           **Prof. Martha Palmer** <br> *University of Colorado, Boulder;* <br>
-           **Prof. Janardhan Rao Doppa** <br> *Washington State University;*"
+           **Prof. Julia Hockenmaier** <br> *University of Illinois, <nobr>Urbana-Champaign</nobr>* <br>
+           **Prof. Martha Palmer** <br> *University of Colorado, Boulder* <br>
+           **Prof. Janardhan Rao Doppa** <br> *Washington State University*"
 ---
 
 The vision of this project (under the DARPA CwC grant) is to build smart machines that enable *"Artificial Intelligence"* agents and humans to interact seamlessly, make decisions and solve problems together and learn from each other as well as complement each others capabilities. An over-arching framework for human-machine collaboration involving multiple human (non)experts and machines through varied modalities and protocols of interaction. Concept learning/teaching, collaborative planning, domain transfer/extension and higher level knowledge induction are some of the avenues that we are presently investigating.

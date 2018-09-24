@@ -10,7 +10,7 @@ header:
 sidebar:
   - title: "People Involved"
     image: http://placehold.it/350x250
-    text: "Navdeep Kaur <br>
+    text: "[Navdeep Kaur](/people/#Navdeep%20Kaur) <br>
    Changbin Li"
 ---
 
