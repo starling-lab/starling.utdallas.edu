@@ -109,6 +109,18 @@ analytics:
 # Site Author
 author: StARLinG Lab
 
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: https://github.com/starling-lab
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://twitter.com/starling_lab
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: https://www.youtube.com/channel/UCg9c1HGFp2_CrItex_KLhSg
+
 # Reading Files
 include:
   - .htaccess
