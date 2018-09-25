@@ -5,10 +5,10 @@ title: "Survey data"
 category: "precision-health"
 permalink: /projects/survey-data/
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/survey_PPD.png
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
+    image: /assets/images/project/survey_PPD.png
     text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
 [Srijita Das](/people/#Srijita%20Das)<br>
 [Nandini Ramanan](/people/#Nandini%20Ramanan)
