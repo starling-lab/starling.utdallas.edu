@@ -8,6 +8,7 @@ header:
   teaser: /assets/images/project/AFE.png
 sidebar:
   - title: "People Involved"
+    image: /assets/images/project/AFE.png
     text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
     [Srijita Das](/people/#Srijita%20Das) <br>
     [Nandini Ramanan](/people/#Nandini%20Ramanan)"
