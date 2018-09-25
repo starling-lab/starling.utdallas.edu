@@ -11,8 +11,6 @@ main:
     url: /software/
   - title: "Datasets"
     url: /datasets/
-  - title: "Blog"
-    url: /categories/
 
 # links for BoostSRL Wiki: (/software/boostsrl/wiki/)
 boostsrlwiki:

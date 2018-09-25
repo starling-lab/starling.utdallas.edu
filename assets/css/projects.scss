@@ -1,0 +1,62 @@
+---
+# Sass file needs front matter (the dashes are enough)
+---
+
+$primary-color: #0a9be9;
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+// Styles for projects page starts
+.project-category {
+    display: inline-block;
+    width: 100%;
+    .grid__item{
+      margin-bottom: 0px !important;
+      padding-bottom: 0px !important;
+    }
+}
+a {
+  text-decoration: none !important;
+}
+h2 {
+    text-align: center;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.container{
+  margin: 20px auto;
+  background-color:#fff;
+  display:grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  .box{
+    background-color:#333;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    align-items:center;
+    justify-content:center;
+    font-family:sans-serif;
+    h3 {
+      margin-top: 0.5em;
+      border-bottom: 1px solid #ccc;
+    }
+    div{
+      text-align: justify;
+    }
+  }
+}
+.project-group{
+  border: solid;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: inherit;
+  width: 100%;
+}
