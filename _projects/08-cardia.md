@@ -5,10 +5,9 @@ title: "Cardia"
 category: "precision-health"
 permalink: /projects/cardia/
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/cardia.PNG
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
     text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
     [Nandini Ramanan](/people/#Nandini%20Ramanan)"
 

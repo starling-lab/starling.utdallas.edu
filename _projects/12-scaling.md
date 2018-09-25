@@ -5,10 +5,10 @@ title: "Scaling"
 category: "efficient-starai"
 permalink: /projects/scaling/
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/scaling.png
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
+    image: /assets/images/project/scaling.png
     text: "[Mayukh Das](/people/#Mayukh%20Das) <br>
     [Devendra Singh Dhami](/people/#Devendra%20Singh%20Dhami)"
 ---

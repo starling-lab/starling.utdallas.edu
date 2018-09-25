@@ -5,10 +5,10 @@ title: "Knowledge-based Learning"
 category: "HAAI"
 permalink: /projects/knowledge-based-learning/
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/kbl2.jpg
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
+    image: /assets/images/project/kbl2.jpg
     text: "[Phillip Odom](/people/#Phillip%20Odom) <br>
     [Shuo Yang](/people/#Shuo%20Yang)  <br>
     [Mayukh Das](/people/#Mayukh%20Das)"

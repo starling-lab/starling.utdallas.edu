@@ -5,10 +5,9 @@ title: "Communicating with Computers"
 category: "HAAI"
 permalink: /projects/communicating-with-computers/
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/cwc.png
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
     text: "[Mayukh Das](/people/#Mayukh%20Das)"
   - title: "Collaborators"
     text: "**Prof. Dan Roth** <br> *University of Pennsylvania;* <br>
@@ -18,6 +17,8 @@ sidebar:
 ---
 
 The vision of this project (under the DARPA CwC grant) is to build smart machines that enable *"Artificial Intelligence"* agents and humans to interact seamlessly, make decisions and solve problems together and learn from each other as well as complement each others capabilities. An over-arching framework for human-machine collaboration involving multiple human (non)experts and machines through varied modalities and protocols of interaction. Concept learning/teaching, collaborative planning, domain transfer/extension and higher level knowledge induction are some of the avenues that we are presently investigating.
+
+![Communicating with computers](/assets/images/project/cwc.png){:class="img-responsive"}
 
 ### Publications:
 * Das, M., Odom, P., Islam, M.R., Doppa, J., Roth, D., & Natarajan, S., ["Preference- Guided Planning: An Active Elicitation Approach"](https://dl.acm.org/citation.cfm?id=3238024), International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018.

@@ -16,7 +16,7 @@ sidebar:
     text: "Sai Nagboth, [**Turvo**](http://www.turvo.com)"
 ---
 
-Logistics domain is confiding in Machine Learning for various problems like predicting the mode of movements of goods i.e. rail vs road, predicting trailer types etc. Starling lab along with [Turvo](http://www.turvo.com) is looking to create an automatic statistician which will embed the relations in a knowledge graph from shipments. We are also building a regressor model which would provide an approximate cost of the shipments and hence aid brokers to bargain a fair price.
+Machine Learning is a natural choice in Logistic Domains for various problems like predicting the mode of movements of goods i.e. rail vs road, predicting trailer types etc. Starling lab along with [Turvo](http://www.turvo.com) is looking to create an automated statistician which will embed the relations in a knowledge graph from shipments. We are also building a regressor model which would provide an approximate cost of the shipments and hence aid brokers to bargain a fair price.
 
 ![turvo](/assets/images/project/logistics.jpeg){:class="img-responsive"}
 *source: www.turvo.com*
