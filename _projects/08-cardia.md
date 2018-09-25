@@ -8,6 +8,7 @@ header:
   teaser: /assets/images/project/cardia.PNG
 sidebar:
   - title: "People Involved"
+    image: /assets/images/project/cardia.PNG
     text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
     [Nandini Ramanan](/people/#Nandini%20Ramanan)"
 
