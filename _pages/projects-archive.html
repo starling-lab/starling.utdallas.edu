@@ -26,7 +26,7 @@ excerpt: "We group the projects at our lab into four main categories."
   <div class="project-group">
   {% assign haai_projects = site.projects | where: "category", project.id %}
   {% for post in haai_projects   %}
-  {% include archive-single.html type="grid" %}
+  {% include project-single.html type="grid" %}
   {% endfor %}
   </div>
 </div>

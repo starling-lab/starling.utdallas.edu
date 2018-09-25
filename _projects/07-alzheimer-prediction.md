@@ -4,7 +4,6 @@ classes: wide
 title: "Alzheimer's Prediction"
 category: "precision-health"
 permalink: /projects/alzheimer-prediction/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

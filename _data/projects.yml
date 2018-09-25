@@ -10,7 +10,3 @@
 - name: "Applications"
   description: "Methods which can extract relations from text and exploit these relations during learning and inference will reduce the need for careful feature construction, and also scale better into larger data sets."
   id: applications
-# - name: "Books"
-#   id: books
-# - name: "Book Chapters"
-#   id: book-chapters

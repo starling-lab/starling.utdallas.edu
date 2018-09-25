@@ -4,7 +4,6 @@ classes: wide
 title: "Scaling"
 category: "efficient-starai"
 permalink: /projects/scaling/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

@@ -4,7 +4,6 @@ classes: wide
 title: "Communicating with Computers"
 category: "HAAI"
 permalink: /projects/communicating-with-computers/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

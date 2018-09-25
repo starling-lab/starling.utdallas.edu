@@ -4,7 +4,6 @@ classes: wide
 title: "Natural Language Processing"
 category: "applications"
 permalink: /projects/nlp/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

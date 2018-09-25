@@ -4,7 +4,6 @@ classes: wide
 title: "Survey data"
 category: "precision-health"
 permalink: /projects/survey-data/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

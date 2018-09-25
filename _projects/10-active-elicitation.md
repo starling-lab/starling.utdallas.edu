@@ -4,7 +4,6 @@ classes: wide
 title: "Active elicitation of lab tests"
 category: "precision-health"
 permalink: /projects/active-elicitation/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

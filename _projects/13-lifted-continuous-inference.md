@@ -4,7 +4,6 @@ classes: wide
 title: "Lifted Continuous Inference"
 category: "efficient-starai"
 permalink: /projects/lifted-continuous-inference/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

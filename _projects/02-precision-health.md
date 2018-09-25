@@ -4,7 +4,6 @@ classes: wide
 title: "Adverse <nobr>Drug-Events</nobr>"
 category: "precision-health"
 permalink: /projects/adverse-drug-events/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

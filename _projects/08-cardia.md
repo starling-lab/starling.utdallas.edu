@@ -4,7 +4,6 @@ classes: wide
 title: "Cardia"
 category: "precision-health"
 permalink: /projects/cardia/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

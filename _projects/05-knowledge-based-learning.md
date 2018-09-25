@@ -4,7 +4,6 @@ classes: wide
 title: "Knowledge-based Learning"
 category: "HAAI"
 permalink: /projects/knowledge-based-learning/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

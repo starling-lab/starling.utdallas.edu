@@ -4,7 +4,6 @@ classes: wide
 title: "Boosting"
 category: "efficient-starai"
 permalink: /projects/boosting/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:

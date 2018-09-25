@@ -4,7 +4,6 @@ classes: wide
 title: "Automatic Operation Notes"
 category: "precision-health"
 permalink: /projects/automatic-operation-notes/
-excerpt: ""
 header:
   teaser: http://placehold.it/350x250
 sidebar:
