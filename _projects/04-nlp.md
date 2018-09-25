@@ -5,10 +5,9 @@ title: "Natural Language Processing"
 category: "applications"
 permalink: /projects/nlp/
 header:
-  teaser: http://placehold.it/350x250
+  teaser:
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
     text: "[Alexander L. Hayes](/people/#Alexander%20L.%20Hayes) <br>
 [Kaushik Roy](/people/#Kaushik%20Roy)"
 ---

@@ -5,10 +5,9 @@ title: "Automatic Operation Notes"
 category: "precision-health"
 permalink: /projects/automatic-operation-notes/
 header:
-  teaser: http://placehold.it/350x250
+  teaser:
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
     text: "Michael Skinner <br>
     [Alexander L. Hayes](/people/#Alexander%20L.%20Hayes)"
 
