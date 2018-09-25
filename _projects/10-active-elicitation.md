@@ -5,10 +5,9 @@ title: "Active elicitation of lab tests"
 category: "precision-health"
 permalink: /projects/active-elicitation/
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/AFE.png
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
     text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
     [Srijita Das](/people/#Srijita%20Das) <br>
     [Nandini Ramanan](/people/#Nandini%20Ramanan)"
