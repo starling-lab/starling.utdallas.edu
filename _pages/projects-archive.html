@@ -13,7 +13,7 @@ excerpt: "We group the projects at our lab into four main categories."
   {% for project in site.data.projects %}
     <a href="#{{project.id}}">
     <div class="box">
-      <h3>{{project.name}}</h3>
+      <h3>{{project.name}} <i class="fas fa-caret-down"></i></h3>
       <div>{{project.description}}</div>
     </div></a>
   {% endfor %}

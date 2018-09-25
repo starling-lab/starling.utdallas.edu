@@ -14,10 +14,14 @@ $primary-color: #0a9be9;
         margin: 20px;
     }
     margin-top: 20px;
+    text-align: center;
     img{
         max-height: 120px;
         padding: 10px;
-        max-width: 120px;
+        max-width: 190px;
+        @media (max-width: 48em){
+            max-width: 120px;
+        }
     }
 }
 
