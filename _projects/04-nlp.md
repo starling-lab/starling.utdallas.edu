@@ -8,8 +8,8 @@ header:
   teaser:
 sidebar:
   - title: "People Involved"
-    text: "[Alexander L. Hayes](/people/#Alexander%20L.%20Hayes) <br>
-[Kaushik Roy](/people/#Kaushik%20Roy)"
+    text: "[Alexander L. Hayes](/people/#alexander-l-hayes) <br>
+[Kaushik Roy](/people/#kaushik-roy)"
 ---
 
 

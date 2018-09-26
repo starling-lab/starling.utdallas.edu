@@ -9,9 +9,9 @@ header:
 sidebar:
   - title: "People Involved"
     image: /assets/images/project/kbl2.jpg
-    text: "[Phillip Odom](/people/#Phillip%20Odom) <br>
-    [Shuo Yang](/people/#Shuo%20Yang)  <br>
-    [Mayukh Das](/people/#Mayukh%20Das)"
+    text: "[Phillip Odom](/people/#phillip-odom) <br>
+    [Shuo Yang](/people/#shuo-yang)  <br>
+    [Mayukh Das](/people/#mayukh-das)"
 ---
 
 Knowledge-rich approaches to  learning  and sequential decision-making try to alleviate the limitations of data-driven techniques caused by noise, stochasticity and asymmetry of knowledge. They leverage rich knowledge assimilated by domain experts through years of experience to learn better models. Recent years have witnessed a major research thrust in this direction and our group is an active contributor to this cause; focused on building knowledge-augmented learning frameworks for representation and elicitation of knowledge from, potentially multiple, expert(s) for optimal learning both structure and parameters of compact models from noisy structured data both in context of prediction/regression tasks as well as sequential decision-making (RL, planning, Imitation Learning etc.). Specifically, we address 'asymmetry of knowledge' where an AI agent may have access to certain resources and vast computational power but may lack the necessary knowledge to prioritize choices. Human experts understand such priorities implicitly and we leverage that to generate better models.

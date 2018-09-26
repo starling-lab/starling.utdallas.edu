@@ -9,7 +9,7 @@ header:
 sidebar:
   - title: "People Involved"
     text: "Michael Skinner <br>
-    Alexander L. Hayes"
+    [Alexander L. Hayes](/people/#alexander-l-hayes)"
 
 ---
 

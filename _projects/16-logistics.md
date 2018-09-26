@@ -9,9 +9,9 @@ header:
   teaser: /assets/images/project/logistics.jpeg
 sidebar:
   - title: "People Involved"
-    text: "[Navdeep Kaur](/people/#Navdeep%20Kaur) <br>
-[Nandini Ramanan](/people/#Nandini%20Ramanan) <br>
-[Harsha Kokel](/people/#Harsha%20Kokel)"
+    text: "[Navdeep Kaur](/people/#navdeep-kaur) <br>
+[Nandini Ramanan](/people/#nandini-ramanan) <br>
+[Harsha Kokel](/people/#harsha-kokel)"
   - title: "Collaborators"
     text: "Sai Nagboth, [**Turvo**](http://www.turvo.com)"
 ---
