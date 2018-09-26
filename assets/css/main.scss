@@ -16,8 +16,11 @@ $primary-color: #0a9be9;
     margin-top: 20px;
     img{
         max-height: 120px;
-        padding: 10px;
-        max-width: 120px;
+        padding: 20px;
+        max-width: 155px;
+        @media (max-width: 48em){
+            max-width: 120px;
+        }
     }
 }
 
