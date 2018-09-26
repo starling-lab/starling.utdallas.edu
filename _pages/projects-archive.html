@@ -1,12 +1,33 @@
 ---
-layout: archive
+layout: splash
 title: "Projects"
 permalink: /projects/
 author_profile: false
+excerpt: "We group the projects at our lab into four main categories."
 ---
+<link rel="stylesheet" type="text/css" href="/assets/css/projects.css">
 
-{% for post in site.projects %}
-{% include archive-single.html %}
+<h2>{{page.excerpt}}</h2>
+
+<div class="container">
+  {% for project in site.data.projects %}
+    <a href="#{{project.id}}">
+    <div class="box">
+      <h3>{{project.name}} <i class="fas fa-caret-down"></i></h3>
+      <div>{{project.description}}</div>
+    </div></a>
+  {% endfor %}
+</div>
+
+
+{% for project in site.data.projects %}
+<div class="project-category" id="{{project.id}}">
+  <h3>{{project.name}}</h3>
+  <div class="project-group">
+  {% assign haai_projects = site.projects | where: "category", project.id %}
+  {% for post in haai_projects   %}
+  {% include project-single.html type="grid" %}
+  {% endfor %}
+  </div>
+</div>
 {% endfor %}
-
-<p><b>Update in progress...</b></p>

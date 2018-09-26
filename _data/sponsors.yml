@@ -96,3 +96,15 @@
   period: "2/22/18 to 2/22/19"
   logo: "/assets/images/sponsor-logo/Amazon-logo.svg"
   PI: "Sriraam Natarajan"
+  
+- title: "Grant from Air Force Research Laboratory (AFRL)"
+  date: 2018-08-01
+  period: "8/01/18 to 8/01/20"
+  logo: "/assets/images/sponsor-logo/afrl-logo.png"
+  PI: "Sriraam Natarajan"
+  
+- title: "Intel Faculty Award"
+  date: 2018-04-01
+  period: "4/01/18 to 4/01/19"
+  logo: "/assets/images/sponsor-logo/intel-logo.png"
+  PI: "Sriraam Natarajan"
