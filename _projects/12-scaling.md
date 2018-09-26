@@ -4,7 +4,6 @@ classes: wide
 title: "Scaling"
 category: "efficient-starai"
 permalink: /projects/scaling/
-excerpt: ""
 header:
   teaser: /assets/images/project/scaling.png
 sidebar:

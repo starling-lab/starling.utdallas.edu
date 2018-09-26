@@ -4,12 +4,11 @@ classes: wide
 title: "Lifted Continuous Inference"
 category: "efficient-starai"
 permalink: /projects/lifted-continuous-inference/
-excerpt: ""
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/lifted_continuous_inference.jpg
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
+    image: /assets/images/project/lifted_continuous_inference.jpg
     text: "Yuqiao Chen"
   - title: "Collaborators"
     text: "**Prof. Nicholas Ruozzi** <br> *University of Texas at Dallas*"

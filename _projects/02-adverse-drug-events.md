@@ -4,7 +4,6 @@ classes: wide
 title: "Adverse <nobr>Drug-Events</nobr>"
 category: "precision-health"
 permalink: /projects/adverse-drug-events/
-excerpt: ""
 header:
   teaser: /assets/images/project/ade.jpg
 sidebar:
