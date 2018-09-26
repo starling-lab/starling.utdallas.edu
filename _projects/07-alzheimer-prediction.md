@@ -1,22 +1,21 @@
 ---
 layout: single
 classes: wide
-title: "Alzheimer's Prediction"
+title: "Alzheimer's and Parkinson's Prediction"
 category: "precision-health"
-permalink: /projects/alzheimer-prediction/
-excerpt: ""
+permalink: /projects/alzheimer-parkinson-prediction/
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/study.png
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
-    text: "Devendra Singh Dhami <br>
+    text: "[Devendra Singh Dhami](/people/#Devendra%20Singh%20Dhami) <br>
     Yuqaio Chen"
 
 ---
 
 
 Progressive neurological diseases are untreatable and thus the only way of preventing these disease is to detect them early. This early detection is difficult too since the signs of these disease can show up very late in any lab reports, MRIs and/or behaviour of the patient. The presence of large scale studies and databases such as the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the Parkinson's Progression Markers Initiative (PPMI) has given hope to the efforts of machine learning researchers to contribute towards an early detection system. Our lab works with the different modalities of data in these studies with the aim of developing machine learning algorithms that can aid in both the classification and detection of patients with/or developing these diseases.
+
 
 ### Publications:
 

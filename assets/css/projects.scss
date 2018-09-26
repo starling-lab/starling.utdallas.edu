@@ -19,6 +19,10 @@ $primary-color: #0a9be9;
 a {
   text-decoration: none !important;
 }
+
+.archive__item-teaser{
+  max-height: 200px !important;
+}
 h2 {
     text-align: center;
 }
