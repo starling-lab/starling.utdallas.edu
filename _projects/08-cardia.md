@@ -4,7 +4,6 @@ classes: wide
 title: "Cardia"
 category: "precision-health"
 permalink: /projects/cardia/
-excerpt: ""
 header:
   teaser: /assets/images/project/cardia.PNG
 sidebar:

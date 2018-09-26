@@ -4,7 +4,6 @@ classes: wide
 title: "Closing the loop"
 permalink: /projects/closing-the-loop/
 category: "HAAI"
-excerpt: ""
 header:
   teaser: /assets/images/project/ctl3.jpg
 sidebar:
