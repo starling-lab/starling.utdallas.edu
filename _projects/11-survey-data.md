@@ -9,10 +9,9 @@ header:
 sidebar:
   - title: "People Involved"
     image: /assets/images/project/survey_PPD.png
-    text: "Shuo Yang <br>
-Srijita Das <br>
-Nandini Ramanan
-"
+    text: "[Shuo Yang](/people/#shuo-yang) <br>
+    [Srijita Das](/people/#srijita-das) <br>
+    [Nandini Ramanan](/people/#nandini-ramanan)"
 
 ---
 

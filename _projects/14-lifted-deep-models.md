@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/project/lifted_deep_model.png
 sidebar:
   - title: "People Involved"
-    text: "[Navdeep Kaur](/people/#Navdeep%20Kaur) <br>
+    text: "[Navdeep Kaur](/people/#navdeep-kaur) <br>
    Changbin Li"
 ---
 

@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/project/cwc.png
 sidebar:
   - title: "People Involved"
-    text: "[Mayukh Das](/people/#Mayukh%20Das)"
+    text: "[Mayukh Das](/people/#mayukh-das)"
   - title: "Collaborators"
     text: "**Prof. Dan Roth** <br> *University of Pennsylvania;* <br>
            **Prof. Julia Hockenmaier** <br> *University of Illinois, Urbana-Champaign;* <br>
