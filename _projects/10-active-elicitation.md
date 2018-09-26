@@ -3,14 +3,14 @@ layout: single
 classes: wide
 title: "Active elicitation of lab tests"
 category: "precision-health"
-permalink: /projects/active-elicitation
+permalink: /projects/active-elicitation/
 header:
   teaser: /assets/images/project/AFE2.png
 sidebar:
   - title: "People Involved"
-    text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
-    [Srijita Das](/people/#Srijita%20Das) <br>
-    [Nandini Ramanan](/people/#Nandini%20Ramanan)"
+    text: "[Shuo Yang](/people/#shuo-yang) <br>
+    [Srijita Das](/people/#srijita-das) <br>
+    [Nandini Ramanan](/people/#nandini-ramanan)"
 
 ---
 

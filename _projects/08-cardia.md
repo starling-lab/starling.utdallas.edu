@@ -9,8 +9,8 @@ header:
 sidebar:
   - title: "People Involved"
     image: /assets/images/project/cardia.PNG
-    text: "[Shuo Yang](/people/#Shuo%20Yang) <br>
-    [Nandini Ramanan](/people/#Nandini%20Ramanan)"
+    text: "[Shuo Yang](/people/#shuo-yang) <br>
+    [Nandini Ramanan](/people/#nandini-ramanan)"
 
 ---
 

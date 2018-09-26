@@ -9,8 +9,8 @@ header:
 sidebar:
   - title: "People Involved"
     image: /assets/images/project/scaling.png
-    text: "[Mayukh Das](/people/#Mayukh%20Das) <br>
-    [Devendra Singh Dhami](/people/#Devendra%20Singh%20Dhami)"
+    text: "[Mayukh Das](/people/#mayukh-das) <br>
+    [Devendra Singh Dhami](/people/#devendra-singh-dhami)"
 ---
 
 

@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/project/study.png
 sidebar:
   - title: "People Involved"
-    text: "[Devendra Singh Dhami](/people/#Devendra%20Singh%20Dhami) <br>
+    text: "[Devendra Singh Dhami](/people/#devendra-singh-dhami) <br>
     Yuqaio Chen"
 
 ---
