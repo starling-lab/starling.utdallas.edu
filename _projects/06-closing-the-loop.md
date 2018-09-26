@@ -4,15 +4,14 @@ classes: wide
 title: "Closing the loop"
 permalink: /projects/closing-the-loop/
 category: "HAAI"
-excerpt: ""
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/ctl3.jpg
 sidebar:
 - title: "People Involved"
-  image: http://placehold.it/350x250
-  text: "Phillip Odom <br>
-  Mayukh Das  <br>
-  Alexander Hayes"
+  image: /assets/images/project/ctl3.jpg
+  text: "[Phillip Odom](/people/#Phillip%20Odom) <br>
+  [Mayukh Das](/people/#Mayukh%20Das) <br>
+  [Alexander Hayes](/people/#Alexander%20L.%20Hayes)"
 ---
 
 The crux of human-allied smart machines lie in their capability to communicate back to the human, be it for sharing knowledge, for querying additional guidance/knowledge or just for mere inconsequential conversation.

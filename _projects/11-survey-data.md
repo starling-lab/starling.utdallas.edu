@@ -4,12 +4,11 @@ classes: wide
 title: "Survey data"
 category: "precision-health"
 permalink: /projects/survey-data/
-excerpt: ""
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/survey_PPD.png
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
+    image: /assets/images/project/survey_PPD.png
     text: "Shuo Yang <br>
 Srijita Das <br>
 Nandini Ramanan

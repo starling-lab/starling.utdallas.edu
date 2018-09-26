@@ -4,13 +4,11 @@ classes: wide
 title: "Lifted Deep Models"
 category: "efficient-starai"
 permalink: /projects/lifted-deep-models/
-excerpt: ""
 header:
-  teaser: http://placehold.it/350x250
+  teaser: /assets/images/project/lifted_deep_model.png
 sidebar:
   - title: "People Involved"
-    image: http://placehold.it/350x250
-    text: "Navdeep Kaur <br>
+    text: "[Navdeep Kaur](/people/#Navdeep%20Kaur) <br>
    Changbin Li"
 ---
 
