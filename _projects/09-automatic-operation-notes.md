@@ -5,9 +5,10 @@ title: "Automatic Operation Notes"
 category: "precision-health"
 permalink: /projects/automatic-operation-notes/
 header:
-  teaser:
+  teaser: /assets/images/project/automaticOperationNotes.png
 sidebar:
   - title: "People Involved"
+    image: /assets/images/project/automaticOperationNotes.png
     text: "Michael Skinner <br>
     [Alexander L. Hayes](/people/#alexander-l-hayes)"
 

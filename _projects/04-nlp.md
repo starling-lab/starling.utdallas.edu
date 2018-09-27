@@ -5,9 +5,10 @@ title: "Natural Language Processing"
 category: "applications"
 permalink: /projects/nlp/
 header:
-  teaser:
+  teaser: /assets/images/project/nlp.jpg
 sidebar:
   - title: "People Involved"
+    image: /assets/images/project/nlp.jpg
     text: "[Alexander L. Hayes](/people/#alexander-l-hayes) <br>
 [Kaushik Roy](/people/#kaushik-roy)"
 ---

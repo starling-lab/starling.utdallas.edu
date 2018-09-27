@@ -108,3 +108,10 @@
   period: "4/01/18 to 4/01/19"
   logo: "/assets/images/sponsor-logo/intel-logo.png"
   PI: "Sriraam Natarajan"
+
+- title: "NSF EAGER: Collaborative Research: An Unified Learnable Roadmap for Sequential Decision Making in Relational Domains"
+  date: 2018-09-01
+  period: "9/01/18 to 08/31/20"
+  logo: "/assets/images/sponsor-logo/NSF-logo.svg"
+  PI: "Sriraam Natarajan"
+  # sponsor-url: https://nsf.gov/awardsearch/showAward?AWD_ID=1836565&HistoricalAwards=false
