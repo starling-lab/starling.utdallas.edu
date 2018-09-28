@@ -1,6 +1,6 @@
 ##   File: authors.yml
 ##   Author: Harsha Kokel
-##   Last Updated: Sunday, February 18, 2018
+##   Last Updated: Friday, September 28, 2018
 ##
 ##				----- Overview of available options: -----
 ##
@@ -16,6 +16,25 @@
 ##   video                       : link to video
 ##   code                        : link to the code
 ##   poster                      : link to poster
+
+- publicationType: "conference-papers"
+  authors: ["Nandini Ramanan","Gautam Kunapuli","Tushar Khot","Bahere Fatemi","Seyed Mehran Kazemi","David Poole","Kristian Kersting","Sriraam Natarajan"]
+  year: "2018"
+  title: "Structure Learning for Relational Logistic Regression: An Ensemble Approach"
+  venue: "16th International Conference on Principles of Knowledge Representation and Reasoning (KR)"
+  url: "https://arxiv.org/abs/1808.02123"
+
+- publicationType: "conference-papers"
+  authors: ["Mayukh Das","Devendra Singh Dhami","Gautam Kunapuli","Kristian Kersting","Sriraam Natarajan"]
+  year: "2018"
+  title: "Approximate Counting for Fast Inference and Learning in Probabilistic Programming"
+  venue: "Proceedings of the Inaugural International Conference on Probabilistic Programming (ProbProg)"
+
+- publicationType: "conference-papers"
+  authors: ["Sriraam Natarajan","Phillip Odom","Tushar Khot","Kristian Kersting","Jude Shavlik"]
+  year: "2018"
+  title: "Human-in-the-loop Learning for Probabilistic Programming"
+  venue: "Proceedings of the Inaugural International Conference on Probabilistic Programming (ProbProg)"
 
 - publicationType: "conference-papers"
   authors: ["Devendra Singh Dhami","Gautam Kunapuli","Mayukh Das","David Page", "Sriraam Natarajan"]
@@ -75,6 +94,7 @@
   venue: "Knowledge Capture Conference"
   url: "/assets/pdfs/KCAP17Mode.pdf"
   keywords: ["Automatic Mode Construction"]
+  code: "https://github.com/starling-lab/Walk-ER/"
 
 - publicationType: "conference-papers"
   authors: ["Sriraam Natarajan", "Annu Prabhakar", "Nandini Ramanan", "Anna Bagilone", "Katie Siek", "Kay Connelly"]
