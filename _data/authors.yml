@@ -190,6 +190,19 @@ Harsha Kokel:
   github: "harshakokel"
   linkedin: "harshakokel"
   group: "current-student"
+  
+Yuqiao Chen:
+  name: "Yuqiao Chen"
+  lastname: "Chen"
+  uri: "http://utdallas.edu/~yuqiao.chen/"
+  avatar: "/assets/images/headshots/yuqiaochen.jpg"
+  location: "The University of Texas at Dallas"
+  email: "yuqiao.chen@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter:
+  github: "leodd"
+  linkedin: "yuqiaochen"
+  group: "current-student"
 
 ##
 ## ALUMNUS
