@@ -17,12 +17,6 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 
-- publicationType: "conference-papers"
-  authors: ["Nandini Ramanan","Gautam Kunapuli","Tushar Khot","Bahere Fatemi","Seyed Mehran Kazemi","David Poole","Kristian Kersting","Sriraam Natarajan"]
-  year: "2018"
-  title: "Structure Learning for Relational Logistic Regression: An Ensemble Approach"
-  venue: "16th International Conference on Principles of Knowledge Representation and Reasoning (KR)"
-  url: "https://arxiv.org/abs/1808.02123"
 
 - publicationType: "conference-papers"
   authors: ["Mayukh Das","Devendra Singh Dhami","Gautam Kunapuli","Kristian Kersting","Sriraam Natarajan"]
@@ -35,6 +29,14 @@
   year: "2018"
   title: "Human-in-the-loop Learning for Probabilistic Programming"
   venue: "Proceedings of the Inaugural International Conference on Probabilistic Programming (ProbProg)"
+  url: "/assets/pdfs/PROBPROG18_BoostSRL.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Nandini Ramanan","Gautam Kunapuli","Tushar Khot","Bahere Fatemi","Seyed Mehran Kazemi","David Poole","Kristian Kersting","Sriraam Natarajan"]
+  year: "2018"
+  title: "Structure Learning for Relational Logistic Regression: An Ensemble Approach"
+  venue: "16th International Conference on Principles of Knowledge Representation and Reasoning (KR)"
+  url: "https://arxiv.org/abs/1808.02123"
 
 - publicationType: "conference-papers"
   authors: ["Devendra Singh Dhami","Gautam Kunapuli","Mayukh Das","David Page", "Sriraam Natarajan"]
@@ -42,7 +44,7 @@
   title: "Drug-Drug Interaction Discovery: Kernel Learning from Heterogeneous Similarities"
   venue: "IEEE Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)"
   url: "https://www.utdallas.edu/~devendra.dhami/SKID3_Dhami_CHASE18.pdf"
-  
+
 - publicationType: "conference-papers"
   authors: ["Sriraam Natarajan","Srijita Das","Nandini Ramaman","Gautam Kunapuli", "Predrag Radivojac"]
   year: "2018"
