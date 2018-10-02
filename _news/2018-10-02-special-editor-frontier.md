@@ -6,4 +6,4 @@ categories: news
 author: StARLinG Lab
 ---
 
-Prof. Sriraam Natarajan is serving in the editorial board as one of the speciality chief editors in the area of Machine Learning and Artificial Intelligence for [frontiers in Big Data](https://www.frontiersin.org/journals/big-data#editorial-board).
+Prof. Sriraam Natarajan is serving on the editorial board as one of the speciality chief editors in the area of Machine Learning and Artificial Intelligence for [frontiers in Big Data](https://www.frontiersin.org/journals/big-data#editorial-board).
