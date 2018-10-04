@@ -207,14 +207,27 @@ Yuqiao Chen:
 Changbin Li:
   name: "Changbin Li"
   lastname: "Li"
-  uri: 
+  uri:
   avatar: "/assets/images/headshots/changbin.jpg"
   location: "The University of Texas at Dallas"
   email: "changbin.li@utdallas.edu"
   bio: "Computer Science (Ph.D.)"
-  twitter: 
-  github: 
-  linkedin: 
+  twitter:
+  github:
+  linkedin:
+  group: "current-student"
+
+Brian Ricks:
+  name: "Brian Ricks"
+  lastname: "Ricks"
+  uri: "http://mews.sv.cmu.edu/people/ricks/"
+  avatar: "/assets/images/headshots/brianricks.jpg"
+  location: "The University of Texas at Dallas"
+  email: "absolutefunk@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter:
+  github: "absolutefunk"
+  linkedin: "absolutefunk"
   group: "current-student"
 
 ##
