@@ -118,8 +118,8 @@ Navdeep Kaur:
   lastname: "Kaur"
   uri:
   avatar: "/assets/images/headshots/navdeepkaur.jpg"
-  location: "Indiana University, Bloomington"
-  email: "navdkaur@umail.iu.edu"
+  location: "The University of Texas at Dallas"
+  email: "Navdeep.Kaur@UTDallas.edu"
   bio: "Computer Science (Ph.D.)"
   twitter:
   github: "navdeepkjohal"
@@ -131,12 +131,12 @@ Srijita Das:
   lastname: "Das"
   uri:
   avatar: "/assets/images/headshots/srijitadas.jpg"
-  location: "Indiana University, Bloomington"
-  email: "sridas@indiana.edu"
+  location: "The University of Texas at Dallas"
+  email: "sxd170431@utdallas.edu"
   bio: "Computer Science (Ph.D.)"
-  twitter:
+  twitter: "srijitadas2008"
   github: "sridas123"
-  linkedin:
+  linkedin: "srijita-das"
   group: "current-student"
 
 Nandini Ramanan:
@@ -144,12 +144,12 @@ Nandini Ramanan:
   lastname: "Ramanan"
   uri:
   avatar: "/assets/images/headshots/nandiniramanan.jpg"
-  location: "Indiana University, Bloomington"
-  email: "nramanan@iu.edu"
-  bio: "Health Informatics (Ph.D.)"
-  twitter:
+  location: "The University of Texas at Dallas"
+  email: "nxr173030@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter: "nandini_ramanan"
   github: "nandhiniramanan5"
-  linkedin:
+  linkedin: "nandini-ramanan"
   group: "current-student"
 
 Alexander Hayes:
@@ -185,10 +185,49 @@ Harsha Kokel:
   avatar: "/assets/images/headshots/harshakokel.jpg"
   location: "The University of Texas at Dallas"
   email: "harsha.kokel@utdallas.edu"
-  bio: "Computer Science. (M.S.)"
+  bio: "Computer Science. (Ph.D.)"
   twitter:
   github: "harshakokel"
   linkedin: "harshakokel"
+  group: "current-student"
+  
+Yuqiao Chen:
+  name: "Yuqiao Chen"
+  lastname: "Chen"
+  uri: "http://utdallas.edu/~yuqiao.chen/"
+  avatar: "/assets/images/headshots/yuqiaochen.jpg"
+  location: "The University of Texas at Dallas"
+  email: "yuqiao.chen@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter:
+  github: "leodd"
+  linkedin: "yuqiaochen"
+  group: "current-student"
+
+Changbin Li:
+  name: "Changbin Li"
+  lastname: "Li"
+  uri:
+  avatar: "/assets/images/headshots/changbin.jpg"
+  location: "The University of Texas at Dallas"
+  email: "changbin.li@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter:
+  github:
+  linkedin:
+  group: "current-student"
+
+Brian Ricks:
+  name: "Brian Ricks"
+  lastname: "Ricks"
+  uri: "http://mews.sv.cmu.edu/people/ricks/"
+  avatar: "/assets/images/headshots/brianricks.jpg"
+  location: "The University of Texas at Dallas"
+  email: "absolutefunk@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter:
+  github: "absolutefunk"
+  linkedin: "absolutefunk"
   group: "current-student"
 
 ##

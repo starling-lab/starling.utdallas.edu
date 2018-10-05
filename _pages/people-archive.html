@@ -23,7 +23,7 @@ https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/member-profi
         {% assign faculties = site.data.authors | where: "group", "faculty" %}
         {% for member in faculties %}
         <div class="member_intro">
-            <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
+            <a href="#{{member.name | slugify}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
             <span class="name">{{member.name}}</span>
         </div>
         {% endfor %}
@@ -35,7 +35,7 @@ https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/member-profi
         {% assign current = site.data.authors | where: "group", "current-student" | sort: "lastname" %}
         {% for member in current %}
         <div class="member_intro">
-            <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
+            <a href="#{{member.name | slugify}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
             <span class="name">{{member.name}}</span>
         </div>
         {% endfor %}
@@ -47,7 +47,7 @@ https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/member-profi
         {% assign alumni = site.data.authors | where: "group", "alumni" | sort: "year" %}
         {% for member in alumni %}
         <div class="member_intro">
-            <a href="#{{member.name}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
+            <a href="#{{member.name | slugify}}"><img src="{{member.avatar }}" alt="{{ member.name }}" itemprop="image"></a>
             <span class="name">{{member.name}}</span>
         </div>
         {% endfor %}

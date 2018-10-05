@@ -1,5 +1,5 @@
 {% assign member = include.member %}
-<div class = "container" id="{{member.name}}">
+<div class = "container" id="{{member.name | slugify}}">
   <!-- Avatar starts-->
   <div class="avatar">
     {% if member.avatar %}
