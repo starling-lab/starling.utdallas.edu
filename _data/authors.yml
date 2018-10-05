@@ -190,7 +190,7 @@ Harsha Kokel:
   github: "harshakokel"
   linkedin: "harshakokel"
   group: "current-student"
-  
+
 Yuqiao Chen:
   name: "Yuqiao Chen"
   lastname: "Chen"
@@ -234,11 +234,11 @@ Michael Skinner, MD:
   name: "Michael Skinner, MD"
   lastname: "Skinner"
   uri:
-  avatar:
+  avatar: "/assets/images/headshots/mike.JPG"
   location: "The University of Texas at Dallas"
   email: "mas140130@utdallas.edu"
   bio: "Computer Science (Ph.D.)"
-  twitter: 
+  twitter:
   github: "skinn009"
   linkedin:
   group: "current-student"
