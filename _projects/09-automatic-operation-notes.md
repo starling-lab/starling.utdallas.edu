@@ -9,7 +9,7 @@ header:
 sidebar:
   - title: "People Involved"
     image: /assets/images/project/automaticOperationNotes.png
-    text: "Michael Skinner <br>
+    text: "[Michael Skinner](/people/#michael-skinner-md) <br>
     [Alexander L. Hayes](/people/#alexander-l-hayes)"
 
 ---
