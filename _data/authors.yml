@@ -190,7 +190,7 @@ Harsha Kokel:
   github: "harshakokel"
   linkedin: "harshakokel"
   group: "current-student"
-  
+
 Yuqiao Chen:
   name: "Yuqiao Chen"
   lastname: "Chen"
@@ -230,8 +230,22 @@ Brian Ricks:
   linkedin: "absolutefunk"
   group: "current-student"
 
+Michael Skinner, MD:
+  name: "Michael Skinner, MD"
+  lastname: "Skinner"
+  uri:
+  avatar: "/assets/images/headshots/mike.JPG"
+  location: "The University of Texas at Dallas"
+  email: "mas140130@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter:
+  github: "skinn009"
+  linkedin:
+  group: "current-student"
+
+
 ##
-## ALUMNUS
+## ALUMNI
 ##
 
 Phillip Odom:
