@@ -243,7 +243,19 @@ Michael Skinner, MD:
   linkedin:
   group: "current-student"
 
-
+Yuxin Zi:
+  name: "Yuxin"
+  lastname: "Zi"
+  uri:
+  avatar: "/assets/images/headshots/yuxinzi.jpg"
+  location: "The University of Texas at Dallas"
+  email: "yxz165430@utdallas.edu"
+  bio: "Computer Science. (MSc.)"
+  twitter:
+  github: "FishingMapache"
+  linkedin: "yuxin-zi"
+  group: "current-student"
+  
 ##
 ## ALUMNI
 ##
