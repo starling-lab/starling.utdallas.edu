@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Paper on approximate counting using hypergraph accepted to AAAI 2019. Congratulations Mayukh and Dev. "
-date: 2012-11-02
+date: 2018-11-02
 categories: news
 author: StARLinG Lab
 ---
