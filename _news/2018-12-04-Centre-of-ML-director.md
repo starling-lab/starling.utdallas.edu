@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Professor Natarajan is the director of "THE CENTER FOR MACHINE LEARNING" at UTD"
+title: "Professor Natarajan is the director of THE CENTER FOR MACHINE LEARNING at UTD"
 date: 2018-12-04
 categories: news
 author: StARLinG Lab
