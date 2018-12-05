@@ -29,7 +29,7 @@
   authors: ["Mayukh Das","Devendra Singh Dhami","Gautam Kunapuli","Kristian Kersting","Sriraam Natarajan"]
   year: "2019"
   title: "Fast Relational Probabilistic Inference and Learning Approximate Counting via Hypergraphs"
-  venue: "Association for the Advancement of Artificial Intelligence (AAAI)"
+  venue: "33rd AAAI Conference on Artificial Intelligence (AAAI)"
   url: "/assets/pdfs/AAAI18_HyperGraphApproxCount.pdf"
   
 - publicationType: "conference-papers"
