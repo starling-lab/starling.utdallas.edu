@@ -1,6 +1,6 @@
 ##   File: authors.yml
 ##   Author: Alexander L. Hayes
-##   Last Updated: Thursday, June 21, 2018
+##   Last Updated: Tuesday, January 19, 2019
 ##
 ##   These should be in the order they appear on the /people/ page.
 ##   Begin with faculty ("faculty")
@@ -155,11 +155,11 @@ Nandini Ramanan:
 Alexander Hayes:
   name: "Alexander L. Hayes"
   lastname: "Hayes"
-  uri: "http://batflyer.net"
+  uri: "https://hayesall.com/"
   avatar: "/assets/images/headshots/alexanderhayes.jpg"
-  location: "The University of Texas at Dallas"
-  email: "alexander@batflyer.net"
-  bio: "Computer Science (Ph.D.)"
+  location: "Indiana University Bloomington"
+  email: "hayesall@iu.edu"
+  bio: "Health Informatics (Ph.D.)"
   twitter: "alexanderlhayes"
   github: "batflyer"
   linkedin: "alexanderlhayes"
@@ -255,7 +255,7 @@ Yuxin Zi:
   github: "FishingMapache"
   linkedin: "yuxin-zi"
   group: "current-student"
-  
+
 ##
 ## ALUMNI
 ##
