@@ -55,33 +55,33 @@ cancer(Earl).
 
 Download: [Toy-Cancer.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Cancer/Toy-Cancer.zip?raw=true) (2.83 KB)
 
-* `md5sum`: 
+* `md5sum`:
   <p style="word-break: break-all;">fa15b64583f9b1abc7fd78b93025792d</p>
 
-* `sha256sum`: 
+* `sha256sum`:
   <p style="word-break: break-all;">618d9283caa5459711b01d7b535aa1e91c8c98945ed4085248368a373ce880c2</p>
 
 ---
 
 ### Setup
 
-**Linux/Mac:**
 
 1. After downloading, unzip Toy-Cancer.zip
-  
-  `unzip Toy-Cancer.zip`
+
+    `unzip Toy-Cancer.zip`
 
 2. If you're using a jar file, move it into the Toy-Cancer directory:
-  
-  `mv (jar file) Toy-Cancer/`
+
+    `mv (BoostSRL jar file) Toy-Cancer/`  
+    `mv (auc jar file) Toy-Cancer/`
 
 3. Learning:
 
-  * `java -jar BoostSRL.jar -l -train train/ -target cancer -trees 10`
+    `java -jar BoostSRL.jar -l -train train/ -target cancer -trees 10`
 
 4. Inference:
-  
-  * `java -jar BoostSRL.jar -i -test test/ -model train/models/ -target cancer -trees 10`
+
+  `java -jar BoostSRL.jar -i -test test/ -model train/models/ -target cancer -aucJarPath . -trees 10`
 
 ---
 
@@ -97,8 +97,8 @@ mode: friends(-Person, +Person).
 mode: smokes(+Person).
 mode: cancer(+Person).
 bridger: friends/2.
-//precompute1: 
-num_of_smoking_friends(x, n) :- 
+//precompute1:
+num_of_smoking_friends(x, n) :-
    friends(x, y), // grounding x first
    countUniqueBindings((friends(x,z)^smokes(z)), n).
 mode: num_of_smoking_friends(+Person, #Number).

@@ -22,10 +22,10 @@ boostsrlwiki:
         url: /software/boostsrl/wiki/file-structure/
       - title: "Basic Parameters"
         url: /software/boostsrl/wiki/basic-parameters/
-      - title: "Advanced Parameters"
-        url: /software/boostsrl/wiki/advanced-parameters/
       - title: "Basic Modes"
         url: /software/boostsrl/wiki/basic-modes/
+      - title: "Advanced Parameters"
+        url: /software/boostsrl/wiki/advanced-parameters/
       - title: "Advanced Modes"
         url: /software/boostsrl/wiki/advanced-modes/
   - title: Advanced BoostSRL

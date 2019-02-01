@@ -21,33 +21,33 @@ The facts contain information on five labels: `courseprof`, `courseta`, `project
 
 Download: [WebKB.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/WebKB/WebKB.zip?raw=true) (41.1 KB)
 
-* `md5sum`: 
+* `md5sum`:
   <p style="word-break: break-all;">977e62fca51bfa7fe9c27bdf8af5d478</p>
 
-* `sha256sum`: 
+* `sha256sum`:
   <p style="word-break: break-all;">7b36e85cc99483a98c68fc868ba9890398339eaca20b48b80e4b56d16ddc1522</p>
 
 ---
 
 ### Setup
 
-**Linux/Mac:**
 
 1. After downloading, unzip WebKB.zip
-  
-  `unzip WebKB.zip`
+
+    `unzip WebKB.zip`
 
 2. If you're using a jar file, move it into the WebKB directory:
-  
-  `mv (jar file) WebKB/`
+
+    `mv (BoostSRL jar file) WebKB/`  
+    `mv (auc jar file) WebKB/`  
 
 3. Learning:
 
-  * `java -jar BoostSRL.jar -l -train train/ -target faculty -trees 10`
+    `java -jar BoostSRL.jar -l -train train/ -target faculty -trees 10`
 
 4. Inference:
-  
-  * `java -jar BoostSRL.jar -i -test test/ -model train/models/ -target faculty -trees 10`
+
+    `java -jar BoostSRL.jar -i -test test/ -model train/models/ -aucJarPath . -target faculty -trees 10`
 
 ---
 

@@ -24,33 +24,33 @@ The facts contain information on six labels: `author`, `haswordauthor`, `hasword
 
 Download: [Cora.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Cora/Cora.zip?raw=true) (489 KB)
 
-* `md5sum`: 
+* `md5sum`:
   <p style="word-break: break-all;">905ad622d003da817c00f9835f36dc2f</p>
 
-* `sha256sum`: 
+* `sha256sum`:
   <p style="word-break: break-all;">0a8b1f138d6827344c840bc3e3cccbe1eb40f2c102f929a05f4bc8f96ebbdae7</p>
 
 ---
 
 ### Setup
 
-**Linux/Mac:**
 
 1. After downloading, unzip Cora.zip
-  
-  `unzip Cora.zip`
+
+    `unzip Cora.zip`
 
 2. If you're using a jar file, move it into the Cora directory:
-  
-  `mv (jar file) Cora/`
+
+    `mv (BoostSRL jar file) Cora/`  
+    `mv (auc jar file) Cora/`  
 
 3. Learning:
 
-  * `java -jar BoostSRL.jar -l -train train/ -target sameauthor -trees 10`
+    `java -jar BoostSRL.jar -l -train train/ -target sameauthor -trees 10`
 
 4. Inference:
-  
-  * `java -jar BoostSRL.jar -i -test test/ -model train/models/ -target sameauthor -trees 10`
+
+  `java -jar BoostSRL.jar -i -test test/ -model train/models/ -aucJarPath . -target sameauthor -trees 10`
 
 ---
 
@@ -108,4 +108,3 @@ okIfUnknown: recursive_samebib/2.
 okIfUnknown: recursive_samevenue/2.
 okIfUnknown: recursive_sameauthor/2.
 ```
-

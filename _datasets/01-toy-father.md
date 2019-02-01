@@ -20,7 +20,7 @@ The facts contain labels for `male`, `siblingof`, and `childof`.
     father(ronweasley,arthurweasley).
     father(fredweasley,arthurweasley).
     ...
-  
+
 > train_neg
 
     father(harrypotter,mollyweasley).
@@ -35,7 +35,7 @@ The facts contain labels for `male`, `siblingof`, and `childof`.
     father(georgeweasley,harrypotter).
     father(mollyweasley,lilypotter).
     ...
-  
+
 > train_facts
 
     male(jamespotter).
@@ -65,33 +65,33 @@ The facts contain labels for `male`, `siblingof`, and `childof`.
 
 Download: [Toy-Father.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/Toy-Father/Toy-Father.zip?raw=true) (4.3 KB)
 
-* `md5sum`: 
+* `md5sum`:
   <p style="word-break: break-all;">a637cae7ba78997a0d0bb372d1edaf5e</p>
 
-* `sha256sum`: 
+* `sha256sum`:
   <p style="word-break: break-all;">75a45707975977daa7358e4678dd3eaf97293c6d98910e474c133593adb1cfd7</p>
 
 ---
 
 ### Setup:
 
-**Linux/Mac:**
 
 1. After downloading, unzip Toy-Father.zip
 
-  `unzip Toy-Father.zip`
-  
+    `unzip Toy-Father.zip`
+
 2. If you're using a jar file, move it into the Toy-Father directory:
 
-  `mv (jar file) Father/`
-  
+    `mv v1.0.jar Father/BoostSRL.jar`  
+    `mv auc.jar Father/auc.jar`
+
 3. Learning:
 
-  `java -jar BoostSRL.jar -l -train train/ -target father -trees 10`
-  
+    `java -jar BoostSRL.jar -l -train train/ -target father -trees 10`
+
 4. Inference:
 
-  `java -jar BoostSRL.jar -i -test test/ -model train/models/ -target cancer -trees 10`
+  `java -jar BoostSRL.jar -i -model train/models -test test/ -target father -aucJarPath . -trees 10`
 
 ---
 
@@ -106,4 +106,3 @@ Download: [Toy-Father.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/ma
     mode: childof(+name,+name).
     mode: siblingof(+name,-name).
     mode: father(+name,+name).
-    
