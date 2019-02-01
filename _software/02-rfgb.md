@@ -8,7 +8,7 @@ excerpt: 'A Python package and tool for learning statistical relational models v
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_img/splash1.png
-  caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 [![][pyversions img]][pyversions] [![][version img]][version] [![][license img]][license] [![][build status img]][build status] [![][docs img]][docs]
@@ -71,4 +71,4 @@ Interested in contributing? Refer to the  [Contributing](https://rfgbpy.readthed
 
 ## License
 
-Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0. You are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.
+Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0. You are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.

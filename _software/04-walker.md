@@ -8,7 +8,7 @@ header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Download'
   cta_url: "https://github.com/starling-lab/Walk-ER/releases"
-  caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 <p align="center">
