@@ -17,12 +17,27 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 
+- publicationType: "journal-papers"
+  authors: ["Mayukh Das", "Phillip Odom", "Md. Rakibul Islam", "Jana Doppa", "Dan Roth", "Sriraam Natarajan"]
+  year: "2018"
+  title: "Planning with actively eliciting preferences"
+  venue: "Knowledge-Based Systems"
+  url: "https://www.sciencedirect.com/science/article/pii/S095070511830580X?via%3Dihub"
+  keywords: ["Active preference elicitation", "Human-in-the-loopPlanning", "HTN", "Human–agent interaction"]
 
+- publicationType: "conference-papers"
+  authors: ["Mayukh Das","Devendra Singh Dhami","Gautam Kunapuli","Kristian Kersting","Sriraam Natarajan"]
+  year: "2019"
+  title: "Fast Relational Probabilistic Inference and Learning Approximate Counting via Hypergraphs"
+  venue: "33rd AAAI Conference on Artificial Intelligence (AAAI)"
+  url: "/assets/pdfs/AAAI18_HyperGraphApproxCount.pdf"
+  
 - publicationType: "conference-papers"
   authors: ["Mayukh Das","Devendra Singh Dhami","Gautam Kunapuli","Kristian Kersting","Sriraam Natarajan"]
   year: "2018"
   title: "Approximate Counting for Fast Inference and Learning in Probabilistic Programming"
   venue: "Proceedings of the Inaugural International Conference on Probabilistic Programming (ProbProg)"
+  url: "/assets/pdfs/PROBPROG18_HyperGraphApproxCount.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Sriraam Natarajan","Phillip Odom","Tushar Khot","Kristian Kersting","Jude Shavlik"]

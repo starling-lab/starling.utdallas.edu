@@ -134,7 +134,7 @@ Srijita Das:
   location: "The University of Texas at Dallas"
   email: "sxd170431@utdallas.edu"
   bio: "Computer Science (Ph.D.)"
-  twitter:
+  twitter: "srijitadas2008"
   github: "sridas123"
   linkedin: "srijita-das"
   group: "current-student"
@@ -147,7 +147,7 @@ Nandini Ramanan:
   location: "The University of Texas at Dallas"
   email: "nxr173030@utdallas.edu"
   bio: "Computer Science (Ph.D.)"
-  twitter:
+  twitter: "nandini_ramanan"
   github: "nandhiniramanan5"
   linkedin: "nandini-ramanan"
   group: "current-student"
@@ -185,14 +185,79 @@ Harsha Kokel:
   avatar: "/assets/images/headshots/harshakokel.jpg"
   location: "The University of Texas at Dallas"
   email: "harsha.kokel@utdallas.edu"
-  bio: "Computer Science. (M.S.)"
+  bio: "Computer Science. (Ph.D.)"
   twitter:
   github: "harshakokel"
   linkedin: "harshakokel"
   group: "current-student"
 
+Yuqiao Chen:
+  name: "Yuqiao Chen"
+  lastname: "Chen"
+  uri: "http://utdallas.edu/~yuqiao.chen/"
+  avatar: "/assets/images/headshots/yuqiaochen.jpg"
+  location: "The University of Texas at Dallas"
+  email: "yuqiao.chen@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter:
+  github: "leodd"
+  linkedin: "yuqiaochen"
+  group: "current-student"
+
+Changbin Li:
+  name: "Changbin Li"
+  lastname: "Li"
+  uri:
+  avatar: "/assets/images/headshots/changbin.jpg"
+  location: "The University of Texas at Dallas"
+  email: "changbin.li@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter:
+  github:
+  linkedin:
+  group: "current-student"
+
+Brian Ricks:
+  name: "Brian Ricks"
+  lastname: "Ricks"
+  uri: "http://mews.sv.cmu.edu/people/ricks/"
+  avatar: "/assets/images/headshots/brianricks.jpg"
+  location: "The University of Texas at Dallas"
+  email: "absolutefunk@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter:
+  github: "absolutefunk"
+  linkedin: "absolutefunk"
+  group: "current-student"
+
+Michael Skinner, MD:
+  name: "Michael Skinner, MD"
+  lastname: "Skinner"
+  uri:
+  avatar: "/assets/images/headshots/mike.JPG"
+  location: "The University of Texas at Dallas"
+  email: "mas140130@utdallas.edu"
+  bio: "Computer Science (Ph.D.)"
+  twitter:
+  github: "skinn009"
+  linkedin:
+  group: "current-student"
+
+Yuxin Zi:
+  name: "Yuxin Zi"
+  lastname: "Zi"
+  uri:
+  avatar: "/assets/images/headshots/yuxinzi.jpg"
+  location: "The University of Texas at Dallas"
+  email: "yxz165430@utdallas.edu"
+  bio: "Computer Science. (MSc.)"
+  twitter:
+  github: "FishingMapache"
+  linkedin: "yuxin-zi"
+  group: "current-student"
+  
 ##
-## ALUMNUS
+## ALUMNI
 ##
 
 Phillip Odom:
