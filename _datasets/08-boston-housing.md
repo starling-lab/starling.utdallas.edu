@@ -44,21 +44,24 @@ Download: [Boston-Housing.zip](https://github.com/boost-starai/BoostSRL-Misc/blo
 
 ### Setup
 
-**Linux/Mac:**
 
 1. After downloading, unzip Boston-Housing.zip
-  
-  `unzip Boston-Housing.zip`
+
+    `unzip Boston-Housing.zip`
 
 2. If you're using a jar file, move it into the Boston-Housing directory:
-  
-  `mv (jar file) Boston-Housing/`
+    `mv (BoostSRL jar file) Boston-Housing/`  
+    `mv (auc jar file) Boston-Housing/`
 
 3. For learning/inference, full explanations are available on the ["Regression Tutorial"](https://github.com/boost-starai/BoostSRL/wiki/Regression). Commands are also listed below.
 
-  * Learning: `java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -reg -l -train train/ -target medv -trees 20`
+  * Learning:  
 
-  * Inference: `java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -i -test test/ -target medv -model train/models/ -trees 20`
+`java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -reg -l -train train/ -target medv -trees 20`
+
+  * Inference:  
+  
+`java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.Regression.RunBoostedRegressionTrees -i -test test/ -aucJarPath . -target medv -model train/models/ -trees 20`
 
 ---
 

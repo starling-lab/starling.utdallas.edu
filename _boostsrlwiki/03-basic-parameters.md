@@ -30,7 +30,7 @@ excerpt: "Basic overview for commandline arguments used by BoostSRL."
 
 * `-step <Step Length>` : Default step length for functional gradient.
 
-  Default: 1.
+  Default: 1. Ignored if `lineSearch` is set in advanced parameters.
 
 * `-modelSuffix <suffix>` : All the trees/models are saved with this suffix appended to the file names.
 * `-aucJarPath <path to auc.jar>` : If this is not set, AUC values are not computed.

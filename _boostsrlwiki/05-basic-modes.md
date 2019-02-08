@@ -9,7 +9,7 @@ excerpt: "Overview of how set modes in BoostSRL."
 
 **Modes** are used to restrict/guide the search space and are a powerful tool in getting relational algorithms such as BoostSRL to work. If your algorithm does not learn anything useful, then the *first debug point* would be the modes (in the background.txt file).
 
-The modes of our system follow the [Aleph modes definitions](http://www.cs.ox.ac.uk/activities/machinelearning/Aleph/aleph), the key difference being that we use the form:
+The modes of our system follow the [Aleph modes definitions](https://www.cs.ox.ac.uk/activities/programinduction/Aleph/aleph.html), the key difference being that we use the form:
 
 ```
 mode: predicateName(ModeTypeArg1,...).

@@ -29,23 +29,23 @@ Download: [IMDB.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/D
 
 ### Setup
 
-**Linux/Mac:**
 
-1. After downloading, unzip IMDB.zip
+1. After downloading, unzip IMDB.zip  
 
-  `unzip IMDB.zip`
+    `unzip IMDB.zip`  
 
-2. If you're using a jar file, move it into the IMDB directory:
+2. If you're using a jar file, move it into the IMDB directory:  
 
-  `mv (jar file) IMDB/`
+    `mv (BoostSRL jar file) IMDB/`  
+    `mv (auc jar file) IMDB/`  
 
-3. Learning:
+3. Learning:  
 
-  * `java -jar BoostSRL.jar -l -train train/ -target female_gender -trees 10`
+    `java -jar BoostSRL.jar -l -train train/ -target female_gender -trees 10`  
 
-4. Inference:
+4. Inference:  
 
-  * `java -jar BoostSRL.jar -i -test test/ -model train/models/ -target female_gender -trees 10`
+  `java -jar BoostSRL.jar -i -test test/ -model train/models/ -aucJarPath . -target female_gender -trees 10`  
 
 ---
 

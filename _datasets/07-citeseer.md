@@ -21,34 +21,33 @@ Three targets are possible:
 
 Download: [CiteSeer.zip](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/CiteSeer/CiteSeer.zip?raw=true) (1.62 MB)
 
-* `md5sum`: 
+* `md5sum`:
   <p style="word-break: break-all;">e606e6f3fbe12f62cb5261285b39209c</p>
 
-* `sha256sum`: 
+* `sha256sum`:
   <p style="word-break: break-all;">f5f6dd960a09d98e80cb2dcb735463dbc7dc5aaf2676f98d938be7df6edd2200</p>
 
 ---
 
 ### Setup
 
-**Linux/Mac:**
 
 1. After downloading, unzip CiteSeer.zip
-  
-  `unzip CiteSeer.zip`
+
+    `unzip CiteSeer.zip`
 
 2. If you're using a jar file, move it into the CiteSeer directory:
-  
-  `mv (jar file) CiteSeer/`
 
-3. Learning:
+    `mv (BoostSRL jar file) CiteSeer/`  
+    `mv (auc jar file) CiteSeer/`
 
-  * **Learning may take a long amount of time on all three targets.**
-  * `java -jar BoostSRL.jar -l -train train/ -target infield_fauthor,infield_ftitle,infield_fvenue -trees 10`
+3. Learning:  
+Note: Learning may take a long amount of time on all three targets.  <br>  
+`java -jar BoostSRL.jar -l -train train/ -trees 10 -target infield_fauthor,infield_ftitle,infield_fvenue `   
 
 4. Inference:
-  
-  * `java -jar BoostSRL.jar -i -test test/ -model train/models/ -target infield_fauthor,infield_ftitle,infield_fvenue -trees 10`
+
+`java -jar BoostSRL.jar -i -test test/ -model train/models/ -aucJarPath . -target infield_fauthor,infield_ftitle,infield_fvenue -trees 10`
 
 ---
 
