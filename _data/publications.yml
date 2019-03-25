@@ -16,7 +16,13 @@
 ##   video                       : link to video
 ##   code                        : link to the code
 ##   poster                      : link to poster
-
+- publicationType: "workshop-papers"
+  authors: ["Nandini Ramanan","Sriraam Natarajan"]
+  year: "2019"
+  title: "Work-In-Progress: Ensemble Causal Learning for Modeling Post-Partum Depression"
+  venue: "AAAI Spring Symposium on BEYOND CURVE FITTING — CAUSATION, COUNTERFACTUALS AND IMAGINATION-BASED AI"
+  url: "https://arxiv.org/abs/1808.02123"
+  
 - publicationType: "journal-papers"
   authors: ["Mayukh Das", "Phillip Odom", "Md. Rakibul Islam", "Jana Doppa", "Dan Roth", "Sriraam Natarajan"]
   year: "2018"
@@ -92,7 +98,7 @@
   authors: ["Alejandro Molina", "Antonio Vergari", "Nicola Di Mauro", "Floriana Esposito", "Sriraam Natarajan", "Kristian Kersting"]
   year: "2018"
   title: "Mixed Sum-Product Networks: A Deep Architecture for Hybrid Domains"
-  venue: "In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)"
+  venue: "In Proceedings of the Conference on Artificial Intelligence (AAAI)"
   url: "http://www.ml.informatik.tu-darmstadt.de/papers/molina2018aaai_mspns.pdf"
 
 - publicationType: "conference-papers"
