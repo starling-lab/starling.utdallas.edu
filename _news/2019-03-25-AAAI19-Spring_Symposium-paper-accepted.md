@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Nandini's paper on Causal learning for Post-Partum Depression accepted to AAAI 2019 Spring Symposium"
-date: 2018-03-25
+date: 2019-03-25
 categories: news
 author: StARLinG Lab
 ---
