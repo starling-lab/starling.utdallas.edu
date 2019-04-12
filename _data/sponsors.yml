@@ -6,7 +6,7 @@
 #   logo: ""
 #   PI: ""
 #   CO-PI: ["",""]
-- title: "Intel Research Gift"
+- title: "Intel Faculty Award"
   date: 2019-04-01
   period: "05/01/19"
   description: "Distributed and Quantized Learning of Boosted Residual Networks."
@@ -121,7 +121,7 @@
   logo: "/assets/images/sponsor-logo/intel-logo.png"
   PI: "Sriraam Natarajan"
 
-- title: "RelationalAI Research Gift"
+- title: "relationalAI Research Gift"
   date: 2018-08-01
   period: "8/01/18 to 8/01/20"
   logo: "/assets/images/sponsor-logo/rai-logo.png"
