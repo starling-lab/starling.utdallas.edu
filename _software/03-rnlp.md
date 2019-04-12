@@ -8,7 +8,7 @@ excerpt: 'Relational-NLP: Convert text into relational facts for building text c
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_img/splash2.png
-  caption: 'Copyright © 2017-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 ## Installation

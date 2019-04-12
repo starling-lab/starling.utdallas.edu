@@ -7,7 +7,7 @@ excerpt: 'BoostSRL (Boosting for Statistical Relational Models) is a gradient-bo
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_img/splash3.png
-  caption: 'Copyright © 2016-2018 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
+  caption: 'Copyright © 2016-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
 
 Developed by [Jude Shavlik](http://pages.cs.wisc.edu/~shavlik/), [Tushar Khot](http://pages.cs.wisc.edu/~tushar/), [Sriraam Natarajan](http://utdallas.edu/~sxn177430/), and [members of the StARLinG Lab](/people/).
