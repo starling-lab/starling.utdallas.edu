@@ -6,6 +6,18 @@
 #   logo: ""
 #   PI: ""
 #   CO-PI: ["",""]
+- title: "Intel Research Gift"
+  date: 2019-04-01
+  period: "05/01/19"
+  description: "Distributed and Quantized Learning of Boosted Residual Networks."
+  PI: "Sriraam Natarajan"
+
+- title: "Minerva Research Initiative: Science Genome"
+  date: 2019-03-01
+  period: "06/01/19 to 06/01/24"
+  description: "A Scholarly Graph Embedding Framework to Uncover the Fundamental Dynamics of Scientific Enterprise."
+  # logo: "/assets/images/sponsor-logo/minerva-logo.png"
+  PI: "Yong Yeol Ahn"
 
 - title: "DARPA DEFT"
   date: 2012-01-11
@@ -96,20 +108,20 @@
   period: "2/22/18 to 2/22/19"
   logo: "/assets/images/sponsor-logo/Amazon-logo.svg"
   PI: "Sriraam Natarajan"
-  
+
 - title: "Grant from Air Force Research Laboratory (AFRL)"
   date: 2018-08-01
   period: "8/01/18 to 8/01/20"
   logo: "/assets/images/sponsor-logo/afrl-logo.png"
   PI: "Sriraam Natarajan"
-  
+
 - title: "Intel Faculty Award"
   date: 2018-04-01
   period: "4/01/18 to 4/01/19"
   logo: "/assets/images/sponsor-logo/intel-logo.png"
   PI: "Sriraam Natarajan"
-  
-- title: "relationalAI, research gift"
+
+- title: "RelationalAI Research Gift"
   date: 2018-08-01
   period: "8/01/18 to 8/01/20"
   logo: "/assets/images/sponsor-logo/rai-logo.png"
