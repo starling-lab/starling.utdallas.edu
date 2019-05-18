@@ -165,18 +165,6 @@ Alexander Hayes:
   linkedin: "alexanderlhayes"
   group: "current-student"
 
-Kaushik Roy:
-  name: "Kaushik Roy"
-  lastname: "Roy"
-  uri:
-  avatar: "/assets/images/headshots/kaushikroy.jpg"
-  location: "The University of Texas at Dallas"
-  email: "kxr150330@utdallas.edu"
-  bio: "Computer Science (Ph.D.)"
-  twitter:
-  github: "kkroy36"
-  linkedin:
-  group: "current-student"
 
 Harsha Kokel:
   name: "Harsha Kokel"
@@ -287,6 +275,22 @@ Tushar Khot:
 ##
 ## MS Alumni
 ##
+
+
+Kaushik Roy:
+  name: "Kaushik Roy"
+  lastname: "Roy"
+  # uri:
+  # avatar: "/assets/images/headshots/kaushikroy.jpg"
+  # location: "The University of Texas at Dallas"
+  # email: "kxr150330@utdallas.edu"
+  bio: "Computer Science (M.S.)"
+  twitter:
+  # github: "kkroy36"
+  linkedin:
+  year: 2019
+  group: "msalumni"
+
 
 Vignesh Suresh Babu Kishore:
   name: "Vignesh Suresh Babu Kishore"
