@@ -242,6 +242,19 @@ Yuxin Zi:
   github: "FishingMapache"
   linkedin: "yuxin-zi"
   group: "current-student"
+  
+Bhagirath Athresh Karanam:
+  name: "Bhagirath Athresh"
+  lastname: "Karanam"
+  uri:
+  avatar:  "/assets/images/headshots/athresh.jpg"
+  location: "The University of Texas at Dallas"
+  email: "bxk180004@utdallas.edu"
+  bio: "Computer Science. (M.S.)"
+  twitter:
+  github: "Athresh"
+  linkedin: "athreshkaranam"
+  group: "current-student"
 
 ##
 ## ALUMNI
