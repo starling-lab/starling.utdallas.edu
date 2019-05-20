@@ -246,8 +246,8 @@ Yuxin Zi:
 Siwen Yan:
   name: "Siwen Yan"
   lastname: "Yan"
-  uri:
-  avatar: 
+  uri: "https://dtrycode.github.io/"
+  avatar: "/assets/images/headshots/siwenyan.jpg"
   location: "The University of Texas at Dallas"
   email: "siwen.yan@utdallas.edu"
   bio: "Computer Science. (Ph.D.)"
