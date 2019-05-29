@@ -218,19 +218,7 @@ Michael Skinner, MD:
   linkedin:
   group: "current-student"
 
-Yuxin Zi:
-  name: "Yuxin Zi"
-  lastname: "Zi"
-  uri:
-  avatar: "/assets/images/headshots/yuxinzi.jpg"
-  location: "The University of Texas at Dallas"
-  email: "yxz165430@utdallas.edu"
-  bio: "Computer Science. (MSc.)"
-  twitter:
-  github: "FishingMapache"
-  linkedin: "yuxin-zi"
-  group: "current-student"
-  
+
 Siwen Yan:
   name: "Siwen Yan"
   lastname: "Yan"
@@ -243,7 +231,7 @@ Siwen Yan:
   github: "Dtrycode"
   linkedin: "siwen-yan"
   group: "current-student"
-  
+
 Bhagirath Athresh Karanam:
   name: "Bhagirath Athresh"
   lastname: "Karanam"
@@ -317,6 +305,20 @@ Kaushik Roy:
   year: 2019
   group: "msalumni"
 
+
+Yuxin Zi:
+  name: "Yuxin Zi"
+  lastname: "Zi"
+  # uri:
+  # avatar: "/assets/images/headshots/yuxinzi.jpg"
+  # location: "The University of Texas at Dallas"
+  # email: "yxz165430@utdallas.edu"
+  bio: "Computer Science. (MSc.)"
+  twitter:
+  year: 2019
+  github: "FishingMapache"
+  linkedin: "yuxin-zi"
+  group: "msalumni"
 
 Vignesh Suresh Babu Kishore:
   name: "Vignesh Suresh Babu Kishore"
