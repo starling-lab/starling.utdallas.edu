@@ -18,6 +18,14 @@
 ##   poster                      : link to poster
 
 - publicationType: "workshop-papers"
+  authors: ["Mayukh Das","Devendra Singh Dhami","Yang Yu","Gautam Kunapuli","Sriraam Natarajan"]
+  year: "2019"
+  title: "Knowledge-augmented Column Networks: Guiding Deep Learning with Advice"
+  venue: "Workshop on Human In the Loop Learning (HILL)"
+  url: "https://arxiv.org/abs/1906.01432"
+  keywords: ["Human-AI collaboration","Deep Learning","Advice","Relational Learning"]
+
+- publicationType: "workshop-papers"
   authors: ["Nandini Ramanan","Mayukh Das","Kristian Kersting","Sriraam Natarajan"]
   year: "2019"
   title: "Discriminative Non-Parametric Learning of Arithmetic Circuits"
