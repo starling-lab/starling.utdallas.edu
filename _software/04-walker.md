@@ -7,6 +7,7 @@ excerpt: 'A system for defining background knowledge in the form of an Entity-Re
 header:
   overlay_color: "#5e616c"
   cta_label: '<i class="fas fa-download"></i> Download'
+  overlay_image: /assets/images/splash_img/splash1.png
   cta_url: "https://github.com/starling-lab/Walk-ER/releases"
   caption: 'Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
 ---
@@ -37,6 +38,8 @@ If you build on this code or the ideas of this paper, please use the following c
 > Modes are used to restrict/guide the search space and are a powerful tool in getting relational algorithms such as BoostSRL to work. If your algorithm does not learn anything useful, then the first debug point would be the modes (in the background.txt file).
 
 Walk-ER is a system for defining background knowledge for use in relational learning algorithms by exploring entity/attribute/relationships in Entity-Relational Diagrams. Refer to the [BoostSRL Basic Modes Guide](https://github.com/boost-starai/BoostSRL/wiki/Basic-Modes-Guide) for more information about modes.
+
+**NOTE:** This code no longer supports the GUI. If you are looking for GUI, refer the [JA-Walk-ER](/software/jawalker)
 
 ### Prerequisites
 
