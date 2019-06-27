@@ -82,3 +82,9 @@ Deprecated. Use maxTreeDepth instead
 **resampleNegs**
 
 Deprecated.
+
+## Advanced settings
+
+**Warm Start**  
+
+RDN Boost supports warm start, which allows you to add more trees to an already fitted model. To warm start learning, rename the existing `<target_predicate>.model` file in the model directory to `<target_predicate>.model.ckpt` and use the learn command as before.
