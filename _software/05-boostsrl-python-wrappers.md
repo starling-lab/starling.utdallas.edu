@@ -3,93 +3,86 @@ layout: splash
 permalink: /software/boostsrl-python-wrappers/
 title: 'BoostSRL: Python Wrappers'
 author: Alexander Hayes
-excerpt: 'A Python wrapper for BoostSRL to help automate learning/inference tasks.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+excerpt: '<strong>boostsrl</strong> is a set of Python wrappers around BoostSRl with a scikit-learn-style interface.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe><br><br><a href="https://github.com/starling-lab/boostsrl-python-package/" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a><br><a href="https://boostsrl.readthedocs.io/en/stable/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Stable Docs</a> <a href="https://boostsrl.readthedocs.io/en/latest/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Latest Docs</a><br><a href="https://github.com/starling-lab/boostsrl-python-package/issues" class="btn btn--light-outline btn--large"><i class="fas fa-bug"></i> Bug Tracker and Feature Suggestion</a>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
-  cta_label: '<i class="fas fa-download"></i> Download'
-  cta_url: "https://github.com/starling-lab/boostsrl-python-package/releases"
+  overlay_image: /assets/images/splash_img/splash4.png
+  overlay_filter: 0.1
   caption: 'Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.'
----
-
-<p align="center">
-	<img src="https://github.com/starling-lab/boostsrl-python-package/raw/master/media/box2.png" />
-</p>
-
-| License | Build Status | Codecov |
-| :---: | :---: | :---: |
-| [![][license img]][license] | [![Build Status](https://travis-ci.org/starling-lab/boostsrl-python-package.svg?branch=master)](https://travis-ci.org/starling-lab/boostsrl-python-package) | [![][codecov img]][codecov link] |
-
 ---
 
 # boostsrl
 
-*boostsrl* is a Python wrapper for BoostSRL to help automate learning and inference tasks.
+[![boostsrl Python Package Index latest version][pypi img]](https://pypi.org/project/boostsrl/)
+[![boostsrl-python-package License][license img]](https://github.com/starling-lab/boostsrl-python-package/blob/master/LICENSE)
+[![Travis Continuous Integration build status][build status]](https://travis-ci.org/starling-lab/boostsrl-python-package)
+[![Code coverage status][codecov]](https://codecov.io/github/starling-lab/boostsrl-python-package?branch=master)
+[![Circle Continuous Integration documentation correctness status][circleci]](https://circleci.com/gh/starling-lab/boostsrl-python-package)
+[![ReadTheDocs latest documentation build status][readthedocs]](https://boostsrl.readthedocs.io/en/latest/)
+
+[pypi img]:https://img.shields.io/pypi/v/boostsrl.svg
+[license img]:https://img.shields.io/github/license/starling-lab/boostsrl-python-package.svg
+[build status]:https://travis-ci.org/starling-lab/boostsrl-python-package.svg?branch=master
+[codecov]:https://codecov.io/gh/starling-lab/boostsrl-python-package/branch/master/graphs/badge.svg?branch=master
+[circleci]:https://circleci.com/gh/starling-lab/boostsrl-python-package.svg?style=shield
+[readthedocs]:https://readthedocs.org/projects/boostsrl/badge/?version=latest
+
+**boostsrl** is a set of Python wrappers around BoostSRl with a scikit-learn-style interface.
+
+- **Documentation**: [https://boostsrl.readthedocs.io/en/stable/](https://boostsrl.readthedocs.io/en/stable/)
+- **Questions?** Contact [Alexander L. Hayes](https://hayesall.com) ([hayesall@iu.edu](mailto:hayesall@iu.edu))
 
 ## Getting Started
 
 ### Prerequisites
 
 * Java 1.8
-* Python (2.7, 3.3, 3.4, 3.5, 3.6)
-* subprocess32 (if using Python 2.7: `pip install subprocess32`)
-* graphviz-0.8
+* Python (3.6, 3.7)
 
 ### Installation
 
-* The latest stable build can be installed with pip:
+The latest stable version can be installed from PyPi using pip:
 
-  ```bash
-  $ pip install git+git://github.com/batflyer/boostsrl-python-package.git
-  ```
+```bash
+pip install boostsrl
+```
 
-### Basic Usage
+The [Getting Started](https://boostsrl.readthedocs.io/en/latest/getting_started.html)
+guide has further details.
+
+## Basic Usage
+
+The general setup should be similar to scikit-learn. But there are a few extra requirements in terms of setting background knowledge and formatting the data.
+
+A minimal working example (using the Toy-Cancer data set imported with 'example_data') is:
 
 ```python
->>> from boostsrl import boostsrl
-
-'''Step 1: Background Knowledge'''
-
-# Sample data is built in from the 'Toy Cancer' Dataset, retrieve it with example_data
->>> bk = boostsrl.example_data('background')
-
-# Create the background knowledge or 'Modes,' where 'cancer' is the target we want to predict.
->>> background = boostsrl.modes(bk, ['cancer'], useStdLogicVariables=True, treeDepth=4, nodeSize=2, numOfClauses=8)
-
-'''Step 2: Training a Model'''
-
-# Retrieve the positives, negatives, and facts.
->>> train_pos = boostsrl.example_data('train_pos')
->>> train_neg = boostsrl.example_data('train_neg')
->>> train_facts = boostsrl.example_data('train_facts')
-
-# Train a model using this data:
->>> model = boostsrl.train(background, train_pos, train_neg, train_facts)
-
-# How many seconds did training take?
->>> model.traintime()
-0.705
-
-'''Step 3: Test Model on New Data'''
-
-# Retrieve the positives, negatives, and facts.
->>> test_pos = boostsrl.example_data('test_pos')
->>> test_neg = boostsrl.example_data('test_neg')
->>> test_facts = boostsrl.example_data('test_facts')
-
-# Test the data
->>> results = boostsrl.test(model, test_pos, test_neg, test_facts)
-
-'''Step 4: Observe Performance'''
-
-# To see the overall performance of the model on test data:
->>> results.summarize_results()
-{'CLL': '-0.223184', 'F1': '1.000000', 'Recall': '1.000000', 'Precision': '1.000000,0.500', 'AUC ROC': '1.000000', 'AUC PR': '1.000000'}
-
-# To see probabilities for individual test examples:
->>> results.inference_results('cancer')
-{'!cancer(Watson)': 0.6924179024024251, 'cancer(Xena)': 0.8807961917687174, '!cancer(Voldemort)': 0.6924179024024251, 'cancer(Yoda)': 0.8807961917687174, 'cancer(Zod)': 0.8807961917687174}
-
+>>> from boostsrl.rdn import RDN
+>>> from boostsrl import Background
+>>> from boostsrl import example_data
+>>> bk = Background(
+...     modes=example_data.train.modes,
+...     use_std_logic_variables=True,
+... )
+>>> clf = RDN(
+...     background=bk,
+...     target='cancer',
+... )
+>>> clf.fit(example_data.train)
+>>> clf.predict_proba(example_data.test)
+array([0.88079619, 0.88079619, 0.88079619, 0.3075821 , 0.3075821 ])
+>>> clf.classes_
+array([1., 1., 1., 0., 0.])
 ```
+
+`example_data.train` and `example_data.test` are each
+[`boostsrl.Database`](https://boostsrl.readthedocs.io/en/latest/generated/boostsrl.Database.html#boostsrl.Database) object,
+so this hides some of the complexity behind the scenes.
+
+This example abstracts away some complexity in exchange for compactness.
+For more thorough examples, see the
+[Examples Gallery](https://boostsrl.readthedocs.io/en/latest/auto_examples/index.html)
+section of the documentation.
 
 ## Contributing
 
@@ -97,15 +90,9 @@ Please refer to [CONTRIBUTING.md](https://github.com/starling-lab/boostsrl-pytho
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. See [Releases](https://github.com/batflyer/boostsrl-python-package/releases) for all stable versions that are available.
+We use [SemVer](https://semver.org/) for versioning. See [PyPi](https://pypi.org/project/boostsrl/) or [Releases](https://github.com/starling-lab/boostsrl-python-package/releases) for all stable versions that are available.
 
 ## Acknowledgements
 
 * Professor Sriraam Natarajan
 * Members of StARLinG Lab
-
-[license]:license.txt
-[license img]:https://img.shields.io/github/license/starling-lab/boostsrl-python-package.svg
-
-[codecov img]:https://codecov.io/gh/starling-lab/boostsrl-python-package/branch/master/graphs/badge.svg?branch=master
-[codecov link]:https://codecov.io/github/starling-lab/boostsrl-python-package?branch=master
