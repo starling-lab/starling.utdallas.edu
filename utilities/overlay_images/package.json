@@ -1,0 +1,27 @@
+{
+  "name": "overlay_images",
+  "version": "0.1.0",
+  "description": "Generate header images for starling.utdallas.edu",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayesall/starling.utdallas.edu.git"
+  },
+  "keywords": [
+    "minimal-mistakes"
+  ],
+  "author": "Alexander L. Hayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayesall/starling.utdallas.edu/issues"
+  },
+  "homepage": "https://starling.utdallas.edu",
+  "dependencies": {
+    "canvas": "^1.6.13",
+    "commander": "^2.20.0",
+    "trianglify": "^2.0.0"
+  }
+}
