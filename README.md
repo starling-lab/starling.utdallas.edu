@@ -6,7 +6,7 @@
 
 Development repository for the StARLinG Lab's webpage. Built with Jekyll, jQuery, and the minimal-mistakes Jekyll theme.
 
-Maintained by **[Alexander L. Hayes](https://github.com/batflyer)** and **[Harsha Kokel](https://github.com/harshakokel)**.
+Maintained by **[Alexander L. Hayes](https://github.com/hayesall)** and **[Harsha Kokel](https://github.com/harshakokel)**.
 
 Contact: `{alexander.hayes/harsha.kokel}@utdallas.edu`
 
@@ -52,6 +52,7 @@ This work incorporates work from the following sources:
 * ["linkprediction.jpg"](https://raw.githubusercontent.com/starling-lab/starling.utdallas.edu/v1.0-master/assets/images/linkprediction.jpg) is plotted and rendered with [Cytoscape](http://www.cytoscape.org/download.php), used under the terms of the LGPL.
 * The random student loading on the homepage is based on a blog post by [James W Thorne](https://thornelabs.net/2014/06/08/a-better-way-to-display-random-jekyll-posts-on-page-load-or-refresh-using-jquery-and-json.html).
 * The StARLinG Logo is designed by [Gautam Kunapuli](https://www.utdallas.edu/~Gautam.Kunapuli/), and used with permission.
+* `utilities/overlay_images/` is based on [`trianglify`](https://qrohlf.com/trianglify/). Used under the terms of the GPL-v3.
 
 [license]:LICENSE
 [license img]:https://img.shields.io/github/license/starling-lab/starling.utdallas.edu.svg
