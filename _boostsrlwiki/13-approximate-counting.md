@@ -26,7 +26,7 @@ Approximate counting can be enabled for MLN-Boost by adding a flag to the comman
 
 *Example:*
 
-* `java -jar BoostSRL.jar -l -train train/ -target (target) -trees 10 -mln -approxCount`
+* `java -cp BoostSRL.jar edu.wisc.cs.will.Boosting.MLN.RunBoostedMLN -l -train train/ -target (target) -trees 10 -mln -approxCount`
 
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
@@ -41,11 +41,7 @@ There are certain limitations to using the approximate counting module (as discu
 
 <button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
----
 
-### Dependencies:
-
-<button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button>
 
 ---
 

@@ -78,6 +78,12 @@ Store this file in `./train/models/bRDNs/advisedBy.model`
 
 The output grounded random walks are stored inside `./test/OutputRW.txt` Kindly ignore all the AUC-ROC values and AUC-PR values, they are generated as part of MLN-Boost execution.
 
+
+### Getting Started
+
+Here is a small sample dataset to get started: [IMDB-relationalrandomwalk](https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/imdb-relationalrandomwalk.7z)
+
+
 ### References
 
 1. Tushar Khot, Sriraam Natarajan, Kristian Kersting, Jude Shavlik, "Learning Markov Logic Networks via Functional Gradient Boosting," In ICDM 2011.
