@@ -17,6 +17,26 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 
+- publicationType: "journal-papers"
+  authors: ["Navdeep Kaur", "Gautam Kunapuli", "Sriraam Natarajan"]
+  year: "2019"
+  title: "Non-Parametric Learning of Lifted Restricted Boltzmann Machines"
+  venue: "International Journal of Approximate Reasoning (under review)"
+  keywords: ["Restricted Boltzmann Machines", "Functional Gradient Boosting", "Relational Learning"]
+
+- publicationType: "conference-papers"
+  authors: ["Navdeep Kaur","Gautam Kunapuli","Saket Joshi","Kristian Kersting","Sriraam Natarajan"]
+  year: "2019"
+  title: "Neural Network for Relational Data"
+  venue: "29th International Conference on Inductive Logic Programming (ILP)"
+ 
+- publicationType: "conference-papers"
+  authors: ["Yuqiao Chen", "Nicholas Ruozzi", "Sriraam Natarajan"]
+  year: "2019"
+  title: "Lifted Message Passing for Hybrid Probabilistic Inference"
+  venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+  url: "https://www.ijcai.org/proceedings/2019/0790.pdf"
+
 - publicationType: "workshop-papers"
   authors: ["Mayukh Das","Devendra Singh Dhami","Yang Yu","Gautam Kunapuli","Sriraam Natarajan"]
   year: "2019"
