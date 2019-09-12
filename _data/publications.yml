@@ -29,6 +29,7 @@
   year: "2019"
   title: "Neural Network for Relational Data"
   venue: "29th International Conference on Inductive Logic Programming (ILP)"
+  url: "https://arxiv.org/pdf/1909.04723.pdf"
  
 - publicationType: "conference-papers"
   authors: ["Yuqiao Chen", "Nicholas Ruozzi", "Sriraam Natarajan"]
