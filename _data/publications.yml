@@ -17,6 +17,31 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 
+
+
+- publicationType: "workshop-papers"
+  authors: ["Devendra Singh Dhami","Gautam Kunapuli","Sriraam Natarajan"]
+  year: "2019"
+  title: "Efficient Learning of Relational Gaifman Models using Probabilistic Logic"
+  venue: "Workshop on Probabilistic Logic Programming (PLP)"
+  url: "https://drive.google.com/file/d/1GCsTavPvWSDy-MiUc8PcUngGMv11yf0f/view"
+  keywords: ["Embeddings","Gaifman Locality","Relational Learning"]
+
+- publicationType: "workshop-papers"
+  authors: ["Michael A. Skinner","Lakshmi Raman","Neel Shah","Abdelaziz Farhat","Sriraam Natarajan"]
+  year: "2019"
+  title: "Elicitation of probabilistic logic rules from records: A preliminary study in learning policies for the of critically ill children"
+  venue: "Workshop on Probabilistic Logic Programming (PLP)"
+  url: "/assets/pdfs/skinner_PLP2019.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Devendra Singh Dhami","Gautam Kunapuli","David Page","Sriraam Natarajan"]
+  year: "2019"
+  title: "Predicting Drug-Drug Interactions from Molecular Structure Images"
+  venue: "AAAI Fall symposium - AI for Social Good"
+  url: "https://drive.google.com/file/d/1KxG0W-U-KbRaMz4izJa_mMCG9YMgrmvW/view"
+  keywords: ["Drug-Drug Interactions","Deep Learning","Relational Learning"]
+
 - publicationType: "journal-papers"
   authors: ["Navdeep Kaur", "Gautam Kunapuli", "Sriraam Natarajan"]
   year: "2019"
