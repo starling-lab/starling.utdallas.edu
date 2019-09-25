@@ -2,6 +2,7 @@
 author: Nandini Ramanan
 title: "IMDB: Internet Movie Database"
 permalink: /datasets/imdb/
+date: 2018-02-26
 excerpt: "Internet Movie Database (IMDB) is an online database of movies, television shows, etc. The goal is to predict whether someone is female."
 ---
 

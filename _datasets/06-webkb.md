@@ -2,6 +2,7 @@
 author: Nandini Ramanan
 title: "WebKB"
 permalink: /datasets/webkb/
+date: 2018-02-26
 excerpt: "WebKB is a dataset consisting of web pages and hyperlinks from four computer science departments: Cornell University, The University of Texas, The University of Washington, and The University of Wisconsin."
 ---
 

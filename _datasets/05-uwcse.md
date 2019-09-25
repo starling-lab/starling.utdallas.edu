@@ -2,6 +2,7 @@
 author: Alexander Hayes
 title: "UW-CSE: Advised-By Relationships"
 permalink: /datasets/uwcse/
+date: 2018-02-26
 excerpt: "An anonymized dataset where based on the University of Washington CS Department. Goal is to predict who advises which student."
 ---
 

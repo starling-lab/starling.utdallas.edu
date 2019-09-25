@@ -2,6 +2,7 @@
 author: Alexander Hayes
 title: "Cora: Citation Matching"
 permalink: /datasets/cora/
+date: 2018-02-26
 excerpt: "Cora is a dataset based on citations in scientific papers, the goal is to match citation information."
 ---
 

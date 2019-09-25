@@ -77,3 +77,11 @@ datasets:
         url: /datasets/boston-housing/
       - title: "Drug-Drug Interactions"
         url: /datasets/ddi/
+      - title: "Drug-Drug Interactions (Relational)"
+        url: /datasets/ddi-relational/
+      - title: "Financial NLP"
+        url: /datasets/fnlp/
+      - title: "NELL Sports"
+        url: /datasets/nells/
+      - title: "ICML Co-authors"
+        url: /datasets/coauthor/

@@ -1,6 +1,7 @@
 ---
 author: Nandini Ramanan
 title: "Toy Cancer"
+date: 2018-02-26
 permalink: /datasets/toy-cancer/
 excerpt: "A toy dataset for predicting properties of social networks: whether a person has cancer based on friendships and smoking habits."
 ---

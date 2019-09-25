@@ -2,6 +2,7 @@
 author: Alexander Hayes
 title: "CiteSeer: Citation Matching"
 permalink: /datasets/citeseer/
+date: 2018-02-26
 excerpt: "A relational dataset consisting of publication citations for Alchemy. This version has modifications to work with BoostSRL."
 ---
 

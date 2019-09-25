@@ -1,6 +1,7 @@
 ---
 author: Alexander Hayes
 title: "Toy Father"
+date: 2018-02-26
 permalink: /datasets/toy-father/
 excerpt: "A toy dataset for predicting who is the father of whom."
 ---
