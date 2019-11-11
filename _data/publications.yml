@@ -394,10 +394,11 @@
   keywords: ["Statistical Relational Learning"]
 
 - publicationType: "journal-papers"
-  authors: ["Tushar Khot","Sriraam Natarajan","Kristian Kersting","Bernd Gutmann","Jude Shavlik"]
-  year: "2014"
-  title: "Gradient-based Boosting for Statistical Relational Learning: The Markov Logic Network and Missing Data Cases"
+  authors: ["Tushar Khot","Sriraam Natarajan","Kristian Kersting","Jude Shavlik"]
+  year: "2015"
+  title: "Gradient-based boosting for statistical relational learning: the Markov logic network and missing data cases"
   venue: "Machine Learning Journal (MLJ)"
+  url: "https://link.springer.com/article/10.1007/s10994-015-5481-4"
   keywords: ["Statistical Relational Learning","Graphical Models"]
 
 - publicationType: "conference-papers"
