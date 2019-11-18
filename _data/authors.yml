@@ -87,18 +87,6 @@ Gautam Kunapuli:
 ## Current Lab Members
 ##
 
-Mayukh Das:
-  name: "Mayukh Das"
-  lastname: "Das"
-  uri: "https://sites.google.com/site/mayukhdas3986/"
-  avatar: "/assets/images/headshots/mayukhdas.jpg"
-  location: "The University of Texas at Dallas"
-  email: "mayukh.das1@utdallas.edu"
-  bio: "Computer Science (Ph.D.)"
-  twitter: "mayukhdastweet"
-  github: "mayukhdas"
-  linkedin: "mdas86"
-  group: "current-student"
 
 Devendra Dhami:
   name: "Devendra Singh Dhami"
@@ -245,9 +233,37 @@ Bhagirath Athresh Karanam:
   linkedin: "athreshkaranam"
   group: "current-student"
 
+Obuli Vignesh Rangasamy:
+  name: "Obuli Vignesh"
+  lastname: "Rangasamy"
+  uri:
+  avatar: "/assets/images/headshots/vignesh.jpg"
+  location: "The University of Texas at Dallas"
+  email: "obulivignesh.rangasamy@utdallas.edu"
+  bio: "Computer Science. (M.S.)"
+  twitter:
+  github: "obuli92"
+  linkedin: "obulivignesh"
+  group: "current-student"
+
+
 ##
 ## ALUMNI
 ##
+
+
+Mayukh Das:
+  name: "Mayukh Das"
+  uri: "https://sites.google.com/site/mayukhdas3986/"
+  avatar: "/assets/images/headshots/mayukhdas.jpg"
+  location: "AI/ML Research Scientist at Samsung R&D Institute"
+  email: "mayukh.das@samsung.com"
+  bio: 'Ph.D. Computer Science 2019 (UTD). <br> Thesis: "Human-Allied Efficient And Effective Learning in Noisy Domains"'
+  twitter: "mayukhdastweet"
+  github: "mayukhdas"
+  linkedin: "mdas86"
+  year: 2019
+  group: "alumni"
 
 Phillip Odom:
   name: "Phillip Odom"
@@ -266,7 +282,7 @@ Shuo Yang:
   name: "Shuo Yang"
   uri: "https://shuoyang.netlify.com/"
   avatar: "/assets/images/headshots/shuoyang.jpg"
-  location: "Amobee"
+  location: "LinkedIn"
   email: "shuoyang@indiana.edu"
   bio: 'Ph.D. Health Informatics 2017 (IU). <br> Thesis: "Effective Learning of Probabilistic Models for Clinical Predictions from Longitudinal Data"'
   twitter:
