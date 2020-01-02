@@ -29,12 +29,12 @@
   title: "Non-Parametric Learning of Gaifman Models"
   venue: "Workshop on Statistical Relational AI (StarAI)"
 
-
 - publicationType: "workshop-papers"
   authors: ["Mayukh Das", "Nandini Ramanan", "Janardhan Rao Doppa","Sriraam Natarajan"]
   year: "2020"
   title: "One-Shot Induction of Generalized Logical Concepts via Human Guidance"
   venue: "Workshop on Statistical Relational AI (StarAI)"
+  url: "https://arxiv.org/abs/1912.07060"
 
 - publicationType: "conference-papers"
   authors: ["Harsha Kokel","Phillip Odom","Shuo Yang", "Sriraam Natarajan"]
