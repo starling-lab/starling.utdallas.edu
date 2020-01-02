@@ -17,6 +17,33 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 
+- publicationType: "workshop-papers"
+  authors: ["Navdeep Kaur","Gautam Kunapuli","Sriraam Natarajan"]
+  year: "2020"
+  title: "Non-Parametric Learning of Lifted Restricted Boltzmann Machines"
+  venue: "Workshop on Statistical Relational AI (StarAI)"
+
+- publicationType: "workshop-papers"
+  authors: ["Devendra Singh Dhami", "Siwen Yen","Gautam Kunapuli","Sriraam Natarajan"]
+  year: "2020"
+  title: "Non-Parametric Learning of Gaifman Models"
+  venue: "Workshop on Statistical Relational AI (StarAI)"
+
+
+- publicationType: "workshop-papers"
+  authors: ["Mayukh Das", "Nandini Ramanan", "Janardhan Rao Doppa","Sriraam Natarajan"]
+  year: "2020"
+  title: "One-Shot Induction of Generalized Logical Concepts via Human Guidance"
+  venue: "Workshop on Statistical Relational AI (StarAI)"
+
+- publicationType: "conference-papers"
+  authors: ["Harsha Kokel","Phillip Odom","Shuo Yang", "Sriraam Natarajan"]
+  year: "2020"
+  title: "Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domain"
+  venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
+  url: "https://personal.utdallas.edu/~hkokel/pdf/Kokel_AAAI20.pdf"
+  code: "https://github.com/starling-lab/KiGB"
+  slide: "https://personal.utdallas.edu/~hkokel/pdf/KiGB.pdf"
 
 
 - publicationType: "workshop-papers"
@@ -55,7 +82,7 @@
   title: "Neural Network for Relational Data"
   venue: "29th International Conference on Inductive Logic Programming (ILP)"
   url: "https://arxiv.org/pdf/1909.04723.pdf"
- 
+
 - publicationType: "conference-papers"
   authors: ["Yuqiao Chen", "Nicholas Ruozzi", "Sriraam Natarajan"]
   year: "2019"
