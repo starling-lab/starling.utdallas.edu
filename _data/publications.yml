@@ -18,6 +18,14 @@
 ##   poster                      : link to poster
 
 - publicationType: "workshop-papers"
+  authors: ["Alexander L. Hayes"]
+  year: "2020"
+  title: "srlearn: A Python Library for Gradient-Boosted Statistical Relational Models"
+  venue: "Workshop on Statistical Relational AI (StarAI)"
+  url: "https://hayesall.com/publications/srlearn-python-library.pdf"
+  code: "https://github.com/hayesall/srlearn-StarAI-2020-workshop"
+
+- publicationType: "workshop-papers"
   authors: ["Navdeep Kaur","Gautam Kunapuli","Sriraam Natarajan"]
   year: "2020"
   title: "Non-Parametric Learning of Lifted Restricted Boltzmann Machines"
