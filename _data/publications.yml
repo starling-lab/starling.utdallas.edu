@@ -36,7 +36,7 @@
   year: "2020"
   title: "Non-Parametric Learning of Gaifman Models"
   venue: "Workshop on Statistical Relational AI (StarAI)"
-
+  url: "https://arxiv.org/abs/2001.00528"
 
 - publicationType: "workshop-papers"
   authors: ["Mayukh Das", "Nandini Ramanan", "Janardhan Rao Doppa","Sriraam Natarajan"]
