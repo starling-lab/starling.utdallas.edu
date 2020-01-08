@@ -16,6 +16,12 @@
 ##   video                       : link to video
 ##   code                        : link to the code
 ##   poster                      : link to poster
+- publicationType: "workshop-papers"
+  authors: ["Michael A. Skinner","Lakshmi Raman","Neel Shah", "Abdelaziz Farhat", "Sriraam Natarajan"]
+  year: "2020"
+  title: "A preliminary approach for learning relationalpolicies for the management of critically ill children"
+  venue: "Workshop on Statistical Relational AI (StarAI)"
+
 
 - publicationType: "workshop-papers"
   authors: ["Alexander L. Hayes"]
