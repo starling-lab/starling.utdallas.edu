@@ -54,7 +54,7 @@
 - publicationType: "conference-papers"
   authors: ["Harsha Kokel","Phillip Odom","Shuo Yang", "Sriraam Natarajan"]
   year: "2020"
-  title: "Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domain"
+  title: "A Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domain"
   venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
   url: "https://personal.utdallas.edu/~hkokel/pdf/Kokel_AAAI20.pdf"
   code: "https://github.com/starling-lab/KiGB"
