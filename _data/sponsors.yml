@@ -6,6 +6,13 @@
 #   logo: ""
 #   PI: ""
 #   CO-PI: ["",""]
+
+- title: "Verisk Faculty Award"
+  date: 2020-01-01
+  period: "01/01/20"
+  PI: "Sriraam Natarajan"
+  logo: "/assets/images/sponsor-logo/verisk-logo.svg"
+
 - title: "Intel Faculty Award"
   date: 2019-04-01
   period: "05/01/19"
@@ -16,7 +23,6 @@
   date: 2019-03-01
   period: "06/01/19 to 06/01/24"
   description: "A Scholarly Graph Embedding Framework to Uncover the Fundamental Dynamics of Scientific Enterprise."
-  # logo: "/assets/images/sponsor-logo/minerva-logo.png"
   PI: "Yong Yeol Ahn"
 
 - title: "DARPA DEFT"

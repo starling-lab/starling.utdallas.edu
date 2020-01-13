@@ -12,8 +12,8 @@ title: "Sponsors"
         <div class="details">
             <h3>{{sponsor.title}}</h3>
             <div class="time">Period:  {{sponsor.period}}</div>
-            <div class="PI">Principal Investigator:  {{sponsor.PI}}</div>
-            <div class="description"> {{sponsor.description}}</div>
+            {% if sponsor.PI%}<div class="PI">Principal Investigator:  {{sponsor.PI}}</div>{%endif%}
+            {% if sponsor.description%}<div class="description"> {{sponsor.description}}</div>{%endif%}
         </div>
     </div>
 {% endfor %}
@@ -25,6 +25,7 @@ title: "Sponsors"
 <div class="sponsor-logos">
     {% assign sponsor_logos =  site.data.sponsors | sort: "date" |  group_by: 'logo' %}
     {% for logo in sponsor_logos%}
-        <img src="{{logo.name}}"/>
+        {% unless logo.name == blank%}<img src="{{logo.name}}"/>{%endunless%}
+
     {% endfor %}
 </div>

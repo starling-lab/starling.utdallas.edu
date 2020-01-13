@@ -40,6 +40,6 @@
 <div class="sponsor-logos">
     {% assign sponsor_logos =  site.data.sponsors | sort: "date" |  group_by: 'logo' %}
     {% for logo in sponsor_logos%}
-        <img src="{{logo.name}}"/>
+        {% unless logo.name == blank%}<img src="{{logo.name}}"/>{%endunless%}
     {% endfor %}
 </div>
