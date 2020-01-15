@@ -88,8 +88,9 @@
   authors: ["Navdeep Kaur", "Gautam Kunapuli", "Sriraam Natarajan"]
   year: "2019"
   title: "Non-Parametric Learning of Lifted Restricted Boltzmann Machines"
-  venue: "International Journal of Approximate Reasoning (under review)"
+  venue: "International Journal of Approximate Reasoning"
   keywords: ["Restricted Boltzmann Machines", "Functional Gradient Boosting", "Relational Learning"]
+  url : "https://www.sciencedirect.com/science/article/abs/pii/S0888613X19302749?via%3Dihub"
 
 - publicationType: "conference-papers"
   authors: ["Navdeep Kaur","Gautam Kunapuli","Saket Joshi","Kristian Kersting","Sriraam Natarajan"]
