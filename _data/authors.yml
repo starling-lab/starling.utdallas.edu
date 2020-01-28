@@ -71,17 +71,6 @@ Sriraam Natarajan:
   linkedin: sriraam-natarajan-392a693
   group: "faculty"
 
-Gautam Kunapuli:
-  name: "Gautam Kunapuli"
-  uri: "http://www.utdallas.edu/~Gautam.Kunapuli/"
-  avatar: "/assets/images/headshots/gautamkunapuli.jpg"
-  location: "The University of Texas at Dallas"
-  email: "gautam.kunapuli@utdallas.edu"
-  bio: "Research Associate Professor of Computer Science."
-  twitter: "gkunapuli"
-  github:
-  linkedin: "gautam-kunapuli"
-  group: "faculty"
 
 ##
 ## Current Lab Members
@@ -157,7 +146,7 @@ Alexander Hayes:
 Harsha Kokel:
   name: "Harsha Kokel"
   lastname: "Kokel"
-  uri: "http://utdallas.edu/~harsha.kokel/"
+  uri: "http://utdallas.edu/~hkokel/"
   avatar: "/assets/images/headshots/harshakokel.jpg"
   location: "The University of Texas at Dallas"
   email: "harsha.kokel@utdallas.edu"
@@ -251,6 +240,17 @@ Obuli Vignesh Rangasamy:
 ## ALUMNI
 ##
 
+Gautam Kunapuli:
+  name: "Gautam Kunapuli"
+  uri: "http://www.utdallas.edu/~Gautam.Kunapuli/"
+  avatar: "/assets/images/headshots/gautamkunapuli.jpg"
+  location: "Verisk Analytics, Inc."
+  bio: "R&D Manager"
+  twitter: "gkunapuli"
+  github:
+  year: 2020
+  linkedin: "gautam-kunapuli"
+  group: "alumni"
 
 Mayukh Das:
   name: "Mayukh Das"

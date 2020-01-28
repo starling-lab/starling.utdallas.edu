@@ -16,12 +16,38 @@
 ##   video                       : link to video
 ##   code                        : link to the code
 ##   poster                      : link to poster
+
+- publicationType: "conference-papers"
+  authors: ["Harsha Kokel","Phillip Odom","Shuo Yang", "Sriraam Natarajan"]
+  year: "2020"
+  title: "A Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domain"
+  venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
+  url: "https://personal.utdallas.edu/~hkokel/pdf/Kokel_AAAI20.pdf"
+  code: "https://github.com/starling-lab/KiGB"
+  slide: "https://personal.utdallas.edu/~hkokel/pdf/KiGB.pdf"
+
+
+- publicationType: "journal-papers"
+  authors: ["Navdeep Kaur", "Gautam Kunapuli", "Sriraam Natarajan"]
+  year: "2020"
+  title: "Non-Parametric Learning of Lifted Restricted Boltzmann Machines"
+  venue: "International Journal of Approximate Reasoning"
+  keywords: ["Restricted Boltzmann Machines", "Functional Gradient Boosting", "Relational Learning"]
+  url : "https://www.sciencedirect.com/science/article/abs/pii/S0888613X19302749?via%3Dihub"
+
+- publicationType: "workshop-papers"
+  authors: ["Yuqiao Chen","Yibo Yang","Sriraam Natarajan", "Nicholas Ruozzi"]
+  year: "2020"
+  title: "Lifted Hybrid Variational Inference"
+  venue: "Workshop on Statistical Relational AI (StarAI)"
+  url: "https://arxiv.org/abs/2001.02773"
+
 - publicationType: "workshop-papers"
   authors: ["Michael A. Skinner","Lakshmi Raman","Neel Shah", "Abdelaziz Farhat", "Sriraam Natarajan"]
   year: "2020"
   title: "A preliminary approach for learning relationalpolicies for the management of critically ill children"
   venue: "Workshop on Statistical Relational AI (StarAI)"
-
+  url: "https://arxiv.org/abs/2001.04432"
 
 - publicationType: "workshop-papers"
   authors: ["Alexander L. Hayes"]
@@ -51,14 +77,6 @@
   venue: "Workshop on Statistical Relational AI (StarAI)"
   url: "https://arxiv.org/abs/1912.07060"
 
-- publicationType: "conference-papers"
-  authors: ["Harsha Kokel","Phillip Odom","Shuo Yang", "Sriraam Natarajan"]
-  year: "2020"
-  title: "A Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domain"
-  venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
-  url: "https://personal.utdallas.edu/~hkokel/pdf/Kokel_AAAI20.pdf"
-  code: "https://github.com/starling-lab/KiGB"
-  slide: "https://personal.utdallas.edu/~hkokel/pdf/KiGB.pdf"
 
 
 - publicationType: "workshop-papers"
@@ -84,13 +102,6 @@
   url: "https://drive.google.com/file/d/1KxG0W-U-KbRaMz4izJa_mMCG9YMgrmvW/view"
   keywords: ["Drug-Drug Interactions","Deep Learning","Relational Learning"]
 
-- publicationType: "journal-papers"
-  authors: ["Navdeep Kaur", "Gautam Kunapuli", "Sriraam Natarajan"]
-  year: "2019"
-  title: "Non-Parametric Learning of Lifted Restricted Boltzmann Machines"
-  venue: "International Journal of Approximate Reasoning"
-  keywords: ["Restricted Boltzmann Machines", "Functional Gradient Boosting", "Relational Learning"]
-  url : "https://www.sciencedirect.com/science/article/abs/pii/S0888613X19302749?via%3Dihub"
 
 - publicationType: "conference-papers"
   authors: ["Navdeep Kaur","Gautam Kunapuli","Saket Joshi","Kristian Kersting","Sriraam Natarajan"]
