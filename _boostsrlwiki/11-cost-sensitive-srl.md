@@ -1,7 +1,7 @@
 ---
 title: "Cost-sensitive Statistical Relational Learning"
 author: Shuo Yang
-permalink: /software/boostsrl/wiki/cost-sensitive-srl/
+permalink: /softwares/boostsrl/wiki/cost-sensitive-srl/
 excerpt: "Learning cost-sensitive models with BoostSRL."
 ---
 

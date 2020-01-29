@@ -8,7 +8,7 @@ excerpt: "A toy dataset for predicting who is the father of whom."
 
 ### Overview
 
-This toy dataset is used in the ["Getting Started"](/software/boostsrl/wiki/getting-started/) section of the BoostSRL Wiki. The goal is to predict who is the father of who.
+This toy dataset is used in the ["Getting Started"](/softwares/boostsrl/wiki/getting-started/) section of the BoostSRL Wiki. The goal is to predict who is the father of who.
 
 Target: `father`
 

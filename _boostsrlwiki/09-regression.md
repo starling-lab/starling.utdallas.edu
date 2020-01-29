@@ -1,7 +1,7 @@
 ---
 title: "Regression"
 author: Navdeep Kaur
-permalink: /software/boostsrl/wiki/regression/
+permalink: /softwares/boostsrl/wiki/regression/
 excerpt: "Tutorial on performing regression with BoostSRL."
 ---
 

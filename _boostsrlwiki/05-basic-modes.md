@@ -1,7 +1,7 @@
 ---
 title: "Basic Modes Guide"
 author: Sriraam Natarajan
-permalink: /software/boostsrl/wiki/basic-modes/
+permalink: /softwares/boostsrl/wiki/basic-modes/
 excerpt: "Overview of how set modes in BoostSRL."
 ---
 

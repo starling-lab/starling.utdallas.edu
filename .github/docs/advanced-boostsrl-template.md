@@ -1,7 +1,7 @@
 ---
 title: "Title Should be in Quotes"
 author: 
-permalink: /software/boostsrl/wiki/NAME-OF-THE-PAGE/
+permalink: /softwares/boostsrl/wiki/NAME-OF-THE-PAGE/
 excerpt: "This should be a short summary of the pages contents, search engines love these."
 ---
 

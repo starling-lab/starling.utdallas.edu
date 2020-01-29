@@ -1,7 +1,7 @@
 ---
 title: "Grounded Relational Random Walks"
 author: Navdeep Kaur
-permalink: /software/boostsrl/wiki/grounded-relational-random-walks/
+permalink: /softwares/boostsrl/wiki/grounded-relational-random-walks/
 excerpt: "How to perform grounded relational random walks with BoostSRL."
 ---
 

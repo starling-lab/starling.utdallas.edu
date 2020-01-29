@@ -1,7 +1,7 @@
 ---
 title: "Markov Logic Networks (MLNs)"
 author: Sriraam Natarajan
-permalink: /software/boostsrl/wiki/mln-boost/
+permalink: /softwares/boostsrl/wiki/mln-boost/
 excerpt: "Overview of Markov Logic Networks and how to learn them with BoostSRL."
 ---
 

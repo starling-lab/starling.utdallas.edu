@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 author: Alexander Hayes
-permalink: /software/boostsrl/wiki/getting-started/
+permalink: /softwares/boostsrl/wiki/getting-started/
 excerpt: "Getting started with BoostSRL."
 ---
 

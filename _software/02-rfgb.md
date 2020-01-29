@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /software/rfgb.py/
+permalink: /softwares/rfgb.py/
 title: 'rfgb.py'
 author: Kaushik Roy
 excerpt: 'A Python package and tool for learning statistical relational models via gradient boosting.<br>This open source project is in early Alpha: feedback, bug reports, and contributions are welcome.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>

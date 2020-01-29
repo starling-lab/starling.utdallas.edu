@@ -7,55 +7,55 @@ main:
     url: /publications/
   - title: "Projects"
     url: /projects/
-  - title: "Software"
-    url: /software/
+  - title: "Softwares"
+    url: /softwares/
   - title: "Datasets"
     url: /datasets/
   - title: "Gallery"
     url: /gallery/
 
-# links for BoostSRL Wiki: (/software/boostsrl/wiki/)
+# links for BoostSRL Wiki: (/softwares/boostsrl/wiki/)
 boostsrlwiki:
   - title: BoostSRL Basics
     children:
       - title: "Getting Started"
-        url: /software/boostsrl/wiki/getting-started/
+        url: /softwares/boostsrl/wiki/getting-started/
       - title: "File Structure"
-        url: /software/boostsrl/wiki/file-structure/
+        url: /softwares/boostsrl/wiki/file-structure/
       - title: "Basic Parameters"
-        url: /software/boostsrl/wiki/basic-parameters/
+        url: /softwares/boostsrl/wiki/basic-parameters/
       - title: "Basic Modes"
-        url: /software/boostsrl/wiki/basic-modes/
+        url: /softwares/boostsrl/wiki/basic-modes/
       - title: "Advanced Parameters"
-        url: /software/boostsrl/wiki/advanced-parameters/
+        url: /softwares/boostsrl/wiki/advanced-parameters/
       - title: "Advanced Modes"
-        url: /software/boostsrl/wiki/advanced-modes/
+        url: /softwares/boostsrl/wiki/advanced-modes/
   - title: Advanced BoostSRL
     children:
       - title: "Default (RDN-Boost)"
-        url: /software/boostsrl/wiki/rdn-boost/
+        url: /softwares/boostsrl/wiki/rdn-boost/
       - title: "MLN-Boost"
-        url: /software/boostsrl/wiki/mln-boost/
+        url: /softwares/boostsrl/wiki/mln-boost/
       - title: "Regression"
-        url: /software/boostsrl/wiki/regression/
+        url: /softwares/boostsrl/wiki/regression/
       - title: "One-Class Classification"
-        url: /software/boostsrl/wiki/one-class-classification/
+        url: /softwares/boostsrl/wiki/one-class-classification/
       - title: "Cost-Sensitive SRL"
-        url: /software/boostsrl/wiki/cost-sensitive-srl/
+        url: /softwares/boostsrl/wiki/cost-sensitive-srl/
       - title: "Learning with Advice"
-        url: /software/boostsrl/wiki/advice/
+        url: /softwares/boostsrl/wiki/advice/
       - title: "Approximate Counting"
-        url: /software/boostsrl/wiki/approximate-counting/
+        url: /softwares/boostsrl/wiki/approximate-counting/
       - title: "Discretization of Continuous-Valued Attributes"
-        url: /software/boostsrl/wiki/discretization/
+        url: /softwares/boostsrl/wiki/discretization/
       - title: "Lifted Relational Random Walks"
-        url: /software/boostsrl/wiki/lifted-relational-random-walks/
+        url: /softwares/boostsrl/wiki/lifted-relational-random-walks/
       - title: "Grounded Relational Random Walks"
-        url: /software/boostsrl/wiki/grounded-relational-random-walks/
+        url: /softwares/boostsrl/wiki/grounded-relational-random-walks/
   - title: Applications
     children:
       - title: "Natural Language Processing"
-        url: /software/boostsrl/wiki/natural-language-processing/
+        url: /softwares/boostsrl/wiki/natural-language-processing/
 
 # links for Datasets: (/datasets/)
 datasets:
@@ -87,3 +87,22 @@ datasets:
         url: /datasets/nells/
       - title: "ICML Co-authors"
         url: /datasets/coauthor/
+
+# links for Softwares: (/softwares/)
+softwares:
+  - title: Softwares
+    children:
+      - title: "BoostSRL"
+        url: /softwares/boostsrl/
+      - title: "rfgb.py"
+        url: /softwares/rfgb.py/
+      - title: "rnlp"
+        url: /softwares/rnlp/
+      - title: "WALK-ER"
+        url: /softwares/walker/
+      - title: "BoostSRL: Python Wrappers"
+        url: /softwares/boostsrl-python-wrappers/
+      - title: "JA-WALK-ER"
+        url: /softwares/jawalker/
+      - title: "KiGB"
+        url: /softwares/KiGB/

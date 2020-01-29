@@ -1,7 +1,7 @@
 ---
 title: "Discretization of Continuous-Valued Attributes"
 author: Nandini Ramanan
-permalink: /software/boostsrl/wiki/discretization/
+permalink: /softwares/boostsrl/wiki/discretization/
 excerpt: "How to discretize continuous attributes with BoostSRL."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Approximate Counting"
 author: Mayukh Das
-permalink: /software/boostsrl/wiki/approximate-counting/
+permalink: /softwares/boostsrl/wiki/approximate-counting/
 excerpt: "How to use approximate counting with BoostSRL."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Lifted Relational Random Walks"
 author: Navdeep Kaur
-permalink: /software/boostsrl/wiki/lifted-relational-random-walks/
+permalink: /softwares/boostsrl/wiki/lifted-relational-random-walks/
 excerpt: "How to perform lifted relational random walks with BoostSRL."
 ---
 

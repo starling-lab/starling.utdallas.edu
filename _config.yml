@@ -19,7 +19,7 @@ collections:
     permalink: /:collection/:path/
   boostsrlwiki:
     output: true
-    permalink: /software/boostsrl/:collection/:path/
+    permalink: /softwares/boostsrl/:collection/:path/
   datasets:
     output: true
     permalink: /:collection/:path/

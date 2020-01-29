@@ -1,7 +1,7 @@
 ---
 title: "File Structure"
 author: Kaushik Roy
-permalink: /software/boostsrl/wiki/file-structure/
+permalink: /softwares/boostsrl/wiki/file-structure/
 excerpt: "Wiki page for the file structure used by BoostSRL."
 ---
 
