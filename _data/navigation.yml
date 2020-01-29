@@ -11,6 +11,8 @@ main:
     url: /software/
   - title: "Datasets"
     url: /datasets/
+  - title: "Gallery"
+    url: /gallery/
 
 # links for BoostSRL Wiki: (/software/boostsrl/wiki/)
 boostsrlwiki:
