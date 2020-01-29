@@ -60,6 +60,10 @@ gallery:
     image_path: /assets/images/gallery/AlexVisits.JPG
     alt: "Alex pays us a visit"
     title: "Alex pays us a visit"
+  - url: /assets/images/gallery/HILL2019.jpeg
+    image_path: /assets/images/gallery/HILL2019-t.jpeg
+    alt: "Mayukh Das at Human-in-the-loop Learning Workshop, 2019"
+    title: "Mayukh Das at Human-in-the-loop Learning Workshop, 2019"
   - url: /assets/images/gallery/PhillipVisit.jpeg
     image_path: /assets/images/gallery/PhillipVisit.jpeg
     alt: "Dr. Phillip Odom pays a visit"
@@ -68,8 +72,20 @@ gallery:
     image_path: /assets/images/gallery/LabInEthnic.jpeg
     alt: "Starling lab @ Professor's house"
     title: "Lab celebrates Senior Natarajan's birthday in Ethnic"
-  - url: /assets/images/gallery/SN_KK_DS.jpeg
-    image_path: /assets/images/gallery/SN_KK_DS.jpeg
+  - url: /assets/images/gallery/CausalSymposium2019.jpeg
+    image_path: /assets/images/gallery/CausalSymposium2019.jpeg
+    alt: "Nandini Ramanan at WHY, 2019"
+    title: "Nandini Ramanan at WHY, 2019"
+  - url: /assets/images/gallery/AAAIMD2019.jpeg
+    image_path: /assets/images/gallery/AAAIMD2019-t.jpeg
+    alt: "Mayukh Das at AAAI, 2019"
+    title: "Mayukh Das at AAAI, 2019"
+  - url: /assets/images/gallery/AAAI2019-UTD.jpg
+    image_path: /assets/images/gallery/AAAI2019-UTD.jpg
+    alt: "UTD at AAAI, 2019"
+    title: "UTD at AAAI, 2019"
+  - url: /assets/images/gallery/SN_KK_DP.jpeg
+    image_path: /assets/images/gallery/SN_KK_DP.jpeg
     alt: ""
     title: ""
   - url: /assets/images/gallery/SN_other.jpeg
