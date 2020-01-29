@@ -33,7 +33,7 @@
   title: "Non-Parametric Learning of Lifted Restricted Boltzmann Machines"
   venue: "International Journal of Approximate Reasoning"
   keywords: ["Restricted Boltzmann Machines", "Functional Gradient Boosting", "Relational Learning"]
-  url : "https://www.sciencedirect.com/science/article/abs/pii/S0888613X19302749?via%3Dihub"
+  url : "https://arxiv.org/abs/2001.10070"
 
 - publicationType: "workshop-papers"
   authors: ["Yuqiao Chen","Yibo Yang","Sriraam Natarajan", "Nicholas Ruozzi"]
