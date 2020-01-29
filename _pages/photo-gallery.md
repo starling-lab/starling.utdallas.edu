@@ -56,6 +56,10 @@ gallery:
     image_path: /assets/images/gallery/SNRonParNov19.jpg
     alt: "Catch-up with Prof. Parr"
     title: "Catch-up with Prof. Parr"
+  - url: /assets/images/gallery/Arjun-Farewell.png
+    image_path: /assets/images/gallery/Arjun-Farewell-t.jpg
+    alt: "Farewell to Arjun"
+    title: "Farewell to Arjun"
   - url: /assets/images/gallery/AlexVisits.JPG
     image_path: /assets/images/gallery/AlexVisits.JPG
     alt: "Alex pays us a visit"
@@ -94,20 +98,16 @@ gallery:
     title: "UTD at AAAI, 2019"
   - url: /assets/images/gallery/SN_KK_DP.jpeg
     image_path: /assets/images/gallery/SN_KK_DP.jpeg
-    alt: ""
-    title: ""
-  - url: /assets/images/gallery/SN_other.jpeg
-    image_path: /assets/images/gallery/SN_other.jpeg
-    alt: ""
-    title: ""
+    alt: "AAAI 2019"
+    title: "AAAI 2019"
   - url: /assets/images/gallery/SN_other2.jpeg
     image_path: /assets/images/gallery/SN_other2-t.jpeg
-    alt: ""
-    title: ""
+    alt: "Sriraam Natarajan with Novi Quadrianto and Kristian Kersting at Sussex"
+    title: "Sriraam Natarajan with Novi Quadrianto and Kristian Kersting at Sussex"
   - url: /assets/images/gallery/Group4.jpeg
     image_path: /assets/images/gallery/Group4.jpeg
     alt: "Lab Holiday Lunch. 2018"
-    title: "Holiday Lunch, 2018"
+    title: "Lab Holiday Lunch. 2018"
   - url: /assets/images/gallery/Chase_2018Sept.jpg
     image_path: /assets/images/gallery/Chase_2018Sept-t.jpg
     alt: "Devendra Singh Dhami at CHASE, 2018"
@@ -140,6 +140,10 @@ gallery:
     image_path: /assets/images/gallery/AAMAS2018.jpeg
     alt: "Prof. Natarajan at AAMAS, 2018"
     title: "Prof. Natarajan at AAMAS, 2018"
+  - url: /assets/images/gallery/SN_other.jpeg
+    image_path: /assets/images/gallery/SN_other.jpeg
+    alt: "Neurips 2017"
+    title: "Neurips 2017"  
   - url: /assets/images/gallery/Lab_group.JPG
     image_path: /assets/images/gallery/Lab_group.JPG
     alt: "Lab moves to UT Dallas, 2017"
@@ -156,14 +160,18 @@ gallery:
     image_path: /assets/images/gallery/PO_SY_GradCeleb.jpeg
     alt: "Graduation of Phillip Odom and Shuo Yang"
     title: "Graduation of Phillip Odom and Shuo Yang"
+  - url: /assets/images/gallery/NR_interns.JPG
+    image_path: /assets/images/gallery/NR_interns-t.jpg
+    alt: "Nandini Ramanan with her mentees"
+    title: "Nandini Ramanan with her mentees"
   - url: /assets/images/gallery/PO_SY_Committee.jpeg
     image_path: /assets/images/gallery/PO_SY_Committee.jpeg
-    alt: "Graduation of Phillip Odom and Shuo Yang"
-    title: "Graduation of Phillip Odom and Shuo Yang"
+    alt: "Dissertation defense of Phillip Odom and Shuo Yang"
+    title: "Dissertation defense of Phillip Odom and Shuo Yang"
   - url: /assets/images/gallery/SN_PO_SY.jpeg
     image_path: /assets/images/gallery/SN_PO_SY.jpeg
-    alt: "Graduation of Phillip Odom and Shuo Yang"
-    title: "Graduation of Phillip Odom and Shuo Yang"
+    alt: "Phillip Odom and Shuo Yang with Sriraam Natarajan"
+    title: "Phillip Odom and Shuo Yang with Sriraam Natarajan"
   - url: /assets/images/gallery/SN_KK_GK_AS.jpeg
     image_path: /assets/images/gallery/SN_KK_GK_AS.jpeg
     alt: "Proud Committee"
@@ -180,10 +188,10 @@ gallery:
     image_path: /assets/images/gallery/SN_BDay2.jpeg
     alt: ""
     title: ""  
-  - url: /assets/images/gallery/NR_interns.JPG
-    image_path: /assets/images/gallery/NR_interns-t.JPG
-    alt: "NR with intern"
-    title: "Nandini Ramanan with her mentees"
+  - url: /assets/images/gallery/Tenure.jpeg
+    image_path: /assets/images/gallery/Tenure.jpeg
+    alt: "Celebrating Prof. Natarajan's tenure"
+    title: "Celebrating Prof. Natarajan's tenure"
   - url: /assets/images/gallery/Group3.jpeg
     image_path: /assets/images/gallery/Group3.jpeg
     alt: "Group Photo, 2016"
@@ -196,10 +204,7 @@ gallery:
     image_path: /assets/images/gallery/Group2.jpeg
     alt: "Group Photo"
     title: "Group Photo"
-  - url: /assets/images/gallery/Bday.jpeg
-    image_path: /assets/images/gallery/Bday.jpeg
-    alt: ""
-    title: ""
+
 ---
 
 <style>
