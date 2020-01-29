@@ -54,8 +54,8 @@ gallery:
     title: "Lab celebrates Mayukh's dissertation @ Sigree"
   - url: /assets/images/gallery/SNRonParNov19.jpg
     image_path: /assets/images/gallery/SNRonParNov19.jpg
-    alt: "Catch-up with Prof. Par"
-    title: "Catch-up with Prof. Par"
+    alt: "Catch-up with Prof. Parr"
+    title: "Catch-up with Prof. Parr"
   - url: /assets/images/gallery/AlexVisits.JPG
     image_path: /assets/images/gallery/AlexVisits.JPG
     alt: "Alex pays us a visit"
@@ -72,12 +72,20 @@ gallery:
     image_path: /assets/images/gallery/LabInEthnic.jpeg
     alt: "Starling lab @ Professor's house"
     title: "Lab celebrates Senior Natarajan's birthday in Ethnic"
+  - url: /assets/images/gallery/AISG_Symp_Sept2019.jpeg
+    image_path: /assets/images/gallery/AISG_Symp_Sept2019-t.jpg
+    alt: "Devendra Singh Dhami at AI for Social Good symposium, 2019"
+    title: "Devendra Singh Dhami at AI for Social Good symposium, 2019"
+  - url: /assets/images/gallery/UTD_AI_Conf.jpg
+    image_path: /assets/images/gallery/UTD_AI_Conf-t.jpg
+    alt: "Devendra Singh Dhami at UT Dallas AI conference, 2019"
+    title: "Devendra Singh Dhami at UT Dallas AI conference, 2019"
   - url: /assets/images/gallery/CausalSymposium2019.jpeg
     image_path: /assets/images/gallery/CausalSymposium2019.jpeg
     alt: "Nandini Ramanan at WHY, 2019"
     title: "Nandini Ramanan at WHY, 2019"
   - url: /assets/images/gallery/AAAIMD2019.jpeg
-    image_path: /assets/images/gallery/AAAIMD2019-t.jpeg
+    image_path: /assets/images/gallery/AAAIMD2019-t.jpg
     alt: "Mayukh Das at AAAI, 2019"
     title: "Mayukh Das at AAAI, 2019"
   - url: /assets/images/gallery/AAAI2019-UTD.jpg
@@ -100,6 +108,10 @@ gallery:
     image_path: /assets/images/gallery/Group4.jpeg
     alt: "Lab Holiday Lunch. 2018"
     title: "Holiday Lunch, 2018"
+  - url: /assets/images/gallery/Chase_2018Sept.jpg
+    image_path: /assets/images/gallery/Chase_2018Sept-t.jpg
+    alt: "Devendra Singh Dhami at CHASE, 2018"
+    title: "Devendra Singh Dhami at CHASE, 2018"
   - url: /assets/images/gallery/thanksgiving2018.jpg
     image_path: /assets/images/gallery/thanksgiving2018.jpg
     alt: "Thanksgiving, 2018"
@@ -108,10 +120,18 @@ gallery:
     image_path: /assets/images/gallery/hosts2018-t.jpg
     alt: "Thanksgiving hosts, 2018"
     title: "Thanksgiving hosts, 2018"
+  - url: /assets/images/gallery/IU.jpeg
+    image_path: /assets/images/gallery/IU.jpeg
+    alt: "Group Photo"
+    title: "Group Photo"
   - url: /assets/images/gallery/NR_KR2018.jpeg
     image_path: /assets/images/gallery/NR_KR2018.jpeg
     alt: "Nandini Ramanan at KR 2018"
     title: "Nandini Ramanan at KR 2018"
+  - url: /assets/images/gallery/KR_girls.JPG
+    image_path: /assets/images/gallery/KR_girls-t.jpg
+    alt: "Women of Starling Lab at KR 2018"
+    title: "Women of Starling Lab at KR 2018"
   - url: /assets/images/gallery/ProbProg2018.jpeg
     image_path: /assets/images/gallery/ProbProg2018.jpeg
     alt: "Prof. Natarajan at ProbProg, 2018"
@@ -120,6 +140,14 @@ gallery:
     image_path: /assets/images/gallery/AAMAS2018.jpeg
     alt: "Prof. Natarajan at AAMAS, 2018"
     title: "Prof. Natarajan at AAMAS, 2018"
+  - url: /assets/images/gallery/Lab_group.JPG
+    image_path: /assets/images/gallery/Lab_group.JPG
+    alt: "Lab moves to UT Dallas, 2017"
+    title: "Lab moves to UT Dallas, 2017"
+  - url: /assets/images/gallery/AIME2017.JPG
+    image_path: /assets/images/gallery/AIME2017-t.jpg
+    alt: "Devendra Singh Dhami at AIME, 2017"
+    title: "Devendra Singh Dhami at AIME, 2017"
   - url: /assets/images/gallery/PO_SY_Grad.jpeg
     image_path: /assets/images/gallery/PO_SY_Grad.jpeg
     alt: "Graduation of Phillip Odom and Shuo Yang"
@@ -136,6 +164,10 @@ gallery:
     image_path: /assets/images/gallery/SN_PO_SY.jpeg
     alt: "Graduation of Phillip Odom and Shuo Yang"
     title: "Graduation of Phillip Odom and Shuo Yang"
+  - url: /assets/images/gallery/SN_KK_GK_AS.jpeg
+    image_path: /assets/images/gallery/SN_KK_GK_AS.jpeg
+    alt: "Proud Committee"
+    title: "Proud Committee"
   - url: /assets/images/gallery/BIBM2017.jpeg
     image_path: /assets/images/gallery/BIBM2017.jpeg
     alt: "BIBM 2017"
@@ -147,25 +179,21 @@ gallery:
   - url: /assets/images/gallery/SN_BDay2.jpeg
     image_path: /assets/images/gallery/SN_BDay2.jpeg
     alt: ""
-    title: ""
+    title: ""  
+  - url: /assets/images/gallery/NR_interns.JPG
+    image_path: /assets/images/gallery/NR_interns-t.JPG
+    alt: "NR with intern"
+    title: "Nandini Ramanan with her mentees"
   - url: /assets/images/gallery/Group3.jpeg
     image_path: /assets/images/gallery/Group3.jpeg
     alt: "Group Photo, 2016"
     title: "Group Photo, 2016"
-  - url: /assets/images/gallery/IU.jpeg
-    image_path: /assets/images/gallery/IU.jpeg
-    alt: "Group Photo, 2016"
-    title: "Group Photo, 2016"
-  - url: /assets/images/gallery/SN_KK_GK_AS.jpeg
-    image_path: /assets/images/gallery/SN_KK_GK_AS.jpeg
-    alt: ""
-    title: ""
-  - url: /assets/images/gallery/Group2.jpeg
-    image_path: /assets/images/gallery/Group2.jpeg
-    alt: "Group Photo"
-    title: "Group Photo"
   - url: /assets/images/gallery/Group1.jpeg
     image_path: /assets/images/gallery/Group1.jpeg
+    alt: "Group Photo"
+    title: "Group Photo"
+  - url: /assets/images/gallery/Group2.jpeg
+    image_path: /assets/images/gallery/Group2.jpeg
     alt: "Group Photo"
     title: "Group Photo"
   - url: /assets/images/gallery/Bday.jpeg

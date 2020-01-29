@@ -64,7 +64,7 @@
   venue: "Workshop on Statistical Relational AI (StarAI)"
 
 - publicationType: "workshop-papers"
-  authors: ["Devendra Singh Dhami", "Siwen Yen","Gautam Kunapuli","Sriraam Natarajan"]
+  authors: ["Devendra Singh Dhami", "Siwen Yan","Gautam Kunapuli","Sriraam Natarajan"]
   year: "2020"
   title: "Non-Parametric Learning of Gaifman Models"
   venue: "Workshop on Statistical Relational AI (StarAI)"
