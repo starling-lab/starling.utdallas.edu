@@ -33,6 +33,38 @@ Contact: `{alexander.hayes/harsha.kokel}@utdallas.edu`
 		$ git push origin v1.0.7
 		$ JEKYLL_ENV=production bundle exec jekyll build
 
+## Publishing the Website
+
+> Need starling.utdallas.edu access for this.
+
+1. Copy the `_site` folder created after the build to starling.utdallas.edu server
+2. Login to the starling.utdallas.edu
+3. switch to sudo
+4. move the `_site` folder to /var/www
+5. move to /var/www folder
+6. Back up the existing website
+7. Publish latest build
+8. Exit and remember to delete the `_site` folder from `~`
+
+        $ scp -r _site/ <net-id>@starling.utdallas.edu:~
+        $ ssh <net-id>@starling.utdallas.edu
+        $ sudo su
+        $ cp -rf _site /var/www
+        $ cd /var/www
+        $ mv html v1.0.6
+        $ mv _site html
+        $ exit
+        $ cd ~; rm -rf _site
+        $ exit
+
+## Updates guide
+
+1. Publications are in `/_data/publication.yml`
+2. News updates go in `/_news/...`
+3. Lab member details are in `/_data/authors.yml`
+4. Gallery photos are in `/_pages/photo-gallery.md`
+5. Top navigation is in `/_data/_navigation.yml`
+
 ## Contributing
 
 Refer to [CONTRIBUTING.md](.github/CONTRIBUTING.md) for documentation on submitting issues and pull requests.
