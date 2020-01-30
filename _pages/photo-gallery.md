@@ -102,8 +102,8 @@ gallery:
     title: "Nandini Ramanan at WHY, 2019"
   - url: /assets/images/gallery/SN_PT_WHY19.jpg
     image_path: /assets/images/gallery/SN_PT_WHY19.jpg
-    alt: "Sriraam Natarajan with Prasad Tadepali at WHY, 2019"
-    title: "Sriraam Natarajan with Prasad Tadepali at WHY, 2019"
+    alt: "Sriraam Natarajan with Prasad Tadepalli at WHY, 2019"
+    title: "Sriraam Natarajan with Prasad Tadepalli at WHY, 2019"
   - url: /assets/images/gallery/AAAIMD2019.jpeg
     image_path: /assets/images/gallery/AAAIMD2019-t.jpg
     alt: "Mayukh Das at AAAI, 2019"
