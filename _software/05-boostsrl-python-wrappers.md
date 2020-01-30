@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /softwares/boostsrl-python-wrappers/
+permalink: /software/boostsrl-python-wrappers/
 title: 'BoostSRL: Python Wrappers'
 author: Alexander Hayes
 excerpt: 'A Python wrapper for BoostSRL to help automate learning/inference tasks.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=boostsrl-python-package&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'

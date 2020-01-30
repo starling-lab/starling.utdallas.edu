@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /softwares/walker/
+permalink: /software/walker/
 title: 'Walk-ER'
 author: ['Alexander Hayes', 'Mayukh Das', 'Phillip Odom', 'Sriraam Natarajan']
 excerpt: 'A system for defining background knowledge in the form of an Entity-Relational Diagrams and converting it into a BoostSRL modes file.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=Walk-ER&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=Walk-ER&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
@@ -39,7 +39,7 @@ If you build on this code or the ideas of this paper, please use the following c
 
 Walk-ER is a system for defining background knowledge for use in relational learning algorithms by exploring entity/attribute/relationships in Entity-Relational Diagrams. Refer to the [BoostSRL Basic Modes Guide](https://github.com/boost-starai/BoostSRL/wiki/Basic-Modes-Guide) for more information about modes.
 
-**NOTE:** This code no longer supports the GUI. If you are looking for GUI, refer the [JA-Walk-ER](/softwares/jawalker)
+**NOTE:** This code no longer supports the GUI. If you are looking for GUI, refer the [JA-Walk-ER](/software/jawalker)
 
 ### Prerequisites
 

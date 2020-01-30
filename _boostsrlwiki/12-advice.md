@@ -1,7 +1,7 @@
 ---
 title: "Learning with Advice"
 author: Phillip Odom
-permalink: /softwares/boostsrl/wiki/advice/
+permalink: /software/boostsrl/wiki/advice/
 excerpt: "Guide for knowledge-based probabilistic logic learning (KBPLL) with BoostSRL."
 ---
 

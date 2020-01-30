@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "BoostSRL Wiki"
-permalink: /softwares/boostsrl/wiki/
+permalink: /software/boostsrl/wiki/
 author_profile: false
 classes: wide
 sidebar:

@@ -1,7 +1,7 @@
 ---
 title: "Relational Dependency Networks (RDNs)"
 author: Sriraam Natarajan
-permalink: /softwares/boostsrl/wiki/rdn-boost/
+permalink: /software/boostsrl/wiki/rdn-boost/
 excerpt: "Overview of RDNs and how they can be learned with BoostSRL."
 ---
 

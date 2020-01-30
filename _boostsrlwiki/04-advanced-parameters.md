@@ -1,7 +1,7 @@
 ---
 title: Advanced Parameters
 author: Sriraam Natarajan
-permalink: /softwares/boostsrl/wiki/advanced-parameters/
+permalink: /software/boostsrl/wiki/advanced-parameters/
 excerpt: "Advanced parameters for restricting the search space of BoostSRL."
 ---
 Few Advanced Parameters are set in the background file while few can be included as command line arguments.

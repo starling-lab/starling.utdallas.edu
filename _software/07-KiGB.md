@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /softwares/KiGB/
+permalink: /software/KiGB/
 title: 'KiGB'
 author: ['Harsha Kokel', 'Phillip Odom', 'Shuo Yang', 'Sriraam Natarajan']
 excerpt: 'Knowledge-intensive Gradient Boosting : A unified framework for gradient boosted decision trees from knowledge and data. <br/><br />{::nomarkdown}  <a href="https://github.com/starling-lab/KiGB" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a> <a href="/papers/KiGB/" class="btn btn--light-outline btn--large"><i class="fas fa-blog"></i> Blog</a> <a href="https://personal.utdallas.edu/~hkokel/pdf/Kokel_AAAI20.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a> {:/nomarkdown}'

@@ -1,7 +1,7 @@
 ---
 title: "Natural Language Processing"
 author: Alexander Hayes
-permalink: /softwares/boostsrl/wiki/natural-language-processing/
+permalink: /software/boostsrl/wiki/natural-language-processing/
 excerpt: "Relational methods for natural language processing: an application of BoostSRL."
 ---
 

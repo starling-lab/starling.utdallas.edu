@@ -1,7 +1,7 @@
 ---
 title: "Relational One Class Classification"
 author: Navdeep Kaur
-permalink: /softwares/boostsrl/wiki/one-class-classification/
+permalink: /software/boostsrl/wiki/one-class-classification/
 excerpt: "Relational one class classification tutorial."
 ---
 

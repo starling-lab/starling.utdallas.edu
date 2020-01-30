@@ -7,55 +7,55 @@ main:
     url: /publications/
   - title: "Projects"
     url: /projects/
-  - title: "Softwares"
-    url: /softwares/
+  - title: "Software"
+    url: /software/
   - title: "Datasets"
     url: /datasets/
   - title: "Gallery"
     url: /gallery/
 
-# links for BoostSRL Wiki: (/softwares/boostsrl/wiki/)
+# links for BoostSRL Wiki: (/software/boostsrl/wiki/)
 boostsrlwiki:
   - title: BoostSRL Basics
     children:
       - title: "Getting Started"
-        url: /softwares/boostsrl/wiki/getting-started/
+        url: /software/boostsrl/wiki/getting-started/
       - title: "File Structure"
-        url: /softwares/boostsrl/wiki/file-structure/
+        url: /software/boostsrl/wiki/file-structure/
       - title: "Basic Parameters"
-        url: /softwares/boostsrl/wiki/basic-parameters/
+        url: /software/boostsrl/wiki/basic-parameters/
       - title: "Basic Modes"
-        url: /softwares/boostsrl/wiki/basic-modes/
+        url: /software/boostsrl/wiki/basic-modes/
       - title: "Advanced Parameters"
-        url: /softwares/boostsrl/wiki/advanced-parameters/
+        url: /software/boostsrl/wiki/advanced-parameters/
       - title: "Advanced Modes"
-        url: /softwares/boostsrl/wiki/advanced-modes/
+        url: /software/boostsrl/wiki/advanced-modes/
   - title: Advanced BoostSRL
     children:
       - title: "Default (RDN-Boost)"
-        url: /softwares/boostsrl/wiki/rdn-boost/
+        url: /software/boostsrl/wiki/rdn-boost/
       - title: "MLN-Boost"
-        url: /softwares/boostsrl/wiki/mln-boost/
+        url: /software/boostsrl/wiki/mln-boost/
       - title: "Regression"
-        url: /softwares/boostsrl/wiki/regression/
+        url: /software/boostsrl/wiki/regression/
       - title: "One-Class Classification"
-        url: /softwares/boostsrl/wiki/one-class-classification/
+        url: /software/boostsrl/wiki/one-class-classification/
       - title: "Cost-Sensitive SRL"
-        url: /softwares/boostsrl/wiki/cost-sensitive-srl/
+        url: /software/boostsrl/wiki/cost-sensitive-srl/
       - title: "Learning with Advice"
-        url: /softwares/boostsrl/wiki/advice/
+        url: /software/boostsrl/wiki/advice/
       - title: "Approximate Counting"
-        url: /softwares/boostsrl/wiki/approximate-counting/
+        url: /software/boostsrl/wiki/approximate-counting/
       - title: "Discretization of Continuous-Valued Attributes"
-        url: /softwares/boostsrl/wiki/discretization/
+        url: /software/boostsrl/wiki/discretization/
       - title: "Lifted Relational Random Walks"
-        url: /softwares/boostsrl/wiki/lifted-relational-random-walks/
+        url: /software/boostsrl/wiki/lifted-relational-random-walks/
       - title: "Grounded Relational Random Walks"
-        url: /softwares/boostsrl/wiki/grounded-relational-random-walks/
+        url: /software/boostsrl/wiki/grounded-relational-random-walks/
   - title: Applications
     children:
       - title: "Natural Language Processing"
-        url: /softwares/boostsrl/wiki/natural-language-processing/
+        url: /software/boostsrl/wiki/natural-language-processing/
 
 # links for Datasets: (/datasets/)
 datasets:
@@ -88,21 +88,21 @@ datasets:
       - title: "ICML Co-authors"
         url: /datasets/coauthor/
 
-# links for Softwares: (/softwares/)
-softwares:
-  - title: Softwares
+# links for Softwares: (/software/)
+software:
+  - title: Software
     children:
       - title: "BoostSRL"
-        url: /softwares/boostsrl/
+        url: /software/boostsrl/
       - title: "rfgb.py"
-        url: /softwares/rfgb.py/
+        url: /software/rfgb.py/
       - title: "rnlp"
-        url: /softwares/rnlp/
+        url: /software/rnlp/
       - title: "WALK-ER"
-        url: /softwares/walker/
+        url: /software/walker/
       - title: "BoostSRL: Python Wrappers"
-        url: /softwares/boostsrl-python-wrappers/
+        url: /software/boostsrl-python-wrappers/
       - title: "JA-WALK-ER"
-        url: /softwares/jawalker/
+        url: /software/jawalker/
       - title: "KiGB"
-        url: /softwares/KiGB/
+        url: /software/KiGB/

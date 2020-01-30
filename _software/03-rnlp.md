@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /softwares/rnlp/
+permalink: /software/rnlp/
 title: 'rnlp'
 author: Alexander Hayes
 excerpt: 'Relational-NLP: Convert text into relational facts for building text classification pipelines.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rnlp&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rnlp&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
@@ -57,7 +57,7 @@ Text will be converted into relational facts, built around the basic building bl
 
 *Words* are individual units of text, such as the words you are currently reading. *Sentences* are a collection of *Words*. *Blocks* are a collection of *Sentences*.
 
-This package encodes text in such a format so that relational learning methods (such as [BoostSRL](/softwares/boostsrl/)) can learn its structure.
+This package encodes text in such a format so that relational learning methods (such as [BoostSRL](/software/boostsrl/)) can learn its structure.
 
 ## Encoded Facts
 

@@ -1,7 +1,7 @@
 ---
 title: "Basic Parameters"
 author: Tushar Khot
-permalink: /softwares/boostsrl/wiki/basic-parameters/
+permalink: /software/boostsrl/wiki/basic-parameters/
 excerpt: "Basic overview for commandline arguments used by BoostSRL."
 ---
 

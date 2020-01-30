@@ -1,7 +1,7 @@
 ---
 title: "Advanced Modes Guide"
 author: Alexander Hayes
-permalink: /softwares/boostsrl/wiki/advanced-modes/
+permalink: /software/boostsrl/wiki/advanced-modes/
 excerpt: "An advanced explanation of what modes are, how they are used in BoostSRL, and how they can be set."
 ---
 

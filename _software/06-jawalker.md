@@ -1,9 +1,9 @@
 ---
 layout: splash
-permalink: /softwares/jawalker/
+permalink: /software/jawalker/
 title: 'JA-Walk-ER'
 author: ['Alexander Hayes', 'Mayukh Das', 'Phillip Odom', 'Sriraam Natarajan']
-excerpt: 'Just-another [Walk-ER](/softwares/walker) with a GUI.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=JA-Walk-ER&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=JA-Walk-ER&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe><br><a href="https://ja-walk-er.readthedocs.io" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Docs</a> <a href="https://github.com/starling-lab/JA-Walk-ER" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a>{:/nomarkdown}'
+excerpt: 'Just-another [Walk-ER](/software/walker) with a GUI.<br /><br />{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=JA-Walk-ER&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=JA-Walk-ER&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe><br><a href="https://ja-walk-er.readthedocs.io" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Docs</a> <a href="https://github.com/starling-lab/JA-Walk-ER" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a>{:/nomarkdown}'
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_img/splash1.png
@@ -17,7 +17,7 @@ header:
 
 <br>
 
-This is **Just-another** implementation of [**Walk-ER**](/softwares/walker). Because of dependencies which need license, the original code no longer supports a GUI. This code is built on top of the original code to provide a GUI.
+This is **Just-another** implementation of [**Walk-ER**](/software/walker). Because of dependencies which need license, the original code no longer supports a GUI. This code is built on top of the original code to provide a GUI.
 
 The original source code and TeX for "User Friendly Automatic Construction of Background Knowledge: Mode Construction from ER Diagrams." can be found [here](https://github.com/starling-lab/Walk-ER).
 
