@@ -4,14 +4,18 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
-  - url: /assets/images/gallery/CODS_COMAD_2019.jpeg
-    image_path: /assets/images/gallery/CODS_COMAD_2019.jpeg
+  - url: /assets/images/gallery/CODS_COMAD_2020.jpeg
+    image_path: /assets/images/gallery/CODS_COMAD_2020.jpeg
     alt: "CODS-COMAD"
-    title: "CODS-COMAD, Hyderabad, 2019"
-  - url: /assets/images/gallery/SN_BR_KK.jpeg
-    image_path: /assets/images/gallery/SN_BR_KK.jpeg
+    title: "CODS-COMAD, Hyderabad, 2020"
+  - url: /assets/images/gallery/SN_BR_KK_2020.jpeg
+    image_path: /assets/images/gallery/SN_BR_KK_2020.jpeg
     alt: "CODS-COMAD"
-    title: "CODS-COMAD, Hyderabad, 2019"
+    title: "CODS-COMAD, Hyderabad, 2020"
+  - url: /assets/images/gallery/CODS_COMAD_2020_PANEL.jpeg
+    image_path: /assets/images/gallery/CODS_COMAD_2020_PANEL.jpeg
+    alt: "CODS-COMAD, AI Panel"
+    title: "CODS-COMAD, AI Panel, Hyderabad, 2020"
   - url: /assets/images/gallery/WiML.jpeg
     image_path: /assets/images/gallery/WiML-t.jpeg
     alt: "Starling @ WiML"
@@ -68,10 +72,6 @@ gallery:
     image_path: /assets/images/gallery/HILL2019-t.jpeg
     alt: "Mayukh Das at Human-in-the-loop Learning Workshop, 2019"
     title: "Mayukh Das at Human-in-the-loop Learning Workshop, 2019"
-  - url: /assets/images/gallery/PhillipVisit.jpeg
-    image_path: /assets/images/gallery/PhillipVisit.jpeg
-    alt: "Dr. Phillip Odom pays a visit"
-    title: "Dr. Phillip Odom pays a visit"
   - url: /assets/images/gallery/LabInEthnic.jpeg
     image_path: /assets/images/gallery/LabInEthnic.jpeg
     alt: "Starling lab @ Professor's house"
@@ -80,14 +80,30 @@ gallery:
     image_path: /assets/images/gallery/AISG_Symp_Sept2019-t.jpg
     alt: "Devendra Singh Dhami at AI for Social Good symposium, 2019"
     title: "Devendra Singh Dhami at AI for Social Good symposium, 2019"
+  - url: /assets/images/gallery/PhillipVisit.jpeg
+    image_path: /assets/images/gallery/PhillipVisit.jpeg
+    alt: "Dr. Phillip Odom pays a visit"
+    title: "Dr. Phillip Odom pays a visit"
+  - url: /assets/images/gallery/Perot.jpg
+    image_path: /assets/images/gallery/Perot.jpg
+    alt: "Prof. Natarajan addresses at Perot Museum, Dallas"
+    title: "Prof. Natarajan addresses at Perot Museum, Dallas"
   - url: /assets/images/gallery/UTD_AI_Conf.jpg
     image_path: /assets/images/gallery/UTD_AI_Conf-t.jpg
     alt: "Devendra Singh Dhami at UT Dallas AI conference, 2019"
     title: "Devendra Singh Dhami at UT Dallas AI conference, 2019"
+  - url: /assets/images/gallery/UTD_AI_MD.jpeg
+    image_path: /assets/images/gallery/UTD_AI_MD-t.jpg
+    alt: "Mayukh Das at UT Dallas AI conference, 2019"
+    title: "Mayukh Das at UT Dallas AI conference, 2019"
   - url: /assets/images/gallery/CausalSymposium2019.jpeg
     image_path: /assets/images/gallery/CausalSymposium2019.jpeg
     alt: "Nandini Ramanan at WHY, 2019"
     title: "Nandini Ramanan at WHY, 2019"
+  - url: /assets/images/gallery/SN_PT_WHY19.jpg
+    image_path: /assets/images/gallery/SN_PT_WHY19.jpg
+    alt: "Sriraam Natarajan with Prasad Tadepali at WHY, 2019"
+    title: "Sriraam Natarajan with Prasad Tadepali at WHY, 2019"
   - url: /assets/images/gallery/AAAIMD2019.jpeg
     image_path: /assets/images/gallery/AAAIMD2019-t.jpg
     alt: "Mayukh Das at AAAI, 2019"
@@ -100,14 +116,30 @@ gallery:
     image_path: /assets/images/gallery/SN_KK_DP.jpeg
     alt: "AAAI 2019"
     title: "AAAI 2019"
+  - url: /assets/images/gallery/Group_201904.jpg
+    image_path: /assets/images/gallery/Group_201904.jpg
+    alt: "Group Photo, 2019"
+    title: "Group Photo, 2019"
   - url: /assets/images/gallery/SN_other2.jpeg
     image_path: /assets/images/gallery/SN_other2-t.jpeg
     alt: "Sriraam Natarajan with Novi Quadrianto and Kristian Kersting at Sussex"
     title: "Sriraam Natarajan with Novi Quadrianto and Kristian Kersting at Sussex"
+  - url: /assets/images/gallery/CODS_COMAD19.jpg
+    image_path: /assets/images/gallery/CODS_COMAD19.jpg
+    alt: "CODS-COMAD 2019"
+    title: "CODS-COMAD 2019"
+  - url: /assets/images/gallery/CODS_COMAD2019.jpg
+    image_path: /assets/images/gallery/CODS_COMAD2019.jpg
+    alt: "CODS-COMAD 2019"
+    title: "CODS-COMAD 2019"
+  - url: /assets/images/gallery/CODS_COMAD_2019_SN.jpeg
+    image_path: /assets/images/gallery/CODS_COMAD_2019_SN.jpeg
+    alt: "CODS-COMAD, 2019"
+    title: "CODS-COMAD, 2019"
   - url: /assets/images/gallery/Group4.jpeg
     image_path: /assets/images/gallery/Group4.jpeg
     alt: "Lab Holiday Lunch. 2018"
-    title: "Lab Holiday Lunch. 2018"
+    title: "Lab Holiday Lunch. 2018"  
   - url: /assets/images/gallery/Chase_2018Sept.jpg
     image_path: /assets/images/gallery/Chase_2018Sept-t.jpg
     alt: "Devendra Singh Dhami at CHASE, 2018"
@@ -140,6 +172,14 @@ gallery:
     image_path: /assets/images/gallery/AAMAS2018.jpeg
     alt: "Prof. Natarajan at AAMAS, 2018"
     title: "Prof. Natarajan at AAMAS, 2018"
+  - url: /assets/images/gallery/LabUTD2018.jpg
+    image_path: /assets/images/gallery/LabUTD2018.jpg
+    alt: "Group Photo, 2018"
+    title: "Group Photo, 2018"  
+  - url: /assets/images/gallery/SN_PT.jpeg
+    image_path: /assets/images/gallery/SN_PT-t.jpg
+    alt: "Prof. Natarajan with his guru"
+    title: "Prof. Natarajan with his guru"
   - url: /assets/images/gallery/SN_other.jpeg
     image_path: /assets/images/gallery/SN_other.jpeg
     alt: "Neurips 2017"
