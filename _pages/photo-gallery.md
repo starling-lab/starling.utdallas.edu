@@ -8,7 +8,7 @@ gallery:
     image_path: /assets/images/gallery/dev_starai.jpeg
     alt: "Dev-STARAI"
     title: "Dev presenting his Poster@ STARAI workshop @AAAI, 2020"
-   - url: /assets/images/gallery/alex_starai.jpeg
+  - url: /assets/images/gallery/alex_starai.jpeg
     image_path: /assets/images/gallery/alex_starai.jpeg
     alt: "Alex-STARAI"
     title: "Alex presenting his poster @ STARAI workshop @AAAI, 2020"
@@ -20,7 +20,7 @@ gallery:
     image_path: /assets/images/gallery/navdeep_starai.jpeg
     alt: "Navdeep-STARAI"
     title: "Navdeep presenting her Poster@ STARAI workshop @AAAI, 2020"
-   - url: /assets/images/gallery/yuqiao_starai.jpeg
+  - url: /assets/images/gallery/yuqiao_starai.jpeg
     image_path: /assets/images/gallery/yuqiao_starai.jpeg
     alt: "Yuqiao-STARAI"
     title: "Yuqiao presenting his Poster@ STARAI workshop @AAAI, 2020"
