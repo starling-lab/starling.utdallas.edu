@@ -4,35 +4,35 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
-  - url: /assets/images/gallery/dev_starai.jpeg
+  - url: /assets/images/gallery/dev_starai.jpg
     image_path: /assets/images/gallery/dev_starai.jpg
     alt: "Dev-STARAI"
     title: "Dev presenting his Poster@ STARAI workshop @AAAI, 2020"
-  - url: /assets/images/gallery/alex_starai.jpeg
+  - url: /assets/images/gallery/alex_starai.jpg
     image_path: /assets/images/gallery/alex_starai.jpg
     alt: "Alex-STARAI"
     title: "Alex presenting his poster @ STARAI workshop @AAAI, 2020"
-  - url: /assets/images/gallery/nandini_starai.jpeg
+  - url: /assets/images/gallery/nandini_starai.jpg
     image_path: /assets/images/gallery/nandini_starai.jpg
     alt: "Nandini-STARAI"
     title: "Nandini presenting her Poster@ STARAI workshop @AAAI, 2020"
-  - url: /assets/images/gallery/navdeep_starai.jpeg
+  - url: /assets/images/gallery/navdeep_starai.jpg
     image_path: /assets/images/gallery/navdeep_starai.jpg
     alt: "Navdeep-STARAI"
     title: "Navdeep presenting her Poster@ STARAI workshop @AAAI, 2020"
-  - url: /assets/images/gallery/yuqiao_starai.jpeg
+  - url: /assets/images/gallery/yuqiao_starai.jpg
     image_path: /assets/images/gallery/yuqiao_starai.jpg
     alt: "Yuqiao-STARAI"
     title: "Yuqiao presenting his Poster@ STARAI workshop @AAAI, 2020"
-  - url: /assets/images/gallery/mike_starai.jpeg
+  - url: /assets/images/gallery/mike_starai.jpg
     image_path: /assets/images/gallery/mike_starai.jpg
     alt: "Mike-STARAI"
     title: "Mike presenting his Poster@ STARAI workshop @AAAI, 2020"
-  - url: /assets/images/gallery/harsha_SN_aaai.jpeg
+  - url: /assets/images/gallery/harsha_SN_aaai.jpg
     image_path: /assets/images/gallery/harsha_SN_aaai.jpg
     alt: "Harsha-SN-AAAI"
     title: "Harsha with her Poster @AAAI, 2020"
-  - url: /assets/images/gallery/verisk.jpeg
+  - url: /assets/images/gallery/verisk.jpg
     image_path: /assets/images/gallery/verisk.jpg
     alt: "VeriskTeam-AAAI"
     title: "Professor Natarajan and Dr.Kunapuli with the Verisk team @AAAI, 2020"
