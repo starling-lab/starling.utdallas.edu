@@ -4,6 +4,38 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/dev_starai.jpeg
+    image_path: /assets/images/gallery/dev_starai.jpeg
+    alt: "Dev-STARAI"
+    title: "Dev presenting his Poster@ STARAI workshop @AAAI, 2020"
+   - url: /assets/images/gallery/alex_starai.jpeg
+    image_path: /assets/images/gallery/alex_starai.jpeg
+    alt: "Alex-STARAI"
+    title: "Alex presenting his poster @ STARAI workshop @AAAI, 2020"
+  - url: /assets/images/gallery/nandini_starai.jpeg
+    image_path: /assets/images/gallery/nandini_starai.jpeg
+    alt: "Nandini-STARAI"
+    title: "Nandini presenting her Poster@ STARAI workshop @AAAI, 2020"
+  - url: /assets/images/gallery/navdeep_starai.jpeg
+    image_path: /assets/images/gallery/navdeep_starai.jpeg
+    alt: "Navdeep-STARAI"
+    title: "Navdeep presenting her Poster@ STARAI workshop @AAAI, 2020"
+   - url: /assets/images/gallery/yuqiao_starai.jpeg
+    image_path: /assets/images/gallery/yuqiao_starai.jpeg
+    alt: "Yuqiao-STARAI"
+    title: "Yuqiao presenting his Poster@ STARAI workshop @AAAI, 2020"
+  - url: /assets/images/gallery/mike_starai.jpeg
+    image_path: /assets/images/gallery/mike_starai.jpeg
+    alt: "Mike-STARAI"
+    title: "Mike presenting his Poster@ STARAI workshop @AAAI, 2020"
+  - url: /assets/images/gallery/harsha_SN_aaai.jpeg
+    image_path: /assets/images/gallery/harsha_SN_aaai.jpeg
+    alt: "Harsha-SN-AAAI"
+    title: "Harsha with her Poster @AAAI, 2020"
+  - url: /assets/images/gallery/verisk.jpeg
+    image_path: /assets/images/gallery/verisk.jpeg
+    alt: "VeriskTeam-AAAI"
+    title: "Professor Natarajan and Dr.Kunapuli with the Verisk team @AAAI, 2020"
   - url: /assets/images/gallery/CODS_COMAD_2020.jpeg
     image_path: /assets/images/gallery/CODS_COMAD_2020.jpeg
     alt: "CODS-COMAD"
