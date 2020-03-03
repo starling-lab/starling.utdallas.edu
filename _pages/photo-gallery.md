@@ -282,7 +282,8 @@ gallery:
 <style>
   img{
       max-width:400px;
-      max-height:300px
+      max-height:300px;
+      OBJECT-FIT:contain;
   }
   .mfp-title {
     text-align:center;
