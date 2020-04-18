@@ -16,6 +16,13 @@
 ##   video                       : link to video
 ##   code                        : link to the code
 ##   poster                      : link to poster
+- publicationType: "journal-papers"
+  authors: ["Raksha Kumaraswamy", "Nandini Ramanan", "Phillip Odom", "Sriraam Natarajan"]
+  year: "2020"
+  title: "Interactive Transfer Learning in Relational Domains"
+  venue: "KUIN Springer Journal"
+  keywords: ["Transfer Learning", "User Interface", "Relational Learning"]
+  url : "/assets/pdfs/ramanan_KUIN2019.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Harsha Kokel","Phillip Odom","Shuo Yang", "Sriraam Natarajan"]
