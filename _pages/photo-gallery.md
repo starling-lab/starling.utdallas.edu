@@ -4,6 +4,10 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+- url: /assets/images/gallery/dhami_thesis.jpeg
+    image_path: /assets/images/gallery/dhami_thesis.jpeg
+    alt: "Dev-Thesis"
+    title: "Done & Dusted!"
   - url: /assets/images/gallery/dev_starai.jpg
     image_path: /assets/images/gallery/dev_starai.jpg
     alt: "Dev-STARAI"
