@@ -16,6 +16,14 @@
 ##   video                       : link to video
 ##   code                        : link to the code
 ##   poster                      : link to poster
+- publicationType: "conference-papers"
+  authors: ["Yuqiao Chen","Yibo Yang","Sriraam Natarajan","Nicholas Ruozzi"]
+  year: "2020"
+  title: "Lifted Hybrid Variational Inference"
+  venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+  url: "/assets/pdfs/LHVI_IJCAI_2020.pdf"
+  keywords: ["Variational Inference","Lifted Inference","Hybrid models"]
+  
 - publicationType: "journal-papers"
   authors: ["Raksha Kumaraswamy", "Nandini Ramanan", "Phillip Odom", "Sriraam Natarajan"]
   year: "2020"
