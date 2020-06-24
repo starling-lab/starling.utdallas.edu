@@ -76,20 +76,6 @@ Sriraam Natarajan:
 ## Current Lab Members
 ##
 
-
-Devendra Dhami:
-  name: "Devendra Singh Dhami"
-  lastname: "Dhami"
-  uri: "https://sites.google.com/view/devendradhami"
-  avatar: "/assets/images/headshots/devendrasinghdhami.jpg"
-  location: "The University of Texas at Dallas"
-  email: "dsd170230@utdallas.edu"
-  bio: "Computer Science (Ph.D.)"
-  twitter: "devendratweetin"
-  github: "ddhami"
-  linkedin: "devendra-singh-dhami-38988728"
-  group: "current-student"
-
 Navdeep Kaur:
   name: "Navdeep Kaur"
   lastname: "Kaur"
@@ -239,6 +225,20 @@ Obuli Vignesh Rangasamy:
 ##
 ## ALUMNI
 ##
+
+Devendra Dhami:
+  name: "Devendra Singh Dhami"
+  lastname: "Dhami"
+  uri: "https://sites.google.com/view/devendradhami"
+  avatar: "/assets/images/headshots/devendrasinghdhami.jpg"
+  location: "The University of Texas at Dallas"
+  email: "dsd170230@utdallas.edu"
+  bio: 'Ph.D. Computer Science 2020 (UTD). <br> Thesis: "Learning effective machine learning methods for health care"'
+  twitter: "devendratweetin"
+  github: "ddhami"
+  year: 2020
+  linkedin: "devendra-singh-dhami-38988728"
+  group: "alumni"
 
 Gautam Kunapuli:
   name: "Gautam Kunapuli"
