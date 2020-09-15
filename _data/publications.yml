@@ -16,6 +16,52 @@
 ##   video                       : link to video
 ##   code                        : link to the code
 ##   poster                      : link to poster
+- publicationType: "workshop-papers"
+  authors: ["Srijita Das", "Rishabh Iyer", "Sriraam Natarajan"]
+  year: "2020"
+  title: "Cost Aware Feature Elicitation"
+  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML), Organized in conjunction with KDD 2020"
+  url: "/assets/pdfs/KiML2020_CAFE.pdf"
+  
+- publicationType: "workshop-papers"
+  authors: ["Devendra Singh Dhami", "Mayukh Das", "Sriraam Natarajan"]
+  year: "2020 (Best student paper award)"
+  title: "Knowledge Intensive Learning of Generative Adversarial Networks"
+  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML), Organized in conjunction with KDD 2020"
+  url: "/assets/pdfs/KiML2020_Hagan.pdf"
+  
+- publicationType: "journal-papers"
+  authors: ["Nandini Ramanan", "Sriraam Natarajan"]
+  year: "2020"
+  title: "Causal Learning from Predictive Modeling for Observational Data"
+  venue: "Machine Learning and Artificial Intelligence, Frontiers in Big Data"
+  keywords: ["Causal Learning", "Causal Bayesian Network", "Machine Learning"]
+  url : "/assets/pdfs/Causality_Frontier.pdf"
+  
+- publicationType: "journal-papers"
+  authors: ["Mayukh Das", "Nandini Ramanan", "Janardhan Rao Doppa", "Sriraam Natarajan"]
+  year: "2020"
+  title: "Few-Shot Induction of Generalized Logical Concepts via Human Guidance"
+  venue: "Computational Intelligence in Robotics, Frontiers in Robotics and AI"
+  keywords: ["Concept Learning", "Inductive Logic Programminge", "Planning", "Human-in the Loop Learning"]
+  url : "/assets/pdfs/Frontiers__MayukhDas_ConceptLearning.pdf"
+  
+- publicationType: "conference-papers"
+  authors: ["Nandini Ramanan", "Mayukh Das", "Kristian Kersting", "Sriraam Natarajan"]
+  year: "2020"
+  title: "Discriminative Non-Parametric Learning of Arithmetic Circuits"
+  venue: "International Conference on Probabilistic Graphical Models (PGM)"
+  url: "/assets/pdfs/PGM2020_AC_Boost.pdf"
+  keywords: ["Arithmetic Circuits", "Tractable models", "Boosting"]
+  
+- publicationType: "conference-papers"
+  authors: ["Srijita Das", "Sriraam Natarajan", "Kaushik Roy", "Ronald Parr", "Kristian Kersting"]
+  year: "2020 (accepted as poster paper)"
+  title: "Fitted Q-Learning for Relational Domains"
+  venue: "International Conference on Principles of Knowledge Representation and Reasoning (KR)"
+  url: "/assets/pdfs/KR_Fitted_Q.pdf"
+  keywords: ["Reinforcement Learning", "Relational Learning", "Fitted-Q"]
+  
 - publicationType: "conference-papers"
   authors: ["Yuqiao Chen","Yibo Yang","Sriraam Natarajan","Nicholas Ruozzi"]
   year: "2020"
