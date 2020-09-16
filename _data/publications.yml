@@ -20,14 +20,14 @@
   authors: ["Srijita Das", "Rishabh Iyer", "Sriraam Natarajan"]
   year: "2020"
   title: "Cost Aware Feature Elicitation"
-  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML), Organized in conjunction with KDD 2020"
+  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML) organized in conjunction with KDD"
   url: "/assets/pdfs/KiML2020_CAFE.pdf"
   
 - publicationType: "workshop-papers"
   authors: ["Devendra Singh Dhami", "Mayukh Das", "Sriraam Natarajan"]
   year: "2020"
   title: "Knowledge Intensive Learning of Generative Adversarial Networks"
-  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML), Organized in conjunction with KDD 2020 (Best student paper award)"
+  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML) organized in conjunction with KDD (Best student paper award)"
   url: "/assets/pdfs/KiML2020_Hagan.pdf"
   
 - publicationType: "journal-papers"
