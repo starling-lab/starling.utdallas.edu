@@ -207,21 +207,6 @@ Bhagirath Athresh Karanam:
   github: "Athresh"
   linkedin: "athreshkaranam"
   group: "current-student"
-
-Obuli Vignesh Rangasamy:
-  name: "Obuli Vignesh"
-  lastname: "Rangasamy"
-  uri:
-  avatar: "/assets/images/headshots/vignesh.jpg"
-  location: "The University of Texas at Dallas"
-  email: "obulivignesh.rangasamy@utdallas.edu"
-  bio: "Computer Science. (M.S.)"
-  twitter:
-  github: "obuli92"
-  linkedin: "obulivignesh"
-  group: "current-student"
-
-
 ##
 ## ALUMNI
 ##
@@ -304,7 +289,17 @@ Tushar Khot:
 
 ##
 ## MS Alumni
-##
+##  
+Obuli Vignesh Rangasamy:
+  name: "Obuli Vignesh Rangasamy"
+  #location: 'Indian Institute of Technology Madras (IIT-Madras)'
+  lastname: "Rangasamy"
+  bio: 'Computer Science (M.S.)'
+  #twitter:
+  github: "obuli92"
+  linkedin: "obulivignesh"
+  year: 2020
+  group: "msalumni"  
 
 Arjun Manoharan:
   name: "Arjun Manoharan"
@@ -319,7 +314,7 @@ Kaushik Roy:
   lastname: "Roy"
   # uri:
   # avatar: "/assets/images/headshots/kaushikroy.jpg"
-  # location: "The University of Texas at Dallas"
+  location: "PhD student at The University of South Carolina"
   # email: "kxr150330@utdallas.edu"
   bio: "Computer Science (M.S.)"
   twitter:
