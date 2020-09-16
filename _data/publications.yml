@@ -25,9 +25,9 @@
   
 - publicationType: "workshop-papers"
   authors: ["Devendra Singh Dhami", "Mayukh Das", "Sriraam Natarajan"]
-  year: "2020 (Best student paper award)"
+  year: "2020"
   title: "Knowledge Intensive Learning of Generative Adversarial Networks"
-  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML), Organized in conjunction with KDD 2020"
+  venue: "International Workshop on Knowledge-infused Mining and Learning (KIML), Organized in conjunction with KDD 2020 (Best student paper award)"
   url: "/assets/pdfs/KiML2020_Hagan.pdf"
   
 - publicationType: "journal-papers"
@@ -56,9 +56,9 @@
   
 - publicationType: "conference-papers"
   authors: ["Srijita Das", "Sriraam Natarajan", "Kaushik Roy", "Ronald Parr", "Kristian Kersting"]
-  year: "2020 (accepted as poster paper)"
+  year: "2020"
   title: "Fitted Q-Learning for Relational Domains"
-  venue: "International Conference on Principles of Knowledge Representation and Reasoning (KR)"
+  venue: "International Conference on Principles of Knowledge Representation and Reasoning (KR) (accepted as poster paper)"
   url: "/assets/pdfs/KR_Fitted_Q.pdf"
   keywords: ["Reinforcement Learning", "Relational Learning", "Fitted-Q"]
   
