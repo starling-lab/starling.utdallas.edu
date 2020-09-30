@@ -6,6 +6,17 @@
 #   logo: ""
 #   PI: ""
 #   CO-PI: ["",""]
+- title: "ARO grant on 'Deep Tractable Probabilistic Models'"
+  date: 2020-07-01
+  period: "07/01/2020 to 07/01/2022"
+  logo: "/assets/images/sponsor-logo/ARO-logo.png"
+  PI: "Sriraam Natarajan"
+
+- title: "NIH R01 grant on 'Predicting Adverse Pregnancy Outcomes'"
+  date: 2020-08-01
+  period: "08/01/2020 to 08/01/2022"
+  logo: "/assets/images/sponsor-logo/nih-logo.png"
+  PI: "David Haas"
 
 - title: "Verisk Faculty Award"
   date: 2020-01-01
