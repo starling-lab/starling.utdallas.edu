@@ -4,6 +4,14 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/SrijitaDefense.jpeg
+    image_path: /assets/images/gallery/SrijitaDefense.jpeg
+    alt: "Srijita-thesis"
+    title: "Srijita successfully defended her thesis. Congratulations!"
+  - url: /assets/images/gallery/SociallyDistancedMeeting.jpeg
+    image_path: /assets/images/gallery/SociallyDistancedMeeting.jpeg
+    alt: "Lab-Meeting-August2020"
+    title: "Socially distanced meeting"
   - url: /assets/images/gallery/dhami_thesis.jpeg
     image_path: /assets/images/gallery/dhami_thesis.jpeg
     alt: "Dev-Thesis"
