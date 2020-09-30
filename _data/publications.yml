@@ -21,14 +21,12 @@
   year: "2021"
   title: "A Clustering based Selection Framework for Cost Aware and Test-time Feature Elicitation"
   venue: "ACM India Joint International Conference on Data Science & Management of Data (CODS-COMAD)"
-  url: ""
 
 - publicationType: "conference-papers"
   authors: ["Mayukh Das", "Devendra Singh Dhami", "Yang Yu", "Gautam Kunapuli", "Sriraam Natarajan"]
   year: "2021"
   title: "Human-Guided Learning of Column Networks: Knowledge Injection for Relational Deep Learning"
   venue: "ACM India Joint International Conference on Data Science & Management of Data (CODS-COMAD)"
-  url: ""
 
 - publicationType: "workshop-papers"
   authors: ["Srijita Das", "Rishabh Iyer", "Sriraam Natarajan"]
