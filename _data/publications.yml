@@ -818,7 +818,7 @@
 
 - publicationType: "journal-papers"
   authors: ["Sriraam Natarajan","Tushar Khot","Kristian Kersting","Bernd Gutmann","Jude Shavlik"]
-  year: "2011"
+  year: "2012"
   title: "Gradient-based Boosting for Statistical Relational Learning: The Relational Dependency Network Case"
   venue: "Invited contribution to special issue of Machine Learning Journal (MLJ)"
   url: "http://ftp.cs.wisc.edu/machine-learning/shavlik-group/natarajan.mlj12.pdf"
