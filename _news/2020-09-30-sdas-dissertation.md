@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Congratulations to Dr. Das for successfully defending her thesis"
-date: 2020-09-30
+date: 2020-08-31
 categories: news
 author: StARLinG Lab
 ---

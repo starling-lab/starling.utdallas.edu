@@ -4,6 +4,18 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/NavdeepDefense1.jpg
+    image_path: /assets/images/gallery/NavdeepDefense1.jpg
+    alt: "Navdeep-thesis"
+    title: "Navdeep successfully defended her thesis. Congratulations!"
+  - url: /assets/images/gallery/Nandini_Defense_2.jpg
+    image_path: /assets/images/gallery/Nandini_Defense_2.jpg
+    alt: "Nandini-thesis"
+    title: "Nandini successfully defended her thesis. Congratulations!"
+  - url: /assets/images/gallery/Nandini_Defense_4.jpg
+    image_path: /assets/images/gallery/Nandini_Defense_4.jpg
+    alt: "Nandini-thesis"
+    title: "All smiles after the defense!"
   - url: /assets/images/gallery/SrijitaDefense.jpeg
     image_path: /assets/images/gallery/SrijitaDefense.jpeg
     alt: "Srijita-thesis"

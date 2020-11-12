@@ -76,32 +76,6 @@ Sriraam Natarajan:
 ## Current Lab Members
 ##
 
-Navdeep Kaur:
-  name: "Navdeep Kaur"
-  lastname: "Kaur"
-  uri:
-  avatar: "/assets/images/headshots/navdeepkaur.jpg"
-  location: "The University of Texas at Dallas"
-  email: "Navdeep.Kaur@UTDallas.edu"
-  bio: "Computer Science (Ph.D.)"
-  twitter:
-  github: "navdeepkjohal"
-  linkedin:
-  group: "current-student"
-
-Nandini Ramanan:
-  name: "Nandini Ramanan"
-  lastname: "Ramanan"
-  uri: "https://www.nandhiniramanan5.com/"
-  avatar: "/assets/images/headshots/nandiniramanan.jpg"
-  location: "The University of Texas at Dallas"
-  email: "nxr173030@utdallas.edu"
-  bio: "Computer Science (Ph.D.)"
-  twitter: "nandini_ramanan"
-  github: "nandhiniramanan5"
-  linkedin: "nandini-ramanan"
-  group: "current-student"
-
 Alexander Hayes:
   name: "Alexander L. Hayes"
   lastname: "Hayes"
@@ -149,7 +123,7 @@ Brian Ricks:
   avatar: "/assets/images/headshots/brianricks.jpg"
   location: "The University of Texas at Dallas"
   email: "absolutefunk@utdallas.edu"
-  bio: "Computer Science (Ph.D.)"
+  bio: "Computer Science. (Ph.D.)"
   twitter:
   github: "absolutefunk"
   linkedin: "absolutefunk"
@@ -162,7 +136,7 @@ Michael Skinner, MD:
   avatar: "/assets/images/headshots/mike.JPG"
   location: "The University of Texas at Dallas"
   email: "mas140130@utdallas.edu"
-  bio: "Computer Science (Ph.D.)"
+  bio: "Computer Science. (Ph.D.)"
   twitter:
   github: "skinn009"
   linkedin:
@@ -194,9 +168,48 @@ Bhagirath Athresh Karanam:
   github: "Athresh"
   linkedin: "athreshkaranam"
   group: "current-student"
+
+Justin Dula:
+  name: "Justin G. Dula"
+  lastname: "Dula"
+  avatar: "/assets/images/headshots/justindula.jpg"
+  location: "The University of Texas at Dallas"
+  email: "justin@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  github: "JustinDula"
+  linkedin: "justin-dula"
+  group: "current-student"
 ##
 ## ALUMNI
 ##
+Navdeep Kaur:
+  name: "Navdeep Kaur"
+  lastname: "Kaur"
+  uri:
+  avatar: "/assets/images/headshots/navdeepkaur.jpg"
+  location: "The University of Texas at Dallas"
+  email: "Navdeep.Kaur@UTDallas.edu"
+  bio: "Ph.D. Computer Science 2020 (UTD). <br> Thesis: 'Efficient Combination of Neural and Symbolic Learning for Relational Data' "
+  twitter:
+  github: "navdeepkjohal"
+  year: 2020
+  linkedin:
+  group: "alumni"
+
+Nandini Ramanan:
+  name: "Nandini Ramanan"
+  lastname: "Ramanan"
+  uri: "https://www.nandhiniramanan5.com/"
+  avatar: "/assets/images/headshots/nandiniramanan.jpg"
+  location: "The University of Texas at Dallas"
+  email: "nxr173030@utdallas.edu"
+  bio: "Ph.D. Computer Science 2020 (UTD). <br> Thesis: 'Effective and Efficient Structure Learning of Graphical Models' "
+  twitter: "nandini_ramanan"
+  github: "nandhiniramanan5"
+  year: 2020
+  linkedin: "nandini-ramanan"
+  group: "alumni"
+
 Srijita Das:
   name: "Srijita Das"
   lastname: "Das"
