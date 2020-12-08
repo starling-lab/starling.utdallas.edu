@@ -97,7 +97,7 @@
   year: "2020"
   title: "A Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domain"
   venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
-  url: "https://personal.utdallas.edu/~hkokel/pdf/Kokel_AAAI20.pdf"
+  url: "/assets/pdfs/Kokel_AAAI20.pdf"
   code: "https://github.com/starling-lab/KiGB"
   slide: "https://personal.utdallas.edu/~hkokel/pdf/KiGB.pdf"
   poster: "https://personal.utdallas.edu/~hkokel/pdf/KokelAAAI2020poster.pdf"
