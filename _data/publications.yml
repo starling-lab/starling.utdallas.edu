@@ -17,6 +17,13 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
+  authors: ["Ashutosh Kakadiya", "Sriraam Natarajan", "Balaraman Ravindran"]
+  year: "2021"
+  title: "Relational Boosted Bandits"
+  venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
+  url: "/assets/pdfs/Relational_Boosted_Bandits.pdf"
+
+- publicationType: "conference-papers"
   authors: ["Srijita Das", "Rishabh Iyer", "Sriraam Natarajan"]
   year: "2021"
   title: "A Clustering based Selection Framework for Cost Aware and Test-time Feature Elicitation"
