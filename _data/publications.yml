@@ -106,8 +106,8 @@
   venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
   url: "/assets/pdfs/Kokel_AAAI20.pdf"
   code: "https://github.com/starling-lab/KiGB"
-  slide: "https://personal.utdallas.edu/~hkokel/pdf/KiGB.pdf"
-  poster: "https://personal.utdallas.edu/~hkokel/pdf/KokelAAAI2020poster.pdf"
+  slide: "https://harshakokel.com/pdf/KiGB.pdf"
+  poster: "https://harshakokel.com/pdf/KokelAAAI2020poster.pdf"
 
 - publicationType: "journal-papers"
   authors: ["Navdeep Kaur", "Gautam Kunapuli", "Sriraam Natarajan"]
@@ -1085,3 +1085,13 @@
   venue: "22nd International Conference on Machine Learning (ICML)"
   url: "/assets/pdfs/DMCRL.pdf"
   keywords: ["Decision Theory"]
+
+
+- publicationType: "conference-papers"
+  authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
+  year: "2021"
+  title: "RePReL: Integrating Relational Planning and Reinforcement Learning for Effective Abstraction"
+  venue: "Thirty First International Conference on Automated Planning and Scheduling (ICAPS)"
+  url: "/assets/pdfs/Kokel_ICAPS2021.pdf"
+  code: "/papers/RePReL"
+
