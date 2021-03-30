@@ -157,7 +157,7 @@ Siwen Yan:
   group: "current-student"
 
 Bhagirath Athresh Karanam:
-  name: "Bhagirath Athresh"
+  name: "Bhagirath Athresh Karanam"
   lastname: "Karanam"
   uri:
   avatar:  "/assets/images/headshots/athresh.jpg"
@@ -179,6 +179,20 @@ Justin Dula:
   github: "JustinDula"
   linkedin: "justin-dula"
   group: "current-student"
+
+Saurabh Mathur:
+  name: "Saurabh Mathur"
+  lastname: "Mathur"
+  uri: "https://saurabhmathur96.github.io/"
+  avatar: "/assets/images/headshots/saurabh.jpg"
+  location: "The University of Texas at Dallas"
+  email: "sxm200015@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter: "mathursaurabh96"
+  github: "saurabhmathur96"
+  linkedin: "saurabhmathur96"
+  group: "current-student"
+
 ##
 ## ALUMNI
 ##

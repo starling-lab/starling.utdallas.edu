@@ -17,6 +17,13 @@
 ##   code                        : link to the code
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
+  authors: [ "Nandini Ramanan", "Gautam Kunapuli", "Tushar Khot", "Bahare Fatemi", "Seyed Mehran Kazemi", "David Poole", "Kristian Kersting", "Sriraam Natarajan" ]
+  year: "2021"
+  title: "Structure Learning for Relational Logistic Regression: An Ensemble Approach"
+  venue: "4th International Conference on Data Mining and Knowledge Discovery(DMKD)"
+  url: "/assets/pdfs/RLR_DMKD.pdf"
+
+- publicationType: "conference-papers"
   authors: ["Ashutosh Kakadiya", "Sriraam Natarajan", "Balaraman Ravindran"]
   year: "2021"
   title: "Relational Boosted Bandits"
