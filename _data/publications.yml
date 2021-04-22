@@ -29,6 +29,7 @@
   title: "Relational Boosted Bandits"
   venue: "Thirty Fifth AAAI Conference on Artificial Intelligence (AAAI)"
   url: "/assets/pdfs/Relational_Boosted_Bandits.pdf"
+  code: "https://github.com/starling-lab/Relational-Boosted-Bandits"
 
 - publicationType: "conference-papers"
   authors: ["Srijita Das", "Rishabh Iyer", "Sriraam Natarajan"]
