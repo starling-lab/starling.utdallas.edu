@@ -18,6 +18,14 @@
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
+  authors: ["Athresh Karanam", "Alexander L. Hayes", "Harsha Kokel", "David M. Haas", "Predrag Radivojac", "Sriraam Natarajan"]
+  year: "2021"
+  title: "A Probabilistic Approach to Extract Qualitative Knowledge for Early Prediction of Gestational Diabetes"
+  venue: "19th International Conference in Artificial Intelligence in Medicine(AIME)"
+  url: "/assets/pdfs/KaranamHayes_AIME2021.pdf"
+  blog: "/papers/QuaKE"
+
+- publicationType: "conference-papers"
   authors: [ "Nandini Ramanan", "Gautam Kunapuli", "Tushar Khot", "Bahare Fatemi", "Seyed Mehran Kazemi", "David Poole", "Kristian Kersting", "Sriraam Natarajan" ]
   year: "2021"
   title: "Structure Learning for Relational Logistic Regression: An Ensemble Approach"
@@ -30,6 +38,7 @@
   title: "Relational Boosted Bandits"
   venue: "Thirty Fifth AAAI Conference on Artificial Intelligence (AAAI)"
   url: "/assets/pdfs/Relational_Boosted_Bandits.pdf"
+  code: "https://github.com/starling-lab/Relational-Boosted-Bandits"
 
 - publicationType: "conference-papers"
   authors: ["Srijita Das", "Rishabh Iyer", "Sriraam Natarajan"]
