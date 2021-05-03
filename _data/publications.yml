@@ -15,6 +15,7 @@
 ##   slide                       : link to slides
 ##   video                       : link to video
 ##   code                        : link to the code
+##   blog                        : link to project blog
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
   authors: [ "Nandini Ramanan", "Gautam Kunapuli", "Tushar Khot", "Bahare Fatemi", "Seyed Mehran Kazemi", "David Poole", "Kristian Kersting", "Sriraam Natarajan" ]
@@ -112,10 +113,8 @@
   title: "A Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domain"
   venue: "Thirty Fourth AAAI Conference on Artificial Intelligence (AAAI)"
   url: "/assets/pdfs/Kokel_AAAI20.pdf"
-  code: "https://github.com/starling-lab/KiGB"
-  slide: "https://harshakokel.com/pdf/KiGB.pdf"
-  poster: "https://harshakokel.com/pdf/KokelAAAI2020poster.pdf"
-
+  blog: "/papers/KiGB"
+  
 - publicationType: "journal-papers"
   authors: ["Navdeep Kaur", "Gautam Kunapuli", "Sriraam Natarajan"]
   year: "2020"
@@ -1100,5 +1099,5 @@
   title: "RePReL: Integrating Relational Planning and Reinforcement Learning for Effective Abstraction"
   venue: "Thirty First International Conference on Automated Planning and Scheduling (ICAPS)"
   url: "/assets/pdfs/Kokel_ICAPS2021.pdf"
-  code: "/papers/RePReL"
+  blog: "/papers/RePReL"
 
