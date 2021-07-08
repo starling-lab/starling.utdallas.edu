@@ -16,7 +16,7 @@ Two papers are being presented at the [19th International Conference on Artifici
 
 Spotlight video for the Qualitative Knowledge Extraction (QuaKE) paper:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/-jsgV9vfwak?showinfo=0" frameborder="0" allowfullscreen> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-jsgV9vfwak?showinfo=0" frameborder="0" allowfullscreen> </iframe>
 
 ## Citing
 
