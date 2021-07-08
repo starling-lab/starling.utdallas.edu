@@ -18,6 +18,19 @@
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
+  authors: [ "Devendra Singh Dhami", "Mayukh Das", "Sriraam Natarajan" ]
+  year: "2021"
+  title: "Beyond Simple Images: Human Knowledge-Guided GANs for Clinical Data Generation"
+  venue: "8th International Conference on Principles of Knowledge Representation and Reasoning (KR)"
+
+- publicationType: "conference-papers"
+  authors: ["Devendra Singh Dhami", "Siwen Yan", "Gautam Kunapuli", "David Page", "Sriraam Natarajan"]
+  year: "2021"
+  title: "Predicting Drug-Drug Interactions from Heterogeneous Data: An Embedding Approach"
+  venue: "19th International Conference in Artificial Intelligence in Medicine(AIME)"
+  url: "/assets/pdfs/AIME21_DDI_Dev.pdf"
+
+- publicationType: "conference-papers"
   authors: ["Athresh Karanam", "Alexander L. Hayes", "Harsha Kokel", "David M. Haas", "Predrag Radivojac", "Sriraam Natarajan"]
   year: "2021"
   title: "A Probabilistic Approach to Extract Qualitative Knowledge for Early Prediction of Gestational Diabetes"
@@ -25,7 +38,7 @@
   url: "/assets/pdfs/KaranamHayes_AIME2021.pdf"
   blog: "/papers/QuaKE"
 
-- publicationType: "conference-papers"
+- publicationType: "journal-papers"
   authors: [ "Nandini Ramanan", "Gautam Kunapuli", "Tushar Khot", "Bahare Fatemi", "Seyed Mehran Kazemi", "David Poole", "Kristian Kersting", "Sriraam Natarajan" ]
   year: "2021"
   title: "Structure Learning for Relational Logistic Regression: An Ensemble Approach"
