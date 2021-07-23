@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/project/cwc.png
 sidebar:
   - title: "People Involved"
-    text: "[Mayukh Das](/people/#mayukh-das)"
+    text: "[Mayukh Das](/people/#mayukh-das), [Harsha Kokel](/people/#harsha-kokel)"
   - title: "Collaborators"
     text: "**Prof. Dan Roth** <br> *University of Pennsylvania;* <br>
            **Prof. Julia Hockenmaier** <br> *University of Illinois, Urbana-Champaign;* <br>
@@ -24,7 +24,12 @@ The vision of this project (under the DARPA CwC grant) is to build smart machine
 * Das, M., Odom, P., Islam, M.R., Doppa, J., Roth, D., & Natarajan, S., ["Preference- Guided Planning: An Active Elicitation Approach"](https://dl.acm.org/citation.cfm?id=3238024), International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018.
 * Das, M., Islam, M.R., Doppa, J.R., Roth, D., & Natarajan, S., ["Active Preference Elicitation for Planning"](http://blogs.parc.com/aaai-17/files/2017/01/15198-65466-3-SM.pdf), Human-Machine Collaborative Learning workshop(@ AAAI) 2017.
 * Narayan-Chen A., Graber C., Das M., Islam M.R., Dan S., Natarajan S., Doppa J.R., Hockenmaier J., Palmer M., Roth D., ["Towards Problem Solving Agents that Communicate and Learn."](http://www.aclweb.org/anthology/W17-2812) Workshop on Language Grounding for Robotics at ACL 2017.
-
+* Das, M., & Odom, P., & Islam, M.R., & Doppa, J., & Roth, D., & Natarajan, S., ["Preference Guided Planning: An Active Elicitation Approach"](https://dl.acm.org/citation.cfm?id=3238024), International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2018.
+* Das, M., & Odom, P., & Islam, M.R., & Doppa, J., & Roth, D., & Natarajan, S., ["Planning with actively eliciting preferences"](https://www.sciencedirect.com/science/article/pii/S095070511830580X?via%3Dihub), Knowledge-Based Systems 2019
+* Das, M., & Ramanan, N., & Doppa, J.R., & Natarajan, S., ["One-Shot Induction of Generalized Logical Concepts via Human Guidance"](https://arxiv.org/abs/1912.07060), Workshop on Statistical Relational AI (StarAI) 2020.
+* Das, M., & Ramanan, N., & Doppa, J.R., & Natarajan, S., ["Few-Shot Induction of Generalized Logical Concepts via Human Guidance"](http://localhost:4000/assets/pdfs/Frontiers__MayukhDas_ConceptLearning.pdf), Computational Intelligence in Robotics, Frontiers in Robotics and AI 2020.
+* Kumaraswamy, R., & Ramanan, N., & Odom, P., & Natarajan, S., ["Interactive Transfer Learning in Relational Domains"](http://localhost:4000/assets/pdfs/ramanan_KUIN2019.pdf), KUIN Springer Journal 2020
+* Kokel, H., & Das, M., & Islam, R., & Bonn, J., & Cai, J., & Dan, S., & Narayan-Chen, A., & Jayannavar, P., & Doppa, J.R., & Hockenmaier, J., & Natarajan, S., & Palmer, M., & Roth, D., ["Human-guided Collaborative Problem Solving: A Natural Language based Framework"](), Thirty First International Conference on Automated Planning and Scheduling (ICAPS) 2021. 
 
 
 
