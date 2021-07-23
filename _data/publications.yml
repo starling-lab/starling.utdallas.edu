@@ -1123,12 +1123,11 @@
   url: "/assets/pdfs/Kokel_ICAPS2021.pdf"
   blog: "/papers/RePReL"
 
-
 - publicationType: "conference-papers"
   authors: ["Harsha Kokel", "Mayukh Das", "Rakibul Islam", "Julia Bonn", "Jon Cai", "Soham Dan", "Anjali Narayan-Chen", "Prashant Jayannavar", "Janardhan Rao Doppa", "Julia Hockenmaier", "Sriraam Natarajan",  "Martha Palmer",  "Dan Roth"]
   year: "2021"
   title: "Human-guided Collaborative Problem Solving: A Natural Language based Framework"
   venue: "Thirty First International Conference on Automated Planning and Scheduling (ICAPS)"
   url: "/assets/pdfs/Kokel-ICAPS2021-demo.pdf"
-  video: "https://youtu.be/q1pWe4aahF0"
+  blog: "/papers/collaborative-problem-solving-demo/"
 
