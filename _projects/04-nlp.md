@@ -4,6 +4,7 @@ classes: wide
 title: "Natural Language Processing"
 category: "applications"
 permalink: /projects/nlp/
+date: "2018-01-01"
 header:
   teaser: /assets/images/project/nlp.jpg
 sidebar:

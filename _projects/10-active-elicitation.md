@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: "Active elicitation of lab tests"
 category: "precision-health"
+date: "2018-01-01"
 permalink: /projects/active-elicitation/
 header:
   teaser: /assets/images/project/AFE2.png

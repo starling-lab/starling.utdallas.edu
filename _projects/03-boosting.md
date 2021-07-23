@@ -4,6 +4,7 @@ classes: wide
 title: "Boosting"
 category: "efficient-starai"
 permalink: /projects/boosting/
+date: "2018-01-01"
 header:
   teaser: /assets/images/project/rfgb.png
 sidebar:

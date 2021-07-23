@@ -6,11 +6,10 @@ categories: news
 author: StARLinG Lab
 ---
 
-Two papers are being presented at the [19th International Conference on Artificial Intelligence in Medicine(https://aime21.aimedicine.info/)
-(AIME) this week:
+Two papers are being presented at the 19th International Conference on Artificial Intelligence in Medicine [AIME](https://aime21.aimedicine.info/) this week:
 
-- Devendra Singh Dhami, Siwen Yan, Gautam Kunapuli, David Page, Sriraam Natarajan. [Predicting Drug-Drug Interactions from Heterogeneous Data: An Embedding Approach](https://starling.utdallas.edu/assets/pdfs/AIME21_DDI_Dev.pdf) [Springer Link](https://link.springer.com/chapter/10.1007/978-3-030-77211-6_28)
-- Athresh Karanam, Alexander L. Hayes, Harsha Kokel, David M. Haas, Predrag Radivojac, Sriraam Natarajan. [A Probabilistic Approach to Extract Qualitative Knowledge for Early Prediction of Gestational Diabetes](https://starling.utdallas.edu/papers/QuaKE/) [Springer Link](https://link.springer.com/chapter/10.1007/978-3-030-77211-6_59)
+- Devendra Singh Dhami, Siwen Yan, Gautam Kunapuli, David Page, Sriraam Natarajan. Predicting Drug-Drug Interactions from Heterogeneous Data: An Embedding Approach [Springer Link](https://link.springer.com/chapter/10.1007/978-3-030-77211-6_28)
+- Athresh Karanam, Alexander L. Hayes, Harsha Kokel, David M. Haas, Predrag Radivojac, Sriraam Natarajan. [A Probabilistic Approach to Extract Qualitative Knowledge for Early Prediction of Gestational Diabetes](/papers/QuaKE/) [Springer Link](https://link.springer.com/chapter/10.1007/978-3-030-77211-6_59)
 
 ## Qualitative Knowledge Extraction
 

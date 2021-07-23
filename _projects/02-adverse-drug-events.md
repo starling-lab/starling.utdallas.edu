@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: "Adverse <nobr>Drug-Events</nobr>"
 category: "precision-health"
+date: "2018-01-01"
 permalink: /projects/adverse-drug-events/
 header:
   teaser: /assets/images/project/ade.jpg

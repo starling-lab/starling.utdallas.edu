@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: "Lifted Continuous Inference"
 category: "efficient-starai"
+date: "2018-01-01"
 permalink: /projects/lifted-continuous-inference/
 header:
   teaser: /assets/images/project/lifted_continuous_inference.jpg

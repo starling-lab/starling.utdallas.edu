@@ -4,6 +4,7 @@ classes: wide
 title: "Survey data"
 category: "precision-health"
 permalink: /projects/survey-data/
+date: "2018-01-01"
 header:
   teaser: /assets/images/project/survey_PPD.png
 sidebar:

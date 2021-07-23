@@ -4,6 +4,7 @@ classes: wide
 title: "Cardia"
 category: "precision-health"
 permalink: /projects/cardia/
+date: "2018-01-01"
 header:
   teaser: /assets/images/project/cardia.PNG
 sidebar:

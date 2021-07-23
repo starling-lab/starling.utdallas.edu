@@ -4,7 +4,8 @@ classes: wide
 title: "Logistics"
 category: "applications"
 permalink: /projects/logistics/
-excerpt: ""
+date: "2018-01-01"
+year: "2018"
 header:
   teaser: /assets/images/project/logistics.jpeg
 sidebar:
