@@ -4,6 +4,7 @@ classes: wide
 title: "Knowledge-based Learning"
 category: "HAAI"
 permalink: /projects/knowledge-based-learning/
+date: "2018-01-01"
 header:
   teaser: /assets/images/project/kbl2.jpg
 sidebar:

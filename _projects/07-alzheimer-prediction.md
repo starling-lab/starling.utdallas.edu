@@ -4,6 +4,7 @@ classes: wide
 title: "Alzheimer's and Parkinson's Prediction"
 category: "precision-health"
 permalink: /projects/alzheimer-parkinson-prediction/
+date: "2018-01-01"
 header:
   teaser: /assets/images/project/study.png
 sidebar:

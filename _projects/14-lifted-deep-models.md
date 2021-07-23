@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: "Lifted Deep Models"
 category: "efficient-starai"
+date: "2018-01-01"
 permalink: /projects/lifted-deep-models/
 header:
   teaser: /assets/images/project/lifted_deep_model.png

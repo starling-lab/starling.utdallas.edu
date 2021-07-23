@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: "Communicating with Computers"
 category: "HAAI"
+date: "2018-01-01"
 permalink: /projects/communicating-with-computers/
 header:
   teaser: /assets/images/project/cwc.png

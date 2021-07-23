@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: "Automatic Operation Notes"
 category: "precision-health"
+date: "2018-01-01"
 permalink: /projects/automatic-operation-notes/
 header:
   teaser: /assets/images/project/automaticOperationNotes.png

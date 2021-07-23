@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: "Scaling"
 category: "efficient-starai"
+date: "2018-01-01"
 permalink: /projects/scaling/
 header:
   teaser: /assets/images/project/scaling.png
