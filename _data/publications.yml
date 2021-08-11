@@ -22,6 +22,7 @@
   year: "2021"
   title: "Beyond Simple Images: Human Knowledge-Guided GANs for Clinical Data Generation"
   venue: "8th International Conference on Principles of Knowledge Representation and Reasoning (KR)"
+  url: "/assets/pdfs/KR21_HAGAN_final_v1.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Devendra Singh Dhami", "Siwen Yan", "Gautam Kunapuli", "David Page", "Sriraam Natarajan"]
@@ -42,7 +43,7 @@
   authors: [ "Nandini Ramanan", "Gautam Kunapuli", "Tushar Khot", "Bahare Fatemi", "Seyed Mehran Kazemi", "David Poole", "Kristian Kersting", "Sriraam Natarajan" ]
   year: "2021"
   title: "Structure Learning for Relational Logistic Regression: An Ensemble Approach"
-  venue: "4th International Conference on Data Mining and Knowledge Discovery(DMKD)"
+  venue: "Data Mining and Knowledge Discovery (DMKD) Journal"
   url: "/assets/pdfs/RLR_DMKD.pdf"
 
 - publicationType: "conference-papers"
