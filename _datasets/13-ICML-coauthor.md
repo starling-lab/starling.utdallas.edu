@@ -5,7 +5,7 @@ permalink: /datasets/coauthor/
 date: 2019-09-25
 excerpt: " A relational dataset of publication data from ICML 2018, task is to predict co-authors."
 ---
-### NELL Sports
+### ICML Co-authors
 
  A relational dataset consisting of relations between a person and his/her affiliation, location, institute type and research topic. It is obtained by mining publication data from ICML 2018. Prediction task is whether 2 persons are co-authors.
 
