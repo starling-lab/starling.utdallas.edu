@@ -17,6 +17,24 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+
+
+- publicationType: "workshop-papers"
+  authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
+  year: "2021"
+  title: "Dynamic probabilistic logic models for effective abstractions in RL"
+  venue: "Statistical Relational AI (StarAI) Workshop at IJCLR"
+  url: "https://arxiv.org/abs/2110.08318"
+
+
+- publicationType: "workshop-papers"
+  authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
+  year: "2021"
+  title: "Deep RePReL-Combining Planning and Deep RL for acting in relational domains"
+  venue: "Deep RL Workshop at NeurIPS"
+  url: "https://openreview.net/forum?id=ffLKUFlsFK0"
+
+
 - publicationType: "conference-papers"
   authors: [ "Devendra Singh Dhami", "Mayukh Das", "Sriraam Natarajan" ]
   year: "2021"
