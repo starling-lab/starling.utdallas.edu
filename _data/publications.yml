@@ -17,7 +17,32 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+- publicationType: "conference-papers"
+  authors: ["Yuqiao Chen", "Sriraam Natarajan", "Nicholas Ruozzi"]
+  year: "2022"
+  title: "Relational Neural Markov Random Fields"
+  venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
 
+- publicationType: "workshop-papers"
+  authors: ["Devendra Singh Dhami", "Siwen Yan", "Sriraam Natarajan"]
+  year: "2021"
+  title: "A Statistical Relational Approach to Learning Distance-based GCNs"
+  venue: "Statistical Relational AI (StarAI) Workshop at IJCLR"
+
+- publicationType: "conference-papers"
+  authors: ["Devendra Singh Dhami", "Siwen Yan", "Gautam Kunapuli", "Sriraam Natarajan"]
+  year: "2021"
+  title: "Non-Parametric Learning of Embeddings for Relational Data using Gaifman Locality Theorem"
+  venue: "International Conference on Inductive Logic Programming (ILP)"
+  url: "http://lr2020.iit.demokritos.gr/online/Embeddings_Gaifman_Locality_ILP_final_version.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Matej Zečević", "Devendra Singh Dhami", "Athresh Karanam", "Sriraam Natarajan", "Kristian Kersting"]
+  year: "2021"
+  title: "Interventional Sum-Product Networks: Causal Inference with Tractable Probabilistic Models"
+  venue: "35th Conference on Neural Information Processing Systems (NeurIPS 2021)"
+  url: "https://proceedings.neurips.cc/paper/2021/file/7eb7eabbe9bd03c2fc99881d04da9cbd-Paper.pdf"
+  code: "https://github.com/zecevic-matej/iSPN"
 
 - publicationType: "workshop-papers"
   authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
@@ -25,7 +50,6 @@
   title: "Dynamic probabilistic logic models for effective abstractions in RL"
   venue: "Statistical Relational AI (StarAI) Workshop at IJCLR"
   url: "https://arxiv.org/abs/2110.08318"
-
 
 - publicationType: "workshop-papers"
   authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
