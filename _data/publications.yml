@@ -1006,7 +1006,7 @@
 
 - publicationType: "journal-papers"
   authors: ["Sriraam Natarajan","Prasad Tadepalli","Thomas G. Dietterich","Alan Fern"]
-  year: "2009"
+  year: "2008"
   title: "Learning First-Order Probabilistic Models with Combining Rules"
   venue: "Annals of Mathematics and AI, Special Issue on Probabilistic Relational Learning"
   url: "/assets/pdfs/CR-paper.pdf"
