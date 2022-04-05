@@ -17,6 +17,34 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+- publicationType: "books"
+  authors: [ "Guy Van den Broeck", "Kristian Kersting", "Sriraam Natarajan", "David Poole" ]
+  year: "2021"
+  title: "An Introduction to Lifted Probabilistic Inference"
+
+- publicationType: "books"
+  authors: [ "Luc De Raedt", "Kristian Kersting", "Sriraam Natarajan", "David Poole" ]
+  year: "2016"
+  title: "Statistical Relational Artificial Intelligence Logic, Probability, and Computation"
+
+- publicationType: "books"
+  authors: [ "Sriraam Natarajan", "Tushar Khot", "Kristian Kersting", "Jude Shavlik" ]
+  year: "2015"
+  title: "Boosted Statistical Relational Learners: From Benchmarks to Data-Driven Medicine"
+
+
+- publicationType: "journal-papers"
+  authors: ["Robert Cruise", "Erik Blasch", "Sriraam Natarajan", "Ali Raz"]
+  year: "2019"
+  title: "Cyber-Physical Command-Guided Swarm"
+  venue: "Defense Systems Information Analysis Center(DCIAC)"
+
+- publicationType: "conference-papers"
+  authors: ["Erik Blasch", "Robert Cruise", "Sriraam Natarajan", "Ali Raz"]
+  year: "2018"
+  title: "Control Diffusion of Information Collection for Situation Understanding Using Boosting MLNs"
+  venue: "International Conference on Information Fusion (FUSION)"
+
 - publicationType: "conference-papers"
   authors: ["Yuqiao Chen", "Sriraam Natarajan", "Nicholas Ruozzi"]
   year: "2022"

@@ -4,7 +4,7 @@
   id: conference-papers
 - name: "Workshop Papers"
   id: workshop-papers
-# - name: "Books"
-#   id: books
+- name: "Books"
+  id: books
 # - name: "Book Chapters"
 #   id: book-chapters
