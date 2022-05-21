@@ -70,3 +70,31 @@ font-size: small;
     margin-bottom:0.5em
   }
 }
+
+@media (min-width: 1025px) {
+body.narrow {
+  div{
+    div {
+      article{
+        max-width: 60%;
+        margin: auto;
+        font-size: 0.7em;
+      }      
+      
+    }
+    .page__hero--overlay {
+      padding: 2em 0 0em 0;
+    }
+    .page__hero--overlay {
+      .wrapper{
+        font-size: 0.7em;
+        margin-left: 10%;
+        .page__title {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+}
+}
