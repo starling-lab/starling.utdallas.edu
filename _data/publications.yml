@@ -1209,3 +1209,19 @@
   venue: "Planning and Reinforcement Learing (PRL) Workshop at ICAPS"
   url: "/assets/pdfs/Kokel_ICAPS2021.pdf"
   blog: "/papers/RePReL"
+  
+- publicationType: "workshop-papers"
+  authors: ["Harsha Kokel", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
+  year: "2022"
+  title: "Dynamic probabilistic logic models for effective task-specific abstractions in RL"
+  venue: "The 5th Multi-disciplinary Conference on Reinforcement Learning and Decision Making (RLDM)"
+  url: "/assets/pdfs/RePReL-RLDM2022.pdf"
+  code: "https://github.com/starling-lab/DeepRePReL"
+  
+- publicationType: "conference-papers"
+  authors: ["Harsha Kokel", "Nikhilesh Prabhakar", "Balaraman Ravindran", "Eric Blasch", "Prasad Tadepalli", "Sriraam Natarajan"]
+  year: "2022"
+  title: "Hybrid Deep RePReL: Integrating Relational Planning and Reinforcement Learning for Information Fusion"
+  venue: "IEEE 25th International Conference on Information Fusion (FUSION)"
+  url: "/assets/pdfs/Kokel_FUSION21.pdf"
+  blog: "/papers/HybridDeepRePReL"
