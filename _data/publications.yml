@@ -1232,9 +1232,18 @@
   year: "2022"
   title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
   venue: "The Fifth Workshop On Tractable Probabilistic Modeling (TPM)"
+  url: "/assets/pdfs/TPM2022_karanam.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Athresh Karanam","Saurabh Mathur","David M. Haas","Predrag Radivojac","Kristian Kersting","Sriraam Natarajan"]
   year: "2022"
   title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
   venue: "The 11th International Conference on Probabilistic Graphical Models (PGM)"
+  url: "/assets/pdfs/PGM2022_karanam.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Michael A. Skinner","Priscilla Yu","Lakshmi Raman", "Sriraam Natarajan"]
+  year: "2022"
+  title: "An Anytime Querying Algorithm for Predicting Cardiac Arrest in Children: Work-in-Progress"
+  venue: "20th International Conference in Artificial Intelligence in Medicine(AIME)"
+  url: "/assets/pdfs/AIME2022_skinner.pdf"
