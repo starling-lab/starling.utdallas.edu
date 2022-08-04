@@ -50,6 +50,7 @@
   year: "2022"
   title: "Relational Neural Markov Random Fields"
   venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+  url: "/assets/pdfs/chen22f.pdf"
 
 - publicationType: "workshop-papers"
   authors: ["Devendra Singh Dhami", "Siwen Yan", "Sriraam Natarajan"]
@@ -1225,3 +1226,15 @@
   venue: "IEEE 25th International Conference on Information Fusion (FUSION)"
   url: "/assets/pdfs/Kokel_FUSION21.pdf"
   blog: "/papers/HybridDeepRePReL"
+
+- publicationType: "workshop-papers"
+  authors: ["Athresh Karanam","Saurabh Mathur","David M. Haas","Predrag Radivojac","Kristian Kersting","Sriraam Natarajan"]
+  year: "2022"
+  title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
+  venue: "The Fifth Workshop On Tractable Probabilistic Modeling (TPM)"
+
+- publicationType: "conference-papers"
+  authors: ["Athresh Karanam","Saurabh Mathur","David M. Haas","Predrag Radivojac","Kristian Kersting","Sriraam Natarajan"]
+  year: "2022"
+  title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
+  venue: "The 11th International Conference on Probabilistic Graphical Models (PGM)"
