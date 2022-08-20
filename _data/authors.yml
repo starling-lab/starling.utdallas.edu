@@ -103,32 +103,6 @@ Harsha Kokel:
   linkedin: "harshakokel"
   group: "current-student"
 
-Yuqiao Chen:
-  name: "Yuqiao Chen"
-  lastname: "Chen"
-  uri: "http://utdallas.edu/~yuqiao.chen/"
-  avatar: "/assets/images/headshots/yuqiaochen.jpg"
-  location: "The University of Texas at Dallas"
-  email: "yuqiao.chen@utdallas.edu"
-  bio: "Computer Science. (Ph.D.)"
-  twitter:
-  github: "leodd"
-  linkedin: "yuqiaochen"
-  group: "current-student"
-
-Brian Ricks:
-  name: "Brian Ricks"
-  lastname: "Ricks"
-  uri: "http://mews.sv.cmu.edu/people/ricks/"
-  avatar: "/assets/images/headshots/brianricks.jpg"
-  location: "The University of Texas at Dallas"
-  email: "absolutefunk@utdallas.edu"
-  bio: "Computer Science. (Ph.D.)"
-  twitter:
-  github: "absolutefunk"
-  linkedin: "absolutefunk"
-  group: "current-student"
-
 Michael Skinner, MD:
   name: "Michael Skinner, MD"
   lastname: "Skinner"
@@ -162,22 +136,11 @@ Bhagirath Athresh Karanam:
   uri:
   avatar:  "/assets/images/headshots/athresh.jpg"
   location: "The University of Texas at Dallas"
-  email: "bxk180004@utdallas.edu"
+  email: "athresh.karanam@utdallas.edu"
   bio: "Computer Science. (Ph.D.)"
-  twitter:
+  twitter: "athresh55"
   github: "Athresh"
   linkedin: "athreshkaranam"
-  group: "current-student"
-
-Justin Dula:
-  name: "Justin G. Dula"
-  lastname: "Dula"
-  avatar: "/assets/images/headshots/justindula.jpg"
-  location: "The University of Texas at Dallas"
-  email: "justin@utdallas.edu"
-  bio: "Computer Science. (Ph.D.)"
-  github: "JustinDula"
-  linkedin: "justin-dula"
   group: "current-student"
 
 Saurabh Mathur:
@@ -196,6 +159,34 @@ Saurabh Mathur:
 ##
 ## ALUMNI
 ##
+Yuqiao Chen:
+  name: "Yuqiao Chen"
+  lastname: "Chen"
+  uri: "http://utdallas.edu/~yuqiao.chen/"
+  avatar: "/assets/images/headshots/yuqiaochen.jpg"
+  location: "The University of Texas at Dallas"
+  email: "yuqiao.chen@utdallas.edu"
+  bio: "Ph.D. Computer Science 2022 (UTD). <br> Thesis: 'Fast Inference and Learning on Hybrid Relational Probabilistic Graphical Models'"
+  year: 2022
+  twitter:
+  github: "leodd"
+  linkedin: "yuqiaochen"
+  group: "alumni"
+
+Brian Ricks:
+  name: "Brian Ricks"
+  lastname: "Ricks"
+  uri: "http://mews.sv.cmu.edu/people/ricks/"
+  avatar: "/assets/images/headshots/brianricks.jpg"
+  location: "The University of Texas at Dallas"
+  email: "absolutefunk@utdallas.edu"
+  bio: "Ph.D. Computer Science 2022 (UTD). <br> Thesis: 'Practical Network Anomaly Detection: From Data Generation to Classification'"
+  year: 2022
+  twitter:
+  github: "absolutefunk"
+  linkedin: "absolutefunk"
+  group: "alumni"
+
 Navdeep Kaur:
   name: "Navdeep Kaur"
   lastname: "Kaur"
@@ -316,7 +307,19 @@ Tushar Khot:
 
 ##
 ## MS Alumni
-##  
+##
+Justin Dula:
+  name: "Justin G. Dula"
+  lastname: "Dula"
+#  avatar: "/assets/images/headshots/justindula.jpg"
+  location: "The University of Texas at Dallas"
+  email: "justin@utdallas.edu"
+  bio: "Computer Science (M.S.)"
+  year: 2022
+  github: "JustinDula"
+  linkedin: "justin-dula"
+  group: "msalumni"
+
 Obuli Vignesh Rangasamy:
   name: "Obuli Vignesh Rangasamy"
   #location: 'Indian Institute of Technology Madras (IIT-Madras)'
