@@ -1203,6 +1203,16 @@
   url: "/assets/pdfs/Kokel-ICAPS2021-demo.pdf"
   blog: "/papers/collaborative-ps/"
 
+
+
+- publicationType: "workshop-papers"
+  authors: ["Anjali Narayan-Chen", "Colin Graber", "Mayukh Das", "Rakibul Islam", "Soham Dan",  "Sriraam Natarajan", "Janardhan Rao Doppa", "Julia Hockenmaier",  "Martha Palmer",  "Dan Roth"]
+  year: "2017"
+  title: "Towards Problem Solving Agents that Communicate and Learn"
+  venue: "RoboNLP at Association for Computational Linguistic (ACL) "
+  url: "https://aclanthology.org/W17-2812.pdf"
+  
+  
 - publicationType: "workshop-papers"
   authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
   year: "2021"
