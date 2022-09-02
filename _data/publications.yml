@@ -17,6 +17,13 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+- publicationType: "journal-papers"
+  authors: ["Kymberleigh A. Pagel", "Hoyin Chu", "Rashika Ramola", "Rafael F. Guerrero", "Judith H. Chung", "Samuel Parry", "Uma M. Reddy", "Robert M. Silver", "Jonathan G. Steller", "Lynn M. Yee", "Ronald J. Wapner", "Matthew W. Hahn", "Sriraam Natarajan", "David M. Haas", "Predrag Radivojac"]
+  year: "2022"
+  title: "Association of Genetic Predisposition and Physical Activity With Risk of Gestational Diabetes in Nulliparous Women"
+  venue: "JAMA Network Open"
+  url: "/assets/pdfs/JAMAOpenNetwork_Pagel2022.pdf"
+
 - publicationType: "books"
   authors: [ "Guy Van den Broeck", "Kristian Kersting", "Sriraam Natarajan", "David Poole" ]
   year: "2021"
