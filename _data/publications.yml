@@ -64,6 +64,7 @@
   year: "2021"
   title: "A Statistical Relational Approach to Learning Distance-based GCNs"
   venue: "Statistical Relational AI (StarAI) Workshop at IJCLR"
+  url: "http://lr2020.iit.demokritos.gr/online/IJCLR_2021_paper_55.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Devendra Singh Dhami", "Siwen Yan", "Gautam Kunapuli", "Sriraam Natarajan"]
