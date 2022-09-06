@@ -1225,7 +1225,7 @@
   authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
   year: "2021"
   title: "RePReL: Integrating Relational Planning and Reinforcement Learning for Effective Abstraction (Extended Abstract)"
-  venue: "Planning and Reinforcement Learing (PRL) Workshop at ICAPS"
+  venue: "Planning and Reinforcement Learning (PRL) Workshop at ICAPS"
   url: "/assets/pdfs/Kokel_ICAPS2021.pdf"
   blog: "/papers/RePReL"
   
