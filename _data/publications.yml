@@ -321,6 +321,7 @@
   title: "Discriminative Non-Parametric Learning of Arithmetic Circuits"
   venue: "The Third Workshop On Tractable Probabilistic Modeling (TPM)"
   url: "/assets/pdfs/TPMworkshop_icml2019_AC_Boost.pdf"
+  
 
 - publicationType: "workshop-papers"
   authors: ["Nandini Ramanan","Sriraam Natarajan"]
@@ -1251,6 +1252,7 @@
   title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
   venue: "The Fifth Workshop On Tractable Probabilistic Modeling (TPM)"
   url: "/assets/pdfs/TPM2022_karanam.pdf"
+  video: "https://youtu.be/1GBWSTZEqHE"
 
 - publicationType: "conference-papers"
   authors: ["Athresh Karanam","Saurabh Mathur","David M. Haas","Predrag Radivojac","Kristian Kersting","Sriraam Natarajan"]
