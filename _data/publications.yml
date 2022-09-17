@@ -17,6 +17,26 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+- publicationType: "conference-papers"
+  authors: ["Saurabh Mathur","Athresh Karanam","Predrag Radivojac","David M. Haas","Kristian Kersting","Sriraam Natarajan"]
+  year: "2023"
+  title: "Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes"
+  venue: "Pacific Symposium on Biocomputing"
+  url: "/assets/pdfs/GDM_PSB2022.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Nandini Ramanan", "Phillip Odom", "Kristian Kersting", "Sriraam Natarajan"]
+  year: "2023"
+  title: "Active Feature Acquisition via Human Interaction in Relational domains"
+  venue: "6th Joint International Conference on Data Science & Management of Data (CODS-COMAD)"
+
+- publicationType: "conference-papers"
+  authors: ["Athresh Karanam","Krishnateja Killamsetty","Harsha Kokel","Rishabh K Iyer"]
+  year: "2022"
+  title: "Orient: Submodular Mutual Information Measures for Data Subset Selection under Distribution Shift"
+  venue: "36th Conference on Neural Information Processing Systems (NeurIPS)"
+  url: "/assets/pdfs/NeurIPS_ORIENT2022.pdf"
+
 - publicationType: "journal-papers"
   authors: ["Kymberleigh A. Pagel", "Hoyin Chu", "Rashika Ramola", "Rafael F. Guerrero", "Judith H. Chung", "Samuel Parry", "Uma M. Reddy", "Robert M. Silver", "Jonathan G. Steller", "Lynn M. Yee", "Ronald J. Wapner", "Matthew W. Hahn", "Sriraam Natarajan", "David M. Haas", "Predrag Radivojac"]
   year: "2022"
