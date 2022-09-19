@@ -17,6 +17,33 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+- publicationType: "conference-papers"
+  authors: ["Saurabh Mathur","Athresh Karanam","Predrag Radivojac","David M. Haas","Kristian Kersting","Sriraam Natarajan"]
+  year: "2023"
+  title: "Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes"
+  venue: "Pacific Symposium on Biocomputing"
+  url: "/assets/pdfs/GDM_PSB2022.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Nandini Ramanan", "Phillip Odom", "Kristian Kersting", "Sriraam Natarajan"]
+  year: "2023"
+  title: "Active Feature Acquisition via Human Interaction in Relational domains"
+  venue: "6th Joint International Conference on Data Science & Management of Data (CODS-COMAD)"
+
+- publicationType: "conference-papers"
+  authors: ["Athresh Karanam","Krishnateja Killamsetty","Harsha Kokel","Rishabh K Iyer"]
+  year: "2022"
+  title: "Orient: Submodular Mutual Information Measures for Data Subset Selection under Distribution Shift"
+  venue: "36th Conference on Neural Information Processing Systems (NeurIPS)"
+  url: "/assets/pdfs/NeurIPS_ORIENT2022.pdf"
+
+- publicationType: "journal-papers"
+  authors: ["Kymberleigh A. Pagel", "Hoyin Chu", "Rashika Ramola", "Rafael F. Guerrero", "Judith H. Chung", "Samuel Parry", "Uma M. Reddy", "Robert M. Silver", "Jonathan G. Steller", "Lynn M. Yee", "Ronald J. Wapner", "Matthew W. Hahn", "Sriraam Natarajan", "David M. Haas", "Predrag Radivojac"]
+  year: "2022"
+  title: "Association of Genetic Predisposition and Physical Activity With Risk of Gestational Diabetes in Nulliparous Women"
+  venue: "JAMA Network Open"
+  url: "/assets/pdfs/JAMAOpenNetwork_Pagel2022.pdf"
+
 - publicationType: "books"
   authors: [ "Guy Van den Broeck", "Kristian Kersting", "Sriraam Natarajan", "David Poole" ]
   year: "2021"
@@ -50,12 +77,14 @@
   year: "2022"
   title: "Relational Neural Markov Random Fields"
   venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+  url: "/assets/pdfs/chen22f.pdf"
 
 - publicationType: "workshop-papers"
   authors: ["Devendra Singh Dhami", "Siwen Yan", "Sriraam Natarajan"]
   year: "2021"
   title: "A Statistical Relational Approach to Learning Distance-based GCNs"
   venue: "Statistical Relational AI (StarAI) Workshop at IJCLR"
+  url: "http://lr2020.iit.demokritos.gr/online/IJCLR_2021_paper_55.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Devendra Singh Dhami", "Siwen Yan", "Gautam Kunapuli", "Sriraam Natarajan"]
@@ -312,6 +341,7 @@
   title: "Discriminative Non-Parametric Learning of Arithmetic Circuits"
   venue: "The Third Workshop On Tractable Probabilistic Modeling (TPM)"
   url: "/assets/pdfs/TPMworkshop_icml2019_AC_Boost.pdf"
+  
 
 - publicationType: "workshop-papers"
   authors: ["Nandini Ramanan","Sriraam Natarajan"]
@@ -1202,11 +1232,21 @@
   url: "/assets/pdfs/Kokel-ICAPS2021-demo.pdf"
   blog: "/papers/collaborative-ps/"
 
+
+
+- publicationType: "workshop-papers"
+  authors: ["Anjali Narayan-Chen", "Colin Graber", "Mayukh Das", "Rakibul Islam", "Soham Dan",  "Sriraam Natarajan", "Janardhan Rao Doppa", "Julia Hockenmaier",  "Martha Palmer",  "Dan Roth"]
+  year: "2017"
+  title: "Towards Problem Solving Agents that Communicate and Learn"
+  venue: "RoboNLP at Association for Computational Linguistic (ACL) "
+  url: "https://aclanthology.org/W17-2812.pdf"
+  
+  
 - publicationType: "workshop-papers"
   authors: ["Harsha Kokel", "Arjun Manoharan", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
   year: "2021"
   title: "RePReL: Integrating Relational Planning and Reinforcement Learning for Effective Abstraction (Extended Abstract)"
-  venue: "Planning and Reinforcement Learing (PRL) Workshop at ICAPS"
+  venue: "Planning and Reinforcement Learning (PRL) Workshop at ICAPS"
   url: "/assets/pdfs/Kokel_ICAPS2021.pdf"
   blog: "/papers/RePReL"
   
@@ -1223,5 +1263,27 @@
   year: "2022"
   title: "Hybrid Deep RePReL: Integrating Relational Planning and Reinforcement Learning for Information Fusion"
   venue: "IEEE 25th International Conference on Information Fusion (FUSION)"
-  url: "/assets/pdfs/Kokel_FUSION21.pdf"
+  url: "/assets/pdfs/Kokel_FUSION22.pdf"
   blog: "/papers/HybridDeepRePReL"
+
+- publicationType: "workshop-papers"
+  authors: ["Athresh Karanam","Saurabh Mathur","David M. Haas","Predrag Radivojac","Kristian Kersting","Sriraam Natarajan"]
+  year: "2022"
+  title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
+  venue: "The Fifth Workshop On Tractable Probabilistic Modeling (TPM)"
+  url: "/assets/pdfs/TPM2022_karanam.pdf"
+  video: "https://youtu.be/1GBWSTZEqHE"
+
+- publicationType: "conference-papers"
+  authors: ["Athresh Karanam","Saurabh Mathur","David M. Haas","Predrag Radivojac","Kristian Kersting","Sriraam Natarajan"]
+  year: "2022"
+  title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
+  venue: "The 11th International Conference on Probabilistic Graphical Models (PGM)"
+  url: "/assets/pdfs/PGM2022_karanam.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Michael A. Skinner","Priscilla Yu","Lakshmi Raman", "Sriraam Natarajan"]
+  year: "2022"
+  title: "An Anytime Querying Algorithm for Predicting Cardiac Arrest in Children: Work-in-Progress"
+  venue: "20th International Conference in Artificial Intelligence in Medicine(AIME)"
+  url: "/assets/pdfs/AIME2022_skinner.pdf"
