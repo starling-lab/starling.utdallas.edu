@@ -4,6 +4,30 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/Kokel_RLDM2.jpg
+    image_path: /assets/images/gallery/Kokel_RLDM2.jpg
+    alt: "Harsha Kokel presenting poster at RLDM"
+    title: "Harsha Kokel presenting poster at RLDM 2022"
+  - url: /assets/images/gallery/Kokel_RLDM1.jpg
+    image_path: /assets/images/gallery/Kokel_RLDM1.jpg
+    alt: "Harsha Kokel presenting poster at RLDM"
+    title: "Harsha Kokel presenting poster at RLDM 2022"
+  - url: /assets/images/gallery/TeamLunch_May2022_2.jpg
+    image_path: /assets/images/gallery/TeamLunch_May2022_2.jpg
+    alt: "First in-person team lunch post pandemic break."
+    title: "First in-person team lunch post pandemic break."
+  - url: /assets/images/gallery/TeamLunch_May2022_1.jpg
+    image_path: /assets/images/gallery/TeamLunch_May2022_1.jpg
+    alt: "First in-person team lunch post pandemic break."
+    title: "First in-person team lunch post pandemic break."
+  - url: /assets/images/gallery/DSD_SN_2022.png
+    image_path: /assets/images/gallery/DSD_SN_2022.png
+    alt: "Meeting illustrious alumni in Germany"
+    title: "Meeting illustrious alumni in Germany"
+  - url: /assets/images/gallery/Dagstuhl_TPM_2022.png
+    image_path: /assets/images/gallery/Dagstuhl_TPM_2022.png
+    alt: "Dagstuhl workshop on Tractable models, 2022"
+    title: "Dagstuhl workshop on Tractable models, 2022"
   - url: /assets/images/gallery/NavdeepDefense1.jpg
     image_path: /assets/images/gallery/NavdeepDefense1.jpg
     alt: "Navdeep-thesis"
@@ -300,7 +324,10 @@ gallery:
     image_path: /assets/images/gallery/Group2.jpeg
     alt: "Group Photo"
     title: "Group Photo"
-
+  - url: /assets/images/gallery/SN_old_lab.jpg
+    image_path: /assets/images/gallery/SN_old_lab.jpg
+    alt: "One of the earliest group photo."
+    title: "One of the earliest group photo."
 ---
 
 <style>
