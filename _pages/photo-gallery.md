@@ -6,14 +6,14 @@ author_profile: false
 gallery:
   - url: /assets/images/gallery/Brian_defense.png
     image_path: /assets/images/gallery/Brian_defense.png
-    alt: "Brian successfully defended her thesis. Congratulations!"
-    title: "Brian successfully defended her thesis. Congratulations!"
+    alt: "Brian successfully defended his thesis. Congratulations!"
+    title: "Brian successfully defended his thesis. Congratulations!"
   - url: /assets/images/gallery/Kokel_RLDM2.jpg
-    image_path: /assets/images/gallery/Kokel_RLDM2.jpg
+    image_path: /assets/images/gallery/Kokel_RLDM2_t.jpg
     alt: "Harsha Kokel presenting poster at RLDM"
     title: "Harsha Kokel presenting poster at RLDM 2022"
   - url: /assets/images/gallery/Kokel_RLDM1.jpg
-    image_path: /assets/images/gallery/Kokel_RLDM1.jpg
+    image_path: /assets/images/gallery/Kokel_RLDM1_t.jpg
     alt: "Harsha Kokel presenting poster at RLDM"
     title: "Harsha Kokel presenting poster at RLDM 2022"
   - url: /assets/images/gallery/TeamLunch_May2022_2.jpg
