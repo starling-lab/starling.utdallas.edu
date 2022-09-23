@@ -4,6 +4,10 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/Yuqiao_defense.png
+    image_path: /assets/images/gallery/Yuqiao_defense_t.png
+    alt: "Yuqiao successfully defended his thesis. Congratulations!"
+    title: "Yuqiao successfully defended his thesis. Congratulations!"
   - url: /assets/images/gallery/Brian_defense.png
     image_path: /assets/images/gallery/Brian_defense.png
     alt: "Brian successfully defended his thesis. Congratulations!"
