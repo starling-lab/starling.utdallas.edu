@@ -21,7 +21,7 @@ gallery:
     alt: "First in-person team lunch post pandemic break."
     title: "First in-person team lunch post pandemic break."
   - url: /assets/images/gallery/TeamLunch_May2022_1.jpg
-    image_path: /assets/images/gallery/TeamLunch_May2022_1.jpg
+    image_path: /assets/images/gallery/TeamLunch_May2022_1_t.jpg
     alt: "First in-person team lunch post pandemic break."
     title: "First in-person team lunch post pandemic break."
   - url: /assets/images/gallery/DSD_SN_2022.jpg
