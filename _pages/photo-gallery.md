@@ -57,31 +57,31 @@ gallery:
     alt: "Dev-Thesis"
     title: "Done & Dusted!"
   - url: /assets/images/gallery/dev_starai.jpg
-    image_path: /assets/images/gallery/dev_starai.jpg
+    image_path: /assets/images/gallery/dev_starai_t.jpg
     alt: "Dev-STARAI"
     title: "Dev presenting his Poster@ STARAI workshop @AAAI, 2020"
   - url: /assets/images/gallery/alex_starai.jpg
-    image_path: /assets/images/gallery/alex_starai.jpg
+    image_path: /assets/images/gallery/alex_starai_t.jpg
     alt: "Alex-STARAI"
     title: "Alex presenting his poster @ STARAI workshop @AAAI, 2020"
   - url: /assets/images/gallery/nandini_starai.jpg
-    image_path: /assets/images/gallery/nandini_starai.jpg
+    image_path: /assets/images/gallery/nandini_starai_t.jpg
     alt: "Nandini-STARAI"
     title: "Nandini presenting her Poster@ STARAI workshop @AAAI, 2020"
   - url: /assets/images/gallery/navdeep_starai.jpg
-    image_path: /assets/images/gallery/navdeep_starai.jpg
+    image_path: /assets/images/gallery/navdeep_starai_t.jpg
     alt: "Navdeep-STARAI"
     title: "Navdeep presenting her Poster@ STARAI workshop @AAAI, 2020"
   - url: /assets/images/gallery/yuqiao_starai.jpg
-    image_path: /assets/images/gallery/yuqiao_starai.jpg
+    image_path: /assets/images/gallery/yuqiao_starai_t.jpg
     alt: "Yuqiao-STARAI"
     title: "Yuqiao presenting his Poster@ STARAI workshop @AAAI, 2020"
   - url: /assets/images/gallery/mike_starai.jpg
-    image_path: /assets/images/gallery/mike_starai.jpg
+    image_path: /assets/images/gallery/mike_starai_t.jpg
     alt: "Mike-STARAI"
     title: "Mike presenting his Poster@ STARAI workshop @AAAI, 2020"
   - url: /assets/images/gallery/harsha_SN_aaai.jpg
-    image_path: /assets/images/gallery/harsha_SN_aaai.jpg
+    image_path: /assets/images/gallery/harsha_SN_aaai_t.jpg
     alt: "Harsha-SN-AAAI"
     title: "Harsha with her Poster @AAAI, 2020"
   - url: /assets/images/gallery/verisk.jpg
