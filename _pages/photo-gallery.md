@@ -4,6 +4,10 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/Brian_defense.png
+    image_path: /assets/images/gallery/Brian_defense.png
+    alt: "Brian successfully defended her thesis. Congratulations!"
+    title: "Brian successfully defended her thesis. Congratulations!"
   - url: /assets/images/gallery/Kokel_RLDM2.jpg
     image_path: /assets/images/gallery/Kokel_RLDM2.jpg
     alt: "Harsha Kokel presenting poster at RLDM"
@@ -20,8 +24,8 @@ gallery:
     image_path: /assets/images/gallery/TeamLunch_May2022_1.jpg
     alt: "First in-person team lunch post pandemic break."
     title: "First in-person team lunch post pandemic break."
-  - url: /assets/images/gallery/DSD_SN_2022.png
-    image_path: /assets/images/gallery/DSD_SN_2022.png
+  - url: /assets/images/gallery/DSD_SN_2022.jpg
+    image_path: /assets/images/gallery/DSD_SN_2022.jpg
     alt: "Meeting illustrious alumni in Germany"
     title: "Meeting illustrious alumni in Germany"
   - url: /assets/images/gallery/Dagstuhl_TPM_2022.png
