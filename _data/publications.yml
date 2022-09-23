@@ -516,7 +516,7 @@
   venue: "International Conference on Inductive Logic Programming (ILP)"
   url: "/assets/pdfs/MLN_Boost_ILP.pdf"
   keywords: ["Statistical Relational Learning"]
-  code: "https://github.com/mayukhdas/MLNBoostDB"
+  code: "https://github.com/starling-lab/MLNBoostDB"
 
 - publicationType: "conference-papers"
   authors: ["Ameet Soni","Dileep Viswanathan","Jude Shavlik","Sriraam Natarajan"]
