@@ -17,7 +17,7 @@ gallery:
     alt: "Harsha Kokel presenting poster at RLDM"
     title: "Harsha Kokel presenting poster at RLDM 2022"
   - url: /assets/images/gallery/TeamLunch_May2022_2.jpg
-    image_path: /assets/images/gallery/TeamLunch_May2022_2.jpg
+    image_path: /assets/images/gallery/TeamLunch_May2022_2_t.jpg
     alt: "First in-person team lunch post pandemic break."
     title: "First in-person team lunch post pandemic break."
   - url: /assets/images/gallery/TeamLunch_May2022_1.jpg
