@@ -1280,7 +1280,7 @@
   title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
   venue: "The 11th International Conference on Probabilistic Graphical Models (PGM)"
   url: "/assets/pdfs/PGM2022_karanam.pdf"
-  code: "https://github.com/starling-lab/ExSPN-SPFlow"
+  blog: "/papers/exspn/"
 
 - publicationType: "conference-papers"
   authors: ["Michael A. Skinner","Priscilla Yu","Lakshmi Raman", "Sriraam Natarajan"]
