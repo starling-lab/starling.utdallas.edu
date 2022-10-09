@@ -18,6 +18,13 @@
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
+  authors: ["Hoyin Chu","Rashika Ramola","Shantanu Jain","David M. Haas","Sriraam Natarajan","Predrag Radivojac"]
+  year: "2023"
+  title: "Using Association Rules to Understand the Risk of Adverse Pregnancy Outcomes in a Diverse Population"
+  venue: "Pacific Symposium on Biocomputing"
+  url: "/assets/pdfs/chu_psb2022.pdf"
+
+- publicationType: "conference-papers"
   authors: ["Saurabh Mathur","Athresh Karanam","Predrag Radivojac","David M. Haas","Kristian Kersting","Sriraam Natarajan"]
   year: "2023"
   title: "Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes"
