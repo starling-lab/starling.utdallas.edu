@@ -22,7 +22,6 @@
   year: "2023"
   title: "Using Association Rules to Understand the Risk of Adverse Pregnancy Outcomes in a Diverse Population"
   venue: "Pacific Symposium on Biocomputing"
-  url: "/assets/pdfs/chu_psb2022.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Saurabh Mathur","Athresh Karanam","Predrag Radivojac","David M. Haas","Kristian Kersting","Sriraam Natarajan"]
@@ -43,6 +42,7 @@
   title: "Orient: Submodular Mutual Information Measures for Data Subset Selection under Distribution Shift"
   venue: "36th Conference on Neural Information Processing Systems (NeurIPS)"
   url: "/assets/pdfs/NeurIPS_ORIENT2022.pdf"
+  code: "https://github.com/athresh/orient"
 
 - publicationType: "journal-papers"
   authors: ["Kymberleigh A. Pagel", "Hoyin Chu", "Rashika Ramola", "Rafael F. Guerrero", "Judith H. Chung", "Samuel Parry", "Uma M. Reddy", "Robert M. Silver", "Jonathan G. Steller", "Lynn M. Yee", "Ronald J. Wapner", "Matthew W. Hahn", "Sriraam Natarajan", "David M. Haas", "Predrag Radivojac"]
@@ -1288,6 +1288,7 @@
   venue: "The 11th International Conference on Probabilistic Graphical Models (PGM)"
   url: "/assets/pdfs/PGM2022_karanam.pdf"
   blog: "/papers/exspn/"
+  code: "https://github.com/saurabhmathur96/ExSPN-SPFlow"
 
 - publicationType: "conference-papers"
   authors: ["Michael A. Skinner","Priscilla Yu","Lakshmi Raman", "Sriraam Natarajan"]
