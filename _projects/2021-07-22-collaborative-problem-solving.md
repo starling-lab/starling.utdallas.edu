@@ -3,15 +3,17 @@ layout: splash
 permalink: /papers/collaborative-ps/
 title: "Human-guided Collaborative Problem Solving"
 category: "HAAI"
-description: 'A Natural Language based Framework <br> by Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth, In Systems Demonstration Track at ICAPS 2021'
-excerpt: '<h1>A Natural Language based Framework</h1> <br> <i>Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth</i><br/><br/>{::nomarkdown}  <a href="/assets/pdfs/Kokel-ICAPS2021-demo.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://youtu.be/q1pWe4aahF0" target="_blank" class="btn btn--light-outline btn--large"><i class="fab fa-youtube"></i> Video</a>{:/nomarkdown}'
+description: 'Lara -- An integrated system of learning, reasoning and communication <br> by Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth, In Systems Demonstration Track at ICAPS 2021'
+excerpt: '<h1>Lara -- an integrated system of learning, reasoning and communication</h1> <br> <i>Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth</i><br/><br/>{::nomarkdown}  <a href="/assets/pdfs/Kokel-ICAPS2021-demo.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://youtu.be/q1pWe4aahF0" target="_blank" class="btn btn--light-outline btn--large"><i class="fab fa-youtube"></i> Video</a> <a href="https://youtube.com/playlist?list=PLFyA0lwDE2XiE3AegTtgJ6Yr7iiaQQRr1" target="_blank" class="btn btn--light-outline btn--large"><i class="fab fa-youtube"></i> Demos</a>{:/nomarkdown}'
 header:
   overlay_color: teal  
   teaser: /assets/gifs/cwc.gif
 redirect_from:
   - /papers/collaborative-problem-solving-demo
+  - /papers/lara
 ---
 
+<link rel="stylesheet" type="text/css" href="/assets/css/projects.css">
 
 <!-- <div style="background-color:teal;padding:10px 20px;display: inline;color:white;font-weight:400"> -->
 <h2>What?</h2>
@@ -60,13 +62,66 @@ The following video demonstrates our framework.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q1pWe4aahF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br>
+<div class="project-category" id="demonstrations"> 
+<h2>Few more demonstration videos</h2>
+
+<div class="project-group">
+<div class="grid__item">      
+<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+<div class="archive__item-teaser">
+<iframe width="120" height="100" src="https://www.youtube.com/embed/erEvK7CTqkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+</div>
+    <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://youtu.be/erEvK7CTqkw" rel="permalink">Demonstration 2
+</a>
+    </h2>
+  </article>
+</div>
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+<div class="archive__item-teaser">
+<iframe width="120" height="100" src="https://www.youtube.com/embed/S7PHyIrMnBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://youtu.be/S7PHyIrMnBg" rel="permalink">Demonstration 3
+</a>
+    </h2>  
+</article>
+</div>
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+<div class="archive__item-teaser"> 
+ <iframe width="120" height="100" src="https://www.youtube.com/embed/smgPOao915w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://youtu.be/smgPOao915w" rel="permalink">Demonstration 4
+</a>
+    </h2>
+</article>
+</div>
+  </div>
+<br/> 
+</div> 
+
+
+
 ## Citation
 
 If you find this work useful, please provide consider using the following reference or BibTeX.
 
-> Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, and Dan Roth. (2021) *Human-guided Collaborative Problem Solving: A Natural Language based Framework*. In: ICAPS 2021.
+> Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, and Dan Roth. (2022) *Lara -- Human-guided collaborative problem solver: Effective integration of learning, reasoning and communication*. In Tenth Annual Conference on Advances in Cognitive Systems 2022. 
+
+> Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, and Dan Roth. (2021) *Human-guided Collaborative Problem Solving: A Natural Language based Framework*. In ICAPS 2021.
 
 ```bibtex
+@inproceedings{KokelDIBCDNJDHNPR22,
+  author = {Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth},
+  title = {Lara -- Human-guided collaborative problem solver: Effective integration of learning, reasoning and communication},
+  year = {2022},
+  booktitle = {Tenth Annual Conference on Advances in Cognitive Systems ({ACS})}
+}
+
 @inproceedings{KokelDIBCDNJDHNPR21,
   author = {Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth},
   title = {Human-guided Collaborative Problem Solving: A Natural Language based Framework},
