@@ -9,8 +9,8 @@ header:
   overlay_color: teal  
   teaser: /assets/gifs/cwc.gif
 redirect_from:
-  - /papers/collaborative-problem-solving-demo
-  - /papers/lara
+  - /papers/collaborative-problem-solving-demo/
+  - /papers/lara/
 ---
 
 <link rel="stylesheet" type="text/css" href="/assets/css/projects.css">
