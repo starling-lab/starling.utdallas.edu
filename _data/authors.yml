@@ -156,6 +156,31 @@ Saurabh Mathur:
   linkedin: "saurabhmathur96"
   group: "current-student"
 
+Sahil Sidheekh:
+  name: "Sahil Sidheekh"
+  lastname: "Sidheekh"
+  uri: "https://sahilsid.github.io/"
+  avatar: "/assets/images/headshots/sahil_dp.png"
+  location: "The University of Texas at Dallas"
+  email: "sahil.sidheekh@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter: "SahilSidheek"
+  github: "sahilsid"
+  linkedin: "sahil-sidheekh-a78809156"
+  group: "current-student"
+
+Ranveer Singh:
+  name: "Raveer Singh"
+  lastname: "Singh"
+  avatar: "/assets/images/headshots/ranveersingh.png"
+  location: "The University of Texas at Dallas"
+  email: "ranveer.singh@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter: "s_ranveer_"
+  github: "Ranveer6699"
+  linkedin: "ranveersingh6699"
+  group: "current-student"
+  
 ##
 ## ALUMNI
 ##

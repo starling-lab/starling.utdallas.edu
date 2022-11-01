@@ -1287,7 +1287,7 @@
   title: "Explaining Deep Tractable Probabilistic Models: The sum-product network case"
   venue: "The 11th International Conference on Probabilistic Graphical Models (PGM)"
   url: "/assets/pdfs/PGM2022_karanam.pdf"
-  blog: "/papers/exspn/"
+  blog: "/papers/ExSPN/"
   code: "https://github.com/saurabhmathur96/ExSPN-SPFlow"
 
 - publicationType: "conference-papers"
