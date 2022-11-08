@@ -1296,3 +1296,12 @@
   title: "An Anytime Querying Algorithm for Predicting Cardiac Arrest in Children: Work-in-Progress"
   venue: "20th International Conference in Artificial Intelligence in Medicine(AIME)"
   url: "/assets/pdfs/AIME2022_skinner.pdf"
+  
+  
+- publicationType: "conference-papers"
+  authors: ["Harsha Kokel", "Mayukh Das", "Rakibul Islam", "Julia Bonn", "Jon Cai", "Soham Dan", "Anjali Narayan-Chen", "Prashant Jayannavar", "Janardhan Rao Doppa", "Julia Hockenmaier", "Sriraam Natarajan",  "Martha Palmer",  "Dan Roth"]
+  year: "2022"
+  title: "LARA -- Human-guided collaborative problem solver: Effective integration of learning, reasoning and communication"
+  venue: "The Tenth Annual Conference on Advances in Cognitive Systems (ACS)"
+  url: "/assets/pdfs/Kokel_ACS2022.pdf"
+  blog: "/papers/lara/"
