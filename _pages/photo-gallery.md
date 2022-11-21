@@ -4,6 +4,26 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/SN_bday_2022_7.png
+    image_path: /assets/images/gallery/SN_bday_2022_7.png
+    alt: "Celebrating Professor Natarajan's birthday!"
+    title: "Celebrating Professor Natarajan's birthday!"
+  - url: /assets/images/gallery/SN_bday_2022_6.png
+    image_path: /assets/images/gallery/SN_bday_2022_6.png
+    alt: "Celebrating Professor Natarajan's birthday!"
+    title: "Celebrating Professor Natarajan's birthday!"
+  - url: /assets/images/gallery/SN_bday_2022_4.png
+    image_path: /assets/images/gallery/SN_bday_2022_4.png
+    alt: "Birthday cake!"
+    title: "Birthday cake!"
+  - url: /assets/images/gallery/SN_bday_2022_3.png
+    image_path: /assets/images/gallery/SN_bday_2022_3.png
+    alt: "Celebrating Professor Natarajan's birthday!"
+    title: "Celebrating Professor Natarajan's birthday!"
+  - url: /assets/images/gallery/SN_bday_2022_1.png
+    image_path: /assets/images/gallery/SN_bday_2022_1.png
+    alt: "Celebrating Professor Natarajan's birthday!"
+    title: "Celebrating Professor Natarajan's birthday!"
   - url: /assets/images/gallery/Yuqiao_defense.png
     image_path: /assets/images/gallery/Yuqiao_defense_t.png
     alt: "Yuqiao successfully defended his thesis. Congratulations!"
