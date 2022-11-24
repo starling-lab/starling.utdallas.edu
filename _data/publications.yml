@@ -1305,3 +1305,19 @@
   venue: "The Tenth Annual Conference on Advances in Cognitive Systems (ACS)"
   url: "/assets/pdfs/Kokel_ACS2022.pdf"
   blog: "/papers/lara/"
+  
+- publicationType: "journal-papers"
+  authors: ["Harsha Kokel", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
+  year: "2022"
+  title: "RePReL: A Unified Framework for Integrating Relational Planning and Reinforcement Learning for Effective Abstraction in Discrete and Continuous Domains"
+  venue: "Neural Computing and Applications"
+  url: "/assets/pdfs/Kokel_NCAA2022.pdf"
+
+
+- publicationType: "workshop-papers"
+  authors: ["Sriraam Natarajan","Gautam Kunapuli","Richard Maclin","David Page","Ciaran O'Reilly","Trevor Walker","Jude Shavlik"]
+  year: "2010"
+  title: "Learning from Human Teachers: Issues and Challenges for ILP in Bootstrap Learning"
+  venue: "AAMAS Workshop on Agents Learning Interactively from Human Teachers"
+  url: "/assets/pdfs/natarajan_aamas_10.pdf"
+
