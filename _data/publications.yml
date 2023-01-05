@@ -22,6 +22,7 @@
   year: "2023"
   title: "Using Association Rules to Understand the Risk of Adverse Pregnancy Outcomes in a Diverse Population"
   venue: "Pacific Symposium on Biocomputing"
+  url: "/assets/pdfs/chu_psb2023.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Saurabh Mathur","Athresh Karanam","Predrag Radivojac","David M. Haas","Kristian Kersting","Sriraam Natarajan"]
@@ -35,6 +36,7 @@
   year: "2023"
   title: "Active Feature Acquisition via Human Interaction in Relational domains"
   venue: "6th Joint International Conference on Data Science & Management of Data (CODS-COMAD)"
+  url: "/assets/pdfs/ramanan_codscomad2023.pdf"
 
 - publicationType: "conference-papers"
   authors: ["Athresh Karanam","Krishnateja Killamsetty","Harsha Kokel","Rishabh K Iyer"]
