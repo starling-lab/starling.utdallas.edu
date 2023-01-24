@@ -6,5 +6,7 @@
   id: workshop-papers
 - name: "Books"
   id: books
+- name: "Preprints"
+  id: preprints
 # - name: "Book Chapters"
 #   id: book-chapters

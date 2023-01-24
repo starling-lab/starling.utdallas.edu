@@ -53,10 +53,35 @@
   venue: "JAMA Network Open"
   url: "/assets/pdfs/JAMAOpenNetwork_Pagel2022.pdf"
 
+- publicationType: "preprints"
+  authors: [ "Siwen Yan", "Sriraam Natarajan", "Saket Joshi", "Roni Khardon", "Prasad Tadepalli" ]
+  year: "2022"
+  title: "Explainable Models via Compression of Tree Ensembles"
+  url: "https://arxiv.org/pdf/2206.07904.pdf"
+
 - publicationType: "books"
   authors: [ "Guy Van den Broeck", "Kristian Kersting", "Sriraam Natarajan", "David Poole" ]
   year: "2021"
   title: "An Introduction to Lifted Probabilistic Inference"
+
+- publicationType: "preprints"
+  authors: [ "Devendra Singh Dhami", "Siwen Yan", "Sriraam Natarajan" ]
+  year: "2021"
+  title: "Bridging Graph Neural Networks and Statistical Relational Learning: Relational One-Class GCN"
+  url: "https://www.researchgate.net/profile/Devendra-Dhami-2/publication/349335724_Bridging_Graph_Neural_Networks_and_Statistical_Relational_Learning_Relational_One-Class_GCN/links/6038e2d0299bf1cc26f04ada/Bridging-Graph-Neural-Networks-and-Statistical-Relational-Learning-Relational-One-Class-GCN.pdf"
+
+- publicationType: "workshop-papers"
+  authors: [ "Siwen Yan", "Devendra Singh Dhami", "Sriraam Natarajan" ]
+  year: "2020"
+  title: "The Curious Case of Stacking Boosted Relational Dependency Networks"
+  venue: "Proceedings on \"I Can't Believe It's Not Better!\" at NeurIPS Workshops, PMLR"
+  url: "http://proceedings.mlr.press/v137/yan20a/yan20a.pdf"
+
+- publicationType: "preprints"
+  authors: [ "Devendra Singh Dhami", "Siwen Yan", "Gautam Kunapuli", "David Page", "Sriraam Natarajan" ]
+  year: "2020"
+  title: "Beyond Textual Data: Predicting Drug-Drug Interactions from Molecular Structure Images using Siamese Neural Networks"
+  url: "https://arxiv.org/pdf/1911.06356.pdf"
 
 - publicationType: "books"
   authors: [ "Luc De Raedt", "Kristian Kersting", "Sriraam Natarajan", "David Poole" ]
