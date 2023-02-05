@@ -18,6 +18,13 @@
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
+  authors: ["Sriraam Natarajan","Kristian Kersting"]
+  year: "2023"
+  title: "Never Ending Reasoning and Learning: Opportunities and Challenges"
+  venue: "Continual Causality Bridge Program at AAAI"
+  url: "/assets/pdfs/Natarajan_AAAI2023.pdf"
+
+- publicationType: "conference-papers"
   authors: ["Hoyin Chu","Rashika Ramola","Shantanu Jain","David M. Haas","Sriraam Natarajan","Predrag Radivojac"]
   year: "2023"
   title: "Using Association Rules to Understand the Risk of Adverse Pregnancy Outcomes in a Diverse Population"
