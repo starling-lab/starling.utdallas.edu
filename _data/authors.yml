@@ -170,7 +170,7 @@ Sahil Sidheekh:
   group: "current-student"
 
 Ranveer Singh:
-  name: "Raveer Singh"
+  name: "Ranveer Singh"
   lastname: "Singh"
   avatar: "/assets/images/headshots/ranveersingh.png"
   location: "The University of Texas at Dallas"
@@ -179,6 +179,19 @@ Ranveer Singh:
   twitter: "s_ranveer_"
   github: "Ranveer6699"
   linkedin: "ranveersingh6699"
+  group: "current-student"
+
+Nikhilesh Prabhakar:
+  name: "Nikhilesh Prabhakar"
+  lastname: "Nikhilesh"
+  uri:
+  avatar: "/assets/images/headshots/nikhilesh.png"
+  location: "The University of Texas at Dallas"
+  email: "nikhilesh.prabhakar@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter:
+  github: "nikhileshp"
+  linkedin: "nikhilesh-prabhakar"
   group: "current-student"
   
 ##

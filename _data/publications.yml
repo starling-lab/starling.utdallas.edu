@@ -18,6 +18,20 @@
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
 - publicationType: "conference-papers"
+  authors: ["Priscilla Yu", "Michael Skinner", "Ivie Esangbedo", "Javier J. Lasa", "Xilong Li", "Sriraam Natarajan", "Lakshmi Raman"]
+  year: "2023"
+  title: "Predicting Cardiac Arrest in Children with Heart Disease: A Novel Machine Learning Algorithm"
+  venue: "Journal of Clinical Medicine"
+  url: "/assets/pdfs/Priscilla_JCM2023.pdf"
+
+- publicationType: "conference-papers"
+  authors: ["Srijita Das", "Nandini Ramanan", "Gautam Kunapuli", "Predrag Radivojac", "Sriraam Natarajan"]
+  year: "2023"
+  title: "Active feature elicitation: An unified framework"
+  venue: "Frontiers in Artificial Intelligence"
+  url: "/assets/pdfs/Srijita_Frontiers2023.pdf"
+
+- publicationType: "conference-papers"
   authors: ["Sriraam Natarajan","Kristian Kersting"]
   year: "2023"
   title: "Never Ending Reasoning and Learning: Opportunities and Challenges"
