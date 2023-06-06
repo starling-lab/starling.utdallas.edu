@@ -90,19 +90,6 @@ Alexander Hayes:
   group: "current-student"
 
 
-Harsha Kokel:
-  name: "Harsha Kokel"
-  lastname: "Kokel"
-  uri: "http://harshakokel.com"
-  avatar: "/assets/images/headshots/harshakokel.jpg"
-  location: "The University of Texas at Dallas"
-  email: "harsha.kokel@utdallas.edu"
-  bio: "Computer Science. (Ph.D.)"
-  twitter:
-  github: "harshakokel"
-  linkedin: "harshakokel"
-  group: "current-student"
-
 Michael Skinner, MD:
   name: "Michael Skinner, MD"
   lastname: "Skinner"
@@ -197,6 +184,24 @@ Nikhilesh Prabhakar:
 ##
 ## ALUMNI
 ##
+
+
+
+Harsha Kokel:
+  name: "Harsha Kokel"
+  lastname: "Kokel"
+  uri: "http://harshakokel.com"
+  avatar: "/assets/images/headshots/harshakokel.jpg"
+  location: "Research Scientist at IBM Research"
+  email: "harsha.kokel@gmail.com"
+  year: 2023
+  bio: "Ph.D. Computer Science 2023 (UTD). <br> Thesis: 'Beyond Data: Efficient Knowledge-guided Learning for Sparse and Structured Domains'"
+  twitter:
+  github: "harshakokel"
+  linkedin: "harshakokel"
+  group: "alumni"
+  
+  
 Yuqiao Chen:
   name: "Yuqiao Chen"
   lastname: "Chen"
