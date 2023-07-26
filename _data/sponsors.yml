@@ -6,9 +6,28 @@
 #   logo: ""
 #   PI: ""
 #   CO-PI: ["",""]
+
+- title: "DARPA - Assured NeuroSymbolic Reasoning"
+  date: 2023-07-01
+  period: "07/01/2023 to 07/01/2027"
+  logo: "/assets/images/sponsor-logo/DARPA-logo.png"
+  PI: "Sriraam Natarajan"
+
+- title: "AFOSR - Learning from multiple sources"
+  date: 2023-07-01
+  period: "07/01/2023 to 12/31/2026"
+  logo: "/assets/images/sponsor-logo/afrl_afosr_.png"
+  PI: "Sriraam Natarajan"
+
+- title: "NIH - (R01) Predicting neurological injuries in Children"
+  date: 2023-07-01
+  period: "07/01/2023 to 07/01/2028"
+  logo: "/assets/images/sponsor-logo/nih-logo.png"
+  PI: "Sriraam Natarajan"
+
 - title: "ARO grant on 'Deep Tractable Probabilistic Models'"
   date: 2020-07-01
-  period: "07/01/2020 to 07/01/2022"
+  period: "07/01/2020 to 07/01/2023"
   logo: "/assets/images/sponsor-logo/ARO-logo.png"
   PI: "Sriraam Natarajan"
 

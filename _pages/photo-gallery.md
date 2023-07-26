@@ -4,6 +4,18 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/utd_magazine_june23/starling_lab4.jpg
+    image_path: assets/images/gallery/utd_magazine_june23/starling_lab4.jpg
+    alt: "StARLing Lab 2023"
+    title: "StARLing Lab 2023"
+  - url: /assets/images/gallery/utd_magazine_june23/starling_lab3.jpg
+    image_path: /assets/images/gallery/utd_magazine_june23/starling_lab3.jpg
+    alt: "StARLing Lab 2023"
+    title: "StARLing Lab 2023"
+  - url: /assets/images/gallery/utd_magazine_june23/starling_lab1.jpg
+    image_path: /assets/images/gallery/utd_magazine_june23/starling_lab1.jpg
+    alt: "Sahil gives a nice demonstration on how Normalizing flows can interpolate images"
+    title: "Sahil gives a demonstration on Flows"
   - url: /assets/images/gallery/harsha_defense_1.png
     image_path: /assets/images/gallery/harsha_defense_1.png
     alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
