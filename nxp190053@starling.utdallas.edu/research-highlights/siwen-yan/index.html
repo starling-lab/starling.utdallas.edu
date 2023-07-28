@@ -1,0 +1,664 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Siwen Yan: “Efficient Learning of Fair Models using Human Guidance and Privileged Information” - StARLinG</title>
+<meta name="description" content="My recent research is centered around developing tree-based ensemble models and utilizing large language models. To enhance the performance and fairness of our models at deployment, we leverage privileged information as guidance in XGBoost and incorporate human advice into relational regression trees using functional gradient boosting for more effective and efficient learning. Additionally, we employ LLMs to discover logical rules and generate missing data. In my previous works, I have focused on various areas including Statistical Relational AI and Healthcare, Graph Neural Networks, and Reinforcement Learning.">
+
+
+  <meta name="author" content="Siwen Yan">
+  
+  <meta property="article:author" content="Siwen Yan">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="Siwen Yan: “Efficient Learning of Fair Models using Human Guidance and Privileged Information”">
+<meta property="og:url" content="https://starling.utdallas.edu/research-highlights/siwen-yan/">
+
+
+  <meta property="og:description" content="My recent research is centered around developing tree-based ensemble models and utilizing large language models. To enhance the performance and fairness of our models at deployment, we leverage privileged information as guidance in XGBoost and incorporate human advice into relational regression trees using functional gradient boosting for more effective and efficient learning. Additionally, we employ LLMs to discover logical rules and generate missing data. In my previous works, I have focused on various areas including Statistical Relational AI and Healthcare, Graph Neural Networks, and Reinforcement Learning.">
+
+
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="Siwen Yan: “Efficient Learning of Fair Models using Human Guidance and Privileged Information”">
+  <meta name="twitter:description" content="My recent research is centered around developing tree-based ensemble models and utilizing large language models. To enhance the performance and fairness of our models at deployment, we leverage privileged information as guidance in XGBoost and incorporate human advice into relational regression trees using functional gradient boosting for more effective and efficient learning. Additionally, we employ LLMs to discover logical rules and generate missing data. In my previous works, I have focused on various areas including Statistical Relational AI and Healthcare, Graph Neural Networks, and Reinforcement Learning.">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/research-highlights/siwen-yan/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2023-02-20T15:46:00-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/research-highlights/siwen-yan/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://starling.utdallas.edu/">
+        <img src="/assets/images/headshots/siwenyan.jpg" alt="Siwen Yan" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://starling.utdallas.edu/" itemprop="url">Siwen Yan</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Computer Science. (Ph.D.)</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">The University of Texas at Dallas</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://dtrycode.github.io/" itemprop="url" rel="me">
+            <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span>
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="mailto:siwen.yan@utdallas.edu" rel="me" class="u-email">
+            <meta itemprop="email" content="siwen.yan@utdallas.edu" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/siwen-yan" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/Dtrycode" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Siwen Yan: “Efficient Learning of Fair Models using Human Guidance and Privileged Information”">
+    <meta itemprop="description" content="My recent research is centered around developing tree-based ensemble models and utilizing large language models. To enhance the performance and fairness of our models at deployment, we leverage privileged information as guidance in XGBoost and incorporate human advice into relational regression trees using functional gradient boosting for more effective and efficient learning. Additionally, we employ LLMs to discover logical rules and generate missing data.In my previous works, I have focused on various areas including Statistical Relational AI and Healthcare, Graph Neural Networks, and Reinforcement Learning.">
+    <meta itemprop="datePublished" content="2023-02-20T15:46:00-06:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://starling.utdallas.edu/research-highlights/siwen-yan/" class="u-url" itemprop="url">Siwen Yan: “Efficient Learning of Fair Models using Human Guidance and Privileged Information”
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>My recent research is centered around developing tree-based ensemble models and utilizing large language models. To enhance the performance and fairness of our models at deployment, we leverage privileged information as guidance in XGBoost and incorporate human advice into relational regression trees using functional gradient boosting for more effective and efficient learning. Additionally, we employ LLMs to discover logical rules and generate missing data.
+In my previous works, I have focused on various areas including Statistical Relational AI and Healthcare, Graph Neural Networks, and Reinforcement Learning.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#research-highlights" class="page__taxonomy-item p-category" rel="tag">research-highlights</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-02-20T15:46:00-06:00">February 20, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=StARLing_lab&text=Siwen+Yan%3A+%22Efficient+Learning+of+Fair+Models+using+Human+Guidance+and+Privileged+Information%22%20https%3A%2F%2Fstarling.utdallas.edu%2Fresearch-highlights%2Fsiwen-yan%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstarling.utdallas.edu%2Fresearch-highlights%2Fsiwen-yan%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fstarling.utdallas.edu%2Fresearch-highlights%2Fsiwen-yan%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/courses/cs7301/" class="pagination--pager" title="CS7301
+">Previous</a>
+    
+    
+      <a href="/research-highlights/saurabh-mathur/" class="pagination--pager" title="Saurabh Mathur: “Knowledge Intensive Learning of Cutset Networks”
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/research-highlights/saurabh-mathur/" rel="permalink">Saurabh Mathur: “Knowledge Intensive Learning of Cutset Networks”
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My recent work deals with learning probabilistic models using expert advice. Specifically, we focus on a class of probabilistic models called cutset networks...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/courses/cs7301/" rel="permalink">CS7301
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">If you are having difficulty viewing this page on mobile, access the document here
+
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/research-highlights/srijita-das/" rel="permalink">Srijita Das: “Active Learning from Minimum Information”
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My research focus has been on learning robust machine learning models from small pool of complete instances.
+A practical application of this has been in find...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/research-highlights/navdeep-kaur/" rel="permalink">Navdeep Kaur: “Relational Connectionist Models”
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Relational Connectionist Models bring together the complementary strengths of scalability and interpretability. We have considered learning Boltzmann machine...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,536 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Grounded Relational Random Walks - StARLinG</title>
+<meta name="description" content="How to perform grounded relational random walks with BoostSRL.">
+
+
+  <meta name="author" content="Navdeep Kaur">
+  
+  <meta property="article:author" content="Navdeep Kaur">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="Grounded Relational Random Walks">
+<meta property="og:url" content="https://starling.utdallas.edu/software/boostsrl/wiki/grounded-relational-random-walks/">
+
+
+  <meta property="og:description" content="How to perform grounded relational random walks with BoostSRL.">
+
+
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="Grounded Relational Random Walks">
+  <meta name="twitter:description" content="How to perform grounded relational random walks with BoostSRL.">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/software/boostsrl/wiki/grounded-relational-random-walks/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2023-07-26T10:31:12-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/software/boostsrl/wiki/grounded-relational-random-walks/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">BoostSRL Basics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/software/boostsrl/wiki/getting-started/">Getting Started</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/file-structure/">File Structure</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/basic-parameters/">Basic Parameters</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/basic-modes/">Basic Modes</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/advanced-parameters/">Advanced Parameters</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/advanced-modes/">Advanced Modes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Advanced BoostSRL</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/software/boostsrl/wiki/rdn-boost/">Default (RDN-Boost)</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/mln-boost/">MLN-Boost</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/regression/">Regression</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/one-class-classification/">One-Class Classification</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/cost-sensitive-srl/">Cost-Sensitive SRL</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/advice/">Learning with Advice</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/approximate-counting/">Approximate Counting</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/discretization/">Discretization of Continuous-Valued Attributes</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/lifted-relational-random-walks/">Lifted Relational Random Walks</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/grounded-relational-random-walks/" class="active">Grounded Relational Random Walks</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Applications</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/software/boostsrl/wiki/natural-language-processing/">Natural Language Processing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Grounded Relational Random Walks">
+    <meta itemprop="description" content="How to perform grounded relational random walks with BoostSRL.">
+    <meta itemprop="datePublished" content="2023-07-26T10:31:12-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://starling.utdallas.edu/software/boostsrl/wiki/grounded-relational-random-walks/" class="u-url" itemprop="url">Grounded Relational Random Walks
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu"><li><a href="#overview">Overview</a></li><li><a href="#formulating-lifted-random-walks-as-clauses">Formulating Lifted Random Walks as Clauses</a></li><li><a href="#facts-file">Facts File</a></li><li><a href="#background-file">Background File</a></li><li><a href="#negative-examples-file">Negative Examples File</a></li><li><a href="#target-predicate-file">Target Predicate File</a></li><li><a href="#usage-commands">Usage Commands</a></li><li><a href="#getting-started">Getting Started</a></li><li><a href="#references">References</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h3 id="overview">Overview</h3>
+
+<p>We obtain valued structure of relational data by randomly walking on a lifted relational graph whose nodes represent different object types and edges denote relations between them. We can obtain <em>first order clauses</em> from these relational random walks; where each random walk forms the body of the clause and object types at the end points of random walks form the arguments of a target predicate.</p>
+
+<p>This idea is now extended to grounded random walks from the given lifted random walks that are expressed in clausal form by unifying them with the fact base. In the following tutorial, we explain how to obtain grounded random walks from the lifted random walks by building on inference in MLN-Boost models.</p>
+
+<p><button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button></p>
+
+<hr />
+
+<h3 id="formulating-lifted-random-walks-as-clauses">Formulating Lifted Random Walks as Clauses</h3>
+
+<p>Suppose we are provided with a lifted random walk as follows:</p>
+
+<p><img src="https://raw.githubusercontent.com/boost-starai/BoostSRL-Misc/master/Images/liftedrandomwalkExample.png" style="display: block; margin: auto; padding-bottom: 0.4em; padding-top: 0.4em;" /></p>
+
+<p>We are inferring the target relation <code class="language-plaintext highlighter-rouge">advisedBy(personid1,personid2)</code> by converting it into a clausal form that is acceptable to MLN-Boost inference.</p>
+
+<p><code class="language-plaintext highlighter-rouge">( advisedBy(A,B,0) :- SamePerson(A, C), isa(C, D), _isa(D,E), tempAdvisedBy(E, B), !).</code></p>
+
+<p>Convert the lifted random walks in clausal form above and save them in <code class="language-plaintext highlighter-rouge">./train/models/bRDNs/Trees/advisedByTree0.tree</code></p>
+
+<p>The name of the output file (<em>advisedByTree0.tree</em>) should always be <em>targetPredicate</em> name followed by <em>Tree0.tree</em>. The third argument of the <code class="language-plaintext highlighter-rouge">advisedBy</code> predicate is the regression value of MLN-Boost. It can be set to any real number for executing grounded random walks.</p>
+
+<p>Refer to our tutorial on <a href="../lifted-relational-random-walks/">Lifted Relational Random Walks</a> to generate the lifted random walks.</p>
+
+<p><button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button></p>
+
+<hr />
+
+<h3 id="facts-file">Facts File</h3>
+
+<p><code class="language-plaintext highlighter-rouge">/test/test_facts.txt</code></p>
+
+<p>The facts file should contain all of the facts that would be used to ground the lifted random walks. It should not contain the inverted facts (those starting with underscore: <code class="language-plaintext highlighter-rouge">_</code>) as they are generated internally at runtime.</p>
+
+<h3 id="background-file">Background File</h3>
+
+<p><code class="language-plaintext highlighter-rouge">/test/test_bk.txt</code></p>
+
+<ol>
+  <li>Background (bk file) should contain modes set for all predicates and all modes should be set to <code class="language-plaintext highlighter-rouge">+</code>. No modes should be set for inverted predicates.</li>
+  <li>Random walk constraints should be set for each predicate by utilizing the keyword <code class="language-plaintext highlighter-rouge">randomwalkconstraint</code>. This constraint will be used to generate the inverse predicates (e.g. <code class="language-plaintext highlighter-rouge">_is(designation,personid).</code>) for facts at runtime. These constraints should be set the same way as they were set during generation of lifted random walks. Refer to our tutorial on <a href="../lifted-relational-random-walks/">Lifted Random Walks</a> for more details on setting these constraints.</li>
+</ol>
+
+<h3 id="negative-examples-file">Negative Examples File</h3>
+
+<p><code class="language-plaintext highlighter-rouge">/test/test_neg.txt</code></p>
+
+<p>The negative examples file can be left empty. Otherwise, the code is capable of generating random walks for negative examples too.</p>
+
+<h3 id="target-predicate-file">Target Predicate File</h3>
+
+<p>Create a model file named <code class="language-plaintext highlighter-rouge">targetpredicate.model</code> (in our example: <code class="language-plaintext highlighter-rouge">advisedBy.model</code>). This is required for the internal workings of MLN-Boost inference. This file should contain the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1
+targetpredicatename
+[1.0]
+-1.8
+targetpredicatename
+</code></pre></div></div>
+
+<p>Store this file in <code class="language-plaintext highlighter-rouge">./train/models/bRDNs/advisedBy.model</code></p>
+
+<p><button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button></p>
+
+<hr />
+
+<h3 id="usage-commands">Usage Commands</h3>
+
+<p><code style="display: inline-block; word-break: break-all;">java -cp edu.wisc.cs.will.GroundRelationalRandomWalks.RunGroundRelationalRandomWalks -grw -mln -i -test ".\test" -target advisedBy -trees 1 -model ".\train\models"</code></p>
+
+<p>The output grounded random walks are stored inside <code class="language-plaintext highlighter-rouge">./test/OutputRW.txt</code> Kindly ignore all the AUC-ROC values and AUC-PR values, they are generated as part of MLN-Boost execution.</p>
+
+<h3 id="getting-started">Getting Started</h3>
+
+<p>Here is a small sample dataset to get started: <a href="https://github.com/boost-starai/BoostSRL-Misc/blob/master/Datasets/imdb-relationalrandomwalk.7z">IMDB-relationalrandomwalk</a></p>
+
+<h3 id="references">References</h3>
+
+<ol>
+  <li>
+    <p>Tushar Khot, Sriraam Natarajan, Kristian Kersting, Jude Shavlik, “Learning Markov Logic Networks via Functional Gradient Boosting,” In ICDM 2011.</p>
+  </li>
+  <li>
+    <p>Ni Lao and William W. Cohen, “Relational Retrieval Using a Combination of Path-Constrained Random Walks,” ECML 2011.</p>
+  </li>
+</ol>
+
+<p><button class="btn btn--primary btn--large" onclick="topOfPage()">Table of Contents</button></p>
+
+<script>
+function topOfPage() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+}
+</script>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-07-26T10:31:12-05:00">July 26, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=StARLing_lab&text=Grounded+Relational+Random+Walks%20https%3A%2F%2Fstarling.utdallas.edu%2Fsoftware%2Fboostsrl%2Fwiki%2Fgrounded-relational-random-walks%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstarling.utdallas.edu%2Fsoftware%2Fboostsrl%2Fwiki%2Fgrounded-relational-random-walks%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fstarling.utdallas.edu%2Fsoftware%2Fboostsrl%2Fwiki%2Fgrounded-relational-random-walks%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/software/boostsrl/wiki/lifted-relational-random-walks/" class="pagination--pager" title="Lifted Relational Random Walks
+">Previous</a>
+    
+    
+      <a href="/software/boostsrl/wiki/natural-language-processing/" class="pagination--pager" title="Natural Language Processing
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

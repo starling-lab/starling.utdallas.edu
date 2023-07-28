@@ -1,0 +1,59 @@
+[
+    
+    {
+	"title" : "Saurabh Mathur: \"Knowledge Intensive Learning of Cutset Networks\"",
+	"href"  : "/research-highlights/saurabh-mathur/",
+	"author" : "Saurabh Mathur",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/saurabh.jpg",
+	"post_excerpt" : "My recent work deals with learning probabilistic models using expert advice. Specifically, we focus on a class of probabilistic models called cutset networks which allow fast inference. Our algorithm learns concise and accurate cutset networks fro..."
+    },
+    {
+	"title" : "Siwen Yan: \"Efficient Learning of Fair Models using Human Guidance and Privileged Information\"",
+	"href"  : "/research-highlights/siwen-yan/",
+	"author" : "Siwen Yan",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/siwenyan.jpg",
+	"post_excerpt" : "My recent research is centered around developing tree-based ensemble models and utilizing large language models. To enhance the performance and fairness of our models at deployment, we leverage privileged information as guidance in XGBoost and inc..."
+    },
+    {
+	"title" : "Srijita Das: \"Active Learning from Minimum Information\"",
+	"href"  : "/research-highlights/srijita-das/",
+	"author" : "Srijita Das",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/srijitadas.jpg",
+	"post_excerpt" : "My research focus has been on learning robust machine learning models from small pool of complete instances.\nA practical application of this has been in finding potential recruits given the availability of a small number of patients with complete ..."
+    },
+    {
+	"title" : "Navdeep Kaur: \"Relational Connectionist Models\"",
+	"href"  : "/research-highlights/navdeep-kaur/",
+	"author" : "Navdeep Kaur",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/navdeepkaur.jpg",
+	"post_excerpt" : "Relational Connectionist Models bring together the complementary strengths of scalability and interpretability. We have considered learning Boltzmann machines for relational data; specifically generating features from lifted random walks that form..."
+    },
+    {
+	"title" : "Nandini Ramanan: \"Precision Health\"",
+	"href"  : "/research-highlights/nandini-ramanan/",
+	"author" : "Nandini Ramanan",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/nandiniramanan.jpg",
+	"post_excerpt" : "We aim to bridge the gap between the machine learning community and the existing applications to healthcare. Our work involves developing efficient algorithms and probabilistic models using real-world data and expert knowledge. We employ state-of-..."
+    },
+    {
+	"title" : "Mayukh Das: \"Human-Allied Problem Solving and Planning\"",
+	"href"  : "/research-highlights/mayukh-das/",
+	"author" : "Mayukh Das",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/mayukhdas.jpg",
+	"post_excerpt" : "Knowledge-augmented approaches to sequential decision-making try to alleviate the limitations of data-driven techniques caused by noise, stochasticity and asymmetry of knowledge. They leverage rich knowledge assimilated by domain experts through y..."
+    },
+    {
+	"title" : "Devendra Singh Dhami: \"Structure-based Discovery of Drug-Drug Interactions\"",
+	"href"  : "/research-highlights/devendra-dhami/",
+	"author" : "Devendra Singh Dhami",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/devendrasinghdhami.jpg",
+	"post_excerpt" : "I am currently working on the problem of drug-drug interactions using structural data from the molecules and chemical reaction pathways which exist between interacting medications. Most of the work in this area has existed in the area of natural l..."
+    },
+    {
+	"title" : "Alexander L. Hayes: \"Relation Extraction for Relational Learning\"",
+	"href"  : "/research-highlights/alexander-hayes/",
+	"author" : "Alexander L. Hayes",
+	"author_src" : "https://starling.utdallas.edu/assets/images/headshots/alexanderhayes.jpg",
+	"post_excerpt" : "My work is mostly centered on relational approaches to natural language processing. Approaches such as word2vec have increased interest in the context that words appear in beyond the bag-of-words model. The approach we focus on models the relation..."
+    }
+]

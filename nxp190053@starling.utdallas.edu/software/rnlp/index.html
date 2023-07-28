@@ -1,0 +1,412 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>rnlp - StARLinG</title>
+<meta name="description" content="Relational-NLP: Convert text into relational facts for building text classification pipelines.   View Source Stable Docs (v0.3.1)  Latest Docs Bug Tracker and Discussion">
+
+
+  <meta name="author" content="Alexander L. Hayes">
+  
+  <meta property="article:author" content="Alexander L. Hayes">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="rnlp">
+<meta property="og:url" content="https://starling.utdallas.edu/software/rnlp/">
+
+
+  <meta property="og:description" content="Relational-NLP: Convert text into relational facts for building text classification pipelines.   View Source Stable Docs (v0.3.1)  Latest Docs Bug Tracker and Discussion">
+
+
+
+  <meta property="og:image" content="https://starling.utdallas.edu/assets/images/splash_img/splash2.png">
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="rnlp">
+  <meta name="twitter:description" content="Relational-NLP: Convert text into relational facts for building text classification pipelines.   View Source Stable Docs (v0.3.1)  Latest Docs Bug Tracker and Discussion">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/software/rnlp/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://starling.utdallas.edu/assets/images/splash_img/splash2.png">
+  
+
+  
+    <meta name="twitter:creator" content="@alexanderlhayes">
+  
+
+
+
+  <meta property="article:published_time" content="2023-07-26T10:31:12-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/software/rnlp/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #5e616c; background-image: url('/assets/images/splash_img/splash2.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          rnlp
+
+        
+      </h1>
+      
+        <p class="page__lead">Relational-NLP: Convert text into relational facts for building text classification pipelines.<br /><br /><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rnlp&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rnlp&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe> <br><br><a href="https://github.com/starling-lab/rnlp/" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a><br><a href="https://rnlp.readthedocs.io/en/stable/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Stable Docs (v0.3.1)</a> <a href="https://rnlp.readthedocs.io/en/latest/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Latest Docs</a><br><a href="https://github.com/starling-lab/rnlp/issues" class="btn btn--light-outline btn--large"><i class="fas fa-bug"></i> Bug Tracker and Discussion</a>
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.
+</span>
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="rnlp">
+    <meta itemprop="description" content="Relational-NLP: Convert text into relational facts for building text classification pipelines.   View Source Stable Docs (v0.3.1)  Latest Docs Bug Tracker and Discussion">
+    <meta itemprop="datePublished" content="2023-07-26T10:31:12-05:00">
+    
+
+    <section class="page__content" itemprop="text">
+      <h2 id="installation">Installation</h2>
+
+<p>We recommend using environments for managing Python packages, refer to <a href="https://docs.python.org/3/tutorial/venv.html">venv</a> or <a href="https://www.anaconda.com/download/">Conda</a> for more information.</p>
+
+<p>Stable versions of the <code class="language-plaintext highlighter-rouge">rnlp</code> library are hosted on the <a href="https://pypi.org/project/rnlp/">Python Package Index</a> (PyPi)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>rnlp
+</code></pre></div></div>
+
+<p>Development versions are on GitHub. These may contain partially-implemented features.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/starling-lab/rnlp.git
+python setup.py develop
+</code></pre></div></div>
+
+<h2 id="quick-start">Quick-Start</h2>
+
+<p><code class="language-plaintext highlighter-rouge">rnlp</code> can either be used as a commandline tool or an imported Python Package.</p>
+
+<p>Commandline:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python <span class="nt">-m</span> rnlp <span class="nt">-f</span> files/doi.txt
+Reading corpus from file<span class="o">(</span>s<span class="o">)</span>...
+Creating background file...
+100%|████████| 18/18 <span class="o">[</span>00:00&lt;00:00, 38it/s]
+</code></pre></div></div>
+
+<p>Imoprted:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">rnlp.corpus</span> <span class="kn">import</span> <span class="n">declaration</span>
+<span class="kn">import</span> <span class="nn">rnlp</span>
+
+<span class="n">doi</span> <span class="o">=</span> <span class="n">declaration</span><span class="p">()</span>
+<span class="n">rnlp</span><span class="p">.</span><span class="n">converter</span><span class="p">(</span><span class="n">doi</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="a-relational-view-of-text">A Relational View of Text</h2>
+
+<p>Text will be converted into relational facts, built around the basic building blocks of <em>Words</em>, <em>Sentences</em>, and <em>Blocks</em>.</p>
+
+<p><em>Words</em> are individual units of text, such as the words you are currently reading. <em>Sentences</em> are a collection of <em>Words</em>. <em>Blocks</em> are a collection of <em>Sentences</em>.</p>
+
+<p>This package encodes text in such a format so that relational learning methods (such as <a href="/software/boostsrl/">BoostSRL</a>) can learn its structure.</p>
+
+<h2 id="encoded-facts">Encoded Facts</h2>
+
+<ul>
+  <li>
+    <p>Sentence’s Relative Position in Block:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">earlySentenceInBlock</code>: Sentence occurs within the first third of a block’s length.</li>
+      <li><code class="language-plaintext highlighter-rouge">midWaySentenceInBlock</code>: Sentence occurs between the first and last third of a block’s length.</li>
+      <li><code class="language-plaintext highlighter-rouge">lateSentenceInBlock</code>: Sentence occurs within the last third of a block’s length.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Word’s Relative Position in Sentence:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">earlyWordInSentence</code>: Word occurs within the first third of a sentence.</li>
+      <li><code class="language-plaintext highlighter-rouge">midWayWordInSentence</code>: Word occurs between a third and two-thirds of a sentence.</li>
+      <li><code class="language-plaintext highlighter-rouge">lateWordInSentence</code>: Word occurs within the last third of a sentence.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Relative Position Between Items:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">nextWordInSentence</code>: Pointer from a word to its neighbor.</li>
+      <li><code class="language-plaintext highlighter-rouge">nextSentenceInBlock</code>: Pointer from a sentence to its neighbor.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Existential Semantics:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">sentenceInBlock</code>: Sentence occurs in a particular block.</li>
+      <li><code class="language-plaintext highlighter-rouge">wordInSentence</code>: Word occurs in a particular sentence.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Low-Level Information about words:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">wordString</code>: A string representation of a word.</li>
+      <li><code class="language-plaintext highlighter-rouge">partOfSpeechTag</code>: The word’s part of speech.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="example">Example</h2>
+
+<p><img src="https://raw.githubusercontent.com/starling-lab/rnlp/master/docs/img/output.png" alt="Basic file structure for the Cora dataset which BoostSRL assumes for most operations." display="block" margin="auto" /></p>
+
+<p>A toy classification task where the goal is to predict whether a sentence contains the word “you”.</p>
+
+<p>At the root of the tree, we see that <code class="language-plaintext highlighter-rouge">[wordString(b, "you")]</code> occurring is the best predictor. More interestingly, the model also shows that if both “a” and “b” occur early in the sentence, and “anon12035” is “Thank”, then it is also likely to be true.</p>
+
+<p>The model was able to learn that the word “you” often occurs with the word “Thank” in the same sentence when “Thank” appears early in that sentence.</p>
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,536 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Advanced Parameters - StARLinG</title>
+<meta name="description" content="Advanced parameters for restricting the search space of BoostSRL.">
+
+
+  <meta name="author" content="Sriraam Natarajan">
+  
+  <meta property="article:author" content="Sriraam Natarajan">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="Advanced Parameters">
+<meta property="og:url" content="https://starling.utdallas.edu/software/boostsrl/wiki/advanced-parameters/">
+
+
+  <meta property="og:description" content="Advanced parameters for restricting the search space of BoostSRL.">
+
+
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="Advanced Parameters">
+  <meta name="twitter:description" content="Advanced parameters for restricting the search space of BoostSRL.">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/software/boostsrl/wiki/advanced-parameters/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@Sriraam_UTD">
+  
+
+
+
+  <meta property="article:published_time" content="2023-07-26T10:31:12-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/software/boostsrl/wiki/advanced-parameters/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">BoostSRL Basics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/software/boostsrl/wiki/getting-started/">Getting Started</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/file-structure/">File Structure</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/basic-parameters/">Basic Parameters</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/basic-modes/">Basic Modes</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/advanced-parameters/" class="active">Advanced Parameters</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/advanced-modes/">Advanced Modes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Advanced BoostSRL</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/software/boostsrl/wiki/rdn-boost/">Default (RDN-Boost)</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/mln-boost/">MLN-Boost</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/regression/">Regression</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/one-class-classification/">One-Class Classification</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/cost-sensitive-srl/">Cost-Sensitive SRL</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/advice/">Learning with Advice</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/approximate-counting/">Approximate Counting</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/discretization/">Discretization of Continuous-Valued Attributes</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/lifted-relational-random-walks/">Lifted Relational Random Walks</a></li>
+          
+            <li><a href="/software/boostsrl/wiki/grounded-relational-random-walks/">Grounded Relational Random Walks</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Applications</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/software/boostsrl/wiki/natural-language-processing/">Natural Language Processing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Advanced Parameters">
+    <meta itemprop="description" content="Advanced parameters for restricting the search space of BoostSRL.">
+    <meta itemprop="datePublished" content="2023-07-26T10:31:12-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://starling.utdallas.edu/software/boostsrl/wiki/advanced-parameters/" class="u-url" itemprop="url">Advanced Parameters
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu"><li><a href="#advanced-arguments">Advanced Arguments</a></li><li><a href="#parameters-in-background-file">Parameters in Background file</a></li><li><a href="#advanced-settings">Advanced settings</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>Few Advanced Parameters are set in the background file while few can be included as command line arguments.</p>
+
+<h2 id="advanced-arguments">Advanced Arguments</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-lc</code> : print learning curve wth varying number of trees.</li>
+</ul>
+
+<h2 id="parameters-in-background-file">Parameters in Background file</h2>
+
+<p>Include the following lines in the background file (folder_bk.txt) to set the parameters:</p>
+
+<p><strong>maxTreeDepth</strong></p>
+
+<p>Set the maximum number of nodes from root to leaf (height) in the tree.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: maxTreeDepth=3.
+</code></pre></div></div>
+
+<p><strong>nodeSize</strong></p>
+
+<p>Set the maximum number of literals in the node. Default value is <strong>2</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: nodeSize=2.
+</code></pre></div></div>
+
+<p><strong>numOfClauses</strong></p>
+
+<p>Set the maximum number of clauses in the tree (i.e. maximum number of leaves). Default value is <strong>100</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: numOfClauses=8.
+</code></pre></div></div>
+
+<p><strong>numOfCycles</strong></p>
+
+<p>Set the maximum number of times the code should loop to learn clauses. Similar to numOfClauses but the counter increases even when no clause is learned. Default value is <strong>100</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: numOfCycles=8.
+</code></pre></div></div>
+
+<p><strong>recursion</strong></p>
+
+<p>Allow reusing the literal from head of the clause in the body of the clause. Default is false.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: recursion=true.
+</code></pre></div></div>
+
+<p><strong>lineSearch</strong></p>
+
+<p>Performs line search for deciding step length for functional gradient instead of using the fixed step length provided as <code class="language-plaintext highlighter-rouge">-step</code> in <a href="/software/boostsrl/wiki/basic-parameters/">basic parameters</a>. Default value is <strong>false</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: lineSearch=true.
+</code></pre></div></div>
+
+<p><strong>loadAllLibraries</strong></p>
+
+<p>Prevent loading of all the existing libraries: <code class="language-plaintext highlighter-rouge">arithmeticInLogic</code>, <code class="language-plaintext highlighter-rouge">comparisonInLogic</code>, <code class="language-plaintext highlighter-rouge">differentInLogic</code>, <code class="language-plaintext highlighter-rouge">listsInLogic</code> by setting it to <strong>false</strong>. Individual libraries can then be loaded using <code class="language-plaintext highlighter-rouge">importLibrary</code> parameters. Default value is <strong>true</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: loadAllLibraries = false.
+</code></pre></div></div>
+
+<p><strong>loadAllBasicModes</strong></p>
+
+<p>Prevent loading of all the basic modes: <code class="language-plaintext highlighter-rouge">modes_arithmeticInLogic</code>, <code class="language-plaintext highlighter-rouge">modes_comparisonInLogic</code>, <code class="language-plaintext highlighter-rouge">modes_differentInLogic</code>, <code class="language-plaintext highlighter-rouge">modes_listsInLogic</code> by setting it to <strong>false</strong>. This might use a lot of cycles, so use with care. Default value is <strong>true</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: loadAllBasicModes = false.
+</code></pre></div></div>
+
+<p><strong>minLCTrees</strong></p>
+
+<p>Set the minimum number of trees used for printing learning curves. Used only when <code class="language-plaintext highlighter-rouge">-lc</code> is set. Default value is <strong>20</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: minLCTrees=5.
+</code></pre></div></div>
+
+<p><strong>incrLCTrees</strong></p>
+
+<p>Set the number of trees to be increased every step while printing learning curve. Used only when <code class="language-plaintext highlighter-rouge">-lc</code> is set. Default value is <strong>2</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setParam: incrLCTrees=5.  
+</code></pre></div></div>
+
+<p><strong>treeDepth</strong></p>
+
+<p>Deprecated. Use maxTreeDepth instead</p>
+
+<p><strong>resampleNegs</strong></p>
+
+<p>Deprecated.</p>
+
+<h2 id="advanced-settings">Advanced settings</h2>
+
+<p><strong>Warm Start</strong></p>
+
+<p>RDN Boost supports warm start, which allows you to add more trees to an already fitted model. To warm start learning, rename the existing <code class="language-plaintext highlighter-rouge">&lt;target_predicate&gt;.model</code> file in the model directory to <code class="language-plaintext highlighter-rouge">&lt;target_predicate&gt;.model.ckpt</code> and use the learn command as before.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-07-26T10:31:12-05:00">July 26, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=StARLing_lab&text=Advanced+Parameters%20https%3A%2F%2Fstarling.utdallas.edu%2Fsoftware%2Fboostsrl%2Fwiki%2Fadvanced-parameters%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstarling.utdallas.edu%2Fsoftware%2Fboostsrl%2Fwiki%2Fadvanced-parameters%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fstarling.utdallas.edu%2Fsoftware%2Fboostsrl%2Fwiki%2Fadvanced-parameters%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/software/boostsrl/wiki/basic-parameters/" class="pagination--pager" title="Basic Parameters
+">Previous</a>
+    
+    
+      <a href="/software/boostsrl/wiki/basic-modes/" class="pagination--pager" title="Basic Modes Guide
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

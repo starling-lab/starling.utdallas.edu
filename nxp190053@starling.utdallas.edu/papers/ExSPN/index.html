@@ -1,0 +1,429 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Explaining Deep Tractable Probabilistic Models: The sum-product network case - StARLinG</title>
+<meta name="description" content="by Athresh Karanam, Saurabh Mathur, Predrag Radivojac, David M. Haas, Kristian Kersting, Sriraam Natarajan, In PGM 2022">
+
+
+  <meta name="author" content="StARLinG Lab">
+  
+  <meta property="article:author" content="StARLinG Lab">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="Explaining Deep Tractable Probabilistic Models: The sum-product network case">
+<meta property="og:url" content="https://starling.utdallas.edu/papers/ExSPN/">
+
+
+  <meta property="og:description" content="by Athresh Karanam, Saurabh Mathur, Predrag Radivojac, David M. Haas, Kristian Kersting, Sriraam Natarajan, In PGM 2022">
+
+
+
+  <meta property="og:image" content="https://starling.utdallas.edu/assets/images/project/exspn/SPN_to_CSI-tree.png">
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="Explaining Deep Tractable Probabilistic Models: The sum-product network case">
+  <meta name="twitter:description" content="by Athresh Karanam, Saurabh Mathur, Predrag Radivojac, David M. Haas, Kristian Kersting, Sriraam Natarajan, In PGM 2022">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/papers/ExSPN/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="https://starling.utdallas.edu/assets/images/project/exspn/SPN_to_CSI-tree.png">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@StARLing_lab">
+  
+
+
+
+  <meta property="article:published_time" content="2022-10-05T00:00:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/papers/ExSPN/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--splash narrow">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: SteelBlue; background-image: url('');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Explaining Deep Tractable Probabilistic Models: The sum-product network case
+
+        
+      </h1>
+      
+        <p class="page__lead"><i>Athresh Karanam, Saurabh Mathur, Predrag Radivojac, David M. Haas, Kristian Kersting, Sriraam Natarajan</i><br /><br />  <a href="/assets/pdfs/PGM2022_karanam.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://github.com/starling-lab/ExSPN-SPFlow/blob/main/ExSPN%20-%20PGM%20appendix.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-paperclip"></i> Appendix</a> <a href="https://github.com/starling-lab/ExSPN-SPFlow/" class="btn btn--light-outline btn--large"><i class="fas fa-code"></i> Code</a> <a href="/assets/pdfs/TPM2022Poster.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Poster</a> <a href="https://www.youtube.com/watch?v=1GBWSTZEqHE" target="_blank" class="btn btn--light-outline btn--large"><i class="fab fa-youtube"></i> Video</a>
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Explaining Deep Tractable Probabilistic Models: The sum-product network case">
+    <meta itemprop="description" content="Athresh Karanam, Saurabh Mathur, Predrag Radivojac, David M. Haas, Kristian Kersting, Sriraam Natarajan   Paper   Appendix  Code  Poster  Video">
+    <meta itemprop="datePublished" content="2022-10-05T00:00:00-05:00">
+    
+
+    <section class="page__content" itemprop="text">
+      <h2 id="quick-overview">Quick Overview</h2>
+
+<p><strong>Accepted</strong> at the 11th International Conference on Probabilistic Graphical Models (PGM) 
+(<a href="https://www2.ual.es/pgm2022/">PGM 2022</a>).</p>
+
+<p>In this work: 
+(<strong>1</strong>) We developed CSI-Trees, a tree structured representation for context-specific independence relations, 
+(<strong>2</strong>) we developed an algorithm, $\mathcal{EXSPN}$, to explain sum-product networks in terms of the context-specific independences encoded in them,
+(<strong>3</strong>) we adapted our algorithm to a data set for predicting gestational diabetes from clinical observations</p>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$']]},
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h2 id="sum-product-networks">Sum-Product Networks</h2>
+
+<p>Sum-Product Networks (SPN) are a class of deep probabilistic models. Their structure is represented by a Directed Acyclic Graph (DAG). The DAG consists of Sum ($+$) and Product ($\times$) nodes as internal nodes, and univariate distributions at the leaf nodes. Sum nodes represent a mixture of distributions and Product nodes represent a factorized distribution. While SPNs guarantee tractable inference, the presence of latent variables due to the Sum nodes makes them hard to explain to domain experts.</p>
+
+<div align="center">
+  <img src="/assets/images/project/exspn/spn.png" width="450" />
+</div>
+<p><br /></p>
+
+<p>For example, the SPN shown in the figure above represents the joint distribution $P(Write, Study, Pass)$ over three variables $Write$ ($W$), $Study$ ($S$) and $Pass$ ($P$).</p>
+
+<blockquote>
+
+  <p>$ P(W, S, P) = 0.49 P_1(W)P_2(S)P_3(P) + 0.51 P_4(W) (0.5 P_5(S)P_6(P)+ 0.5 P_7(S)P_8(P)) $</p>
+</blockquote>
+
+<p>Where $P_1, \dots, P_8$ are the univariate probability distributions at the leaf nodes, from left to right.</p>
+
+<h2 id="context-specific-independence">Context-specific Independence</h2>
+<p>Context-Specific Independence (CSI) is a generalization of the notion of Conditional Independence. For example, consider the following statement</p>
+<blockquote>
+
+  <p>Passing the exam is independent of Studying if I don’t write my answers.</p>
+</blockquote>
+
+<p>Here, the independence relation holds only in a particular region of the sample space where $Write$ is False. Formally,
+$Pass \perp\kern-5pt\perp Study \mid (\neg Write)$</p>
+
+<h2 id="exspn-explaining-sum-product-networks">ExSPN: Explaining Sum-Product Networks</h2>
+<p>In this work, we propose the $\mathcal{EXSPN}$ algorithm to explain SPNs using the Context-Specific Independences encoded in them.
+We use the notion of a CSI to define a CSI-tree that represents a hierarchy of contexts. In a CSI-Tree, the edge labels contain conditions that define the context and the partitions in each node represent groups of independent variables.
+As shown in the figure below, $\mathcal{EXSPN}$ converts a given SPN to a CSI-tree by empirically approximating the context defined by each Sum node, and reading off the independences at each Product node.</p>
+
+<div align="center">
+  <img src="/assets/images/project/exspn/SPN_to_CSI-tree.png" width="450" />
+</div>
+<p><br /></p>
+
+<h2 id="application-to-gestational-diabetes">Application to Gestational Diabetes</h2>
+
+<p>We applied this to a domain where the goal was to predict gestational
+diabetes from clinical observations. The figure belows shows the first two levels of the CSI-tree extracted from 
+an SPN fit on the data.</p>
+
+<div align="center">
+  <img src="/assets/images/project/exspn/numom2b_csi.png" width="600" />
+</div>
+<p><br /></p>
+
+<p>Here, $oDM$ is a boolean variable that represents whether or not the person has Gestational Diabetes. $Race$ is a categorical
+variable having 8 categories namely, Non-Hispanic White (1), Non-Hispanic Black (2), Hispanic (3),
+American Indian (4), Asian (5), Native Hawaiian (6), Other (7), and Multiracial (8). $Smoked3Months$
+and $SmokedEver$ are boolean variables representing tobacco consumption.</p>
+
+<p>While the $BMI$ variable is independent of other variables when $oDM \neq 1$, it is dependent on $Age, Race, Education$ for the case when $oDM = 1$.</p>
+
+<h2 id="presentation-at-uai-2022-tpm-workshop">Presentation at UAI 2022 TPM Workshop</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1GBWSTZEqHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="citation">Citation</h2>
+
+<p>If you build on or use portions of this work, please provide credit using the following reference or BibTeX.</p>
+
+<blockquote>
+  <p>Athresh Karanam, Saurabh Mathur, Predrag Radivojac, David M. Haas, Kristian Kersting, Sriraam Natarajan. (2022) <em>Explaining Deep Tractable Probabilistic Models: The sum-product network case</em>. In: International Conference on Probabilistic Graphical Models. PGM 2022</p>
+</blockquote>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">karanam2022exspn</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Athresh Karanam, Saurabh Mathur, Predrag Radivojac, David M. Haas, Kristian Kersting and Sriraam Natarajan}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Explaining Deep Tractable Probabilistic Models: The sum-product network case}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Probabilistic Graphical Models}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>The authors acknowledge the support by the NIH grant R01HD101246, AFOSR award
+FA9550-18-1- 0462 and ARO award W911NF2010224. KK acknowledges the support of
+the Hessian Ministry of Higher Education, Research, Science and the Arts (HMWK) in
+Germany, project “The Third Wave of AI”. DH acknowledges the support from the Eunice
+Kennedy Shriver National Institute of Child Health and Human Development (NICHD):
+U10 HD063037, Indiana University</p>
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

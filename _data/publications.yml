@@ -17,6 +17,41 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+- publicationType: "conference-papers"  
+  authors: [ "Saurabh Mathur", "Vibhav Gogate", "Sriraam Natarajan" ]  
+  year: "2023"  
+  title: "Knowledge Intensive Learning of Cutset Networks"  
+  venue: "The 39th Conference on Uncertainty in Artificial Intelligence (UAI)"  
+  url: "/assets/pdfs/mathur_uai_23.pdf"
+
+- publicationType: "workshop-papers"  
+  authors: [ "Sahil Sidheekh", "Kristian Kersting", "Sriraam Natarajan" ]  
+  year: "2023"  
+  title: "Knowledge Intensive Learning of Cutset Networks"  
+  venue: "The 39th Conference on Uncertainty in Artificial Intelligence (UAI)"  
+  url: "/assets/pdfs/sidheekh _uai23.pdf"
+
+- publicationType: "workshop-papers"  
+  authors: [ "Saurabh Mathur", "Vibhav Gogate", "Sriraam Natarajan" ]  
+  year: "2023"  
+  title: "Probabilistic Flow Circuits: Towards Unified Deep Models for Tractable Probabilistic Inference"  
+  venue: "The Sixth Workshop On Tractable Probabilistic Modeling (TPM)"  
+  url: ""
+  
+- publicationType: "workshop-papers"  
+  authors: [ "Athresh Karanam", "Saurabh Mathur", "Sahil Sidheekh", "Sriraam Natarajan" ]  
+  year: "2023"  
+  title: "Bayesian Learning of Probabilistic Circuits with Domain Constraints"  
+  venue: "The Sixth Workshop On Tractable Probabilistic Modeling (TPM)"  
+  url: ""
+
+- publicationType: "workshop-papers"  
+  authors: [ "Athresh Karanam", "Sriraam Natarajan" ]  
+  year: "2023"  
+  title: "Test-time active feature selection through tractable acquisition functions"  
+  venue: "The Sixth Workshop On Tractable Probabilistic Modeling (TPM)"  
+  url: "/assets/pdfs/Athresh_TPM2023.pdf"
+
 - publicationType: "conference-papers"
   authors: ["Priscilla Yu", "Michael Skinner", "Ivie Esangbedo", "Javier J. Lasa", "Xilong Li", "Sriraam Natarajan", "Lakshmi Raman"]
   year: "2023"

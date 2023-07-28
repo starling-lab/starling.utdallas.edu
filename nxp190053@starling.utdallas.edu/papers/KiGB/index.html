@@ -1,0 +1,426 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Knowledge-intensive Gradient Boosting - StARLinG</title>
+<meta name="description" content="Harsha Kokel, Phillip Odom, Shuo Yang, and Sriraam Natarajan   Code   Paper   Appendix  Poster">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="Knowledge-intensive Gradient Boosting">
+<meta property="og:url" content="https://starling.utdallas.edu/papers/KiGB/">
+
+
+  <meta property="og:description" content="Harsha Kokel, Phillip Odom, Shuo Yang, and Sriraam Natarajan   Code   Paper   Appendix  Poster">
+
+
+
+  <meta property="og:image" content="https://starling.utdallas.edu/assets/images/splash_img/splash1.png">
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="Knowledge-intensive Gradient Boosting">
+  <meta name="twitter:description" content="Harsha Kokel, Phillip Odom, Shuo Yang, and Sriraam Natarajan   Code   Paper   Appendix  Poster">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/papers/KiGB/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://starling.utdallas.edu/assets/images/splash_img/splash1.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-01-28T00:00:00-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/papers/KiGB/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/splash_img/splash1.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Knowledge-intensive Gradient Boosting
+
+        
+      </h1>
+      
+        <p class="page__lead">Harsha Kokel, Phillip Odom, Shuo Yang, and Sriraam Natarajan<br /><br />  <a href="/software/KiGB" class="btn btn--light-outline btn--large"><i class="fas fa-code"></i> Code</a>  <a href="/assets/pdfs/Kokel_AAAI20.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="/assets/pdfs/KokelAAAI20Sup.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-paperclip"></i> Appendix</a> <a href="https://harshakokel.com/pdf/KokelAAAI2020poster.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-image"></i> Poster</a> 
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Knowledge-intensive Gradient Boosting">
+    <meta itemprop="description" content="Harsha Kokel, Phillip Odom, Shuo Yang, and Sriraam Natarajan   Code   Paper   Appendix  Poster ">
+    <meta itemprop="datePublished" content="2020-01-28T00:00:00-06:00">
+    
+
+    <section class="page__content" itemprop="text">
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$']]},
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<p>Tree based gradient boosting methods are very powerful and are successfully used in various challenging problems. But they fail in region where data is absent or when majority of data is noisy.</p>
+
+<div align="center">
+	<img src="/assets/images/project/kigb/Picture1.png" style="height:350px!important" />
+</div>
+
+<p><br /></p>
+
+<p>In real-world problems, data is often sparse and noisy. So, can we leverage qualitative domain knowledge for regions where data is noisy or absent? Yes, our Knowledge-intensive gradient boosting approach provides a way to do that.</p>
+
+<p>Given a sparse/noisy dataset, similar to the dataset shown in figure below, and some qualitative knowledge of the domain, KiGB learns boosted trees. The qualitative knowledge or trends of a domain can be expressed as monotonic influences. For the dataset below, monotonic influence $a_{ &lt;}^{Q+}y$ indicated higher values of  variable \(a\) stochastically results in higher values of variable $y$.</p>
+
+<div align="center">
+    <div style="float:left;">
+        <img src="/assets/images/project/kigb/data.png" width="300" />
+        <p style="text-align:center;">Dataset with X-Y axis represent features $a$ and $b$ resp. <br /> and color/shape represent the target variable $y$ </p>
+    </div>
+    <div style="margin-right:5px;">
+        <img src="/assets/images/project/kigb/QC.png" width="200" />
+        <p style="text-align:center;"> Monotonic influence of feature $a$ on target variable $y$</p>
+    </div>
+</div>
+<p><br /></p>
+
+<p><br />
+  <br /></p>
+
+<p>In order restricted statistics, monotonic influence implies following constraint: $a_1 &lt; a_2 \implies \psi (a_1) \leq \psi (a_2)$, i.e. given $a_1$ is less than $a_2$ the value of $y=\psi(a_1)$ should also be less than $\psi(a_2)$</p>
+
+<p>Altendorf et al. UAI, 2005 and Yang and Natarajan, ECML-PKDD, 2013 converts monotonic influences to constraints on probability distribution as:  $a_1 &lt; a_2 \implies  P(Y\leq k \vert \boldsymbol{pa_{y}^{a_1}}) \geq P(Y\leq k \vert \boldsymbol{pa_{y}^{a_2}})$, i.e. given $a_1$ is less than $a_2$ the probability of $y$ less than any constant $k$ should be greater for $y$ given $a_1$ then $y$ given $a_2$ ceteris paribus.</p>
+
+<p>We use a similar constraint for a tree, when a node split at variable with monotonicity constraint, the expectation of the left subtree should be less than that of right subtree. (Assuming that the split criteria is $\leq$)</p>
+
+<div align="left">
+<div style="float:left;margin-right:20px">
+    <img src="/assets/images/project/kigb/tree.png" width="350" />  
+
+</div>
+
+<div style="margin-right:5px;">
+
+for node A,  
+
+$$
+\mathbb E_{\psi}[\boldsymbol n_L] \leq \mathbb E_{\psi}[\boldsymbol n_R]  
+$$
+
+allowing some margin/slack for overlap,
+
+$$
+\mathbb E_{\psi}[\boldsymbol n_L] \leq \mathbb E_{\psi}[\boldsymbol n_R] + \varepsilon
+$$
+
+</div>
+</div>
+
+<p>we obtain following constraint, which we name $\zeta$,</p>
+
+\[\mathbb E_{\psi}[\boldsymbol n_L] - \mathbb E_{\psi}[\boldsymbol n_R] - \varepsilon &lt; 0,  \quad \quad  \quad  \Bigg\} \zeta_n\]
+
+<p>When $\zeta$ is greater than $0$ the constraint is violated. We modify the objective to include a loss function with $\zeta$,</p>
+
+\[\underset{\psi_{t}}{\operatorname{argmin}} \underbrace{\sum_{i=1}^{N}\left(\tilde{y}_{i}-\psi_{t}\left(x_{i}\right)\right)^{2}}_{\text {loss function w.r.t. data }}+\underbrace{\frac{\lambda}{2} \sum_{\mathbf{n} \in \mathcal{N}\left(\mathbf{x}_{c}\right)} \max \left(\zeta_{\mathbf{n}} \cdot\left|\zeta_{\mathbf{n}}\right|, 0\right)}_{\text {loss function w.r.t. advice }}\]
+
+<p>Here, parameter $\lambda$ determines the importance of advice. Taking gradient of modified objective, we get a nice leaf update equation,</p>
+
+\[\psi_{t}^{\boldsymbol\ell}(\mathbf{x}) \, = \underbrace{\frac{1}{|\boldsymbol\ell |} \sum_{i = 1}^N \, \tilde{y}_i \cdot \mathbb{I}({x}_i \in {\boldsymbol\ell})}_\textrm{mean}  + \\
+  \underbrace{\frac{\lambda}{2} \underset{\mathbf{n} \in \mathcal{N}(\mathbf{x}_c)}{\sum} \mathbb{I}(\zeta_\mathbf{n} &gt; 0) \zeta_\mathbf{n} \cdot \Big( \frac{\mathbb{I}({\boldsymbol\ell} \in \mathbf{n}_\mathsf{R})}{ |\mathbf{n}_\mathsf{R}|}
+ - \frac{\mathbb{I}({\boldsymbol\ell} \in \mathbf{n}_\mathsf{L})}{|\mathbf{n}_\mathsf{L}|}
+\Big)}_\textrm{penalty for advice violation}\]
+
+<p>Notice that the penalty is directly proportional to the violation and inversely proportional to the number of data points. Thus, there is a trade-off between advice and data. Equilibrium can be obtained by tuning the hyperparameters – $\varepsilon$ and $\lambda$.</p>
+
+<div align="center">
+    <img src="/assets/images/project/kigb/Algo.png" width="550" />  
+
+</div>
+
+<p>For more details on the empirical evaluations, background on other monotonicity based approaches, or gradient derivation refer our AAAI 2020 <a href="/assets/pdfs/Kokel_AAAI20.pdf">paper</a>.</p>
+
+<p>Code and the usage guide can be found <a href="/software/KiGB/">here</a>.</p>
+
+<h2 id="citation">Citation</h2>
+
+<p>If you build on this code or the ideas of this paper, please use the following citation.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{kokelaaai20,
+  author = {Harsha Kokel and Phillip Odom and Shuo Yang and Sriraam Natarajan},
+  title  = {A Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domains},
+  booktitle = {AAAI},
+  year   = {2020}
+}
+</code></pre></div></div>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<ul>
+  <li>Harsha Kokel and Sriraam Natarajan acknowledge the support of Turvo Inc. and CwC Program Contract W911NF-15-1-0461 with the US Defense Advanced Research Projects Agency (DARPA)
+and the Army Research Office (ARO).</li>
+</ul>
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

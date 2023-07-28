@@ -1,0 +1,429 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Human-guided Collaborative Problem Solving - StARLinG</title>
+<meta name="description" content="Lara – An integrated system of learning, reasoning and communication  by Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth, In Systems Demonstration Track at ICAPS 2021">
+
+
+  <meta name="author" content="StARLinG Lab">
+  
+  <meta property="article:author" content="StARLinG Lab">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="Human-guided Collaborative Problem Solving">
+<meta property="og:url" content="https://starling.utdallas.edu/papers/collaborative-ps/">
+
+
+  <meta property="og:description" content="Lara – An integrated system of learning, reasoning and communication  by Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth, In Systems Demonstration Track at ICAPS 2021">
+
+
+
+  <meta property="og:image" content="https://starling.utdallas.edu/assets/gifs/cwc.gif">
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="Human-guided Collaborative Problem Solving">
+  <meta name="twitter:description" content="Lara – An integrated system of learning, reasoning and communication  by Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth, In Systems Demonstration Track at ICAPS 2021">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/papers/collaborative-ps/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="https://starling.utdallas.edu/assets/gifs/cwc.gif">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@StARLing_lab">
+  
+
+
+
+  <meta property="article:published_time" content="2021-07-22T00:00:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/papers/collaborative-ps/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: teal; background-image: url('');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Human-guided Collaborative Problem Solving
+
+        
+      </h1>
+      
+        <p class="page__lead"><h1>Lara -- an integrated system of learning, reasoning and communication</h1>
+<br /> <i>Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth</i><br /><br />  <a href="/assets/pdfs/Kokel_ACS2022.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="/assets/pdfs/Kokel_ACS2022_supp.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-paperclip"></i> Appendix</a>  <a href="https://youtu.be/q1pWe4aahF0" target="_blank" class="btn btn--light-outline btn--large"><i class="fab fa-youtube"></i> Video</a> <a href="https://youtube.com/playlist?list=PLFyA0lwDE2XiE3AegTtgJ6Yr7iiaQQRr1" target="_blank" class="btn btn--light-outline btn--large"><i class="fab fa-youtube"></i> Demos</a>
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Human-guided Collaborative Problem Solving">
+    <meta itemprop="description" content="Lara -- an integrated system of learning, reasoning and communication Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth   Paper   Appendix   Video  Demos">
+    <meta itemprop="datePublished" content="2021-07-22T00:00:00-05:00">
+    
+
+    <section class="page__content" itemprop="text">
+      <link rel="stylesheet" type="text/css" href="/assets/css/projects.css" />
+
+<!-- <div style="background-color:teal;padding:10px 20px;display: inline;color:white;font-weight:400"> -->
+<h2>What?</h2>
+
+<p>We consider the problem of <b>human-machine collaborative problem solving</b> as a planning task coupled with natural language communication. For this, we propose a task of collaboratively building target structures in a Minecraft environment. Here, two players, an architect (played by human) and a builder (machine), collaborate and communicate using natural language via chat interface.</p>
+
+<div align="center">
+	<img src="/assets/images/project/collaborative-ps/builder-flow.png" style="height:250px!important" />
+</div>
+
+<p>The architect (shown as a human icon above) has access to the target structure and can see the current state in the build region. The builder (Steve from Minecraft) can move in the build region and place/remove blocks. The builder does not have access to the target structure. The architect has to describe the structure to the builder, via chat interface.</p>
+
+<p><br /></p>
+
+<h2>Why?</h2>
+
+<p>Human-machine collaborative planning and problem solving is quite challenging as it requires shared perception of the world, sophisticated language understanding, fluent execution, bi-directional communication and contextual understanding.</p>
+
+<p>For a successful target structure construction, the architect must decompose the target structure to smaller structures that builder knows how to construct. The builder must interpet the instruction in context of the current world and plan the sequence of actions. The conundrums posed by the our building task are</p>
+
+<ol>
+<li>the communication between the architect and the builder is inherently bi-directional, as seen in the image above</li>
+<li>the builder should be able to seek clarifications as required</li>
+<li>both players must share some initial structures in the vocabulary and expand the vocabulary with experience.</li>
+</ol>
+
+<p>Our task highlights the key challenges of the collaborative planning problem: bi-directional communication, contextual understanding, composable vocabulary and ability to induce new, rich concepts based on limited interaction and experience.</p>
+
+<p><br /></p>
+
+<h2>How?</h2>
+
+<p>Our framework consists of three main components that interact with the Minecraft Simulator. <b>A natural language engine</b> that parses the language utterances to a formal representation and vice-versa, <b>a concept learner</b> that induces generalized concepts for plans based on limited interactions with the user, and <b>a planner</b> that solves the task based on human interaction. More details on each of this component can be found in the <a href="/assets/pdfs/Kokel-ICAPS2021-demo.pdf">paper</a>.</p>
+
+<div align="center">
+	<img src="/assets/images/project/collaborative-ps/framework.png" style="height:350px!important" />
+</div>
+
+<p><br /></p>
+
+<p>The following video demonstrates our framework.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q1pWe4aahF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br /></p>
+<div class="project-category" id="demonstrations"> 
+<h2>Few more demonstration videos</h2>
+
+<div class="project-group">
+<div class="grid__item">      
+<article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+<div class="archive__item-teaser">
+<iframe width="120" height="100" src="https://www.youtube.com/embed/erEvK7CTqkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>      
+</div>
+    <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://youtu.be/erEvK7CTqkw" rel="permalink">Demonstration 2
+</a>
+    </h2>
+  </article>
+</div>
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+<div class="archive__item-teaser">
+<iframe width="120" height="100" src="https://www.youtube.com/embed/S7PHyIrMnBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+    <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://youtu.be/S7PHyIrMnBg" rel="permalink">Demonstration 3
+</a>
+    </h2>  
+</article>
+</div>
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
+<div class="archive__item-teaser"> 
+ <iframe width="120" height="100" src="https://www.youtube.com/embed/smgPOao915w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+    <h2 class="archive__item-title" itemprop="headline">
+        <a href="https://youtu.be/smgPOao915w" rel="permalink">Demonstration 4
+</a>
+    </h2>
+</article>
+</div>
+  </div>
+<br /> 
+</div>
+
+<h2 id="citation">Citation</h2>
+
+<p>If you find this work useful, please provide consider using the following reference or BibTeX.</p>
+
+<blockquote>
+  <p>Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, and Dan Roth. (2022) <em>Lara – Human-guided collaborative problem solver: Effective integration of learning, reasoning and communication</em>. In Tenth Annual Conference on Advances in Cognitive Systems 2022.</p>
+</blockquote>
+
+<blockquote>
+  <p>Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, and Dan Roth. (2021) <em>Human-guided Collaborative Problem Solving: A Natural Language based Framework</em>. In ICAPS 2021.</p>
+</blockquote>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">KokelDIBCDNJDHNPR22</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Lara -- Human-guided collaborative problem solver: Effective integration of learning, reasoning and communication}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Tenth Annual Conference on Advances in Cognitive Systems ({ACS})}</span>
+<span class="p">}</span>
+
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">KokelDIBCDNJDHNPR21</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Harsha Kokel, Mayukh Das, Rakibul Islam, Julia Bonn, Jon Cai, Soham Dan, Anjali Narayan-Chen, Prashant Jayannavar, Janardhan Rao Doppa, Julia Hockenmaier, Sriraam Natarajan, Martha Palmer, Dan Roth}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Human-guided Collaborative Problem Solving: A Natural Language based Framework}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Thirty First International Conference on Automated Planning and Scheduling ({ICAPS})}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>We gratefully acknowledge the support of CwC Program Contract W911NF-15-1-0461 with the US Defense Advanced Research Projects Agency (DARPA) and the Army Research Office (ARO). Any opinions, findings and conclusion or recommendations expressed in this material are those of the authors and do not necessarily reflect the view of the DARPA, ARO or the US government.</p>
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

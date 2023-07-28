@@ -1,0 +1,355 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>rfgb.py - StARLinG</title>
+<meta name="description" content="A Python package and tool for learning statistical relational models via gradient boosting.This open source project is in early Alpha: feedback, bug reports, and contributions are welcome.   View Source Stable Docs (v0.2.2)  Latest Docs Bug Tracker and Discussion">
+
+
+  <meta name="author" content="Kaushik Roy">
+  
+  <meta property="article:author" content="Kaushik Roy">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="StARLinG">
+<meta property="og:title" content="rfgb.py">
+<meta property="og:url" content="https://starling.utdallas.edu/software/rfgb.py/">
+
+
+  <meta property="og:description" content="A Python package and tool for learning statistical relational models via gradient boosting.This open source project is in early Alpha: feedback, bug reports, and contributions are welcome.   View Source Stable Docs (v0.2.2)  Latest Docs Bug Tracker and Discussion">
+
+
+
+  <meta property="og:image" content="https://starling.utdallas.edu/assets/images/splash_img/splash1.png">
+
+
+
+  <meta name="twitter:site" content="@StARLing_lab">
+  <meta name="twitter:title" content="rfgb.py">
+  <meta name="twitter:description" content="A Python package and tool for learning statistical relational models via gradient boosting.This open source project is in early Alpha: feedback, bug reports, and contributions are welcome.   View Source Stable Docs (v0.2.2)  Latest Docs Bug Tracker and Discussion">
+  <meta name="twitter:url" content="https://starling.utdallas.edu/software/rfgb.py/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://starling.utdallas.edu/assets/images/splash_img/splash1.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2023-07-26T10:31:12-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://starling.utdallas.edu/software/rfgb.py/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "StARLinG Lab",
+      "url": "https://starling.utdallas.edu/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="StARLinG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  </head>
+
+  <body class="layout--splash">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://starling.utdallas.edu/"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/people/" >People</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/publications/" >Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/projects/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/software/" >Software</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/datasets/" >Datasets</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://starling.utdallas.edu/gallery/" >Gallery</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #5e616c; background-image: url('/assets/images/splash_img/splash1.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          rfgb.py
+
+        
+      </h1>
+      
+        <p class="page__lead">A Python package and tool for learning statistical relational models via gradient boosting.<br />This open source project is in early Alpha: feedback, bug reports, and contributions are welcome.<br /><br /><iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=star&count=true&size=large" frameborder="0" width="120px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=starling-lab&repo=rfgb.py&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe> <br><br><a href="https://github.com/starling-lab/rfgb.py/" class="btn btn--light-outline btn--large"><i class="fab fa-github"></i> View Source</a><br><a href="https://rfgbpy.readthedocs.io/en/stable/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Stable Docs (v0.2.2)</a> <a href="https://rfgbpy.readthedocs.io/en/latest/" class="btn btn--light-outline btn--large"><i class="fas fa-book"></i> Latest Docs</a><br><a href="https://github.com/starling-lab/rfgb.py/issues" class="btn btn--light-outline btn--large"><i class="fas fa-bug"></i> Bug Tracker and Discussion</a>
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0.
+</span>
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="rfgb.py">
+    <meta itemprop="description" content="A Python package and tool for learning statistical relational models via gradient boosting.This open source project is in early Alpha: feedback, bug reports, and contributions are welcome.   View Source Stable Docs (v0.2.2)  Latest Docs Bug Tracker and Discussion">
+    <meta itemprop="datePublished" content="2023-07-26T10:31:12-05:00">
+    
+
+    <section class="page__content" itemprop="text">
+      <p><a href="https://pypi.org/project/rfgb/"><img src="https://img.shields.io/pypi/pyversions/rfgb.svg?style=flat-square" alt="" /></a> <a href="https://pypi.org/project/rfgb/"><img src="https://img.shields.io/pypi/v/rfgb.svg?style=flat-square" alt="" /></a> <a href="https://github.com/starling-lab/rfgb.py/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/rnlp.svg?style=flat-square" alt="" /></a> <a href="https://travis-ci.org/starling-lab/rfgb.py"><img src="https://img.shields.io/travis/starling-lab/rfgb.py.svg?style=flat-square" alt="" /></a> <a href="https://rfgbpy.readthedocs.io/en/stable/"><img src="https://readthedocs.org/projects/rfgbpy/badge/?version=stable&amp;style=flat-square" alt="" /></a></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>We recommend using environments for managing Python packages, refer to <a href="https://docs.python.org/3/tutorial/venv.html">venv</a> or <a href="https://www.anaconda.com/download/">Conda</a> for more information.</p>
+
+<p>Tagged versions of the <code class="language-plaintext highlighter-rouge">rfgb</code> library are hosted on the <a href="https://pypi.org/project/rfgb/">Python Package Index</a> (PyPi). The associated  <a href="https://rfgbpy.readthedocs.io/en/stable/">Documentation</a> is on readthedocs.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>rfgb
+</code></pre></div></div>
+
+<p>Development versions are on GitHub. These may contain partially-implemented features. The  <a href="https://rfgbpy.readthedocs.io/en/latest/">Latest Documentation</a> is on readthedocs.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/starling-lab/rfgb.py.git
+python setup.py develop
+</code></pre></div></div>
+
+<h2 id="quick-start-without-installation">Quick-Start without Installation</h2>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">git clone https://github.com/starling-lab/rfgb.py</code></li>
+  <li><code class="language-plaintext highlighter-rouge">cd rfgb.py</code></li>
+  <li>Relational Dependency Network classification on a logistics domain:</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python <span class="nt">-m</span> rfgb <span class="se">\</span>
+	learn rdn <span class="se">\</span>
+	<span class="nt">-target</span> unload <span class="se">\</span>
+	<span class="nt">-train</span> testDomains/Logistics/train/ <span class="se">\</span>
+	<span class="nt">-test</span> testDomains/Logistics/test/
+</code></pre></div></div>
+
+<p><img src="/assets/gifs/rfgb_getting_started.gif" alt="Quick start gif." width="576" height="432" display="block" margin="auto" /></p>
+
+<h2 id="versioning-and-development">Versioning and Development</h2>
+
+<p>We use <a href="https://semver.org/">SemVer</a> (Major.Minor.Patch) for versioning.</p>
+
+<p>This project is currently in early Alpha: some features available in BoostSRL are missing. The commandline interface (CLI) and application programming interface (API) are not finalized yet, and are subject to change.</p>
+
+<p>Interested in contributing? Refer to the  <a href="https://rfgbpy.readthedocs.io/en/latest/development/01_contributing.html">Contributing</a> section of the documentation.</p>
+
+<h2 id="license">License</h2>
+
+<p>Copyright © 2017-2019 StARLinG Lab. This program comes with absolutely no warranty. This is free software, available under the terms of the GPL-3.0. You are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.</p>
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/starling-lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/starling_lab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 StARLinG Lab. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-99296192-3','auto');
+  ga('set', 'anonymizeIp', false);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
