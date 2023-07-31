@@ -36,14 +36,14 @@
   year: "2023"  
   title: "Knowledge Intensive Learning of Cutset Networks"  
   venue: "The Sixth Workshop On Tractable Probabilistic Modeling (TPM)"  
-  url: ""
+  url: "/assets/pdfs/mathur_uai_23.pdf"
   
 - publicationType: "workshop-papers"  
   authors: [ "Athresh Karanam", "Saurabh Mathur", "Sahil Sidheekh", "Sriraam Natarajan" ]  
   year: "2023"  
   title: "Bayesian Learning of Probabilistic Circuits with Domain Constraints"  
   venue: "The Sixth Workshop On Tractable Probabilistic Modeling (TPM)"  
-  url: ""
+  url: "/assets/pdfs/bayesian_learning_pc.pdf"
 
 - publicationType: "workshop-papers"  
   authors: [ "Athresh Karanam", "Sriraam Natarajan" ]  
