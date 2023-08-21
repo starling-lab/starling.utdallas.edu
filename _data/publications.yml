@@ -17,14 +17,14 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
-- publicationType: "conference-papers"  
+- publicationType: "conference-papers"
   authors: [ "Saurabh Mathur", "Vibhav Gogate", "Sriraam Natarajan" ]  
   year: "2023"  
   title: "Knowledge Intensive Learning of Cutset Networks"  
   venue: "The 39th Conference on Uncertainty in Artificial Intelligence (UAI)"  
   url: "/assets/pdfs/mathur_uai_23.pdf"
 
-- publicationType: "workshop-papers"  
+- publicationType: "conference-papers"
   authors: [ "Sahil Sidheekh", "Kristian Kersting", "Sriraam Natarajan" ]  
   year: "2023"  
   title: "Probabilistic Flow Circuits: Towards Unified Deep Models for Tractable Probabilistic Inference"  
@@ -1340,7 +1340,7 @@
   url: "/assets/pdfs/Kokel_ICAPS2021.pdf"
   blog: "/papers/RePReL"
   
-- publicationType: "workshop-papers"
+- publicationType: "conference-papers"
   authors: ["Harsha Kokel", "Sriraam Natarajan", "Balaraman Ravindran", "Prasad Tadepalli"]
   year: "2022"
   title: "Dynamic probabilistic logic models for effective task-specific abstractions in RL"
