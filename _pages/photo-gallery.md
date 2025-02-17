@@ -4,6 +4,86 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/Starling_lab_2025.jpg
+    image_path: assets/images/gallery/Starling_lab_2025.jpg
+    alt: "Starling lab 2025"
+    title: "Starling lab 2025"
+  - url: /assets/images/gallery/SN_at_ASU.jpg
+    image_path: assets/images/gallery/SN_at_ASU.jpg
+    alt: "Prof giving a guest lecture at ASU"
+    title: "Prof giving a guest lecture on 'Human Allied AI' at Arizona State University"
+  - url: /assets/images/gallery/SN_birthday_cake.jpeg
+    image_path: assets/images/gallery/SN_birthday_cake.jpeg
+    alt: "Prof's birthday cake!"
+    title: "Prof's birthday cake!"
+  - url: /assets/images/gallery/SN_birthday_2024.jpeg
+    image_path: assets/images/gallery/SN_birthday_2024.jpeg
+    alt: "Prof's birthday!"
+    title: "Starling lab for Prof's birthday"
+  - url: /assets/images/gallery/PDGM_SS.jpg
+    image_path: assets/images/gallery/PDGM_SS.jpg
+    alt: "Workshop on Probabilistic Deep Generative Models"
+    title: "Sahil presenting at a workshop on Probabilistic Deep Generative Models at IIT Madras"
+  - url: /assets/images/gallery/PDGM_SN.jpg
+    image_path: assets/images/gallery/PDGM_SN.jpg
+    alt: "Workshop on Probabilistic Deep Generative Models"
+    title: "Prof. Natarajan at IIT Madras for a workshop on Probabilistic Deep Generative Models"
+  - url: /assets/images/gallery/OSU_talk.jpeg
+    image_path: assets/images/gallery/OSU_talk.jpeg
+    alt: "AI week at Oregon State. Prof talks about the promises and hype of AI"
+    title: "Prof. Natarajan talks about the promises and hype of AI at the AI week at Oregan State"
+  - url: /assets/images/gallery/siwen_graduation.jpeg
+    image_path: assets/images/gallery/siwen_graduation.jpeg
+    alt: "Dr. Yan's graduation!!"
+    title: "Dr. Yan's graduation!!"
+  - url: /assets/images/gallery/AAAI24/AAAI24_10.jpg
+    image_path: assets/images/gallery/AAAI24/AAAI24_10.jpg
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_9.jpg
+    image_path: assets/images/gallery/AAAI24/AAAI24_9.jpg
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_8.jpg
+    image_path: assets/images/gallery/AAAI24/AAAI24_8.jpg
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_7.JPG
+    image_path: assets/images/gallery/AAAI24/AAAI24_7.JPG
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_6.JPG
+    image_path: assets/images/gallery/AAAI24/AAAI24_6.JPG
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_5.jpg
+    image_path: assets/images/gallery/AAAI24/AAAI24_5.jpg
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_4.jpg
+    image_path: assets/images/gallery/AAAI24/AAAI24_4.jpg
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_3.jpg
+    image_path: assets/images/gallery/AAAI24/AAAI24_3.jpg
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_2.JPG
+    image_path: assets/images/gallery/AAAI24/AAAI24_2.JPG
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/AAAI24/AAAI24_1.JPG
+    image_path: assets/images/gallery/AAAI24/AAAI24_1.JPG
+    alt: "AAAI 2024"
+    title: "AAAI 2024"
+  - url: /assets/images/gallery/CODS_24_2.JPG
+    image_path: assets/images/gallery/CODS_24_2.JPG
+    alt: "CODS-COMADS 2024"
+    title: "CODS-COMADS 2024"
+  - url: /assets/images/gallery/CODS_24_1.jpeg
+    image_path: assets/images/gallery/CODS_24_1.jpeg
+    alt: "Saurabh and Sahil presenting a tutorial on Deep Tractable Probabilistic Models"
+    title: "Saurabh and Sahil presenting a tutorial at CODS-COMADS 2024"
   - url: /assets/images/gallery/utd_magazine_june23/starling_lab4.jpg
     image_path: assets/images/gallery/utd_magazine_june23/starling_lab4.jpg
     alt: "StARLing Lab 2023"

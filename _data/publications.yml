@@ -17,6 +17,130 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
+
+- publicationType: "conference-papers"
+  authors: [ "Debashis Gupta", "Aditi Golder", "Sahil Sidheekh", "Sakib Imtiaz", "Luis Fernendez", "Miles Silman", "Greg Lersen", "Fan Yang", "Bob Plemmons", "Sarra Alqahtani", "Sriraam Natarajan", "Paul Victor Pauca"]
+  year: "2025"
+  title: "Scalable Knowledge Graph Construction from Unstructured Text: A Case Study on Artisanal and Small-Scale Gold Mining"
+  venue: "The 29th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)"
+  url: "/assets/pdfs/ScalableKGC_PAKDD.pdf"
+  
+- publicationType: "conference-papers"
+  authors: [ "Sahil Sidheekh", "Pranuthi Tenali",  "Saurabh Mathur", "Erik Blasch", "Kristian Kersting", "Sriraam Natarajan" ]
+  year: "2025"
+  title: "Credibility-Aware Multi-Modal Fusion Using Probabilistic Circuits"
+  venue: "The 28th International Conference on Artificial Intelligence and Statistics (AISTATS)"
+  url: "https://arxiv.org/abs/2403.03281"
+  
+- publicationType: "conference-papers"
+  authors: [ "Nikhilesh Prabhakar", "Ranveer Singh", "Harsha Kokel", "Sriraam Natarajan", "Prasad Tadepalli" ]
+  year: "2025"
+  title: "Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains"
+  venue: "The 24th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)"
+  
+- publicationType: "conference-papers"
+  authors: [ "Athresh Karanam", "Saurabh Mathur", "Sahil Sidheekh",  "Sriraam Natarajan" ]
+  year: "2025"
+  title: "A Unified Framework for Human-Allied Learning of Probabilistic Circuits"
+  venue: "The 39th Annual AAAI Conference on Artificial Intelligence (AAAI)"
+  url: "https://arxiv.org/abs/2405.02413"
+  
+- publicationType: "conference-papers"
+  authors: [ "Sriraam Natarajan", "Saurabh Mathur", "Sahil Sidheekh", "Wolfgang Stammer", "Kristian Kersting" ]
+  year: "2025"
+  title: "Human-in-the-loop or AI-in-the-loop? Automate or Collaborate?"
+  venue: "The 39th Annual AAAI Conference on Artificial Intelligence (AAAI)"  
+  url: "/assets/pdfs/Human_in_the_loop_or_AI_in_the_loop.pdf"
+
+- publicationType: "journal-papers"
+  authors: [ "Siva Likitha Valluru", " Michael Widener", "Biplav Srivastava", "Sriraam Natarajan", "Sugata Gangopadhyay"]
+  year: "2024"
+  title: "AI-assisted research collaboration with open data for fair and effective response to call for proposals"
+  venue: " AI Magazine"  
+  url: "https://onlinelibrary.wiley.com/doi/10.1002/aaai.12203"
+
+- publicationType: "conference-papers"
+  authors: [ "Sahil Sidheekh", "Pranuthi Tenali", "Saurabh Mathur", "Erik Blasch", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "On the Robustness and Reliability of Late Multi-Modal Fusion using Probabilistic Circuits"
+  venue: "The 27th International Conference on Information Fusion (FUSION)"  
+  url: "/assets/pdfs/Fusion2024.pdf"
+
+- publicationType: "conference-papers"
+  authors: [ "Saurabh Mathur", "Alessandro Antonucci", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "Knowledge Intensive Learning of Credal Networks"
+  venue: "The 40th Conference on Uncertainty in Artificial Intelligence (UAI)"  
+  url: "/assets/pdfs/Credal_Networks.pdf"
+  
+- publicationType: "conference-papers"
+  authors: [ "Saurabh Mathur", "Veerendra Gadekar", "Rashika Ramola", "Avery Wang", "Ramachandran Thiruvengadam", "David Haas", "Shinjini Bhatnagar", "Nitya Wadhwa", "Garbhini Study Group", "Predrag Radivojac", "Himanshu Sinha", "Kristian Kersting", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "Modeling multiple adverse pregnancy outcomes: Learning from diverse data sources"
+  venue: "The 22nd International Conference in Artificial Intelligence in Medicine (AIME)"  
+  url: "/assets/pdfs/Modeling_multiple_APOs.pdf"
+
+- publicationType: "conference-papers"
+  authors: [ "Brian Ricks", "Patrick Tague", "Bhavani Thuraisingham", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "Utilizing Threat Partitioning for More Practical Network Anomaly Detection"
+  venue: "In Proceedings of the 29th ACM Symposium on Access Control Models and Technologies (SACMAT)"  
+  url: "/assets/pdfs/sacmat24-8.pdf"
+
+- publicationType: "conference-papers"
+  authors: [ "Siva Likitha Valluru", "Biplav Srivastava", "Sai Teja Paladi", "Siwen Yan", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "Promoting Research Collaboration with Open Data Driven Team Recommendation in Response to Call for Proposals"
+  venue: "The Thirty-Sixth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI/AAAI-24) (Best Application paper)" 
+  url: "https://arxiv.org/abs/2309.09404"
+  
+- publicationType: "workshop-papers"
+  authors: [ "Ranveer Singh", "Nikhilesh Prabhakar", "Sriraam Natarajan", "Prasad Tadepalli" ]
+  year: "2024"
+  title: "Exploiting Relational Planning and Task-Specific Abstractions for Multiagent Reinforcement Learning in Relational Domains"
+  venue: "Cooperative Multi-Agent Systems Decision-Making and Learning"
+  url: "/assets/pdfs/Paper17_AAAI24_CMASDL_Workshop.pdf"
+
+- publicationType: "conference-papers"
+  authors: [ "Sahil Sidheekh", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "Building Expressive and Tractable Probabilistic Generative Models: A Review"
+  venue: "The 33rd International Joint Conference on Artificial Intelligence (IJCAI)"
+  url: "https://arxiv.org/pdf/2402.00759.pdf"
+
+- publicationType: "workshop-papers"
+  authors: [ "Saurabh Mathur", "Alessandro Antonucci", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "Learning Credal Conditional Probability Tables with Qualitative Knowledge"
+  venue: "The 2nd Workshop of Deployable AI (DAI)"
+  url: "/assets/pdfs/credal_nets_dai2024.pdf"
+
+- publicationType: "workshop-papers"
+  authors: [ "Saurabh Mathur", "Sahil Sidheekh", "Pranuthi Tenali", "Erik Blasch", "Kristian Kersting", "Sriraam Natarajan" ]
+  year: "2024"
+  title: "Credibility-aware Reliable Multi-Modal Fusion Using Probabilistic Circuits"
+  venue: "The 2nd Workshop of Deployable AI (DAI)"
+  url: "/assets/pdfs/credibility_dai2024.pdf"
+
+- publicationType: "journal-papers"
+  authors: [ "Neel Shah", "Saurabh Mathur", "Prashanth Shanmugham", "Xilong Li", "Ravi R Thiagarajan", "Sriraam Natarajan" , "Lakshmi Raman" ]
+  year: "2023"
+  title: "Neurologic Statistical Prognostication and Risk Assessment for Kids on Extracorporeal Membrane Oxygenation—Neuro SPARK"
+  venue: "ASAIO Journal"
+  url: "https://journals.lww.com/asaiojournal/abstract/9900/neurologic_statistical_prognostication_and_risk.373.aspx"
+
+- publicationType: "journal-papers"
+  authors: [ "Siwen Yan", "Sriraam Natarajan", "Saket Joshi", "Roni Khardon", "Prasad Tadepalli" ]
+  year: "2023"
+  title: "Explainable Models via Compression of Tree Ensembles"
+  url: "https://link.springer.com/article/10.1007/s10994-023-06463-1"
+
+- publicationType: "journal-papers"
+  authors: [ "Siwen Yan", "Phillip Odom", "Rahul Pasunuri", "Kristian Kersting", "Sriraam Natarajan" ]
+  year: "2023"
+  title: "Learning with privileged and sensitive information: a gradient-boosting approach"
+  url: "https://www.frontiersin.org/articles/10.3389/frai.2023.1260583/abstract"
+
 - publicationType: "conference-papers"  
   authors: [ "Saurabh Mathur", "Vibhav Gogate", "Sriraam Natarajan" ]  
   year: "2023"  
