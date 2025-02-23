@@ -6,7 +6,8 @@ category: HAAI
 author: ['Saurabh Mathur']
 excerpt: 'Athresh Karanam, Saurabh Mathur, Sahil Sidheekh, and Sriraam Natarajan<br/><br />{::nomarkdown}  <a href="https://github.com/athresh/unified-constraints-pc" class="btn btn--light-outline btn--large"><i class="fas fa-code"></i> Code</a>  <a href="https://arxiv.org/abs/2405.02413" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="#" class="btn btn--light-outline btn--large"><i class="fas fa-file-image"></i> Poster</a> {:/nomarkdown}'
 header:
-  overlay_image: /assets/images/splash_img/splash1.png 
+  overlay_image: /assets/images/project/human-allied-PCs/hapc.jpg
+  teaser: 
 redirect_from:
   - /projects/Human-Allied-PCs/
 ---
@@ -81,14 +82,14 @@ We evaluated our approach on a wide range of domains including synthetic tabular
 
 <div align="center" >
     <div style="float:center;">
-        <img src="/assets/images/project/human-allied-pcs/results_1.png"  width="300"  />
+        <img src="/assets/images/project/human-allied-pcs/results_1.png"  width="450"  />
         <p style="text-align:center;">Generative performance of PCs learned from data and multiple forms of domain knowledge using our framework; we quantify performance using average test-set log-likelihood scores. PCs learned by exploiting multiple forms of knowledge (context-specific independence and monotonicity) outperform those restricted to only one form of knowledge (context-specific independence) and purely-data driven ones. </p>
     </div>
 </div>  
 
 <div align="center" >
     <div style="float:center;">
-        <img src="/assets/images/project/human-allied-pcs/results_2.png"  width="300"  />
+        <img src="/assets/images/project/human-allied-pcs/results_2.png"  width="450"  />
         <p style="text-align:center;">Images sampled from PCs learned from a modified version of MNIST digits data set. Instead of representing images of digits as grids of pixel intensity values, this data set represents them as point clouds. These point clouds exhibit permutation invariance – a symmetry difficult to model even for advanced generative models such as Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs). The figure on the left shows images sampled from a PC learned purely from data while the figure on the right shows images sampled from a PC learned by exploiting domain knowledge about symmetries in the point cloud.</p>
     </div>
 </div>  
@@ -99,6 +100,7 @@ We evaluated our approach on a wide range of domains including synthetic tabular
 ## Citation
 
 If you build on this code or the ideas of this paper, please use the following citation.
+    
     @inproceedings{karanam2024unified,
         title = {A Unified Framework for Human-Allied Learning of Probabilistic Circuits},
         author = {Karanam, Athresh and Mathur, Saurabh and Sidheekh, Sahil and Natarajan, Sriraam},
