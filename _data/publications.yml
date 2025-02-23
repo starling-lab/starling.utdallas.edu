@@ -44,6 +44,7 @@
   title: "A Unified Framework for Human-Allied Learning of Probabilistic Circuits"
   venue: "The 39th Annual AAAI Conference on Artificial Intelligence (AAAI)"
   url: "https://arxiv.org/abs/2405.02413"
+  blog: "/papers/Human-Allied-PCs"
   
 - publicationType: "conference-papers"
   authors: [ "Sriraam Natarajan", "Saurabh Mathur", "Sahil Sidheekh", "Wolfgang Stammer", "Kristian Kersting" ]
