@@ -6,8 +6,9 @@ category: HAAI
 author: ['Saurabh Mathur']
 excerpt: 'Athresh Karanam, Saurabh Mathur, Sahil Sidheekh, and Sriraam Natarajan<br/><br />{::nomarkdown}  <a href="https://github.com/athresh/unified-constraints-pc" class="btn btn--light-outline btn--large"><i class="fas fa-code"></i> Code</a>  <a href="https://arxiv.org/abs/2405.02413" class="btn btn--light-outline btn--large"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="/assets/pdfs/AAAI25_HAPC_Poster.pdf" class="btn btn--light-outline btn--large"><i class="fas fa-file-image"></i> Poster</a> {:/nomarkdown}'
 header:
-  overlay_image: /assets/images/project/human-allied-PCs/hapc.jpg
-  teaser: 
+  image: /assets/images/project/human-allied-pcs/hapc.jpg
+  teaser: /assets/images/project/human-allied-pcs/hapc.jpg
+  overlay_color: SteelBlue
 redirect_from:
   - /projects/Human-Allied-PCs/
 ---
@@ -48,7 +49,7 @@ Probabilistic generative models such as Bayesian networks are a powerful framewo
 
 <div align="center" >
     <div style="float:center;">
-        <img src="/assets/images/project/human-allied-PCs/background_fig.png"  width="300"  />
+        <img src="/assets/images/project/human-allied-pcs/background_fig.png"  width="300"  />
         <p style="text-align:center;">A <b>Bayesian network</b> (left) over three variables - Age, Education level, and risk of preterm birth, a <b> Probabilistic circuit </b> (middle) over the same domain, and <b>domain knowledge</b> (right) in the form of context-specific independence. </p>
     </div>
 </div>  
