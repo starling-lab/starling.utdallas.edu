@@ -4,6 +4,10 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/lab_retreat.jpg
+    image_path: assets/images/gallery/lab_retreat.jpg
+    alt: "Day out - bowling and mediterranean!"
+    title: "Day out - bowling and mediterranean!"
   - url: /assets/images/gallery/Starling_lab_2025.jpg
     image_path: assets/images/gallery/Starling_lab_2025.jpg
     alt: "Starling lab 2025"
