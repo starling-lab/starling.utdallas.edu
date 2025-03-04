@@ -37,6 +37,7 @@
   year: "2025"
   title: "Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains"
   venue: "The 24th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)"
+  url: "https://arxiv.org/pdf/2502.19297"
   
 - publicationType: "conference-papers"
   authors: [ "Athresh Karanam", "Saurabh Mathur", "Sahil Sidheekh",  "Sriraam Natarajan" ]
