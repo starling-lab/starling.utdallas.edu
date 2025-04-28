@@ -49,7 +49,7 @@ Probabilistic generative models such as Bayesian networks are a powerful framewo
 
 <div align="center" >
     <div style="float:center;">
-        <img src="/assets/images/project/human-allied-pcs/background_fig.png"  width="300"  />
+        <img src="/assets/images/project/human-allied-pcs/background_fig.png"  width="720"  />
         <p style="text-align:center;">A <b>Bayesian network</b> (left) over three variables - Age, Education level, and risk of preterm birth, a <b> Probabilistic circuit </b> (middle) over the same domain, and <b>domain knowledge</b> (right) in the form of context-specific independence. </p>
     </div>
 </div>  

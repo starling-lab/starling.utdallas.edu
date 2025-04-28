@@ -30,8 +30,9 @@
   year: "2025"
   title: "Credibility-Aware Multi-Modal Fusion Using Probabilistic Circuits"
   venue: "The 28th International Conference on Artificial Intelligence and Statistics (AISTATS)"
-  url: "https://arxiv.org/abs/2403.03281"
-  
+  url: "/assets/pdfs/AIStats_Credibility_MMF.pdf"
+  blog: "/projects/Credibility-MultimodalFusion"
+   
 - publicationType: "conference-papers"
   authors: [ "Nikhilesh Prabhakar", "Ranveer Singh", "Harsha Kokel", "Sriraam Natarajan", "Prasad Tadepalli" ]
   year: "2025"
