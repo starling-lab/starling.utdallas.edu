@@ -19,6 +19,13 @@
 ##   poster                      : link to poster
 
 - publicationType: "conference-papers"
+  authors: [ "Saurabh Mathur", "Ranveer Singh", "Michael Skinner",  "Ethan Sanford", "Neel Shah", "Phillip Reeder", "Lakshmi Raman", "Sriraam Natarajan" ]
+  year: "2025"
+  title: "LLM-guided Causal Bayesian Network construction for pediatric patients on ECMO"
+  venue: "23rd International Conference on Artificial Intelligence in Medicine (AIME)"
+  url: "/assets/pdfs/LLM_guided_CBNs.pdf"
+  
+- publicationType: "conference-papers"
   authors: [ "Debashis Gupta", "Aditi Golder", "Sahil Sidheekh", "Sakib Imtiaz", "Luis Fernendez", "Miles Silman", "Greg Lersen", "Fan Yang", "Bob Plemmons", "Sarra Alqahtani", "Sriraam Natarajan", "Paul Victor Pauca"]
   year: "2025"
   title: "Scalable Knowledge Graph Construction from Unstructured Text: A Case Study on Artisanal and Small-Scale Gold Mining"
