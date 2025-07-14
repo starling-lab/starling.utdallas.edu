@@ -4,6 +4,14 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/Saurabh_defense.jpg
+    image_path: assets/images/gallery/Saurabh_defense.jpg
+    alt: "Congratulations to Dr. Mathur on successfully defending his thesis!"
+    title: "Congratulations to Dr. Mathur on successfully defending his thesis!"
+  - url: /assets/images/gallery/Saurabh_defense2.jpg
+    image_path: assets/images/gallery/Saurabh_defense2.jpg
+    alt: "Saurabh defending his PhD thesis on AI-in-the-loop for Effective Healthcare"
+    title: "Saurabh defending his PhD thesis on AI-in-the-loop for Effective Healthcare"
   - url: /assets/images/gallery/lab_retreat.jpg
     image_path: assets/images/gallery/lab_retreat.jpg
     alt: "Day out - bowling and mediterranean!"
