@@ -103,18 +103,6 @@ Bhagirath Athresh Karanam:
   linkedin: "athreshkaranam"
   group: "current-student"
 
-Saurabh Mathur:
-  name: "Saurabh Mathur"
-  lastname: "Mathur"
-  uri: "https://saurabhmathur96.github.io/"
-  avatar: "/assets/images/headshots/saurabh.jpg"
-  location: "The University of Texas at Dallas"
-  email: "sxm200015@utdallas.edu"
-  bio: "Computer Science. (Ph.D.)"
-  twitter: "mathursaurabh96"
-  github: "saurabhmathur96"
-  linkedin: "saurabhmathur96"
-  group: "current-student"
 
 Sahil Sidheekh:
   name: "Sahil Sidheekh"
@@ -181,21 +169,34 @@ Fateme Golivand Darvishvand:
   linkedin: "fateme-golivand"
   group: "current-student"
   
-  
+Varun Balaji:
+  name: "Varun Balaji"
+  lastname: "Balaji"
+  uri:
+  avatar: "/assets/images/headshots/varun.png"
+  location: "The University of Texas at Dallas"
+  email: "Varun.Balaji2@UTDallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter:
+  github: "varunbalaji1303"
+  linkedin: "varun-balaji"
+  group: "current-student"
+   
 ##
 ## ALUMNI
 ##
-Alexander Hayes:
-  name: "Alexander L. Hayes"
-  lastname: "Hayes"
-  uri: "https://hayesall.com/"
-  avatar: "/assets/images/headshots/alexanderhayes.jpg"
-  location: "Indiana University Bloomington"
-  email: "hayesall@iu.edu"
-  bio: "Health Informatics (Ph.D.)"
-  twitter: "alexanderlhayes"
-  github: "batflyer"
-  linkedin: "alexanderlhayes"
+
+Saurabh Mathur:
+  name: "Saurabh Mathur"
+  lastname: "Mathur"
+  uri: "https://saurabhmathur96.github.io/"
+  avatar: "/assets/images/headshots/saurabh.jpg"
+  location: "Postdoctoral researcher at the AIML lab, TU Darmstadt"
+  email: "sxm200015@utdallas.edu"
+  bio: "Computer Science. (Ph.D.)"
+  twitter: "mathursaurabh96"
+  github: "saurabhmathur96"
+  linkedin: "saurabhmathur96"
   group: "alumni"
   
 Siwen Yan:
@@ -372,6 +373,19 @@ Tushar Khot:
   group: "alumni"
   year: 2014
 
+Alexander Hayes:
+  name: "Alexander L. Hayes"
+  lastname: "Hayes"
+  uri: "https://hayesall.com/"
+  avatar: "/assets/images/headshots/alexanderhayes.jpg"
+  location: "Indiana University Bloomington"
+  email: "hayesall@iu.edu"
+  bio: "Health Informatics (Ph.D.)"
+  twitter: "alexanderlhayes"
+  github: "batflyer"
+  linkedin: "alexanderlhayes"
+  group: "alumni"
+  
 ##
 ## MS Alumni
 ##

@@ -4,6 +4,14 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
+  - url: /assets/images/gallery/hooding_saurabh.jpg
+    image_path: assets/images/gallery/hooding_saurabh.jpg
+    alt: "Dr. Mathur's hooding!"
+    title: "Saurabh's hooding ceremony"
+  - url: /assets/images/gallery/lab_saurabh_hooding.jpg
+    image_path: assets/images/gallery/lab_saurabh_hooding.jpg
+    alt: "Dr. Mathur's hooding!"
+    title: "Lab at Saurabh's hooding ceremony"
   - url: /assets/images/gallery/Saurabh_defense.jpg
     image_path: assets/images/gallery/Saurabh_defense.jpg
     alt: "Congratulations to Dr. Mathur on successfully defending his thesis!"

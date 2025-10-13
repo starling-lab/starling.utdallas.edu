@@ -18,6 +18,20 @@
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
 
+
+- publicationType: "workshop-papers"
+  authors: [ "Saurabh Mathur", "Ranveer Singh", "Michael Skinner",  "Predrag Radivojac", "David M. Haas", "Lakshmi Raman", "Sriraam Natarajan" ]
+  year: "2025"
+  title: "LLMs for Causal Reasoning in Medicine? A Call for Caution"
+  venue: "IJCAI 2025 Workshop on User-Aligned Assessment of Adaptive AI Systems (AIA)"
+  url: "https://openreview.net/pdf?id=NuA9hnuxAG"
+
+- publicationType: "preprints"
+  authors: [ "Shreyash Adappanavar", "Krithi Shailya", "Gokul S Krishnan", "Sriraam Natarajan", "Balaraman Ravindran"]
+  year: "2025"
+  title: "mFARM: Towards Multi-Faceted Fairness Assessment based on HARMs in Clinical Decision Support"
+  url: "https://arxiv.org/pdf/2509.02007"
+
 - publicationType: "conference-papers"
   authors: [ "Saurabh Mathur", "Ranveer Singh", "Michael Skinner",  "Ethan Sanford", "Neel Shah", "Phillip Reeder", "Lakshmi Raman", "Sriraam Natarajan" ]
   year: "2025"
