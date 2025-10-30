@@ -18,6 +18,12 @@
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
 
+- publicationType: "conference-papers"
+  authors: [ "Fateme Golivand", "Hikaru Shindo", "Sahil Sidheekh",  "Kristian Kersting", "Sriraam Natarajan" ]
+  year: "2025"
+  title: "Human-Allied Relational Reinforcement Learning"
+  venue: "12th Annual Conference on Advances in Cognitive Systems (ACS)"
+  url: "http://www.cogsys.org/proceedings/2025/paper-2025-9.pdf"
 
 - publicationType: "workshop-papers"
   authors: [ "Saurabh Mathur", "Ranveer Singh", "Michael Skinner",  "Predrag Radivojac", "David M. Haas", "Lakshmi Raman", "Sriraam Natarajan" ]
