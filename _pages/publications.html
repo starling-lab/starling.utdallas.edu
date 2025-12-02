@@ -4,45 +4,45 @@ permalink: /publications/
 title: "Publications"
 $paragraph-indent: true
 ---
-
+ 
 <link rel="stylesheet" type="text/css" href="/assets/css/publications.css">
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
-
+ 
 <h3>{{page.title}}</h3>
-
+ 
 <!-- Buttons for publication type filter starts -->
 <div class="button-group filter-button-group">
-    <a class="button all active" data-filter="*">All</a>
+<a class="button all active" data-filter="*">All</a>
 	{% for category in site.data.publication-type %}
-		<a class="button" data-filter=".{{ category.id}}">{{ category.name}}</a>
+<a class="button" data-filter=".{{ category.id}}">{{ category.name}}</a>
 	{% endfor %}
 </div>
 <!-- Buttons for publication type filter ends -->
-
+ 
 <!-- publication grouped by year starts-->
 {% assign items_grouped = site.data.publications | sort: 'year' | reverse | group_by: 'year' %}
 <div class="grid">
 {% for group in items_grouped %}
-
+ 
     <!-- year starts-->
     {% assign all_types = "" %}
     {% assign publication_grouped = group.items | group_by: 'publicationType' %}
-    <div class="year {% for publication in publication_grouped %}{{ all_types | append: ' ' | append: publication.name }}{% endfor %}">{{group.name}}</div>
-    <!-- year ends-->
-
+<div class="year {% for publication in publication_grouped %}{{ all_types | append: ' ' | append: publication.name }}{% endfor %}">{{group.name}}</div>
+<!-- year ends-->
+ 
     {% assign this_year = group.items | reverse %}
-
+ 
     <!-- publications start -->
     {% for publication in this_year %}
-        <div style="" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% unless forloop.first %}& {% endunless %}{% assign l_name = author | split: ' ' | last %}{% assign f_name = author | split: ' ' | pop %}{{ l_name }}, {%for name in f_name%}{{name | split:'' | first}}.{% endfor%}, {% endfor %}<i>{% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}}{% if publication.url%}</a>{% endif %}</i>, {{publication.venue}} {{publication.year}}. {% if publication.blog %}<a class="icon blog" href="{{publication.blog}}"><i class="far fas fa-blog"></i></a>{% endif %} {% if publication.code %}<a class="icon code" href="{{publication.code}}"><i class="fas fa-fw fa-code"></i></a>{% endif %} {% if publication.slide%}<a class="icon slides" href="{{publication.slide}}"><i class="far fa-fw fa-file-powerpoint"></i></a>{% endif %} {% if publication.video%}<a class="icon video" href="{{publication.video}}"><i class="fas fa-fw fa-video"></i></a>{% endif %} {% if publication.poster %}<a class="icon poster" href="{{publication.poster}}"><i class="far fa-fw fa-file-image"></i></a>{% endif %}</div>
+<div style="" class="element-item {{publication.publicationType}}">{% for author in publication.authors %}{% if forloop.first %}{{author}}{% else %}, {{author}}{% endif %}{% endfor %}, {% if publication.url%}<a href="{{publication.url}}" >{% endif %}{{publication.title}},{% if publication.url%}</a>{% endif %} {{publication.venue}} {{publication.year}}. {% if publication.blog %}<a class="icon blog" href="{{publication.blog}}"><i class="far fas fa-blog"></i></a>{% endif %} {% if publication.code %}<a class="icon code" href="{{publication.code}}"><i class="fas fa-fw fa-code"></i></a>{% endif %} {% if publication.slide%}<a class="icon slides" href="{{publication.slide}}"><i class="far fa-fw fa-file-powerpoint"></i></a>{% endif %} {% if publication.video%}<a class="icon video" href="{{publication.video}}"><i class="fas fa-fw fa-video"></i></a>{% endif %} {% if publication.poster %}<a class="icon poster" href="{{publication.poster}}"><i class="far fa-fw fa-file-image"></i></a>{% endif %}</div>
     {% endfor %}
-    <!-- publications end -->
+<!-- publications end -->
 <div><br></div>
 {% endfor %}
 </div>
 <!-- publication grouped by year ends-->
-
+ 
 <script>
 	// init Isotope
 	var $grid = $('.grid').isotope({
