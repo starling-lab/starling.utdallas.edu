@@ -1,9 +1,10 @@
 ---
 layout: single
-title:  'Sahil Sidheekh: "Building Deep Generative Models That Can Perform Tractable Probabilistic Inference"'
+title:  'Sahil Sidheekh: "Building expressive and tractable generative models for reliable, human-allied AI"'
 date:   2025-12-01
 categories: research-highlights
 author: Sahil Sidheekh
 ---
 
-My research focuses on developing generative models that combine expressive deep learning representations with tractable probabilistic inference. A key contribution is [Probabilistic Flow Circuits (PFCs)](https://openreview.net/pdf?id=1oE7YizXHf), introduced in my UAI 2023 paper, which unify probabilistic circuits with normalizing flows. This framework retains the flexibility of deep generative models while enabling exact inference, making it well-suited for density estimation, structured generation, and uncertainty quantification. Additionally, my IJCAI 2024 survey on [building expressive and tractable generative models](https://dl.acm.org/doi/10.24963/ijcai.2024/910) provides a comprehensive outline of the field for understanding the trade-offs between expressivity, tractability, and learning efficiency. It explores how hybrid models—such as deep-learning-enhanced probabilistic circuits—address fundamental challenges in generative modeling, paving the way for more efficient and interpretable AI systems.
+I work at the intersection of probabilistic generative models and human-allied learning. My primary research focuses on building AI systems that are both expressive and interpretable, i.e models that can reason, explain, and adapt under uncertainty. Much of my work centers on probabilistic circuits (PCs), exploring how structural constraints enable exact inference while still retaining the flexibility of deep models. This includes developing better optimization schemes, learning methods and hybrid deep-probabilistic architectures for PCs.
+A second thread of my research focuses on making AI systems more reliable and human-aligned. To this end, I work on credibility-aware multimodal fusion, human-allied learning frameworks, and models that incorporate domain constraints or human feedback to improve controllability and trust. My long-term goal is to build principled, tractable, and transparent generative models that can meaningfully collaborate with people.
