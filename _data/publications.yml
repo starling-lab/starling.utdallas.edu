@@ -17,7 +17,13 @@
 ##   code                        : link to the code
 ##   blog                        : link to project blog
 ##   poster                      : link to poster
-
+- publicationType: "conference-papers"
+  authors: [ "Saurabh Mathur", "Ranveer Singh", "Michael Skinner",  "Predrag Radivojac", "David M. Haas", "Lakshmi Raman", "Sriraam Natarajan" ]
+  year: "2025"
+  title: "LLMs for Causal Reasoning in Medicine? A Call for Caution"
+  venue: "13th ACM IKDD International Conference on Data Science (CODS)"
+  url: "/assets/pdf/cods_llm_causal_eval"
+  
 - publicationType: "conference-papers"
   authors: [ "Fateme Golivand", "Hikaru Shindo", "Sahil Sidheekh",  "Kristian Kersting", "Sriraam Natarajan" ]
   year: "2025"
