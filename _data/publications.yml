@@ -22,7 +22,7 @@
   year: "2025"
   title: "LLMs for Causal Reasoning in Medicine? A Call for Caution"
   venue: "13th ACM IKDD International Conference on Data Science (CODS)"
-  url: "/assets/pdf/cods_llm_causal_eval"
+  url: "/assets/pdfs/cods_llm_causal_eval.pdf"
   
 - publicationType: "conference-papers"
   authors: [ "Fateme Golivand", "Hikaru Shindo", "Sahil Sidheekh",  "Kristian Kersting", "Sriraam Natarajan" ]
